@@ -1,0 +1,21 @@
+header#main-header {
+    height: 56px;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+}
+
+#panel1 {
+    background-image: url('/images/maui_evening_lr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: -56px; */
+}
+#panel2 {
+    background-image: url('/images/cyan-fog2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
