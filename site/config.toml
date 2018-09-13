@@ -1,7 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Teaching Lab"
+
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

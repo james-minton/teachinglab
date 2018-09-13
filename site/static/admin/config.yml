@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - label: "How We Work"
+    name: "howWeWork"
+    files:
+      - label: "Content Block 1"
+        name: "contentBlock1"
+        file: "site/data/how-we-work/contents.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - label: Blocks
+            name: block
+            widget: list
+            fields:
+              - {label: Header, name: header, widget: string}
+              - {label: Body, name: body, widget: markdown}
+              
+      
+     
