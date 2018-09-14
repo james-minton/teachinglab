@@ -25,7 +25,58 @@ collections:
         name: activeStates
         file: "site/data/mapSVG/states.yml"
         fields:
-          - {label: "AK", name: "AK", widget: "boolean", default: false}            
+          - {label: "AL", name: "AL", widget: "boolean", default: false}
+          - {label: "AK", name: "AK", widget: "boolean", default: false}
+          - {label: "AZ", name: "AZ", widget: "boolean", default: false}
+          - {label: "AR", name: "AR", widget: "boolean", default: false}
+          - {label: "AK", name: "AK", widget: "boolean", default: false}
+          - {label: "CA", name: "CA", widget: "boolean", default: false}
+          - {label: "CO", name: "CO", widget: "boolean", default: false}
+          - {label: "CT", name: "CT", widget: "boolean", default: false}
+          - {label: "DE", name: "DE", widget: "boolean", default: false}
+          - {label: "DC", name: "DC", widget: "boolean", default: false}            
+          - {label: "FL", name: "FL", widget: "boolean", default: false}
+          - {label: "GA", name: "GA", widget: "boolean", default: false}
+          - {label: "HI", name: "HI", widget: "boolean", default: false}
+          - {label: "ID", name: "ID", widget: "boolean", default: false}
+          - {label: "IL", name: "IL", widget: "boolean", default: false}
+          - {label: "IN", name: "IN", widget: "boolean", default: false}
+          - {label: "IA", name: "IA", widget: "boolean", default: false}
+          - {label: "KS", name: "KS", widget: "boolean", default: false}
+          - {label: "KY", name: "KY", widget: "boolean", default: false}
+          - {label: "LA", name: "LA", widget: "boolean", default: false}
+          - {label: "ME", name: "ME", widget: "boolean", default: false}
+          - {label: "MD", name: "MD", widget: "boolean", default: false}
+          - {label: "MA", name: "MA", widget: "boolean", default: false}
+          - {label: "MI", name: "MI", widget: "boolean", default: false}
+          - {label: "MN", name: "MN", widget: "boolean", default: false}
+          - {label: "MS", name: "MS", widget: "boolean", default: false}
+          - {label: "MO", name: "MO", widget: "boolean", default: false}
+          - {label: "MT", name: "MT", widget: "boolean", default: false}
+          - {label: "NE", name: "NE", widget: "boolean", default: false}
+          - {label: "NV", name: "NV", widget: "boolean", default: false}
+          - {label: "NH", name: "NH", widget: "boolean", default: false}
+          - {label: "NJ", name: "NJ", widget: "boolean", default: false}
+          - {label: "NM", name: "NM", widget: "boolean", default: false}
+          - {label: "NY", name: "NY", widget: "boolean", default: false}
+          - {label: "NC", name: "NC", widget: "boolean", default: false}
+          - {label: "ND", name: "ND", widget: "boolean", default: false}
+          - {label: "OH", name: "OH", widget: "boolean", default: false}
+          - {label: "OK", name: "OK", widget: "boolean", default: false}
+          - {label: "OR", name: "OR", widget: "boolean", default: false}
+          - {label: "PA", name: "PA", widget: "boolean", default: false}
+          - {label: "RI", name: "RI", widget: "boolean", default: false}
+          - {label: "SC", name: "SC", widget: "boolean", default: false}
+          - {label: "SD", name: "SD", widget: "boolean", default: false}
+          - {label: "TN", name: "TN", widget: "boolean", default: false}
+          - {label: "TX", name: "TX", widget: "boolean", default: false}
+          - {label: "UT", name: "UT", widget: "boolean", default: false}
+          - {label: "VT", name: "VT", widget: "boolean", default: false}
+          - {label: "VA", name: "VA", widget: "boolean", default: false}
+          - {label: "WA", name: "WA", widget: "boolean", default: false}
+          - {label: "WV", name: "WV", widget: "boolean", default: false}
+          - {label: "WI", name: "WI", widget: "boolean", default: false}
+          - {label: "WY", name: "WY", widget: "boolean", default: false}
               
       
      
