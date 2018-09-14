@@ -29,7 +29,6 @@ collections:
           - {label: "AK", name: "AK", widget: "boolean", default: false}
           - {label: "AZ", name: "AZ", widget: "boolean", default: false}
           - {label: "AR", name: "AR", widget: "boolean", default: false}
-          - {label: "AK", name: "AK", widget: "boolean", default: false}
           - {label: "CA", name: "CA", widget: "boolean", default: false}
           - {label: "CO", name: "CO", widget: "boolean", default: false}
           - {label: "CT", name: "CT", widget: "boolean", default: false}
