@@ -18,6 +18,14 @@ collections:
             fields:
               - {label: Header, name: header, widget: string}
               - {label: Body, name: body, widget: markdown}
+  - label: "USA Map"
+    name: usaMap
+    files:
+      - label: "Active / Inactive US States"
+        name: activeStates
+        file: "site/data/mapSVG/states.yml"
+        fields:
+          - {label: "AK", name: "AK", widget: "boolean", default: true}            
               
       
      
