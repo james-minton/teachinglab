@@ -7,8 +7,8 @@ collections:
   - label: "How We Work"
     name: "howWeWork"
     files:
-      - label: "Content Block 1"
-        name: "contentBlock1"
+      - label: "Content Blocks"
+        name: "contentBlocks"
         file: "site/data/how-we-work/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
