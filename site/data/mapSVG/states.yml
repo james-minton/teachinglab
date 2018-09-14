@@ -1,7 +1,1 @@
-fillColor: "#999"
-fillOff: "#0e556d"
-AK: inactive
-SC: active
-FL: inactive
-
- 
+AK: true
