@@ -25,7 +25,7 @@ collections:
         name: activeStates
         file: "site/data/mapSVG/states.yml"
         fields:
-          - {label: "AK", name: "AK", widget: "boolean", default: true}            
+          - {label: "AK", name: "AK", widget: "boolean", default: false}            
               
       
      
