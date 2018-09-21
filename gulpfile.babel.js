@@ -12,6 +12,7 @@ import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 import sass from "gulp-sass";
+import cssnano from "cssnano";
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
@@ -29,24 +30,34 @@ gulp.task("server-preview", ["hugo-preview", "scss", "css", "js", "fonts"], (cb)
 
 // Build/production tasks
 // JM add SCSS here
-gulp.task("build", ["css", "scss", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["scss", "css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["scss", "css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
-gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/reset.css"}), cssnext()]))
+ gulp.task("css", () => (
+  gulp.src("./src/css/imports/*.css")
+    .pipe(postcss([cssImport({from: "./src/css/imports/reset.css"}), cssnext()]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
 
-gulp.task("scss", function() {
+/* gulp.task("scss", function() {
   return gulp.src("./src/scss/tl.scss")
     .pipe(sass()) // Using gulp-sass
     // .pipe(postcss([cssnext({browserslist: [ ">= 1% in US" ]}), cssnano()]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream());
+}); */
+
+gulp.task("scss", function() {
+  return gulp.src("./src/scss/tl.scss")
+    .pipe(sass()) // Using gulp-sass
+    .pipe(postcss([cssnext({browserslist: [ ">= 1% in US" ]}), cssnano()]))
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(browserSync.stream());
 });
+
+
 
 // Compile Javascript
 gulp.task("js", (cb) => {
@@ -86,7 +97,7 @@ function runServer() {
   gulp.watch("./src/scss/**/*", ["scss"]);
 };
 //JM ADD
-gulp.task('default', ['scss' /*, possible other tasks... */]);
+// gulp.task('default', ['scss' /*, possible other tasks... */]);
 
 /**
  * Run hugo and build the site
