@@ -4,7 +4,7 @@ import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
 import watch from "gulp-watch"; // JM add
-// import postcss from "gulp-postcss";
+import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
@@ -26,13 +26,13 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
 // JM add SCSS here
-// gulp.task("server", ["hugo", "scss", "js", "fonts"], (cb) => runServer(cb));
-// gulp.task("server-preview", ["hugo-preview", "scss", "js", "fonts"], (cb) => runServer(cb));
+gulp.task("server", ["hugo", "scss", "js", "fonts", "css"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "scss", "js", "fonts", "css"], (cb) => runServer(cb));
 
 // Build/production tasks
 // JM add SCSS here
-gulp.task("build", ["scss", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["scss",  "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["scss", "js", "fonts", "css"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["scss",  "js", "fonts", "css"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -122,6 +122,7 @@ gulp.task("server", ["hugo", "scss", "js"], () => {
   // watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
   watch("./src/fonts/**/*", () => { gulp.start(["fonts"]) });
   watch("./site/**/*", () => { gulp.start(["hugo"]) });
+  watch("./src/css/**/*", () => { gulp.start(["css"]) });
 });
 
 gulp.task('default', ['scss' /*, possible other tasks... */]);
