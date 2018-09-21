@@ -34,6 +34,14 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 gulp.task("build", ["scss", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["scss",  "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
+// Compile CSS with PostCSS
+gulp.task("css", () => (
+  gulp.src("./src/css/*.css")
+    .pipe(postcss([cssImport({from: "./src/css/reset.css"}), cssnext()]))
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(browserSync.stream())
+));
+
 // Compile SCSS JM comment out
 // gulp.task("scss", () => (
  // gulp.src("./src/scss/jm.scss")
