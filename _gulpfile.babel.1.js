@@ -1,17 +1,19 @@
 import gulp from "gulp";
 import {spawn} from "child_process";
 import hugoBin from "hugo-bin";
-import log from "fancy-log";
-import pluginError from "plugin-error";
+import gutil from "gulp-util";
 import flatten from "gulp-flatten";
-// import watch from "gulp-watch"; // JM add
+import watch from "gulp-watch"; // JM add
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
+// JM add
 import sass from "gulp-sass";
+// import cssNano from "gulp-cssnano";
+
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
@@ -24,13 +26,13 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
 // JM add SCSS here
-gulp.task("server", ["hugo", "scss", "css", "js", "fonts"], (cb) => runServer(cb));
-gulp.task("server-preview", ["hugo-preview", "scss", "css", "js", "fonts"], (cb) => runServer(cb));
+gulp.task("server", ["hugo", "scss", "js", "fonts", "css"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "scss", "js", "fonts", "css"], (cb) => runServer(cb));
 
 // Build/production tasks
 // JM add SCSS here
-gulp.task("build", ["css", "scss", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["scss", "js", "fonts", "css"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["scss",  "js", "fonts", "css"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -40,6 +42,21 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
+// Compile SCSS JM comment out
+// gulp.task("scss", () => (
+ // gulp.src("./src/scss/jm.scss")
+ //   .pipe(sass({
+      // outputStyle:  "nested",
+ //     precision: 10,
+ //     includePaths: ["node_modules"],
+ //   }))
+    // .pipe(postcss([ autoprefixer() ]))
+    // .pipe(postcss())
+    // .pipe(cssNano())
+ //   .pipe(gulp.dest("./dist/css"))
+//    .pipe(browserSync.stream())
+// ));
+
 gulp.task("scss", function() {
   return gulp.src("./src/scss/tl.scss")
     .pipe(sass()) // Using gulp-sass
@@ -48,16 +65,24 @@ gulp.task("scss", function() {
     .pipe(browserSync.stream());
 });
 
+// Compile CSS with PostCSS - JM comment out
+//gulp.task("css", () => (
+ // gulp.src("./src/css/*.css")
+  //  .pipe(postcss([cssImport({from: "./src/css/jm.css"}), cssnext()]))
+ //   .pipe(gulp.dest("./dist/css"))
+ //   .pipe(browserSync.stream())
+// ));
+
 // Compile Javascript
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
 
   webpack(myConfig, (err, stats) => {
-    if (err) throw new pluginError("webpack", err);
-    log(`[webpack] ${stats.toString({
+    if (err) throw new gutil.PluginError("webpack", err);
+    gutil.log("[webpack]", stats.toString({
       colors: true,
       progress: true
-    })}`);
+    }));
     browserSync.reload();
     cb();
   });
@@ -72,20 +97,34 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-function runServer() {
+/* function runServer() {
+  browserSync.init({
+    server: {
+      baseDir: "./dist"
+    }
+  }); */
+  // gulp.watch("./src/js/**/*.js", ["js"]); 
+  // gulp.watch("./src/scss/**/*.scss", ["scss"]); // JM add
+  // gulp.watch("./src/css/**/*.css", ["css"]);
+  // gulp.watch("./src/fonts/**/*", ["fonts"]);
+  // gulp.watch("./site/**/*", ["hugo"]);
+// };
+
+// Development server with browsersync -- JM add (and commented the above)
+gulp.task("server", ["hugo", "scss", "js"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
-  gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
-  gulp.watch("./src/fonts/**/*", ["fonts"]);
-  gulp.watch("./site/**/*", ["hugo"]);
-  //JM ADD
-  gulp.watch("./src/scss/**/*", ["scss"]);
-};
-//JM ADD
+  watch("./src/js/**/*.js", () => { gulp.start(["js"]) });
+  watch("./src/scss/**/*.scss", () => { gulp.start(["scss"]) });
+  // watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
+  watch("./src/fonts/**/*", () => { gulp.start(["fonts"]) });
+  watch("./site/**/*", () => { gulp.start(["hugo"]) });
+  watch("./src/css/**/*", () => { gulp.start(["css"]) });
+});
+
 gulp.task('default', ['scss' /*, possible other tasks... */]);
 
 /**
