@@ -1,6 +1,15 @@
 {{ define "main" }}
 
 <div id="panel1">
+  <div id="center-wrapper">
+    <div class="panel-overlay">
+      {{ with .Site.Data.home.contents.tagline }}
+        <h1 class="tagline">
+          {{ . | markdownify }}
+        </h1>
+      {{ end }}   
+    </div>
+  </div>
 </div>
 
 <script>

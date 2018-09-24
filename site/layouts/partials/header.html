@@ -1,3 +1,15 @@
 <header id="main-header">
-    
+    <div id="header-wrapper">
+        <div id="logo-wrapper"><img id="logo" src="/images/teachinglab_logo1500w.png" /></div>
+        {{ with .Site.Menus.main }}
+            <nav id="topNav">
+                <ul>
+                {{ range . }}
+                    <!--<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>-->
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+                </ul>
+            </nav>
+        {{ end }}  
+    </div>
 </header>
