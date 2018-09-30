@@ -7,8 +7,8 @@ collections:
   - label: "Homepage"
     name: "homepage"
     files:
-      - label: "Content Blocks"
-        name: "contentBlocks"
+      - label: "Hero Image Section"
+        name: "heroSection"
         file: "site/data/home/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
