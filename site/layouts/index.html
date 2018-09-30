@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <div id="panel1">
-  <div id="center-wrapper">
-    <div class="panel-overlay">
+  <div id="content-wrapper">
+    <div class="panel-overlay content-well">
       {{ with .Site.Data.home.contents.tagline }}
         <h1 class="tagline">
           {{ . | markdownify }}
@@ -11,6 +11,17 @@
     </div>
   </div>
 </div>
+<div id="panel2">
+    <div id="content-wrapper">
+      <div class="panel-overlay content-well">
+        {{ range .Site.Data.home.contents.panel2 }}
+          <p>
+            {{ .paragraph | markdownify }}
+          </p>
+        {{ end }}   
+      </div>
+    </div>
+  </div>
 
 <script>
     if (window.netlifyIdentity) {

@@ -4,6 +4,15 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
+  - label: "Homepage"
+    name: "homepage"
+    files:
+      - label: "Content Blocks"
+        name: "contentBlocks"
+        file: "site/data/home/contents.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Hero Image Overlay Text, name: heroText, widget: string}
   - label: "How We Work"
     name: "howWeWork"
     files:

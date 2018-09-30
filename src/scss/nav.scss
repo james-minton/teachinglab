@@ -4,6 +4,8 @@ header#main-header {
     overflow: hidden;
     display:block; 
     padding: 24px 48px;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
     #header-wrapper {
         display: flex;
         height: 100px;
@@ -14,7 +16,6 @@ header#main-header {
             display: inline-flex;
             width: 75px;
         }
-
         nav {
         width: 86%;
         display: inline-flex;
