@@ -13,6 +13,12 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Hero Image Overlay Text, name: heroText, widget: string}
+      - label: "Panel 2 Image and Text"
+        name: "panelTwo"
+        file: "site/data/home/contents.yml"
+        fields:
+          - {label: Introductory Text, name: introText, widget: string}
+          - {label: Image, name: introImage, widget: image}    
   - label: "How We Work"
     name: "howWeWork"
     files:
