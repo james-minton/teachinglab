@@ -23,6 +23,7 @@ collections:
         name: "panelThree"
         file: "site/data/home/panel-three.yml"
         fields:
+          - {label: Header, name: header, widget: string, required: false}
           - {label: Image One, name: circleImageOne, widget: image, required: false} 
           - {label: Image One Text, name: circleTextOne, widget: string, required: false}
           - {label: Image Two, name: circleImageTwo, widget: image, required: false} 
@@ -42,7 +43,6 @@ collections:
         file: "site/data/home/panel-5-tv.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
-          - {label: Body, name: body, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false} 
           - label: Quotes, 
             name: quotes
