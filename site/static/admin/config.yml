@@ -9,7 +9,7 @@ collections:
     files:
       - label: "Hero Image Section"
         name: "heroSection"
-        file: "site/data/home/contents.yml"
+        file: "site/data/home/hero-panel.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Hero Image Overlay Text, name: heroText, widget: string}
