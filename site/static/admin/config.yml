@@ -19,7 +19,7 @@ collections:
         fields:
           - {label: Introductory Text, name: introText, widget: string}
           - {label: Image, name: introImage, widget: image}
-      - label: "Panel 3 Image and Text"
+      - label: "Panel 3 Images and Text"
         name: "panelThree"
         file: "site/data/home/panel-three.yml"
         fields:
@@ -29,7 +29,15 @@ collections:
           - {label: Image Two Text, name: circleTextTw0, widget: string}
           - {label: Image Three, name: circleImageThree, widget: image} 
           - {label: Image Three Text, name: circleTextThree, widget: string}
-
+      - label: "Panel 4 How We Work"
+        name: "panelFour"
+        file: "site/data/home/panel-4-hww.yml"
+        fields:
+          - {label: Header, name: header, widget: string} 
+          - {label: Body, name: body, widget: string}
+          - {label: Button Text, name: buttonText, widget: string} 
+          - {label: Image, name: image, widget: image}
+          
   - label: "How We Work"
     name: "howWeWork"
     files:
