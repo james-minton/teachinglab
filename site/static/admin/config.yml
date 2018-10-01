@@ -15,7 +15,7 @@ collections:
           - {label: Hero Image Overlay Text, name: heroText, widget: string}
       - label: "Panel 2 Image and Text"
         name: "panelTwo"
-        file: "site/data/home/contents.yml"
+        file: "site/data/home/panel-two.yml"
         fields:
           - {label: Introductory Text, name: introText, widget: string}
           - {label: Image, name: introImage, widget: image}    
