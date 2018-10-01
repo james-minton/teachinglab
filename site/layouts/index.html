@@ -46,8 +46,11 @@
   <div id="panel4">
     <div id="content-wrapper">
       <div class="panel-overlay content-well">
-          <p>
+          <h2>
             {{ .Site.Data.home.panel4hww.header }}
+          </h2>
+          <p>
+            {{ .Site.Data.home.panel4hww.body }}
           </p>
           <img class="inpanel-img" src="{{ .Site.Data.home.panel4hww.image }}" />
       </div>
@@ -83,6 +86,7 @@
       </div>
     </div>
   </div>  
+  {{ partial "newsletter" }}
 
 <script>
     if (window.netlifyIdentity) {
