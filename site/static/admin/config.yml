@@ -169,6 +169,7 @@ collections:
           - label: Sponsor Logos 
             name: sponsorLogos
             widget: list
+            required: false
             fields:
               - {label: Logo, name: logo, widget: image, required: false}        
           
