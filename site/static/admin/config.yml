@@ -27,7 +27,7 @@ collections:
           - {label: Image One, name: circleImageOne, widget: image, required: false} 
           - {label: Image One Text, name: circleTextOne, widget: string, required: false}
           - {label: Image Two, name: circleImageTwo, widget: image, required: false} 
-          - {label: Image Two Text, name: circleTextTw0, widget: string, required: false}
+          - {label: Image Two Text, name: circleTextTwo, widget: string, required: false}
           - {label: Image Three, name: circleImageThree, widget: image, required: false} 
           - {label: Image Three Text, name: circleTextThree, widget: string, required: false}
       - label: "Panel 4 How We Work"
