@@ -18,48 +18,48 @@ collections:
         file: "site/data/home/panel-two.yml"
         fields:
           - {label: Introductory Text, name: introText, widget: string}
-          - {label: Image, name: introImage, widget: image}
+          - {label: Image, name: introImage, widget: image, required: false}
       - label: "Panel 3 Images and Text"
         name: "panelThree"
         file: "site/data/home/panel-three.yml"
         fields:
-          - {label: Image One, name: circleImageOne, widget: image} 
-          - {label: Image One Text, name: circleTextOne, widget: string}
-          - {label: Image Two, name: circleImageTwo, widget: image} 
-          - {label: Image Two Text, name: circleTextTw0, widget: string}
-          - {label: Image Three, name: circleImageThree, widget: image} 
-          - {label: Image Three Text, name: circleTextThree, widget: string}
+          - {label: Image One, name: circleImageOne, widget: image, required: false} 
+          - {label: Image One Text, name: circleTextOne, widget: string, required: false}
+          - {label: Image Two, name: circleImageTwo, widget: image, required: false} 
+          - {label: Image Two Text, name: circleTextTw0, widget: string, required: false}
+          - {label: Image Three, name: circleImageThree, widget: image, required: false} 
+          - {label: Image Three Text, name: circleTextThree, widget: string, required: false}
       - label: "Panel 4 How We Work"
         name: "panelFour"
         file: "site/data/home/panel-4-hww.yml"
         fields:
-          - {label: Header, name: header, widget: string} 
-          - {label: Body, name: body, widget: string}
-          - {label: Button Text, name: buttonText, widget: string} 
-          - {label: Image, name: image, widget: image}
+          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Body, name: body, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false} 
+          - {label: Image, name: image, widget: image, required: false}
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
         file: "site/data/home/panel-5-tv.yml"
         fields:
-          - {label: Header, name: header, widget: string} 
-          - {label: Body, name: body, widget: string}
-          - {label: Button Text, name: buttonText, widget: string} 
+          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Body, name: body, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false} 
           - label: Quotes, 
             name: quotes
             widget: list
             fields:
-              - {label: Quote, name: quote, widget: string}  
+              - {label: Quote, name: quote, widget: string, required: false}  
       - label: "Panel 6 Our Impact"
         name: "panelSix"
         file: "site/data/home/panel-6-impact.yml"
         fields:
-          - {label: Header, name: header, widget: string} 
-          - {label: Quantity One, name: quantityOne, widget: string}
-          - {label: Text One, name: textOne, widget: string}
-          - {label: Quantity Two, name: quantityTwo, widget: string}
-          - {label: Text Two, name: textTwo, widget: string} 
-          - {label: Quantity Three, name: quantityThree, widget: string}
-          - {label: Text Three, name: textThree, widget: string} 
+          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Quantity One, name: quantityOne, widget: string, required: false}
+          - {label: Text One, name: textOne, widget: string, required: false}
+          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
+          - {label: Text Two, name: textTwo, widget: string, required: false} 
+          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
+          - {label: Text Three, name: textThree, widget: string, required: false} 
              
           
   - label: "How We Work"
