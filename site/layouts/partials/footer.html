@@ -1,0 +1,19 @@
+<footer>
+        <div id="content-wrapper">
+            <div class="panel-overlay content-well">
+                <div id="footer-logo-wrapper">
+                    <img id="footer-logo" src="{{ .Site.Data.footer.contents.image }}" />
+                </div>
+                {{ with .Site.Menus.main }}
+                <nav id="footerNav">
+                    <ul>
+                    {{ range . }}
+                        <!--<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>-->
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    </ul>
+                </nav>
+            {{ end }}      
+            </div>
+        </div>
+    </footer>

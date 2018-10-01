@@ -44,7 +44,7 @@ collections:
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Button Text, name: buttonText, widget: string, required: false} 
-          - label: Quotes, 
+          - label: Quotes 
             name: quotes
             widget: list
             fields:
@@ -151,8 +151,24 @@ collections:
     files:
       - label: "Contact Address"
         name: "contactAdress"
-        file: "site/data/contact/content.yml"
+        file: "site/data/contact/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Contact Address, name: contact, widget: markdown, buttons: [bold, italic, link]}
+
+  - label: "Footer"
+    name: "footer"
+    files:
+      - label: "Footer Elements"
+        name: "footerElements"
+        file: "site/data/footer/contents.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Footer Logo, name: footerLogo, widget: image, required: false}
+          - {label: Sponsors Text, name: sponsorText, widget: string, required: false}  
+          - label: Sponsor Logos 
+            name: sponsorLogos
+            widget: list
+            fields:
+              - {label: Logo, name: logo, widget: image, required: false}        
           
