@@ -60,8 +60,7 @@ collections:
           - {label: Text Two, name: textTwo, widget: string, required: false} 
           - {label: Quantity Three, name: quantityThree, widget: string, required: false}
           - {label: Text Three, name: textThree, widget: string, required: false} 
-             
-          
+
   - label: "How We Work"
     name: "howWeWork"
     files:
@@ -135,5 +134,25 @@ collections:
           - {label: "WI", name: "WI", widget: "boolean", required: false, default: false}
           - {label: "WY", name: "WY", widget: "boolean", required: false, default: false}
               
-      
-     
+  - label: "Newsletter Subscribe Panel"
+    name: "newsletter"
+    files:
+      - label: "Panel Text and Buttons"
+        name: "newsletterSection"
+        file: "site/data/newsletter/content.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Signup Call to Action, name: cta, widget: string}
+          - {label: Email address field text, name: email, widget: string} 
+          - {label: Button text, name: button, widget: string}
+
+  - label: "Contact Form"
+    name: "contact"
+    files:
+      - label: "Contact Address"
+        name: "contactAdress"
+        file: "site/data/contact/content.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Contact Address, name: contact, widget: string}
+          
