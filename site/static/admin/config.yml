@@ -9,19 +9,19 @@ collections:
     files:
       - label: "Hero Image Section"
         name: "heroSection"
-        file: "site/data/home/hero-panel.yml"
+        file: "site/data/home/heropanel.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Hero Image Overlay Text, name: tagline, widget: string}
       - label: "Panel 2 Intro"
         name: "panelTwo"
-        file: "site/data/home/panel-two.yml"
+        file: "site/data/home/paneltwo.yml"
         fields:
           - {label: Introductory Text, name: introText, widget: string}
           - {label: Image, name: introImage, widget: image, required: false}
       - label: "Panel 3 Images and Text"
         name: "panelThree"
-        file: "site/data/home/panel-three.yml"
+        file: "site/data/home/panelthree.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false}
           - {label: Image One, name: circleImageOne, widget: image, required: false} 
@@ -32,7 +32,7 @@ collections:
           - {label: Image Three Text, name: circleTextThree, widget: string, required: false}
       - label: "Panel 4 How We Work"
         name: "panelFour"
-        file: "site/data/home/panel-4-hww.yml"
+        file: "site/data/home/panel4hww.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
@@ -40,7 +40,7 @@ collections:
           - {label: Image, name: image, widget: image, required: false}
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
-        file: "site/data/home/panel-5-tv.yml"
+        file: "site/data/home/panel5tv.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Button Text, name: buttonText, widget: string, required: false} 
@@ -51,7 +51,7 @@ collections:
               - {label: Quote, name: quote, widget: string, required: false}  
       - label: "Panel 6 Our Impact"
         name: "panelSix"
-        file: "site/data/home/panel-6-impact.yml"
+        file: "site/data/home/panel6impact.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Quantity One, name: quantityOne, widget: string, required: false}

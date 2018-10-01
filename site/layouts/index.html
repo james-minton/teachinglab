@@ -3,25 +3,45 @@
 <div id="panel1">
   <div id="content-wrapper">
     <div class="panel-overlay content-well">
-      {{ with .Site.Data.home.contents.tagline }}
         <h1 class="tagline">
-          {{ . | markdownify }}
+          {{ .Site.Data.home.heropanel.tagline }}
         </h1>
-      {{ end }}   
     </div>
   </div>
 </div>
 <div id="panel2">
     <div id="content-wrapper">
       <div class="panel-overlay content-well">
-        {{ range .Site.Data.home.contents.panel2 }}
           <p>
-            {{ .paragraph | markdownify }}
+            {{ .Site.Data.home.paneltwo.introText }}
           </p>
-        {{ end }}   
       </div>
     </div>
   </div>
+  <div id="panel3">
+      <div id="content-wrapper">
+        <div class="panel-overlay content-well">
+            <p>
+              {{ .Site.Data.home.panelthree.circleTextOne }}
+            </p>
+            <p>
+              {{ .Site.Data.home.panelthree.circleTextTwo }}
+            </p>
+            <p>
+              {{ .Site.Data.home.panelthree.circleTextThree }}
+            </p>
+        </div>
+      </div>
+    </div>
+  <div id="panel4">
+      <div id="content-wrapper">
+        <div class="panel-overlay content-well">
+            <p>
+              {{ .Site.Data.home.panel4hww.header }}
+            </p>
+        </div>
+      </div>
+    </div> 
 
 <script>
     if (window.netlifyIdentity) {
