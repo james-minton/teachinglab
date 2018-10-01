@@ -154,5 +154,5 @@ collections:
         file: "site/data/contact/content.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Contact Address, name: contact, widget: string}
+          - {label: Contact Address, name: contact, widget: markdown, buttons: [bold, italic, link]}
           
