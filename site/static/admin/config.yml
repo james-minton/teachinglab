@@ -75,6 +75,23 @@ collections:
             fields:
               - {label: Header, name: header, widget: string}
               - {label: Body, name: body, widget: markdown}
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "/site/content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Blog Post Title", name: "title", widget: "string"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Author Name", name: "postauthorname", widget: "string"}
+      - {label: "Author Title", name: "postauthortitle", widget: "string"}  
+      - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
   - label: "USA Map"
     name: usaMap
     files:

@@ -13,7 +13,15 @@
                     {{ end }}
                     </ul>
                 </nav>
-            {{ end }}      
+            {{ end }}  
+                <div id="sponsor-intro">
+                    {{ .Site.Data.footer.contents.sponsorText }}
+                </div>
+                <ul id="sponsor-logos">
+                    {{ range .Site.Data.footer.contents.sponsorLogos.logo }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
             </div>
         </div>
     </footer>
