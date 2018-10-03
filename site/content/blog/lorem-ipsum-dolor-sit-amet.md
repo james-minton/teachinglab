@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Blog Post One
 date: 2018-10-02T02:00:58.021Z
 postauthorname: Chris Daniels
 postauthortitle: Chief of Staff

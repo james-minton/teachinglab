@@ -13,6 +13,7 @@ import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 import sass from "gulp-sass";
 import cssnano from "cssnano";
+import responsive from "gulp-responsive";
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
@@ -25,13 +26,13 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
 // JM add SCSS here
-gulp.task("server", ["hugo", "scss", "css", "js", "fonts"], (cb) => runServer(cb));
-gulp.task("server-preview", ["hugo-preview", "scss", "css", "js", "fonts"], (cb) => runServer(cb));
+gulp.task("server", ["hugo", "scss", "css", "js", "fonts", "img"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "scss", "css", "js", "fonts", "img"], (cb) => runServer(cb));
 
 // Build/production tasks
 // JM add SCSS here
-gulp.task("build", ["scss", "css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["scss", "css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["scss", "css", "js", "fonts", "img"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["scss", "css", "js", "fonts", "img"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
  gulp.task("css", () => (
@@ -82,6 +83,25 @@ gulp.task('fonts', () => (
     .pipe(browserSync.stream())
 ));
 
+// Create responsive image sizes
+gulp.task("img", () =>
+  gulp.src("./src/img/uploads/**.*")
+    .pipe(responsive({
+      "*": [{
+        width: 496,
+        rename: {suffix: "-sm"},
+      }, {
+        width: 2000,
+        rename: {suffix: "-lg"},
+        withoutEnlargement: false,
+      }
+    ],
+    }, {
+      silent: true      // Don't spam the console
+    }))
+    .pipe(gulp.dest("./dist/images/uploads")
+));
+
 // Development server with browsersync
 function runServer() {
   browserSync.init({
@@ -95,6 +115,7 @@ function runServer() {
   gulp.watch("./site/**/*", ["hugo"]);
   //JM ADD
   gulp.watch("./src/scss/**/*", ["scss"]);
+  gulp.watch("./src/img/**/*", ["img"]);
 };
 //JM ADD
 // gulp.task('default', ['scss' /*, possible other tasks... */]);

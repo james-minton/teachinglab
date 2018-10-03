@@ -1,0 +1,17 @@
+{{ define "main" }}
+    
+<div id="blogList">
+    <div id="content-wrapper">
+        <div class="content-well">
+            {{ range .Paginator.Pages }} 
+            <br />
+            <br />
+            <br /> 
+            <h3>{{ .Title}}</h3>
+            <p>{{ .Params.listSummary }}</p>
+            <a class="read-more" href="{{ .RelPermalink }}">Read more</a>
+            {{ end}}
+        </div>
+    </div>
+</div>    
+{{ end }}
