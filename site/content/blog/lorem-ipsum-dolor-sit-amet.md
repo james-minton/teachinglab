@@ -3,7 +3,7 @@ title: Blog Post One
 date: 2018-10-02T02:00:58.021Z
 postauthorname: Chris Daniels
 postauthortitle: Chief of Staff
-image: /images/uploads/la-and-dr19.jpg
+image: /images/uploads/la-and-dr22.jpg
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius
   sem, eget dictum nunc congue quis. Duis ultrices lorem in purus egestas
