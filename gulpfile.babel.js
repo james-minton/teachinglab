@@ -85,7 +85,7 @@ gulp.task('fonts', () => (
 
 // Create responsive image sizes
 gulp.task("img", () =>
-  gulp.src("./src/img/uploads/**.*")
+  gulp.src("./static/images/uploads/**.*")
     .pipe(responsive({
       "*": [{
         width: 496,
