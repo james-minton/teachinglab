@@ -85,7 +85,7 @@ gulp.task('fonts', () => (
 
 // Create responsive image sizes
 gulp.task("img", () =>
-  gulp.src("./static/images/uploads/**.*")
+  gulp.src("static/images/uploads/**.*")
     .pipe(responsive({
       "*": [{
         width: 496,
@@ -93,11 +93,17 @@ gulp.task("img", () =>
       }, {
         width: 2000,
         rename: {suffix: "-lg"},
-        withoutEnlargement: false,
+        withoutEnlargement: false, // enlarge the output
+        skipOnEnlargement: false, // don't skip the file if enlarged
+        errorOnEnlargement: false, // don't throw errors
+      }, {
+        rename: {suffix: "-orig"}, // output an original
       }
+
     ],
     }, {
-      silent: true      // Don't spam the console
+      silent: true,      // Don't spam the console
+
     }))
     .pipe(gulp.dest("./dist/images/uploads")
 ));
