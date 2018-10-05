@@ -1,6 +1,7 @@
 ---
-title: Blog Post One
-date: 2018-10-02T02:00:58.021Z
+title: Implementing Community, Content & Inquiry
+date: 2018-10-01T02:00:58.021Z
+contenttype: blog
 postauthorname: Chris Daniels
 postauthortitle: Chief of Staff
 postauthorimg: images/uploads/cdaniels.jpg

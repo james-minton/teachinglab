@@ -1,0 +1,49 @@
+#newsletter {
+    height: 200px;
+    background-color: $brightblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 48px;
+    #content-wrapper {
+        display: flex;
+        max-width: 1000px;
+        width: 100%; 
+        padding: 0;
+    }
+    .panel-overlay.content-well {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        p {
+            color: #fff;
+        }
+        #newsletter-cta {
+            width: 33%;
+            padding-right: 2.4rem;
+            display: flex;
+            align-items: center;
+        }
+        #newsletter-form {
+            width: 67%;
+        }
+        input.newsform-input {
+            width: calc(100% - 167px);
+            height: 90px; 
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding-left: 2.4rem;
+        }
+        input.news-signup {
+            background-color: rgba(0,0,0,0);
+            width: 140px;
+            height: 88px;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-left: 2.4rem;
+        }
+    }
+}

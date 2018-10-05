@@ -1,6 +1,58 @@
 * {
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%; // sets sitewide font sizes based on user's font size in browser
+  }
+
+/* Colors ----------------------------- */
+
+$orange: #FF7C4C; 
+$deepblack: #33444B;
+$white: #fff;
+$boldblue: #00ADEE;
+$brightblue: #2EC7FF;
+$slategrey: #617178;
+
+/* Type -------------------------------- */
+
+$mainfont: 'Montserrat', sans-serif;
+
+body {
+    font-family: $mainfont;
+}
+p {
+    font-size: 2.1rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+    color: $deepblack;
+}
+h1 {
+    font-size: 9.6rem;
+    font-weight: 300;
+}
+h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: $deepblack;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    &.staff-name {
+        color: $boldblue;
+        text-transform: uppercase;
+    }
+}
+h5 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $slategrey;
+}
 
 .pageWrap {
     padding-top: 140px;
@@ -10,11 +62,20 @@
     padding: 0 48px;
 }
 .content-well {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    img.twitter-icon {
+        width: 32px;
+    }
 }
 
 
 @import 'nav';
 @import 'home';
 @import 'single';
+@import 'newsletter';

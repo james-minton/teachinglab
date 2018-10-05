@@ -2,17 +2,15 @@
     <div id="content-wrapper">
         <div class="panel-overlay content-well">
             <div id="newsletter-cta">
-                <span class="cta-span">
+                <p class="cta-span">
                     {{ .Site.Data.newsletter.contents.cta }}
-                </span>
+                </p>
             </div>
             <div id="newsletter-form">
-                <span class="newsform-span">
-                    {{ .Site.Data.newsletter.contents.email }}
-                </span>
-                <button class="news-signup">
-                    {{ .Site.Data.newsletter.contents.button }}
-                </button>
+                <form>
+                    <input type="text" class="newsform-input" name="newsemail" placeholder="{{ .Site.Data.newsletter.contents.email }}" />
+                    <input type="submit" class="news-signup" value="{{ .Site.Data.newsletter.contents.button }}" />
+                </form>
             </div>
         </div>
     </div>

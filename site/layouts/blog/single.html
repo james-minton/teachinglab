@@ -2,20 +2,39 @@
     
 <div id="blogSingle" class="pageWrap">
     <div id="content-wrapper">
+        <div id="breadcrumb"><a href="/">Teaching Lab</a> | <a href="/blog">Blog</a> | {{ .Title }}</div>
         <div class="content-well">
             <div class="featured-img">    
                 {{ partial "singleblogimg" . }} 
             </div>
             <div class="blog-well">  
-                <h3>{{ .Title}}</h3>
+                <h2>{{ .Title }}</h2>
                 <div class="author-meta">
                     <img src="{{ .Params.postauthorimg }}" />
-                    <h4 class="blog-author">{{ .Params.postauthorname }}</h4>
+                    <h4 class="staff-name">{{ .Params.postauthorname }}</h4>
                 </div>
-                {{ .Content }} 
+                {{ .Content }}
+                <div class="publishdate subhead"><h5>{{ .PublishDate.Format "January 2, 2006" }}</h5></div> 
+                <div class="social-icons"><img class="twitter-icon" src="/images/icons/twitter.svg"></div>
+            </div>
+            <div class="post-navigation">
+                <div class="side-header"><p>Continue Reading</p></div>
+                <div class="adjacent-posts-wrapper">
+                    <div class="adjacent-posts">
+                        <ul>
+                            {{ if .PrevInSection }}
+                            <li><h2><a href="{{.PrevInSection.Permalink}}">{{ .PrevInSection.Title }}</a></h2></li>
+                            {{ end }}
+                            {{ if .NextInSection }}
+                            <li><h2><a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title }}</a></h2></li>
+                            {{ end }}
+                        </ul>
+                    </div>     
+                </div>
             </div>
         
         </div>
     </div>
-</div>    
+</div>
+{{ partial "newsletter" . }}    
 {{ end }}
