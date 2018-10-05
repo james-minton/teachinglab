@@ -1,17 +1,22 @@
 {{ define "main" }}
     
-<div id="blogList">
+<div id="blogList" class="pageWrap">
     <div id="content-wrapper">
         <div class="content-well">
-            {{ range .Paginator.Pages }} 
-            <br />
-            <br />
-            <br /> 
-            <h3>{{ .Title}}</h3>
-            <p>{{ .Params.listSummary }}</p>
-            <a class="read-more" href="{{ .RelPermalink }}">Read more</a>
+            {{ range .Paginator.Pages }}
+            <ul id="blogfeed">
+                <li class="bloglist-image">
+                    <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
+                </li> 
+                <li class="blog-excerpt">
+                    <h3>{{ .Title}}</h3>
+                    <p>{{ .Params.listSummary }}</p>
+                    <h3><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
+                </li>
+            </ul>    
             {{ end}}
         </div>
     </div>
-</div>    
+</div>   
+{{ partial "newsletter" . }} 
 {{ end }}

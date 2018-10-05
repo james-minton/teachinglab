@@ -1,3 +1,14 @@
+#breadcrumb {
+    width: 100%;
+    text-align: center;
+    h5 {
+        font-weight: 500;
+        a {
+            font-weight: 300;
+            color: $slategrey;
+        }
+    }
+}
 .featured-img {
     max-width: 1000px;
     margin: auto;

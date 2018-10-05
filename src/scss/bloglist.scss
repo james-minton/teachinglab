@@ -1,0 +1,25 @@
+ul#blogfeed {
+    display: flex;
+    padding: 0;
+    li {
+        list-style: none;
+        &.bloglist-image {
+            img {
+                max-width: 248px;
+            }
+        }
+        &.blog-excerpt {
+            h3 {
+                margin-top: 0;
+                text-transform: uppercase;
+                a {
+                    color: $brightblue;
+                    border: 1px solid $brightblue;
+                    padding: 4rem;
+                    margin: 2.4rem 0 0;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
