@@ -1,0 +1,25 @@
+.featured-img {
+    max-width: 1000px;
+    margin: auto;
+    img {
+    max-width: 100%;
+    }
+}
+.author-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+}
+.blog-well {
+    max-width: 800px;
+    margin: auto;
+    h3 {
+        text-align: center;
+    }
+}

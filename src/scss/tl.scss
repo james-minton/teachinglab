@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.pageWrap {
+    padding-top: 140px;
+}
+
 #content-wrapper {
     padding: 0 48px;
 }
@@ -12,4 +16,5 @@
 
 
 @import 'nav';
-@import 'home'
+@import 'home';
+@import 'single';

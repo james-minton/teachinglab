@@ -85,7 +85,8 @@ collections:
       - {label: "Blog Post Title", name: "title", widget: "string"}
       - {label: "Created Date", name: "date", widget: "datetime"}
       - {label: "Author Name", name: "postauthorname", widget: "string"}
-      - {label: "Author Title", name: "postauthortitle", widget: "string"}  
+      - {label: "Author Title", name: "postauthortitle", widget: "string"} 
+      - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
       - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
       - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
       - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}

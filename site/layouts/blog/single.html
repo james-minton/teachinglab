@@ -1,57 +1,20 @@
 {{ define "main" }}
     
-<div id="blogSingle">
+<div id="blogSingle" class="pageWrap">
     <div id="content-wrapper">
         <div class="content-well">
-                <br />
-                <br />
-                <br /> 
-            <h3>{{ .Title}}</h3>
-            {{ .Content }} 
-          
-            
-
-            
-            <br />
-            
-
-
-            <h1>Let's try this again.</h1>
-
-            
-               
-            {{ $smallImage := .Params.image }}
-            <br />
-            {{ print $smallImage }}
-
-            <br />
-            {{ $imgConcat := print .Params.image | print "static/" }} {{/* Adding "static" to image path so imageConfig function below can find it */}}
-            {{ $imgSize := (imageConfig $imgConcat) }} {{/* Getting width of image using imageConfig function */}}
-            {{ if and (gt $imgSize.Width "2000") (in .Params.image ".png") }}{{/* If image is less than or equal to this width, and has file extension png, do stuff */}} 
-                {{ $cleanFilename := strings.TrimSuffix ".png" .Params.image }} <img src="{{ print $cleanFilename }}-lg.png" />
-            {{ else }} 
-            {{if and (gt $imgSize.Width "2000") (in .Params.image ".jpg") }}
-                {{ $cleanFilename := strings.TrimSuffix ".jpg" .Params.image }} <img src="{{ print $cleanFilename }}-lg.jpg" />
-            {{ else }}
-            {{if and (gt $imgSize.Width "2000") (in .Params.image ".jpeg") }}
-                {{ $cleanFilename := strings.TrimSuffix ".jpeg" .Params.image }} <img src="{{ print $cleanFilename }}-lg.jpeg" />
-            {{ else }}
-            {{if and (le $imgSize.Width "2000") (in .Params.image ".png") }}
-                {{ $cleanFilename := strings.TrimSuffix ".png" .Params.image }} <img src="{{ print $cleanFilename }}-orig.png" />
-            {{ else }}
-            {{if and (le $imgSize.Width "2000") (in .Params.image ".jpg") }}
-                {{ $cleanFilename := strings.TrimSuffix ".jpg" .Params.image }} <img src="{{ print $cleanFilename }}-orig.jpg" />
-            {{ else }}
-            {{if and (le $imgSize.Width "2000") (in .Params.image ".jpeg") }}
-                {{ $cleanFilename := strings.TrimSuffix ".jpg" .Params.image }} <img src="{{ print $cleanFilename }}-orig.jpeg" />
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
-           
-         
+            <div class="featured-img">    
+                {{ partial "singleblogimg" . }} 
+            </div>
+            <div class="blog-well">  
+                <h3>{{ .Title}}</h3>
+                <div class="author-meta">
+                    <img src="{{ .Params.postauthorimg }}" />
+                    <h4 class="blog-author">{{ .Params.postauthorname }}</h4>
+                </div>
+                {{ .Content }} 
+            </div>
+        
         </div>
     </div>
 </div>    
