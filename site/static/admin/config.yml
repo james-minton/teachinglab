@@ -76,6 +76,19 @@ collections:
               - {label: Header, name: header, widget: string}
               - {label: Body, name: body, widget: markdown}
 
+  - label: "About Us"
+    name: "aboutUs"
+    files:
+      - label: "Intro Copy"
+        name: "introCopy"
+        file: "site/data/about-us/contents.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Bold Intro, name: sectionBoldIntro, widget: string} 
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}          
+
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "/site/content/blog" # The path to the folder where the documents are stored

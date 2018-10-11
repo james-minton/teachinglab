@@ -61,15 +61,49 @@ h5 {
 }
 
 .pageWrap {
-    padding-top: 140px;
+    padding-top: 170px;
+}
+.hero-panel-sub {
+    width: 100%;
+    height: 230px;
+    background-color: #A3CAD8;
+}
+.outer-padding {
+    padding: 0 48px;
 }
 
 #content-wrapper {
     padding: 0 48px;
 }
+.content-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+.inner-wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
 .content-well {
     max-width: 1000px;
     margin: auto;
+}
+.title-box {
+    background: $brightblue;
+    max-width: 1000px;
+    margin: auto;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .title-container {
+        max-width: 800px;
+        margin: auto;
+        width: 100%;
+        h2 {
+            color: #fff;
+            font-size: 3.6rem;
+        }
+    }
 }
 .social-icons {
     display: flex;
@@ -86,3 +120,4 @@ h5 {
 @import 'single';
 @import 'newsletter';
 @import 'bloglist';
+@import 'about-us';

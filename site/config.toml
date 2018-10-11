@@ -10,6 +10,8 @@ paginate = 10
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
+SectionPagesMenu = "main"
+
 [Params]
 
     logo = "teachinglab_logo1500w.png"
@@ -19,33 +21,33 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
  url  = "/"
  weight = 2 
 
- [[menu.main]]
- name = "How We Work"
- url  = "/map"
- weight = 10 
+ #[[menu.main]]
+# name = "How We Work"
+ # url  = "/map"
+  # weight = 10 
 
- [[menu.main]]
- name = "About Us"
- url  = "/about"
- weight = 20 
+ # [[menu.main]]
+ # name = "About Us"
+ # url  = "/about"
+ # weight = 20 
 
- [[menu.main]]
- name = "Case Studies" 
- url  = "/case-studies"
- weight = 30 
+ # [[menu.main]]
+ # name = "Case Studies" 
+ # url  = "/case-studies"
+ # weight = 30 
 
- [[menu.main]]
- name = "Blog" 
- url  = "/blog"
- weight = 40 
+#  [[menu.main]]
+#  name = "Blog" 
+#  url  = "/blog"
+#  weight = 40 
 
- [[menu.main]]
- name = "Opportunities" 
- url  = "/opportunities"
- weight = 50 
+#  [[menu.main]]
+#  name = "Opportunities" 
+#  url  = "/opportunities"
+#  weight = 50 
 
- [[menu.main]]
- name = "Contact Us" 
- url  = "/contact"
- weight = 60 
+#  [[menu.main]]
+#  name = "Contact Us" 
+#  url  = "/contact"
+#  weight = 60 
 

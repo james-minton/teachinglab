@@ -1,15 +1,13 @@
 <header id="main-header">
     <div id="header-wrapper">
-        <div id="logo-wrapper"><img id="logo" src="/images/teachinglab_logo1500w.png" /></div>
-        {{ with .Site.Menus.main }}
-            <nav id="topNav">
-                <ul>
-                {{ range . }}
-                    <!--<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>-->
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-                </ul>
-            </nav>
-        {{ end }}  
-    </div>
+        <div id="logo-wrapper"><img id="logo" src="images/tl-website-logo.svg" /></div>
+    </div>    
 </header>
+
+<nav id="topNav">
+    <ul>
+        {{ range .Site.Menus.main }}
+        <li><a class="{{if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+    </ul>
+</nav>
