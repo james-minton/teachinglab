@@ -87,7 +87,50 @@ collections:
           - {label: Page Title, name: pageTitle, widget: string}
           - {label: Section Heading, name: sectionHead, widget: string} 
           - {label: Section Bold Intro, name: sectionBoldIntro, widget: string} 
-          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}          
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+      - label: "Founders Section"
+        name: "founders"
+        file: "site/data/about-us/founders.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - label: Founders
+            name: foundersList
+            widget: list
+            fields:
+              - {label: Founder Name, name: staffName, widget: string}
+              - {label: Title, name: staffTitle, widget: string}   
+              - {label: Image, name: staffImage, widget: image} 
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}  
+      - label: "Team Section"
+        name: "team"
+        file: "site/data/about-us/team.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - label: Team
+            name: teamList
+            widget: list
+            fields:
+              - {label: Team Member Name, name: staffName, widget: string}
+              - {label: Title, name: staffTitle, widget: string}   
+              - {label: Image, name: staffImage, widget: image} 
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}       
+      - label: "Board Section"
+        name: "board"
+        file: "site/data/about-us/team.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - label: Board
+            name: boardList
+            widget: list
+            fields:
+              - {label: Board Member Name, name: staffName, widget: string}
+              - {label: Title, name: staffTitle, widget: string}   
+              - {label: Image, name: staffImage, widget: image} 
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}                       
+      
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
