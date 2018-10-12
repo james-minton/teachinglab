@@ -101,7 +101,7 @@ collections:
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}  
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}  
       - label: "Team Section"
         name: "team"
         file: "site/data/about/team.yml"
@@ -115,7 +115,7 @@ collections:
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}       
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}       
       - label: "Board Section"
         name: "board"
         file: "site/data/about/board.yml"
@@ -129,7 +129,7 @@ collections:
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}                       
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}                       
       
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

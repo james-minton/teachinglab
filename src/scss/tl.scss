@@ -59,6 +59,17 @@ h5 {
     font-weight: 300;
     color: $slategrey;
 }
+/* Utilities ------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+.medium {
+    font-weight: 500;
+}
+.light {
+    font-weight: 300;
+}
 
 .pageWrap {
     padding-top: 170px;
@@ -112,6 +123,10 @@ h5 {
     img.twitter-icon {
         width: 32px;
     }
+}
+.modal-dialog.modal-dialog-centered {
+    width: 80%;
+    max-width: 80%;
 }
 
 
