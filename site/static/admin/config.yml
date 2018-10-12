@@ -118,7 +118,7 @@ collections:
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}       
       - label: "Board Section"
         name: "board"
-        file: "site/data/about-us/team.yml"
+        file: "site/data/about/team.yml"
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - label: Board

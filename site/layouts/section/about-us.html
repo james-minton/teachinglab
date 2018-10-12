@@ -8,6 +8,11 @@
             </div>
         </div>
     </div>
+    <div class="team-bios founders outer-padding">
+        {{ range .Site.Data.about.founders.foundersList }}
+        {{ .staffName }}<br />{{ .staffTitle }}<br />
+        {{ end }}
+    </div>
     <div id="map-panel" class="outer-padding">
         <div class="inner-wrapper">
             {{ partial "mapSVG" . }}
