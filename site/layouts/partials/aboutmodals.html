@@ -3,17 +3,17 @@
 {{ range .Site.Data.about.founders.foundersList }}
         {{ .staffName }}<br />{{ .staffTitle }}<br />
         
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{ .staffName | md5 }}">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ .staffName | md5 }}">
         >
       </button>
       {{ end }}  
       {{ range .Site.Data.about.founders.foundersList }}         
       <!-- Modal -->
-      <div class="modal fade" id="{{ .staffName | md5 }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal fade" id="modal-{{ .staffName | md5 }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="uppercase">{{ .staffName }}</h4>&nbsp; &nbsp; &nbsp; &nbsp;<h4 class="uppercase medium">{{ .staffTitle }}</h4>
+              <h4 class="uppercase bump-up modal-staff">{{ .staffName }}</h4>&nbsp; &nbsp; &nbsp; &nbsp;<h4 class="uppercase medium">{{ .staffTitle }}</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
