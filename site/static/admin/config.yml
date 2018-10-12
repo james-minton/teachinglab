@@ -81,7 +81,7 @@ collections:
     files:
       - label: "Intro Copy"
         name: "introCopy"
-        file: "site/data/about-us/contents.yml"
+        file: "site/data/about/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
@@ -90,7 +90,7 @@ collections:
           - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       - label: "Founders Section"
         name: "founders"
-        file: "site/data/about-us/founders.yml"
+        file: "site/data/about/founders.yml"
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - label: Founders
@@ -104,7 +104,7 @@ collections:
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}  
       - label: "Team Section"
         name: "team"
-        file: "site/data/about-us/team.yml"
+        file: "site/data/about/team.yml"
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - label: Team
@@ -118,7 +118,7 @@ collections:
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "Do not use quotation marks here; they appear automatically."}       
       - label: "Board Section"
         name: "board"
-        file: "site/data/about/team.yml"
+        file: "site/data/about/board.yml"
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - label: Board
