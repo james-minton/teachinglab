@@ -1,6 +1,17 @@
 {{ define "main" }}
+
+<div id="blog-page" class="pageWrap">
+    <div class="hero-panel-sub"></div>
+    <div class="page-title outer-padding">
+        <div class="title-box inner-wrapper">
+            <div class="title-container">
+                    <h2>Blog</h2>
+            </div>
+        </div>
+    </div>
+</div>
     
-<div id="blogList" class="pageWrap">
+<div id="blogList">
     <div id="content-wrapper">
         <div class="content-well">
             {{ range .Paginator.Pages }}
@@ -9,9 +20,9 @@
                     <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
                 </li> 
                 <li class="blog-excerpt">
-                    <h3>{{ .Title}}</h3>
+                    <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
                     <p>{{ .Params.listSummary }}</p>
-                    <h3><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
+                    <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
                 </li>
             </ul>    
             {{ end}}

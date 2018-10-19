@@ -239,7 +239,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Footer Logo, name: footerLogo, widget: image, required: false}
-          - {label: Sponsors Text, name: sponsorText, widget: string, required: false}  
+          - {label: Copyright Info, name: sponsorText, widget: string, required: false}  
           - label: Sponsor Logos 
             name: sponsorLogos
             widget: list

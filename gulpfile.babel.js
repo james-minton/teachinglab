@@ -90,30 +90,33 @@ gulp.task("img", () =>
       "*": [{
         width: 496,
         rename: {suffix: "-sm"},
-        quality: 50,
-        format: jpeg
+        withoutEnlargement: false, // enlarge the output
+        skipOnEnlargement: false, // don't skip the file if enlarged
+        errorOnEnlargement: false, // don't throw errors
+        quality: 70,
+        format: 'jpeg'
       }, {
         width: 2000,
         rename: {suffix: "-lg"},
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
-        quality: 50,
-        format: jpeg
+        quality: 70,
+        format: 'jpeg'
       }, {
         rename: {suffix: "-orig"}, // output an original
-        quality: 50,
-        format: jpeg
+        quality: 70,
+        format: 'jpeg'
       }, {
         width: 288, 
         rename: {suffix: "-bio-sm"}, // output larger bio size
-        quality: 50,
-        format: jpeg
+        quality: 70,
+        format: 'jpeg'
       }, {
         width: 320, 
         rename: {suffix: "-bio-lg"}, // output larger bio size
-        quality: 50,
-        format: jpeg
+        quality: 70,
+        format: 'jpeg'
       }
 
 

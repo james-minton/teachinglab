@@ -13,8 +13,23 @@ $orange: #FF7C4C;
 $deepblack: #33444B;
 $white: #fff;
 $boldblue: #00ADEE;
+$lightblue: #EFFBFF;
 $brightblue: #2EC7FF;
+$slateblue: #A3CAD8;
 $slategrey: #617178;
+$tealgreen: #4BC6B9;
+
+/* Breakpoints ---------------------------- */
+
+@mixin for-768-up {
+    @media (min-width: 768px) { @content; }
+}
+@mixin for-1024-up {
+    @media (min-width: 1024px) { @content; }
+}
+@mixin for-1440-up {
+    @media (min-width: 1440px) { @content; }
+}
 
 /* Type -------------------------------- */
 
@@ -25,29 +40,107 @@ body {
 }
 a {
     text-decoration: none;
+    color: $orange;
 }
 p {
-    font-size: 2.1rem;
-    line-height: 3.6rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.01rem;
+    line-height: 2.6rem;
+    @include for-768-up {
+        font-size: 1.8rem;
+        letter-spacing: 0.02rem;
+        line-height: 3rem;
+    }
+    @include for-1440-up {
+        font-size: 2.1rem;
+        letter-spacing: 0.03rem;
+        line-height: 3.6rem;
+    }   
+    font-weight: 300;
+    color: $deepblack;
+}
+p.reg {
+    font-size: 1.4rem;
+    letter-spacing: 0.08rem;
+    line-height: 2.6rem;
+    @include for-768-up {
+        font-size: 1.7rem;
+        letter-spacing: 0.09rem;
+        line-height: 3rem;
+    }
+    @include for-1440-up {
+        font-size: 2.1rem;
+        letter-spacing: 0.15rem;
+        line-height: 3.6rem;
+    }   
     font-weight: 400;
     color: $deepblack;
 }
 h1 {
-    font-size: 9.6rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 0.043rem;
+    line-height: 3.4rem;
+    @include for-768-up {
+        font-size: 4rem;
+        letter-spacing: 0.07rem;
+        line-height: 5rem;
+    }
+    @include for-1440-up {
+        font-size: 5.6rem;
+        letter-spacing: 0.01rem;
+        line-height: 7.2rem;
+    }    
+    font-weight: 500;
 }
 h2 {
-    font-size: 4rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.03rem;
+    line-height: 2.7rem;
+    @include for-768-up {
+        font-size: 2.4rem;
+        letter-spacing: 0.03rem;
+        line-height: 3.8rem;
+    }
+    @include for-1440-up {
+        font-size: 3.6rem;
+        letter-spacing: 0.06rem;
+        line-height: 5.2rem;
+    }   
     color: $deepblack;
+    font-weight: 500;
 }
 h3 {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.108rem;
+    line-height: 1.5rem;
+    @include for-768-up {
+        font-size: 1.6rem;
+        letter-spacing: 0.133rem;
+        line-height: 2.1rem;
+    }
+    @include for-1440-up {
+        font-size: 2rem;
+        letter-spacing: 0.17rem;
+        line-height: 3.6rem;
+    }   
     color: $deepblack;
+    font-weight: 600;
 }
 h4 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 3.6rem;
+    @include for-768-up {
+        font-size: 1.5rem;
+        letter-spacing: 0.125rem;
+        line-height: 2.1rem;
+    }
+    @include for-1440-up {
+        font-size: 1.8rem;
+        letter-spacing: 0.153rem;
+        line-height: 3.6rem;
+    }   
+    color: $deepblack;
     font-weight: 600;
     &.staff-name {
         color: $boldblue;
@@ -55,9 +148,38 @@ h4 {
     }
 }
 h5 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    letter-spacing: 0rem;
+    line-height: 1.4rem;
+    @include for-768-up {
+        font-size: 1.3rem;
+        letter-spacing: 0.054rem;
+        line-height: 1.6rem;
+    }
+    @include for-1440-up {
+        font-size: 1.6rem;
+        letter-spacing: 0.066rem;
+        line-height: 1.9rem;
+    }  
+    font-weight: 400; 
+    color: $deepblack;
+}
+h6 {
+    font-size: 1.1rem;
+    letter-spacing: 0rem;
+    line-height: 1.4rem;
+    @include for-768-up {
+        font-size: 1.2rem;
+        letter-spacing: 0.015rem;
+        line-height: 2.4rem;
+    }
+    @include for-1440-up {
+        font-size: 1.3rem;
+        letter-spacing: 0.02rem;
+        line-height: 2.4rem;
+    }   
     font-weight: 300;
-    color: $slategrey;
+    color: $deepblack;
 }
 /* Utilities ------------- */
 
@@ -79,8 +201,11 @@ h5 {
 }
 .hero-panel-sub {
     width: 100%;
-    height: 230px;
-    background-color: #A3CAD8;
+    background-color: #eaeaea;
+    @include for-1440-up {
+        height: 230px;
+        margin-bottom: 80px;
+    }
 }
 .outer-padding {
     padding: 0 48px;
@@ -109,6 +234,10 @@ h5 {
     display: flex;
     justify-content: center;
     align-content: center;
+    @include for-1440-up {
+        margin-bottom: 6.4rem;
+    }
+    
     .title-container {
         max-width: 800px;
         margin: auto;
@@ -139,3 +268,5 @@ h5 {
 @import 'newsletter';
 @import 'bloglist';
 @import 'about-us';
+@import 'flyout.scss';
+@import 'footer.scss';

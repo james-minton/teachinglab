@@ -1,14 +1,63 @@
 #about-us-page {
+    .title-box {
+        background: $brightblue;
+    }
     .modal-dialog {
-        h4.modal-staff {
-            letter-spacing: 0.153rem;
-            line-height: 1;
+        .modal-content {
+            background: rgba(0,0,0,0);
+            border: none;
+        }
+        .modal-transparent {
+            height: 100px;
+        }
+        .modal-header {
+            border: none;
+            background: $lightblue;
+            padding: 48px 96px 0;
+            img {
+                width: 144px;
+                border-radius: 50%;
+                position: absolute;
+                top: 27px;
+            }
+            button {
+                    width: 44px;
+                    position: relative;
+                    top: -21px;
+                    right: -46px;
+                    &:focus {
+                        display: none;
+                    }
+                img {
+                    width: 44px;
+                    top: 0;
+                }
+            }
+        }
+        
+        .staff-headline {
+            display: flex;
+            position: relative;
+            left: 170px;
+            h4.modal-staff {
+                letter-spacing: 0.153rem;
+                line-height: 1;
+            }
+        } 
+        .modal-body {
+            background: $lightblue;
+            padding: 28px 96px;
+        }
+        .modal-quote {
+            background: $slateblue;
+            padding: 48px 96px;
         }
     }
     #map-panel {
         background: #EFFBFF;
         .content-wrapper {
-           
+        
         }
     }
+       
 }

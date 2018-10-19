@@ -58,5 +58,12 @@ $('.carousel .carousel-item').each(function(){
       }
 });
 
+// Add toggling of menu
 
+var $hamburger = $(".hamburger");
+var $flyout = $(".app-menu");
+  $hamburger.on("click", function(e) {
+    $flyout.toggleClass("is-active");
+    // Do something else, like open/close menu
+  });
 

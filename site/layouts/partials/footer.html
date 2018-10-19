@@ -2,7 +2,7 @@
         <div id="content-wrapper">
             <div class="panel-overlay content-well">
                 <div id="footer-logo-wrapper">
-                    <img id="footer-logo" src="{{ .Site.Data.footer.contents.image }}" />
+                    <a href="/"><img id="footer-logo" src="/images/tl-website-logo-vert.svg" /></a>
                 </div>
                 {{ with .Site.Menus.main }}
                 <nav id="footerNav">
@@ -14,14 +14,13 @@
                     </ul>
                 </nav>
             {{ end }}  
-                <div id="sponsor-intro">
-                    {{ .Site.Data.footer.contents.sponsorText }}
-                </div>
-                <ul id="sponsor-logos">
-                    {{ range .Site.Data.footer.contents.sponsorLogos.logo }}
-                    <li>{{ . }}</li>
-                    {{ end }}
-                </ul>
+                <div id="subfooter">
+                    <div id="copyright">
+                        <h6>{{ .Site.Data.footer.contents.sponsorText }}<br/>
+                        Site by <a href="https://hyperobjekt.com" target="_blank">Hyperobjekt</a></h6>
+                    </div>
+                    <div id="footersocial">Social media links here</div>
+                </div>    
             </div>
         </div>
         <script src="/js/lib.min.js"></script>

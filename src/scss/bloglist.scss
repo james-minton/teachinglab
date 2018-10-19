@@ -1,3 +1,9 @@
+#blogList {
+    @include for-1440-up {
+        margin-bottom: 3.6rem;
+    }
+}
+
 ul#blogfeed {
     display: flex;
     padding: 0;
@@ -6,20 +12,57 @@ ul#blogfeed {
         &.bloglist-image {
             img {
                 max-width: 248px;
+                margin-top: 1rem;
             }
         }
         &.blog-excerpt {
-            h3 {
+            @include for-1440-up {
+                margin-left: 4.8rem;
+            }
+            p:last-of-type {
+                @include for-1440-up {
+                    margin-bottom: 6.6rem;
+                }
+            }
+            h3.bloglisttitle {
                 margin-top: 0;
                 text-transform: uppercase;
+                @include for-1440-up {
+                    margin-bottom: 3rem;
+                }
+                a {
+                    color: $deepblack;
+                    text-decoration: none;
+                    &:hover {
+                        color: $brightblue;
+                    }
+                }
+            }
+            h3.morebutton {
+                text-transform: uppercase;
+                @include for-1440-up {
+                    margin-bottom: 6rem;
+                }
                 a {
                     color: $brightblue;
                     border: 1px solid $brightblue;
-                    padding: 4rem;
-                    margin: 2.4rem 0 0;
+                    padding: 2.2rem 3.2rem;
+                    margin: 0;
                     display: inline-block;
+                    
+                    &:hover {
+                        background: $brightblue;
+                        color: #fff !important;
+                        text-decoration: none;
+                        transition: background .3s ease;
+                    }
                 }
             }
         }
+    }
+}
+#blog-page {
+    .title-box {
+        background: $tealgreen;
     }
 }

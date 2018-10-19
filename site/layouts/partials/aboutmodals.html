@@ -12,16 +12,24 @@
       <div class="modal fade" id="modal-{{ .staffName | md5 }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
+            <div class="modal-transparent"></div>  
             <div class="modal-header">
-              <h4 class="uppercase bump-up modal-staff">{{ .staffName }}</h4>&nbsp; &nbsp; &nbsp; &nbsp;<h4 class="uppercase medium">{{ .staffTitle }}</h4>
+                    {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}} 
+                    {{ $cleanFilename := strings.TrimSuffix ".png" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.png" />
+                {{ else if in .staffImage ".jpg" }}
+                    {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpg" />
+                {{ else if in .staffImage ".jpeg" }}
+                    {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
+                {{ end }}
+              <div class="staff-headline"><h4 class="uppercase bump-up modal-staff">{{ .staffName }}</h4>&nbsp; &nbsp; &nbsp; &nbsp;<h4 class="uppercase medium">{{ .staffTitle }}</h4></div>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span aria-hidden="true"><img src="/images/icons/modal-close.svg"/></span>
               </button>
             </div>
             <div class="modal-body">
               <div class="modal-bio"><p class="light">{{ .bio }}</p></div>
-              <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
             </div>
+            <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
           </div>
         </div>
       </div>
