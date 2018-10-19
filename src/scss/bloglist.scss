@@ -1,4 +1,7 @@
 #blogList {
+    @include for-768-up {
+        margin-bottom: 2.4rem;
+    }
     @include for-1440-up {
         margin-bottom: 3.6rem;
     }
@@ -11,15 +14,30 @@ ul#blogfeed {
         list-style: none;
         &.bloglist-image {
             img {
-                max-width: 248px;
-                margin-top: 1rem;
+                @include for-768-up {
+                    max-width: 210px;
+                }
+                @include for-1024-up {
+                    max-width: 224px;
+                }
+                @include for-1440-up {
+                    max-width: 248px;
+                    margin-top: 1rem;
+                }
+                
             }
         }
         &.blog-excerpt {
+            @include for-768-up {
+                margin-left: 3.2rem;
+            }
             @include for-1440-up {
                 margin-left: 4.8rem;
             }
             p:last-of-type {
+                @include for-768-up {
+                    margin-bottom: 3.8rem;
+                }
                 @include for-1440-up {
                     margin-bottom: 6.6rem;
                 }
@@ -27,6 +45,9 @@ ul#blogfeed {
             h3.bloglisttitle {
                 margin-top: 0;
                 text-transform: uppercase;
+                @include for-768-up {
+                    margin-bottom: 2.4rem;
+                }
                 @include for-1440-up {
                     margin-bottom: 3rem;
                 }
@@ -40,6 +61,9 @@ ul#blogfeed {
             }
             h3.morebutton {
                 text-transform: uppercase;
+                @include for-768-up {
+                    margin-bottom: 5.2rem;
+                }
                 @include for-1440-up {
                     margin-bottom: 6rem;
                 }

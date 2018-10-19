@@ -71,7 +71,14 @@ nav#topNav {
             li {
                 list-style: none;
                 text-transform: uppercase;
-                font-size: 1.6rem;
+                @include for-1024-up {
+                    font-size: 1.3rem;
+                    letter-spacing: 0.054rem;
+                }
+                @include for-1440-up {
+                    font-size: 1.6rem;
+                    letter-spacing: 0.066rem;
+                }
                 font-weight: 500;
                 a {
                     text-decoration: none;

@@ -41,6 +41,10 @@ body {
 a {
     text-decoration: none;
     color: $orange;
+    &:hover {
+        color: $brightblue;
+        text-decoration: none;
+    }
 }
 p {
     font-size: 1.4rem;
@@ -197,14 +201,27 @@ h6 {
 }
 
 .pageWrap {
-    padding-top: 170px;
+    padding-top: 53px;
+    @include for-768-up {
+        padding-top: 88px;
+        }
+    @include for-1024-up {
+        padding-top: 170px;
+    }
 }
 .hero-panel-sub {
     width: 100%;
     background-color: #eaeaea;
+    @include for-768-up {
+        height: 192px;
+        margin-bottom: 5.6rem;
+    }
+    @include for-1024-up {
+        margin-bottom: 6.4rem;
+    }
     @include for-1440-up {
         height: 230px;
-        margin-bottom: 80px;
+        margin-bottom: 8rem;
     }
 }
 .outer-padding {
@@ -219,27 +236,74 @@ h6 {
     margin: auto;
 }
 .inner-wrapper {
-    max-width: 1000px;
+    @include for-768-up {
+        max-width: 800px;
+    }
+    @include for-1440-up {
+        max-width: 1000px;
+    }
     margin: auto;
 }
 .content-well {
-    max-width: 1000px;
+    max-width: 767px;
+    @include for-768-up {
+        max-width: 720px;
+    }
+    @include for-1024-up {
+        max-width: 800px;
+    }
+    @include for-1440-up {
+        max-width: 1000px;
+    }
+    
+    margin: auto;
+}
+.content-inner {
+    max-width: 360px;
+    @include for-768-up {
+        max-width: 640px;
+    }
+    @include for-1024-up {
+        max-width: 720px;
+    }
+    @include for-1440-up {
+        max-width: 800px;
+    }
+    
     margin: auto;
 }
 .title-box {
     background: $brightblue;
-    max-width: 1000px;
     margin: auto;
-    height: 125px;
+   
     display: flex;
     justify-content: center;
     align-content: center;
+
+    @include for-768-up {
+        max-width: 720px;
+        height: 100px;
+        margin-bottom: 5.6rem;
+    }
+    @include for-1024-up {
+        max-width: 800px;
+    }
     @include for-1440-up {
         margin-bottom: 6.4rem;
+        max-width: 1000px;
+        height: 124px;
     }
     
     .title-container {
-        max-width: 800px;
+        @include for-768-up {
+            max-width: 640px;
+        }
+        @include for-1024-up {
+            max-width: 720px;
+        }
+        @include for-1440-up {
+            max-width: 800px;
+        }
         margin: auto;
         width: 100%;
         h2 {

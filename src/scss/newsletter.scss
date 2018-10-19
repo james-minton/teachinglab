@@ -14,36 +14,91 @@
     }
     .panel-overlay.content-well {
         display: flex;
-        justify-content: left;
-        width: 100%;
+        @include for-768-up {
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+        @include for-1024-up {
+            flex-direction: row;
+            justify-content: left;
+            width: 100%;
+        }
         p {
             color: #fff;
+            display: block;
+            width: 100%;
+            text-align: center;
+            top: -1.9rem;
+            position: relative;
+            @include for-768-up {
+                font-size: 1.8rem;
+            }
+            @include for-1024-up {
+                display: initial;
+                width: initial;
+                text-align: left;
+                position: initial;
+                top: 0;
+            }
+            @include for-1440-up {
+                font-size: 2.1rem;
+            }
         }
         #newsletter-cta {
-            width: 33%;
+            @include for-768-up {
+                width: 100%;
+            } 
+            @include for-1024-up {
+                width: 33%;
+            }
             padding-right: 2.4rem;
             display: flex;
             align-items: center;
         }
         #newsletter-form {
-            width: 67%;
+            @include for-768-up {
+                width: 100%;
+            } 
+            @include for-1024-up {
+                width: 67%;
+            }
         }
         input.newsform-input {
-            width: calc(100% - 167px);
-            height: 90px; 
-            font-size: 1.6rem;
+            width: calc(100% - 181px);
+            @include for-768-up {
+                height: 64px;
+                font-size: 1.3rem;
+            }
+            @include for-1440-up {
+                height: 90px; 
+                font-size: 1.6rem;
+            }
             font-weight: 700;
             padding-left: 2.4rem;
         }
         input.news-signup {
             background-color: rgba(0,0,0,0);
-            width: 140px;
-            height: 88px;
+            width: 154px;
+            @include for-768-up {
+                height: 62px;
+                font-size: 1.5rem;
+            }
+            @include for-1440-up {
+                height: 88px;
+                font-size: 1.8rem;
+            }
             border: 1px solid #fff;
             color: #fff;
-            font-size: 2rem;
             font-weight: 700;
             margin-left: 2.4rem;
+            &:hover {
+                color: $brightblue;
+                background-color: #fff;
+                transition: background-color 0.3s ease;
+                transition: color 0.3s ease;
+                cursor: pointer;
+            }
         }
     }
 }
