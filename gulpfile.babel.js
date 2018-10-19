@@ -4,7 +4,7 @@ import hugoBin from "hugo-bin";
 import log from "fancy-log";
 import pluginError from "plugin-error";
 import flatten from "gulp-flatten";
-// import watch from "gulp-watch"; // JM add
+import watch from "gulp-watch";  
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";

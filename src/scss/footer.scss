@@ -10,7 +10,8 @@
     }
 }
 nav#footerNav {
-    
+    max-width: 800px;
+    margin: auto;
     ul {
         @include for-1440-up {
             height: 145px;
@@ -21,8 +22,6 @@ nav#footerNav {
             justify-content: space-between;
             padding-inline-start: 0;
             width: 100%;
-            max-width: 1200px;
-            margin: auto;
             align-items: flex-end;
             border-bottom: 1px solid $lightblue;
         li {
@@ -48,7 +47,13 @@ nav#footerNav {
     display: flex;
     padding-top: 4rem;
     justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
     @include for-1440-up {
         height: 192px;
+        img.fb, img.tw {
+            padding-right: 7.2rem;
+        }
     }
 }
