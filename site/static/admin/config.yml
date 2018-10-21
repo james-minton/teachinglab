@@ -149,7 +149,7 @@ collections:
           - {label: Title, name: title, widget: hidden}  
           - {label: Section Heading, name: sectionHead, widget: string}
           - {label: Intro, name: introCopy, widget: string}
-            label: Icons and Copy
+          - label: Icons and Copy
             name: iconsCopy
             widget: list
             fields:
