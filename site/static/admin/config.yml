@@ -130,7 +130,34 @@ collections:
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}                       
-      
+
+  - label: "Our Model"
+    name: "ourModel"
+    files:
+      - label: "Section 1"
+        name: "sectionOne"
+        file: "site/data/model/sectionone.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+      - label: "Section 2"
+        name: "sectionTwo"
+        file: "site/data/about/sectiontwo.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
+              - {label: Heading, name: heading, widget: string} 
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              
+
+
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
