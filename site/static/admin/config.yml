@@ -144,7 +144,7 @@ collections:
           - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       - label: "Section 2"
         name: "sectionTwo"
-        file: "site/data/about/sectiontwo.yml"
+        file: "site/data/model/sectiontwo.yml"
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - {label: Section Heading, name: sectionHead, widget: string}
