@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ define "main" }}
+
 <div id="about-us-page" class="pageWrap">
     <div class="hero-panel-sub"></div>
     <div class="page-title outer-padding">
@@ -10,10 +10,21 @@
             </div>
         </div>
     </div>
-   
+    <!--- Page Body ---------------------------------->
+    <div class="section-one">
+
+    </div>
+    <div class="section-two">
+        {{ if .Site.Data.model.sectiontwo.alignIcon "true" }}
+            {{ $iconAlign := "alignright" }}
+        {{ else if .Site.Data.model.sectiontwo.alignIcon "true" }}
+            {{ $iconAlign := "alignleft" }}
+        {{ print $iconAlign }}
+        {{ end }}
+    </div>
 
 </div>
-{{ end }}
+
 
 
 {{ end }}

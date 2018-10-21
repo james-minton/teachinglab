@@ -154,7 +154,7 @@ collections:
             widget: list
             fields:
               - {label: Icon, name: icon, widget: image}
-              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, required: false, hint: "If not selected, icon will align left."}   
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
               - {label: Heading, name: heading, widget: string} 
               - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               
