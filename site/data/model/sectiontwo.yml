@@ -1,7 +1,7 @@
 sectionHead: Test
 introCopy: Lorem Ipsum
 iconsCopy:
-  - copy: Lorem ipsum
+  - alignIcon: true
+    copy: Lorem ipsum
     heading: Testing Heading
     icon: /images/uploads/streetscene.png
-    alignIcon: false
