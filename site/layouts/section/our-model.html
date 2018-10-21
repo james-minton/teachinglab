@@ -15,14 +15,18 @@
 
     </div>
     <div class="section-two">
-        {{ if .Site.Data.model.sectiontwo.alignIcon "true" }}
-            {{ $iconAlign := "alignright" }}
-        {{ else if .Site.Data.model.sectiontwo.alignIcon "true" }}
-            {{ $iconAlign := "alignleft" }}
-        {{ print $iconAlign }}
+     
+        {{ range .Site.Data.model.sectiontwo.iconsCopy }}
+          {{ if eq .alignIcon true }}
+            {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+           
+          {{ else if eq .alignIcon false }}
+            {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+          {{ end }}
+          
         {{ end }}
+        {{ $.Scratch.Get "iconAlign"  }}
     </div>
-
 </div>
 
 

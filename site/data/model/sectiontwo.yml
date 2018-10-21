@@ -4,3 +4,4 @@ iconsCopy:
   - copy: Lorem ipsum
     heading: Testing Heading
     icon: /images/uploads/streetscene.png
+    alignIcon: false
