@@ -5,59 +5,75 @@
         <div class="page-title outer-padding">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
-                        <h2>Our Impact</h2>
+                    {{ with .Site.Data.impact.pagename }}
+                        <h2>{{ .pageTitle }}</h2>
+                    {{ end }}    
                 </div>
             </div>
         </div>
         <!--- Page Body ---------------------------------->
         <div class="section-one">
             <div class="content-inner">
-                {{ with .Site.Data.model.sectionone }}
+                {{ with .Site.Data.impact.sectionone }}
                     {{ .sectionHead }}
-                    {{ .body | markdownify }}
                 {{ end }}
-    
             </div>
-        </div>
-        <div class="altbg">
-            <div class="section-two content-well">
+            <div class="content-well">
                 <div class="content-inner">
-            
-                    {{ range .Site.Data.model.sectiontwo.iconsCopy }}
-                    {{ if eq .alignIcon true }}
-                        {{ $.Scratch.Set "iconAlign" "rightAlign" }}
-                    {{ else if eq .alignIcon false }}
-                        {{ $.Scratch.Set "iconAlign" "leftAlign" }}
-                    {{ end }}
-                        <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
-                            <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
-                            <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                    {{ range .Site.Data.impact.sectionone.teacherVoices }}
+                        <p>"{{ .testimonial }}"</p>
+                    {{ end }}    
+                </div>
+            </div>            
+        </div>
+        <div class="section-two">
+            <div class="content-well">
+                <div class="post-navigation">
+                    {{ with .Site.Data.impact.sectiontwo }}
+                        <div class="side-header"><p>{{ .header }}</p></div>
+                        <div class="orange-box-wrapper">
+                            <div class="orange-box">
+                                <ul>
+                                    <li><h2>{{ .quantityOne }}</h2><h4>{{ .textOne }}</h4></li>
+                                    <li><h2>{{ .quantityTwo }}</h2><h4>{{ .textOne }}</h4></li>
+                                    <li><h2>{{ .quantityThree }}</h2><h4>{{ .textOne }}</h4></li>
+                                </ul>
+                            </div>     
                         </div>
-                    {{ end }}
+                    {{ end }}    
+                </div>
+            </div>            
+        </div>
+        <div class="section-three">
+            <div class="content-well">
+                {{ with .Site.Data.impact.sectionthree }}
+                    {{ .sectionHead }}
+                <div class="content-inner">
+                    {{ .blurb }}
+                {{ end }}
                 </div>
             </div>
-        </div>    
-        <div class="graphic-section content-well">
-            <img src="/images/coi.svg" />
         </div>
-        <div class="section-three content-well">
-                <div class="content-inner">
-             
-                    {{ range .Site.Data.model.sectionthree.iconsCopy }}
-                    {{ if eq .alignIcon true }}
-                        {{ $.Scratch.Set "iconAlign" "rightAlign" }}
-                    {{ else if eq .alignIcon false }}
-                        {{ $.Scratch.Set "iconAlign" "leftAlign" }}
-                    {{ end }}
-                        <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
-                            <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
-                            <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
-                        </div>
-                    {{ end }}
-                </div>
+        <div class="section-four">
+            <div class="content-well">
+                {{ range (where .Site.RegularPages "Params.contenttype" ("cases")) }}
+                    <ul id="blogfeed">
+                        <li class="bloglist-image">
+                            <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
+                        </li> 
+                        <li class="blog-excerpt">
+                            <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
+                            <p>{{ .Params.listSummary }}</p>
+                            <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
+                        </li>
+                    </ul> 
+                {{ end }}       
             </div>
-    </div>
-    
+        </div>
+        
+        
+       
+ 
     
     {{ partial "newsletter" . }}
 

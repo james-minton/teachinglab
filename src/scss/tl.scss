@@ -355,6 +355,25 @@ h6 {
     width: 80%;
     max-width: 80%;
 }
+.orange-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .orange-box {
+        ul {
+             margin-left: 0.2rem; 
+             margin-right: 1rem;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
 
 
 @import 'nav';

@@ -2,6 +2,7 @@
 title: Tangipahoa Parish
 date: 2018-10-22T15:00:35.432Z
 image: /images/uploads/streetscene.png
+contenttype: cases
 description: Lorem ipsum
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam risus
