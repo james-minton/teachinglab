@@ -14,18 +14,21 @@
     <div class="section-one">
 
     </div>
-    <div class="section-two">
+    <div class="section-two content-well">
+        <div class="content-inner">
      
-        {{ range .Site.Data.model.sectiontwo.iconsCopy }}
-          {{ if eq .alignIcon true }}
-            {{ $.Scratch.Set "iconAlign" "rightAlign" }}
-           
-          {{ else if eq .alignIcon false }}
-            {{ $.Scratch.Set "iconAlign" "leftAlign" }}
-          {{ end }}
-          
-        {{ end }}
-        {{ $.Scratch.Get "iconAlign"  }}
+            {{ range .Site.Data.model.sectiontwo.iconsCopy }}
+            {{ if eq .alignIcon true }}
+                {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+            {{ else if eq .alignIcon false }}
+                {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+            {{ end }}
+                <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
+                    <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                    <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                </div>
+            {{ end }}
+        </div>
     </div>
 </div>
 

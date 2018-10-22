@@ -317,6 +317,25 @@ h6 {
         }
     }
 }
+.icon-section {
+    display: flex;
+    justify-content: space-between;
+    &.leftAlign {
+        flex-direction: row;
+    }
+    &.rightAlign {
+        flex-direction: row-reverse;
+    }
+    .model-icon {
+        width: 30%;
+        img {
+            max-width: 100%;
+        }
+    }
+    .model-copy {
+        width: 60%;
+    }
+}
 .social-icons {
     display: flex;
     justify-content: center;

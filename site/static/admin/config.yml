@@ -134,7 +134,7 @@ collections:
   - label: "Our Model"
     name: "ourModel"
     files:
-      - label: "Section 1"
+      - label: "Panel 1 - The Challenge"
         name: "sectionOne"
         file: "site/data/model/sectionone.yml"
         fields:
@@ -142,7 +142,7 @@ collections:
           - {label: Page Title, name: pageTitle, widget: string}
           - {label: Section Heading, name: sectionHead, widget: string} 
           - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-      - label: "Section 2"
+      - label: "Panel 2 - Teaching Lab Model"
         name: "sectionTwo"
         file: "site/data/model/sectiontwo.yml"
         fields:  
@@ -156,9 +156,23 @@ collections:
               - {label: Icon, name: icon, widget: image}
               - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
               - {label: Heading, name: heading, widget: string} 
-              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}    
+      - label: "Panel 3 - Labs"
+              name: "sectionThree"
+              file: "site/data/model/sectionthree.yml"
+              fields:  
+                - {label: Title, name: title, widget: hidden}  
+                - {label: Section Heading, name: sectionHead, widget: string}
+                - {label: Intro, name: introCopy, widget: string}
+                - label: Icons and Copy
+                  name: iconsCopy
+                  widget: list
+                  fields:
+                    - {label: Icon, name: icon, widget: image}
+                    - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
+                    - {label: Heading, name: heading, widget: string} 
+                    - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               
-
 
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
