@@ -20,7 +20,7 @@ iconsCopy:
       adoption of new content or techniques or passively comply.
     heading: HEART
     icon: /images/uploads/streetscene.png
-  - alignIcon: true
+  - alignIcon: false
     copy: >-
       Professional learning that is structured around repeated cycles of
       inquiry, which allow teachers to apply what they learn and evaluate
