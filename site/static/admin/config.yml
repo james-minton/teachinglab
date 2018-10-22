@@ -178,7 +178,7 @@ collections:
     files:
       - label: "Page Name"
         name: "pageName"
-        file: "site/data/impact/sectionone.yml"
+        file: "site/data/impact/pagename.yml"
         fields: 
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
