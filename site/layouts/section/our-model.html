@@ -12,7 +12,13 @@
     </div>
     <!--- Page Body ---------------------------------->
     <div class="section-one">
+        <div class="content-inner">
+            {{ with .Site.Data.model.sectionone }}
+                {{ .sectionHead }}
+                {{ .body | markdownify }}
+            {{ end }}
 
+        </div>
     </div>
     <div class="section-two content-well">
         <div class="content-inner">
