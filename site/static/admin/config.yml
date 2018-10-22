@@ -158,20 +158,20 @@ collections:
               - {label: Heading, name: heading, widget: string} 
               - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}    
       - label: "Panel 3 - Labs"
-              name: "sectionThree"
-              file: "site/data/model/sectionthree.yml"
-              fields:  
-                - {label: Title, name: title, widget: hidden}  
-                - {label: Section Heading, name: sectionHead, widget: string}
-                - {label: Intro, name: introCopy, widget: string}
-                - label: Icons and Copy
-                  name: iconsCopy
-                  widget: list
-                  fields:
-                    - {label: Icon, name: icon, widget: image}
-                    - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
-                    - {label: Heading, name: heading, widget: string} 
-                    - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+        name: "sectionThree"
+        file: "site/data/model/sectionthree.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+          - label: Icons and Copy
+            name: iconsCopy
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
+              - {label: Heading, name: heading, widget: string} 
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               
 
 
