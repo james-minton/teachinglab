@@ -1,4 +1,64 @@
 {{ define "main" }}
 
+<div id="our-model-page" class="pageWrap">
+        <div class="hero-panel-sub"></div>
+        <div class="page-title outer-padding">
+            <div class="title-box inner-wrapper">
+                <div class="title-container">
+                        <h2>Our Impact</h2>
+                </div>
+            </div>
+        </div>
+        <!--- Page Body ---------------------------------->
+        <div class="section-one">
+            <div class="content-inner">
+                {{ with .Site.Data.model.sectionone }}
+                    {{ .sectionHead }}
+                    {{ .body | markdownify }}
+                {{ end }}
+    
+            </div>
+        </div>
+        <div class="altbg">
+            <div class="section-two content-well">
+                <div class="content-inner">
+            
+                    {{ range .Site.Data.model.sectiontwo.iconsCopy }}
+                    {{ if eq .alignIcon true }}
+                        {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ else if eq .alignIcon false }}
+                        {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ end }}
+                        <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
+                            <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                            <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>    
+        <div class="graphic-section content-well">
+            <img src="/images/coi.svg" />
+        </div>
+        <div class="section-three content-well">
+                <div class="content-inner">
+             
+                    {{ range .Site.Data.model.sectionthree.iconsCopy }}
+                    {{ if eq .alignIcon true }}
+                        {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ else if eq .alignIcon false }}
+                        {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ end }}
+                        <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
+                            <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                            <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+    </div>
+    
+    
+    {{ partial "newsletter" . }}
 
 {{ end }}

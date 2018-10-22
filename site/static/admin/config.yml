@@ -172,8 +172,62 @@ collections:
               - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
               - {label: Heading, name: heading, widget: string} 
               - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              
-
+  
+  - label: "Our Impact"
+    name: "ourImpact"
+    files:
+      - label: "Page Name"
+        name: "pageName"
+        file: "site/data/impact/sectionone.yml"
+        fields: 
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+      - label: "Panel 1 - Teacher Voices"
+        name: "sectionOne"
+        file: "site/data/impact/sectionone.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - label: Teacher Voices 
+            name: teacherVoices
+            widget: list
+            fields:
+              - {label: Testimonial, name: testimonial, widget: string, hint: "No need to add quotation marks; they appear automatically."} 
+      - label: "Panel 2 - Our Impact Graphic"
+        name: "panelTwo"
+        file: "site/data/impact/sectiontwo.yml"
+        fields:
+          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Quantity One, name: quantityOne, widget: string, required: false}
+          - {label: Text One, name: textOne, widget: string, required: false}
+          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
+          - {label: Text Two, name: textTwo, widget: string, required: false} 
+          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
+          - {label: Text Three, name: textThree, widget: string, required: false}
+      - label: "Panel 3 - Case Studies"
+        name: "sectionThree"
+        file: "site/data/impact/sectionthree.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Case Studies Blurb, name: blurb, widget: string}
+          
+  - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
+    label: "Case Studies" # Used in the UI
+    folder: "/site/content/case-studies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Case Study Title", name: "title", widget: "string"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      # - {label: "Author Name", name: "postauthorname", widget: "string"}
+      # - {label: "Author Title", name: "postauthortitle", widget: "string"} 
+      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
+      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}        
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
