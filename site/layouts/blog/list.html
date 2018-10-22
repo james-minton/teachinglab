@@ -15,7 +15,7 @@
     <div id="content-wrapper">
         <div class="content-well">
             {{ range .Paginator.Pages }}
-            <ul id="blogfeed">
+            <ul class="blogfeed">
                 <li class="bloglist-image">
                     <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
                 </li> 

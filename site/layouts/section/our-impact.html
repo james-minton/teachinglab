@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div id="our-model-page" class="pageWrap">
+<div id="our-impact-page" class="pageWrap">
         <div class="hero-panel-sub"></div>
         <div class="page-title outer-padding">
             <div class="title-box inner-wrapper">
@@ -56,8 +56,8 @@
         </div>
         <div class="section-four">
             <div class="content-well">
-                {{ range (where .Site.RegularPages "Params.contenttype" ("cases")) }}
-                    <ul id="blogfeed">
+                {{ range first 20 (where .Site.RegularPages "Params.contenttype" ("cases")) }}
+                    <ul class="blogfeed">
                         <li class="bloglist-image">
                             <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
                         </li> 
