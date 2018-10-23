@@ -213,6 +213,9 @@ h6 {
     transform-origin: left;
     left: 10px;
     width: auto;
+    &.active {
+        left: 13px;
+    }
 }
 
 /* Page Elements ------------ */
