@@ -133,6 +133,7 @@ collections:
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}                       
+      
 
   - label: "Our Model"
     name: "ourModel"
@@ -254,6 +255,13 @@ collections:
   - label: "USA Map"
     name: usaMap
     files:
+      - label: "Map Intro"
+        name: "introCopy"
+        file: "site/data/mapSVG/contents.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       - label: "Active / Inactive US States"
         name: activeStates
         file: "site/data/mapSVG/states.yml"
