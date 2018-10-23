@@ -13,8 +13,8 @@
             {{ with .Site.Data.about.contents }}
                 <h3 class="bold-blue">{{ .sectionHead }}</h3>
             <div class="content-inner">
-                {{ .sectionBoldIntro }}
-                {{ .body }}
+                <h2>{{ .sectionBoldIntro }}</h2>
+                <p>{{ .body }}</p>
             {{ end }}
             </div>
         </div>         
@@ -22,7 +22,7 @@
 <!-- LEADERSHIP ------------------------>    
     <div class="team-bios founders content-well">
         {{ with .Site.Data.about.founders }}
-            <h3 class="bold-blue">LEADERSHIP</h3>
+            <h3 class="bold-blue uppercase">LEADERSHIP</h3>
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.founders.foundersList }} 
@@ -33,7 +33,7 @@
 <!-- STAFF ------------------------>    
     <div class="team-bios staff content-well">
         {{ with .Site.Data.about.team }}
-            <h3 class="bold-blue">STAFF</h3>
+            <h3 class="bold-blue uppercase">STAFF</h3>
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.founders.teamList }} 
@@ -44,7 +44,7 @@
 <!-- LEADERSHIP ------------------------>    
     <div class="team-bios board content-well">
         {{ with .Site.Data.about.board }}
-            <h3 class="bold-blue">BOARD</h3>
+            <h3 class="bold-blue uppercase">BOARD</h3>
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.founders.boardList }} 
@@ -54,9 +54,17 @@
     </div>      
 <!-- MAP ------------------------------->    
     <div id="map-panel" class="outer-padding">
-        <div class="inner-wrapper">
-            {{ partial "mapSVG" . }}
+        <div class="content-well">
+            {{ with .Site.Data.mapSVG.contents }}
+                <h3 class="bold-blue uppercase">{{ .sectionHead }}</h3>
+                <div class="content-inner">
+                    <p>{{ .body }}</p>
+                </div>
+            {{ end }}    
         </div>
+            <div class="inner-wrapper">
+                {{ partial "mapSVG" . }}
+            </div>
     </div>
 
 </div>

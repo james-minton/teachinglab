@@ -26,12 +26,19 @@
             }
             .staff-entry {
                 width: 180px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                @include for-1440-up {
+                    width: 200px;
+                }
                 svg.bio-arrow {
                     width: 40px;
                     height: 40px;
                     position: relative;
                     top: -36px;
-                    right: -118px;
+                    right: -54px;
                 }
             }
             .staff-pic {
