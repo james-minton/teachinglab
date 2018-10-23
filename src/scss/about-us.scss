@@ -6,6 +6,11 @@
         .content-inner {
             display: flex;
             justify-content: space-evenly;
+            background-color: $lightblue;
+            @include for-1024-up {
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
             a.staff-link:hover {
                 svg {
                     path#Shape {

@@ -88,7 +88,7 @@ collections:
           - {label: Section Heading, name: sectionHead, widget: string} 
           - {label: Section Bold Intro, name: sectionBoldIntro, widget: string} 
           - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-      - label: "Founders Section"
+      - label: "Leadership Section"
         name: "founders"
         file: "site/data/about/founders.yml"
         fields:  
@@ -103,7 +103,7 @@ collections:
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}  
-      - label: "Team Section"
+      - label: "Staff Section"
         name: "team"
         file: "site/data/about/team.yml"
         fields:  
