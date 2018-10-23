@@ -67,3 +67,14 @@ var $flyout = $(".app-menu");
     // Do something else, like open/close menu
   });
 
+// Highlight page section on scroll
+
+$(window).on('scroll', function() {
+    $('.target').each(function() {
+        if($(window).scrollTop() >= $(this).offset().top -500) {
+            var id = $(this).attr('id');
+            $('h3').removeClass('active');
+            $('h3[ id='+ id +']').addClass('active');
+        }
+    });
+});

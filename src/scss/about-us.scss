@@ -2,6 +2,59 @@
     .title-box {
         background: $brightblue;
     }
+    .section-one {
+        @include for-1440-up {
+            margin-bottom: 8rem;
+        }
+        h2 {
+            @include for-1440-up {
+                margin-bottom: 5.6rem;
+            }
+        }
+        .rotate {
+            top: 154px;
+            @include for-1440-up {
+                top: 154px;
+                
+            }
+        }
+    }
+    .team-bios {
+        @include for-1440-up {
+            margin-bottom: 4rem;
+            &.board {
+                margin-bottom: 8rem;
+            }
+        }
+        &.founders h3.rotate {
+                top: 100px;
+            @include for-1440-up {
+                 top: 132px;
+                
+            }
+        }
+        &.staff h3.rotate {
+            top: 132px;
+            @include for-1440-up {
+                top: 54px;
+               
+            }
+        }    
+        &.board h3.rotate {
+            top: 100px;
+            @include for-1440-up {
+                top: 68px; 
+            }
+        }
+    }
+    #map-panel {
+        h3.rotate {
+            top: 114px;
+            @include for-1440-up {
+                top: 204px;
+            }
+        }
+    }
     .team-bios {
         .content-inner {
             display: flex;
@@ -31,7 +84,13 @@
                 text-align: center;
                 flex-direction: column;
                 @include for-1440-up {
-                    width: 200px;
+                    width: 224px;
+                    h4, h5 {
+                        line-height: 2.4rem;
+                    }
+                    h4 {
+                        margin-bottom: .8rem;
+                    }
                 }
                 svg.bio-arrow {
                     width: 40px;
@@ -44,6 +103,10 @@
             .staff-pic {
                 @include for-1024-up {
                     height: 160px;
+                    width: 160px;
+                }
+                @include for-1440-up {
+                    margin-bottom: 2.4rem;
                 }
                 img {
                     border-radius: 50%;
@@ -102,9 +165,10 @@
             display: flex;
             position: relative;
             padding-left: 170px;
+            top: -4px;
             h4.modal-staff {
                 letter-spacing: 0.153rem;
-                line-height: 1;
+                /* line-height: 1;*/
             }
         } 
         .modal-body {
@@ -118,8 +182,14 @@
     }
     #map-panel {
         background: #EFFBFF;
-        .content-wrapper {
-        
+        @include for-1440-up {
+            .content-well {
+                padding-top: 6.4rem;
+            }
+            .inner-wrapper {
+                margin-top: 6.4rem;
+                padding-bottom: 8rem;
+            }
         }
     }
        

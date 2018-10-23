@@ -55,7 +55,9 @@
             <div class="modal-body">
               <div class="modal-bio"><p class="light">{{ .bio }}</p></div>
             </div>
-            <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
+            {{ if isset . "quote" }}
+              <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
+            {{ end }}  
           </div>
         </div>
       </div>

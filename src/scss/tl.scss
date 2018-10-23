@@ -59,6 +59,7 @@ p {
         font-size: 2.1rem;
         letter-spacing: 0.03rem;
         line-height: 3.6rem;
+        margin-bottom: 3.2rem;
     }   
     font-weight: 300;
     color: $deepblack;
@@ -129,6 +130,9 @@ h3 {
     }   
     color: $deepblack;
     font-weight: 600;
+    &.active {
+        border-bottom: 3px solid $boldblue;
+    }
 }
 h4 {
     font-size: 1.2rem;
@@ -202,6 +206,14 @@ h6 {
 .bold-blue {
     color: $boldblue;
 }
+.rotate {
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    transform-origin: left;
+    left: 10px;
+    width: auto;
+}
 
 /* Page Elements ------------ */
 
@@ -255,6 +267,7 @@ h6 {
     margin: auto;
 }
 .content-well {
+    position: relative;
     max-width: 767px;
     @include for-768-up {
         max-width: 720px;
