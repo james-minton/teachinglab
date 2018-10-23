@@ -14,7 +14,7 @@
 <div id="blogList">
     <div id="content-wrapper">
         <div class="content-well">
-            {{ range .Paginator.Pages }}
+            {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
             <ul class="blogfeed">
                 <li class="bloglist-image">
                     <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>

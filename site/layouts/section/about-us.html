@@ -8,8 +8,26 @@
             </div>
         </div>
     </div>
-    <div class="team-bios founders outer-padding">
-        {{ partial "aboutmodals" . }}
+    <div class="section-one">
+        <div class="content-well">
+            {{ with .Site.Data.about.contents }}
+                {{ .sectionHead }}
+            <div class="content-inner">
+                {{ .sectionBoldIntro }}
+                {{ .body }}
+            {{ end }}
+            </div>
+        </div>         
+    </div>
+    <div class="team-bios founders content-well">
+        {{ with .Site.Data.about.founders }}
+            {{ .sectionHead }}
+        {{ end }} 
+        <div class="content-inner"> 
+            {{ range .Site.Data.about.founders.foundersList }} 
+                {{ partial "aboutmodals" . }}
+            {{ end }}    
+        </div>     
     </div>
     <div id="map-panel" class="outer-padding">
         <div class="inner-wrapper">

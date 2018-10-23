@@ -92,7 +92,8 @@ collections:
         name: "founders"
         file: "site/data/about/founders.yml"
         fields:  
-          - {label: Title, name: title, widget: hidden}  
+          - {label: Title, name: title, widget: hidden} 
+          - {label: Section Heading, name: sectionHead, widget: string}  
           - label: Founders
             name: foundersList
             widget: list
@@ -106,7 +107,8 @@ collections:
         name: "team"
         file: "site/data/about/team.yml"
         fields:  
-          - {label: Title, name: title, widget: hidden}  
+          - {label: Title, name: title, widget: hidden} 
+          - {label: Section Heading, name: sectionHead, widget: string}  
           - label: Team
             name: teamList
             widget: list
@@ -120,7 +122,8 @@ collections:
         name: "board"
         file: "site/data/about/board.yml"
         fields:  
-          - {label: Title, name: title, widget: hidden}  
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}   
           - label: Board
             name: boardList
             widget: list
