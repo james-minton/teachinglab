@@ -3,55 +3,65 @@
         background: $brightblue;
     }
     .section-one {
+        margin-bottom: 4rem;
+        @include for-768-up {
+            margin-bottom: 5.6rem;
+        }
         @include for-1440-up {
             margin-bottom: 8rem;
         }
         h2 {
+            margin-bottom: 2.4rem;
+            @include for-768-up {
+                margin-bottom: 4rem;
+            }
             @include for-1440-up {
                 margin-bottom: 5.6rem;
             }
         }
         .rotate {
-            top: 154px;
+            @include for-1024-up {
+            }
             @include for-1440-up {
-                top: 154px;
-                
             }
         }
     }
     .team-bios {
-        @include for-1440-up {
+        margin-bottom: 3.2rem;
+        @include for-768-up {
             margin-bottom: 4rem;
             &.board {
                 margin-bottom: 8rem;
             }
         }
         &.founders h3.rotate {
-                top: 100px;
+            @include for-1024-up {
+            }
             @include for-1440-up {
-                 top: 132px;
                 
             }
         }
         &.staff h3.rotate {
-            top: 132px;
+            @include for-1024-up {
+            }
             @include for-1440-up {
-                top: 54px;
                
             }
         }    
         &.board h3.rotate {
-            top: 100px;
+            @include for-1024-up {
+            }
+            
             @include for-1440-up {
-                top: 68px; 
             }
         }
     }
     #map-panel {
-        h3.rotate {
-            top: 114px;
+        .rotate {
+            @include for-1024-up {
+                top: 264px;
+            }
             @include for-1440-up {
-                top: 204px;
             }
         }
     }
@@ -60,9 +70,10 @@
             display: flex;
             justify-content: space-evenly;
             background-color: $lightblue;
-            @include for-1024-up {
-                padding-top: 4rem;
-                padding-bottom: 4rem;
+            flex-wrap: wrap;
+            padding: 2.4rem 0.8rem 0;
+            @include for-768-up {
+                padding: 4rem 2.4rem 0;
             }
             a.staff-link:hover {
                 svg {
@@ -78,11 +89,22 @@
                 }
             }
             .staff-entry {
-                width: 180px;
+                width: 160px;
                 display: flex;
                 align-items: center;
                 text-align: center;
                 flex-direction: column;
+                margin-bottom: 2.4rem;
+                @include for-768-up {
+                    width: 224px;
+                    margin-bottom: 4rem;
+                    h4, h5 {
+                        line-height: 1.6rem;
+                    }
+                    h4 {
+                        margin-bottom: .8rem;
+                    }
+                }
                 @include for-1440-up {
                     width: 224px;
                     h4, h5 {
@@ -101,7 +123,11 @@
                 }
             }
             .staff-pic {
-                @include for-1024-up {
+                height: 128px;
+                @include for-768-up {
+                    margin-bottom: 2.4rem;
+                }
+                @include for-768-up {
                     height: 160px;
                     width: 160px;
                 }
@@ -110,7 +136,8 @@
                 }
                 img {
                     border-radius: 50%;
-                    @include for-1024-up {
+                    width: 120px;
+                    @include for-768-up {
                         width: 160px;
                     }
                 }
@@ -126,6 +153,13 @@
         padding: 0;
     }
     .modal-dialog {
+        @media (max-width: 575px) {
+            &.modal-dialog-centered {
+                max-width: 85%;
+                width: 85%;
+                margin: auto;
+            }
+        }
         .modal-content {
             background: rgba(0,0,0,0);
             border: none;
@@ -136,7 +170,13 @@
         .modal-header {
             border: none;
             background: $lightblue;
-            padding: 48px 96px 0;
+            padding: 1.4rem 3.2rem 0.2rem;
+            @include for-768-up {
+                padding: 48px 72px 0;
+            }
+            @include for-1024-up {
+                padding: 48px 96px 0;
+            }
             .staff-wrap {
                 display: flex;
             }
@@ -149,23 +189,44 @@
             button {
                     width: 44px;
                     position: relative;
-                    top: -21px;
-                    right: -46px;
+                    top: 8px;
+                    left: -4px;
+                    @include for-768-up {
+                        top: -21px;
+                        right: -20px;
+                    }
+                    @include for-1024-up {
+                        right: -46px;
+                    }
                     &:focus {
                         display: none;
                     }
                 img {
-                    width: 44px;
+                    width: 32px;
+                    @include for-768-up {
+                        width: 44px;
+                    }
                     top: 0;
                 }
             }
         }
         
         .staff-headline {
-            display: flex;
+            display: block;
             position: relative;
-            padding-left: 170px;
-            top: -4px;
+            padding: 8.8rem 0 0;
+            @include for-phone-only {
+                line-height: 0.6rem;
+            }
+            @include for-768-up {
+                padding: 6.4rem 0 0;
+            }
+            @include for-1024-up {
+                line-height: 1rem;
+                display: flex;
+                padding: 0 0 0 170px;
+                top: 0px;
+            }
             h4.modal-staff {
                 letter-spacing: 0.153rem;
                 /* line-height: 1;*/
@@ -173,15 +234,42 @@
         } 
         .modal-body {
             background: $lightblue;
-            padding: 28px 96px;
+            padding: 1.6rem 3.2rem;
+            @include for-768-up {
+                padding: 28px 72px;
+            }
+            @include for-1024-up {
+                padding: 28px 96px;
+            }
         }
         .modal-quote {
             background: $slateblue;
-            padding: 48px 96px;
+            padding: 3.2rem 3.2rem;
+            @include for-768-up {
+                padding: 48px 72px;
+            }
+            @include for-1024-up {
+                padding: 48px 96px;
+            }
         }
     }
     #map-panel {
         background: #EFFBFF;
+        @include for-phone-only {
+            padding: 3.2rem 2.4rem 4rem;
+            .inner-wrapper {
+                margin: 2.4rem 0;
+            }
+        }
+        @include for-768-up {
+            .content-well {
+                padding-top: 5.6rem;
+            }
+            .inner-wrapper {
+                margin-top: 5.6rem;
+                padding-bottom: 7.2rem;
+            }
+        }
         @include for-1440-up {
             .content-well {
                 padding-top: 6.4rem;

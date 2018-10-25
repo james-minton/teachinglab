@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div id="about-us-page" class="pageWrap">
     <div class="hero-panel-sub"></div>
-    <div class="page-title outer-padding">
+    <div class="page-title">
         <div class="title-box inner-wrapper">
             <div class="title-container">
                     <h2>About Us</h2>
@@ -11,7 +11,9 @@
     <div class="section-one">
         <div class="content-well target" id="intro">
             {{ with .Site.Data.about.contents }}
-                <h3 class="bold-blue uppercase rotate" id="intro">{{ .sectionHead }}</h3>
+                <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
+                </div>
             <div class="content-inner">
                 <h2>{{ .sectionBoldIntro }}</h2>
                 <p>{{ .body | markdownify }}</p>
@@ -22,7 +24,9 @@
 <!-- LEADERSHIP ------------------------>    
     <div class="team-bios founders content-well target" id="leaders">
         {{ with .Site.Data.about.founders }}
-            <h3 class="bold-blue uppercase rotate" id="leaders">LEADERSHIP</h3>
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="leaders">LEADERSHIP</h3>
+            </div>    
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.founders.foundersList }} 
@@ -33,7 +37,9 @@
 <!-- STAFF ------------------------>    
     <div class="team-bios staff content-well target" id="staff">
         {{ with .Site.Data.about.team }}
-            <h3 class="bold-blue uppercase rotate" id="staff">STAFF</h3>
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="staff">STAFF</h3>
+            </div>
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.team.teamList }} 
@@ -44,7 +50,9 @@
 <!-- LEADERSHIP ------------------------>    
     <div class="team-bios board content-well target" id="board">
         {{ with .Site.Data.about.board }}
-            <h3 class="bold-blue uppercase rotate" id="board">BOARD</h3>
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="board">BOARD</h3>
+            </div>    
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.board.boardList }} 
@@ -56,7 +64,9 @@
     <div id="map-panel" class="outer-padding">
         <div class="content-well target" id="map">
             {{ with .Site.Data.mapSVG.contents }}
-                <h3 class="bold-blue uppercase rotate" id="map">{{ .sectionHead }}</h3>
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="map">{{ .sectionHead }}</h3>
+            </div>    
                 <div class="content-inner">
                     <p>{{ .body | markdownify }}</p>
                 </div>
@@ -68,4 +78,5 @@
     </div>
 
 </div>
+{{ partial "newsletter" . }}
 {{ end }}

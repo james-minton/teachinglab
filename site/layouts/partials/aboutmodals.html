@@ -46,7 +46,7 @@
                   {{ else if in .staffImage ".jpeg" }}
                     {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
                   {{ end }}
-                <div class="staff-headline"><h4 class="uppercase bump-up modal-staff">{{ .staffName }}&nbsp; &nbsp; &nbsp; &nbsp;<h4 class="uppercase medium">{{ .staffTitle }}</h4></div>
+                <div class="staff-headline"><h4 class="uppercase bump-up modal-staff">{{ .staffName }}&nbsp; &nbsp; &nbsp;</h4><h4 class="uppercase medium">{{ .staffTitle }}</h4></div>
               </div>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true"><img src="/images/icons/modal-close.svg"/></span>

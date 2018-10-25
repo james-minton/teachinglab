@@ -1,5 +1,8 @@
 #newsletter {
-    height: 200px;
+    height: 280px;
+    @include for-768-up {
+        height: 200px;
+    }
     background-color: $brightblue;
     color: white;
     display: flex;
@@ -14,8 +17,9 @@
     }
     .panel-overlay.content-well {
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         @include for-768-up {
-            flex-direction: column;
             justify-content: center;
             width: 100%;
         }
@@ -29,9 +33,13 @@
             display: block;
             width: 100%;
             text-align: center;
-            top: -1.9rem;
             position: relative;
+            font-weight: 400;
+            @include for-phone-only {
+                margin-bottom: 2.4rem;
+            }
             @include for-768-up {
+                top: -1.9rem;
                 font-size: 1.8rem;
             }
             @include for-1024-up {
@@ -65,8 +73,11 @@
             }
         }
         input.newsform-input {
-            width: calc(100% - 181px);
+            width: 100%;
+            height: 4.8rem;
+            font-size: 1.3rem;
             @include for-768-up {
+                width: calc(100% - 181px);
                 height: 64px;
                 font-size: 1.3rem;
             }
@@ -80,9 +91,15 @@
         input.news-signup {
             background-color: rgba(0,0,0,0);
             width: 154px;
+            margin-left: 0;
+            height: 4.8rem;
+            font-size: 1.5rem;
+            @include for-phone-only {
+                margin-top: 2.4rem;
+            }
             @include for-768-up {
                 height: 62px;
-                font-size: 1.5rem;
+                margin-left: 2.4rem;
             }
             @include for-1440-up {
                 height: 88px;
@@ -91,7 +108,7 @@
             border: 1px solid #fff;
             color: #fff;
             font-weight: 700;
-            margin-left: 2.4rem;
+            
             &:hover {
                 color: $brightblue;
                 background-color: #fff;

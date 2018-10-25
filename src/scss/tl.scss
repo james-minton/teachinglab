@@ -21,6 +21,10 @@ $tealgreen: #4BC6B9;
 
 /* Breakpoints ---------------------------- */
 
+@mixin for-phone-only {
+    @media (max-width: 767px) { @content; }
+}
+
 @mixin for-768-up {
     @media (min-width: 768px) { @content; }
 }
@@ -50,10 +54,12 @@ p {
     font-size: 1.4rem;
     letter-spacing: 0.01rem;
     line-height: 2.6rem;
+    margin-bottom: 1.6rem;
     @include for-768-up {
         font-size: 1.8rem;
         letter-spacing: 0.02rem;
         line-height: 3rem;
+        margin-bottom: 2.4rem;
     }
     @include for-1440-up {
         font-size: 2.1rem;
@@ -132,6 +138,7 @@ h3 {
     font-weight: 600;
     &.active {
         border-bottom: 3px solid $boldblue;
+        display: inline-block;
     }
 }
 h4 {
@@ -207,14 +214,31 @@ h6 {
     color: $boldblue;
 }
 .rotate {
-    transform: rotate(270deg);
-    white-space: nowrap;
-    position: absolute;
-    transform-origin: left;
-    left: 10px;
-    width: auto;
+    max-width: 360px;
+    margin: 0 auto 1.6rem;
+
+    @include for-768-up {
+        transform: rotate(270deg);
+        white-space: nowrap;
+        position: absolute;
+        transform-origin: left top;
+        width: auto;
+        text-align: right;
+        width: 200px;
+        top: 205px;
+        left: -6px;
+        margin: 0;
+    }
+    @include for-1440-up {
+        left: 11px;
+    }
     &.active {
-        left: 13px;
+        @include for-1024-up {
+           
+        }
+        @include for-1440-up {
+        }
+        
     }
 }
 
@@ -232,6 +256,8 @@ h6 {
 .hero-panel-sub {
     width: 100%;
     background-color: #eaeaea;
+        height: 176px;
+        margin-bottom: 4rem;
     @include for-768-up {
         height: 192px;
         margin-bottom: 5.6rem;
@@ -301,11 +327,12 @@ h6 {
 .title-box {
     background: $brightblue;
     margin: auto;
-   
+    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     align-content: center;
     max-width: 100%;
+    height: 80px;
     @include for-768-up {
         max-width: 720px;
         height: 100px;
@@ -321,6 +348,7 @@ h6 {
     }
     
     .title-container {
+        max-width: 360px;
         @include for-768-up {
             max-width: 640px;
         }
