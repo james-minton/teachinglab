@@ -10,7 +10,7 @@ iconsCopy:
       ineffective or even counterproductive and do not grow their knowledge over
       time.
     heading: Head
-    icon: /images/uploads/head.svg
+    icon: ''
   - alignIcon: true
     copy: >-
       Teacher-led community that builds both social capital and buy-in from
@@ -19,7 +19,7 @@ iconsCopy:
       feel that professional learning is not relevant to their needs and resist
       adoption of new content or techniques or passively comply.
     heading: HEART
-    icon: /images/uploads/cycle.svg
+    icon: /images/uploads/love_180.png
   - alignIcon: false
     copy: >-
       Professional learning that is structured around repeated cycles of
