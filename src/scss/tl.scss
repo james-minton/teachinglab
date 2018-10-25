@@ -224,13 +224,13 @@ h6 {
         transform-origin: left top;
         width: auto;
         text-align: right;
-        width: 200px;
-        top: 205px;
+        width: 440px;
+        top: 366px;
         left: -6px;
         margin: 0;
     }
     @include for-1440-up {
-        left: 11px;
+        left: -7px;
     }
     &.active {
         @include for-1024-up {
@@ -239,6 +239,42 @@ h6 {
         @include for-1440-up {
         }
         
+    }
+}
+.margb80 {
+    margin-bottom: 4rem;
+        @include for-768-up {
+            margin-bottom: 5.6rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 8rem;
+        }
+}
+.margb72 {
+    margin-bottom: 4rem;
+        @include for-768-up {
+            margin-bottom: 5.6rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 7.2rem;
+        }
+}
+.pad80 {
+    padding: 4rem 0;
+    @include for-768-up {
+        padding: 5.6rem 0;
+    }
+    @include for-1440-up {
+        padding: 8rem 0;
+    }
+}
+.pad96 {
+    padding: 5.6rem 0;
+    @include for-768-up {
+        padding: 7.2rem 0;
+    }
+    @include for-1440-up {
+        padding: 9.6rem 0;
     }
 }
 
@@ -366,25 +402,7 @@ h6 {
         }
     }
 }
-.icon-section {
-    display: flex;
-    justify-content: space-between;
-    &.leftAlign {
-        flex-direction: row;
-    }
-    &.rightAlign {
-        flex-direction: row-reverse;
-    }
-    .model-icon {
-        width: 30%;
-        img {
-            max-width: 100%;
-        }
-    }
-    .model-copy {
-        width: 60%;
-    }
-}
+
 .graphic-section {
     img {
         max-width: 100%;
@@ -432,3 +450,4 @@ h6 {
 @import 'flyout.scss';
 @import 'footer.scss';
 @import 'our-impact.scss';
+@import 'our-model.scss';

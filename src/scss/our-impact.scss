@@ -1,4 +1,13 @@
 #our-impact-page {
+    .section-one {
+        margin-bottom: 4rem;
+        @include for-768-up {
+            margin-bottom: 5.6rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 8rem;
+        }
+    }
     .section-four {
         .content-well {
             ul:nth-of-type(1n) {

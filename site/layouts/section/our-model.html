@@ -12,17 +12,27 @@
     </div>
     <!--- Page Body ---------------------------------->
     <div class="section-one">
-        <div class="content-inner">
+        <div class="content-well target" id="intro">
             {{ with .Site.Data.model.sectionone }}
-                {{ .sectionHead }}
-                {{ .body | markdownify }}
+                <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
+                </div>
+                <div class="content-inner">    
+                    <p>{{ .body | markdownify }}</p>
+                </div>    
             {{ end }}
 
         </div>
     </div>
-    <div class="altbg">
-        <div class="section-two content-well">
+    <div class="altbg model pad96">
+        <div class="section-two content-well target" id="model">
+            {{ with .Site.Data.model.sectiontwo }}
+            <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="model">{{ .sectionHead }}</h3>
+                </div>
+             
             <div class="content-inner">
+                <p class="margb72">{{ .introCopy }}</p>{{ end }}   
         
                 {{ range .Site.Data.model.sectiontwo.iconsCopy }}
                 {{ if eq .alignIcon true }}
@@ -30,9 +40,9 @@
                 {{ else if eq .alignIcon false }}
                     {{ $.Scratch.Set "iconAlign" "leftAlign" }}
                 {{ end }}
-                    <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
+                    <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
                         <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
-                        <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                        <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}
             </div>
@@ -41,7 +51,7 @@
     <div class="graphic-section content-well">
         <img src="/images/coi.svg" />
     </div>
-    <div class="section-three content-well">
+    <div class="section-three content-well pad96">
             <div class="content-inner">
          
                 {{ range .Site.Data.model.sectionthree.iconsCopy }}
@@ -50,9 +60,9 @@
                 {{ else if eq .alignIcon false }}
                     {{ $.Scratch.Set "iconAlign" "leftAlign" }}
                 {{ end }}
-                    <div class="icon-section {{ $.Scratch.Get "iconAlign"  }}">
+                    <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
                         <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
-                        <div class="model-copy">{{ .heading }}<br/>{{ .copy }}</div>
+                        <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}
             </div>

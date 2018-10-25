@@ -13,9 +13,11 @@
         </div>
         <!--- Page Body ---------------------------------->
         <div class="section-one">
-            <div class="content-inner">
+            <div class="content-well target" id="intro">
                 {{ with .Site.Data.impact.sectionone }}
-                    {{ .sectionHead }}
+                <div class="rotate">
+                        <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
+                    </div>
                 {{ end }}
             </div>
             <div class="content-well">
