@@ -10,7 +10,7 @@ iconsCopy:
       ineffective or even counterproductive and do not grow their knowledge over
       time.
     heading: Head
-    icon: ''
+    icon: /images/uploads/head_180.png
   - alignIcon: true
     copy: >-
       Teacher-led community that builds both social capital and buy-in from
@@ -29,4 +29,4 @@ iconsCopy:
       regular practice and those that are adopted are not verified using
       evidence of student learning.
     heading: HABITS
-    icon: /images/uploads/streetscene.png
+    icon: /images/uploads/cycle_180.png
