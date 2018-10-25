@@ -95,6 +95,13 @@
                 text-align: center;
                 flex-direction: column;
                 margin-bottom: 2.4rem;
+                h4 {
+                    line-height: 2.4rem;
+                    margin-bottom: 0.2rem;
+                }
+                h5 {
+                    line-height: 1.5rem;
+                }
                 @include for-768-up {
                     width: 224px;
                     margin-bottom: 4rem;
@@ -120,10 +127,17 @@
                     position: relative;
                     top: -36px;
                     right: -54px;
+                    @include for-phone-only {
+                        right: -46px;
+                        top: -32px;
+                        circle#Oval {
+                            r: 15;
+                        }
+                    }
                 }
             }
             .staff-pic {
-                height: 128px;
+                height: 136px;
                 @include for-768-up {
                     margin-bottom: 2.4rem;
                 }
