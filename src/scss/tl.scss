@@ -103,6 +103,23 @@ h1 {
     }    
     font-weight: 500;
 }
+h1.hero {
+    color: #fff;
+    font-weight: 300;
+    font-size: 6.4rem;
+    letter-spacing: 0.067rem;
+    line-height: 8.4rem;
+    @include for-768-up {
+        font-size: 7.2rem;
+        letter-spacing: 0.075rem;
+        line-height: 8.4rem;
+    }
+    @include for-1440-up {
+        font-size: 9.6rem;
+        letter-spacing: 0.01rem;
+        line-height: 10rem;
+    }
+}
 h2 {
     font-size: 1.8rem;
     letter-spacing: 0.03rem;
@@ -144,16 +161,19 @@ h3 {
 h4 {
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
-    line-height: 3.6rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
     @include for-768-up {
         font-size: 1.5rem;
         letter-spacing: 0.125rem;
-        line-height: 2.1rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
     }
     @include for-1440-up {
         font-size: 1.8rem;
         letter-spacing: 0.153rem;
         line-height: 3.6rem;
+        margin-bottom: 1.6rem;
     }   
     color: $deepblack;
     font-weight: 600;
@@ -215,7 +235,7 @@ h6 {
 }
 .rotate {
     max-width: 360px;
-    margin: 0 auto 1.6rem;
+    margin: 0 auto 2.4rem;
 
     @include for-768-up {
         transform: rotate(270deg);
@@ -269,12 +289,21 @@ h6 {
     }
 }
 .pad96 {
-    padding: 5.6rem 0;
+    padding: 5.6rem 0 4rem;
     @include for-768-up {
         padding: 7.2rem 0;
     }
     @include for-1440-up {
         padding: 9.6rem 0;
+    }
+}
+.pad96-last {
+    padding: 4rem 0;
+    @include for-768-up {
+        padding: 9.6rem 0;
+    }
+    @include for-1440-up {
+        padding: 11.2rem 0;
     }
 }
 
@@ -338,7 +367,7 @@ h6 {
         max-width: 720px;
     }
     @include for-1024-up {
-        max-width: 800px;
+        max-width: 840px;
     }
     @include for-1440-up {
         max-width: 1000px;
@@ -375,7 +404,7 @@ h6 {
         margin-bottom: 5.6rem;
     }
     @include for-1024-up {
-        max-width: 800px;
+        max-width: 840px;
     }
     @include for-1440-up {
         margin-bottom: 6.4rem;
@@ -401,6 +430,9 @@ h6 {
             font-size: 3.6rem;
         }
     }
+}
+.side-header p {
+    font-weight: 500;
 }
 
 .graphic-section {
@@ -437,6 +469,22 @@ h6 {
                 }
             }
         }
+    }
+}
+.orange-box-wrapper.our-impact {
+    display: flex;
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        li {
+            width: 100%;
+            @include for-768-up {
+                width: 50%;
+            }
+        }
+        
     }
 }
 

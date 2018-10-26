@@ -33,12 +33,12 @@
                 <div class="post-navigation">
                     {{ with .Site.Data.impact.sectiontwo }}
                         <div class="side-header"><p>{{ .header }}</p></div>
-                        <div class="orange-box-wrapper">
+                        <div class="orange-box-wrapper our-impact pad80">
                             <div class="orange-box">
                                 <ul>
-                                    <li><h2>{{ .quantityOne }}</h2><h4>{{ .textOne }}</h4></li>
-                                    <li><h2>{{ .quantityTwo }}</h2><h4>{{ .textOne }}</h4></li>
-                                    <li><h2>{{ .quantityThree }}</h2><h4>{{ .textOne }}</h4></li>
+                                    <li class="uppercase"><h1 class="hero">{{ .quantityOne }}</h1><h4>{{ .textOne }}</h4></li>
+                                    <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textOne }}</h4></li>
+                                    <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textOne }}</h4></li>
                                 </ul>
                             </div>     
                         </div>
@@ -46,17 +46,21 @@
                 </div>
             </div>            
         </div>
-        <div class="section-three">
-            <div class="content-well">
-                {{ with .Site.Data.impact.sectionthree }}
-                    {{ .sectionHead }}
+        <div class="section-three pad96">
+            <div class="content-well target" id="blurb">
+                    {{ with .Site.Data.impact.sectionthree }}
+                    <div class="rotate">
+                            <h3 class="bold-blue uppercase" id="blurb">{{ .sectionHead }}</h3>
+                        </div>
+                </div>
+            <div class="content-well">    
                 <div class="content-inner">
-                    {{ .blurb }}
+                    <p>{{ .blurb }}</p>
                 {{ end }}
                 </div>
             </div>
         </div>
-        <div class="section-four">
+        <div class="section-four pad96">
             <div class="content-well">
                 {{ range first 20 (where .Site.RegularPages "Params.contenttype" ("cases")) }}
                     <ul class="blogfeed">

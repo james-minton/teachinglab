@@ -3,7 +3,7 @@
 
 <div id="our-model-page" class="pageWrap">
     <div class="hero-panel-sub"></div>
-    <div class="page-title outer-padding">
+    <div class="page-title">
         <div class="title-box inner-wrapper">
             <div class="title-container">
                     <h2>Our Model</h2>
@@ -51,8 +51,15 @@
     <div class="graphic-section content-well">
         <img src="/images/coi.svg" />
     </div>
-    <div class="section-three content-well pad96">
+    <div class="section-three pad96-last">
+            <div class="content-well target" id="section3">
+            {{ with .Site.Data.model.sectionthree }}
+            <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="section3">{{ .sectionHead }}</h3>
+                </div>
+             
             <div class="content-inner">
+                <p class="margb72">{{ .introCopy }}</p>{{ end }}   
          
                 {{ range .Site.Data.model.sectionthree.iconsCopy }}
                 {{ if eq .alignIcon true }}
@@ -67,6 +74,7 @@
                 {{ end }}
             </div>
         </div>
+    </div>    
 </div>
 
 
