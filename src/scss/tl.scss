@@ -216,96 +216,7 @@ h6 {
     font-weight: 300;
     color: $deepblack;
 }
-/* Utilities ------------- */
 
-.uppercase {
-    text-transform: uppercase;
-}
-.medium {
-    font-weight: 500;
-}
-.light {
-    font-weight: 300;
-}
-.bump-up {
-    font-size: 1.8rem;
-}
-.bold-blue {
-    color: $boldblue;
-}
-.rotate {
-    max-width: 360px;
-    margin: 0 auto 2.4rem;
-
-    @include for-768-up {
-        transform: rotate(270deg);
-        white-space: nowrap;
-        position: absolute;
-        transform-origin: left top;
-        width: auto;
-        text-align: right;
-        width: 440px;
-        top: 366px;
-        left: -6px;
-        margin: 0;
-    }
-    @include for-1440-up {
-        left: -7px;
-    }
-    &.active {
-        @include for-1024-up {
-           
-        }
-        @include for-1440-up {
-        }
-        
-    }
-}
-.margb80 {
-    margin-bottom: 4rem;
-        @include for-768-up {
-            margin-bottom: 5.6rem;
-        }
-        @include for-1440-up {
-            margin-bottom: 8rem;
-        }
-}
-.margb72 {
-    margin-bottom: 4rem;
-        @include for-768-up {
-            margin-bottom: 5.6rem;
-        }
-        @include for-1440-up {
-            margin-bottom: 7.2rem;
-        }
-}
-.pad80 {
-    padding: 4rem 0;
-    @include for-768-up {
-        padding: 5.6rem 0;
-    }
-    @include for-1440-up {
-        padding: 8rem 0;
-    }
-}
-.pad96 {
-    padding: 5.6rem 0 4rem;
-    @include for-768-up {
-        padding: 7.2rem 0;
-    }
-    @include for-1440-up {
-        padding: 9.6rem 0;
-    }
-}
-.pad96-last {
-    padding: 4rem 0;
-    @include for-768-up {
-        padding: 9.6rem 0;
-    }
-    @include for-1440-up {
-        padding: 11.2rem 0;
-    }
-}
 
 /* Page Elements ------------ */
 
@@ -487,7 +398,115 @@ h6 {
         
     }
 }
+#breadcrumb {
+    margin: 1.6rem 0 2.4rem;
+    @include for-768-up {
+        margin: 1.6rem 0 3.2rem;
+    }
+    @include for-1440-up {
+        margin: 2.4rem 0 4rem;
+    }
+}
 
+/* Utilities ------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+.medium {
+    font-weight: 500;
+}
+.light {
+    font-weight: 300;
+}
+.bump-up {
+    font-size: 1.8rem;
+}
+.bold-blue {
+    color: $boldblue;
+}
+.rotate {
+    max-width: 360px;
+    margin: 0 auto 2.4rem;
+
+    @include for-768-up {
+        transform: rotate(270deg);
+        white-space: nowrap;
+        position: absolute;
+        transform-origin: left top;
+        width: auto;
+        text-align: right;
+        width: 440px;
+        top: 366px;
+        left: -6px;
+        margin: 0;
+    }
+    @include for-1440-up {
+        left: -7px;
+    }
+    &.active {
+        @include for-1024-up {
+           
+        }
+        @include for-1440-up {
+        }
+        
+    }
+}
+.marg80 {
+    margin: 4rem auto;
+        @include for-768-up {
+            margin: 5.6rem auto;
+        }
+        @include for-1440-up {
+            margin: 8rem auto;
+        }
+}
+.margb80 {
+    margin: 0 auto 4rem;
+        @include for-768-up {
+            margin: 0 auto 5.6rem;
+        }
+        @include for-1440-up {
+            margin: 0 auto 8rem;
+        }
+}
+.margb72 {
+    margin: 4rem;
+        @include for-768-up {
+            margin: 0 auto 5.6rem;
+        }
+        @include for-1440-up {
+            margin: 0 auto 7.2rem;
+        }
+}
+.pad80 {
+    padding: 4rem 0;
+    @include for-768-up {
+        padding: 5.6rem 0;
+    }
+    @include for-1440-up {
+        padding: 8rem 0;
+    }
+}
+.pad96 {
+    padding: 5.6rem 0 4rem;
+    @include for-768-up {
+        padding: 7.2rem 0;
+    }
+    @include for-1440-up {
+        padding: 9.6rem 0;
+    }
+}
+.pad96-last {
+    padding: 4rem 0;
+    @include for-768-up {
+        padding: 9.6rem 0;
+    }
+    @include for-1440-up {
+        padding: 11.2rem 0;
+    }
+}
 
 @import 'nav';
 @import 'home';

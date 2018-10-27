@@ -2,39 +2,64 @@
     
 <div id="blogSingle" class="pageWrap">
     <div id="content-wrapper">
-        <div id="breadcrumb"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/blog">Blog</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
+        {{ if eq .Params.contenttype "blog" }}
+            <div id="breadcrumb"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/blog">Blog</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
+        {{ end }}
+        {{ if eq .Params.contenttype "cases" }}
+            <div id="breadcrumb"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/our-impact/#case-studies">Case Studies</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
+        {{ end }}
         <div class="content-well">
             <div class="featured-img">    
                 {{ partial "singleblogimg" . }} 
             </div>
-            <div class="blog-well">  
-                <h2>{{ .Title }}</h2>
-                <div class="author-meta">
-                    <img src="{{ .Params.postauthorimg }}" />
-                    <h4 class="staff-name">{{ .Params.postauthorname }}</h4>
+            <div class="content-inner blogsection">
+                <div class="blog-well">  
+                    <h2>{{ .Title }}</h2>
+                    <div class="author-meta">
+                        <img src="{{ .Params.postauthorimg }}" />
+                        <h4 class="staff-name">{{ .Params.postauthorname }}</h4>
+                    </div>
+                    {{ .Content }}
                 </div>
-                {{ .Content }}
-                <div class="publishdate subhead"><h5>{{ .PublishDate.Format "January 2, 2006" }}</h5></div> 
-                <div class="social-icons"><img class="twitter-icon" src="/images/icons/twitter.svg"></div>
-            </div>
-            <div class="post-navigation">
-                <div class="side-header"><p>Continue Reading</p></div>
-                <div class="adjacent-posts-wrapper">
-                    <div class="adjacent-posts">
-                        <ul>
-                            {{ if .PrevInSection }}
-                            <li><h2><a href="{{.PrevInSection.Permalink}}">{{ .PrevInSection.Title }}</a></h2></li>
-                            {{ end }}
-                            {{ if .NextInSection }}
-                            <li><h2><a href="{{.NextInSection.Permalink}}">{{ .NextInSection.Title }}</a></h2></li>
-                            {{ end }}
-                        </ul>
-                    </div>     
-                </div>
-            </div>
+            </div>    
+            <div class="publishdate subhead pad80"><h5>{{ .PublishDate.Format "January 2, 2006" }}</h5></div> 
+            {{ partial "blogsocial" }}
+            
         
         </div>
+        
     </div>
+    {{ if eq .Params.contenttype "blog" }}
+    <div class="post-navigation marg80">
+            <div class="side-header"><p>Continue Reading</p></div>
+            <div class="adjacent-posts-wrapper">
+                <div class="adjacent-posts">
+                    <ul>
+                      
+                        
+                        {{ range last 1 (where (where .Site.Pages.ByDate "Date.Unix" "<" $.Date.Unix) "Params.contenttype" "=" "blog") }}
+                            {{ if gt $.Date.Unix .Date.Unix }}  
+                                <li><h4>NEXT:</h4>                    
+                                <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
+                            {{ end }}
+                        {{ end }}
+                     
+                        {{ range first 1 (where (where .Site.Pages.ByDate "Date.Unix" ">" $.Date.Unix) "Params.contenttype" "=" "blog") }}
+                            {{ if lt $.Date.Unix .Date.Unix }}   
+                                <li><h4>PREVIOUS:</h4>                       
+                                <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
+                            {{ end }}
+                        {{ end }}
+                       
+                        
+                    </ul>
+                </div>     
+            </div>
+        </div>
+    {{ end }} 
+    {{ if eq .Params.contenttype "cases" }}  
+        <div class="post-navigation marg80" style="min-height: 0"></div>
+    {{ end }} 
 </div>
 {{ partial "newsletter" . }}    
 {{ end }}
