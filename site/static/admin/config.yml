@@ -24,13 +24,11 @@ collections:
         name: "panelThree"
         file: "site/data/home/panelthree.yml"
         fields:
-          - {label: Header, name: header, widget: string, required: false}
-          - {label: Image One, name: circleImageOne, widget: image, required: false} 
-          - {label: Image One Text, name: circleTextOne, widget: string, required: false}
-          - {label: Image Two, name: circleImageTwo, widget: image, required: false} 
-          - {label: Image Two Text, name: circleTextTwo, widget: string, required: false}
-          - {label: Image Three, name: circleImageThree, widget: image, required: false} 
-          - {label: Image Three Text, name: circleTextThree, widget: string, required: false}
+          - {label: Panel Header, name: panelHeader, widget: string, required: false} 
+          - {label: Head Text, name: headText, widget: string, required: false} 
+          - {label: Heart Text, name: heartText, widget: string, required: false}
+          - {label: Habits Text, name: habitsText, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
       - label: "Panel 4 How We Work"
         name: "panelFour"
         file: "site/data/home/panel4hww.yml"

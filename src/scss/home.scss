@@ -35,6 +35,15 @@
 
 #panel2 {
     background: $lightblue;
+    h2 {
+        margin-bottom: 1.6rem;
+        @include for-768-up {
+            margin-bottom: 2.4rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 4rem;
+        }
+    }
     img.inpanel-img {
         width: 240px;
         height: 240px;
@@ -42,11 +51,11 @@
     }
 }
 #panel3 {
-    background-color: #f5f5f5;
-    img.model-graphic-img {
-        width: 240px;
-        height: 240px;
-        background: #efefef; 
+    
+    #h3panel {
+        width: 100%;
+        height: 500px;
+        background-color: $slateblue;
     }
 }
 
@@ -79,4 +88,27 @@
     transform: translateX(0); 
     }
 
+}
+h3.morebutton {
+    text-transform: uppercase;
+    @include for-768-up {
+        margin-bottom: 5.2rem;
+    }
+    @include for-1440-up {
+        margin-bottom: 6rem;
+    }
+    a {
+        color: $brightblue;
+        border: 1px solid $brightblue;
+        padding: 2.2rem 3.2rem;
+        margin: 0;
+        display: inline-block;
+        
+        &:hover {
+            background: $brightblue;
+            color: #fff !important;
+            text-decoration: none;
+            transition: background .3s ease;
+        }
+    }
 }
