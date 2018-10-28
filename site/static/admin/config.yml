@@ -53,7 +53,9 @@ collections:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false} 
-          - widget: list
+          - name: staffImages
+            label: Team Member Images
+            widget: list
             fields:
             - {label: Team Member Image, name: staffImage, widget: image}   
 
