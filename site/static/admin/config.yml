@@ -29,14 +29,30 @@ collections:
           - {label: Heart Text, name: heartText, widget: string, required: false}
           - {label: Habits Text, name: habitsText, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false}
-      - label: "Panel 4 How We Work"
+      - label: "Panel 4 Image Breaker Blurb"
         name: "panelFour"
-        file: "site/data/home/panel4hww.yml"
+        file: "site/data/home/panel4blurb.yml"
+        fields:
+          - {label: Blurb, name: blurb, widget: string, required: false} 
+      - label: "Panel 5 Our Impact"
+        name: "panelfive"
+        file: "site/data/home/impact.yml"
+        fields:
+          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Quantity One, name: quantityOne, widget: string, required: false}
+          - {label: Text One, name: textOne, widget: string, required: false}
+          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
+          - {label: Text Two, name: textTwo, widget: string, required: false} 
+          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
+          - {label: Text Three, name: textThree, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false} 
+      - label: "Panel 6 Who We Are"
+        name: "panelsix"
+        file: "site/data/home/whoweare.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false} 
-          - {label: Image, name: image, widget: image, required: false}
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
         file: "site/data/home/panel5tv.yml"
@@ -48,17 +64,7 @@ collections:
             widget: list
             fields:
               - {label: Quote, name: quote, widget: string, required: false}  
-      - label: "Panel 6 Our Impact"
-        name: "panelSix"
-        file: "site/data/home/panel6impact.yml"
-        fields:
-          - {label: Header, name: header, widget: string, required: false} 
-          - {label: Quantity One, name: quantityOne, widget: string, required: false}
-          - {label: Text One, name: textOne, widget: string, required: false}
-          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
-          - {label: Text Two, name: textTwo, widget: string, required: false} 
-          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
-          - {label: Text Three, name: textThree, widget: string, required: false} 
+      
 
   - label: "How We Work"
     name: "howWeWork"

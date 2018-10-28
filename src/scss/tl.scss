@@ -492,6 +492,15 @@ h6 {
         padding: 8rem 0;
     }
 }
+.padb80 {
+    padding: 0 0 4rem;
+    @include for-768-up {
+        padding: 0 0 5.6rem;
+    }
+    @include for-1440-up {
+        padding: 0 0 8rem;
+    }
+}
 .pad96 {
     padding: 5.6rem 0 4rem;
     @include for-768-up {
