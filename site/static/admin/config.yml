@@ -53,6 +53,10 @@ collections:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false} 
+          - widget: list
+            fields:
+            - {label: Team Member Image, name: staffImage, widget: image}   
+
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
         file: "site/data/home/panel5tv.yml"
