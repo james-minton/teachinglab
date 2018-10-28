@@ -17,7 +17,8 @@ collections:
         name: "panelTwo"
         file: "site/data/home/paneltwo.yml"
         fields:
-          - {label: Introductory Text, name: introText, widget: string}
+          - {label: Header Text, name: headerText, widget: string}
+          - {label: Paragraph Text, name: pText, widget: string}
           - {label: Image, name: introImage, widget: image, required: false}
       - label: "Panel 3 Images and Text"
         name: "panelThree"
