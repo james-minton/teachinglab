@@ -116,7 +116,7 @@ gulp.task("img", () =>
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
-        quality: 100,
+        quality: 90,
         format: 'jpeg'
       }, {
         width: 320, 
@@ -124,7 +124,7 @@ gulp.task("img", () =>
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
-        quality: 100,
+        quality: 90,
         format: 'jpeg'
       }, {
         quality: 100,
