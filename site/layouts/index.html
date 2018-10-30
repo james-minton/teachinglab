@@ -3,7 +3,7 @@
 <div id="homepage" class="pageWrap">
   <div id="panel1" class="outer-padding">
     <div class="content-wrapper">
-      <div class="panel-overlay content-well">
+      <div class="panel-overlay content-inner">
           <h1 class="tagline">
             {{ .Site.Data.home.heropanel.tagline }}
           </h1>
@@ -12,7 +12,7 @@
   </div>
   <div id="panel2" class="pad80">
       <div class="content-wrapper">
-        <div class="panel-overlay content-well">
+        <div class="panel-overlay content-inner">
             <h2>
                 {{ .Site.Data.home.paneltwo.headerText }}
             </h2>
@@ -28,34 +28,37 @@
             <div id="h3panel" class="margb80">
 
             </div>
-            <h3 class="morebutton"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
+            <div class="content-inner">
+              <h3 class="morebutton"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
+            </div>  
           </div>
         </div>
       </div>
     <!-- Image Breaker ----------------------->
-    <div class="parallax-window" data-position-y="center" data-parallax="scroll" data-speed="0.8" data-image-src="/images/counseling.jpg">
+    <div class="parallax-window margb80" data-position-y="center" data-parallax="scroll" data-speed="0.8" data-image-src="/images/counseling.jpg">
     </div>  
     
     <div id="panel4" class="outer-padding">
       <div class="content-wrapper">
-        <div class="panel-overlay content-well">
+        <div class="panel-overlay content-inner">
             <h2>
               {{ .Site.Data.home.panel4blurb.blurb }}
             </h2>
         </div>
       </div>
     </div>
-    <div id="panel5" class="outer-padding">
+    <!-- Impact Section ------------------->
+    <div id="panel5" class="outer-padding pad80">
         <div class="content-well">
             <div class="post-navigation">
-                {{ with .Site.Data.impact.sectiontwo }}
+                {{ with .Site.Data.home.impact }}
                     <div class="side-header"><p>{{ .header }}</p></div>
                     <div class="orange-box-wrapper our-impact pad80">
                         <div class="orange-box">
                             <ul>
                                 <li class="uppercase"><h1 class="hero">{{ .quantityOne }}</h1><h4>{{ .textOne }}</h4></li>
-                                <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textOne }}</h4></li>
-                                <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textOne }}</h4></li>
+                                <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
+                                <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
                             </ul>
                         </div>     
                     </div>
@@ -63,11 +66,11 @@
             </div>
         </div>    
     </div>  
-
-  <div id="panel6" class="">
+  <!-- About Us Section ------------------->  
+  <div id="panel6" class="pad80">
     <div class="text-center my-3">
       <div class="row mx-auto my-auto">
-          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div id="recipeCarousel" class="carousel slide w-100 margb80" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                       <img class="col-3 img-fluid" src="/images/uploads/skularni-bio-sm.png">
@@ -99,16 +102,19 @@
           </div>
         </div>
     </div>
-    <div class="content-inner">
+    <div class="content-inner margb80">
       {{ with .Site.Data.home.whoweare }}
         <h4 class="uppercase">{{ .header }}</h4>
         <p>{{ .body }}</p>
+    </div>
+    <div class="content-inner">  
         <h3 class="morebutton"><a class="read-more" href="/about-us">{{ .buttonText }}</a></h3>
       {{ end }}
     </div>
   </div>
-  <div id="panel7">
-    <div class="content-well">
+  <!-- Teacher Voices ------------------>
+  <div id="panel7" class="pad80">
+    <div class="content-well pad80 margb80">
       <div class="content-inner">
         {{ with .Site.Data.home.tv }}
           <h4 class="uppercase">{{ .header }}</h4>
