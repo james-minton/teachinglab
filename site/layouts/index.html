@@ -175,8 +175,8 @@
         {{ with .Site.Data.home.tv }}
           <h4 class="uppercase">{{ .header }}</h4>
         {{ end }} 
-        {{ range .Site.Data.home.tv.quotes }}
-          <h2>{{ .quote }}</h2>
+        {{ with .Site.Data.home.tv }}
+          <h2>"{{ .quote }}"</h2>
         {{ end }} 
       </div>
     </div>

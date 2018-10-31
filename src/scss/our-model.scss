@@ -1,6 +1,12 @@
 #our-model-page {
     .title-box {
-        background: $brightblue;
+        background: $tealgreen;
+    }
+    h3 {
+        color: $tealgreen;
+        &.active {
+            border-bottom-color: $tealgreen;
+        }
     }
     .section-one {
         margin-bottom: 4rem;

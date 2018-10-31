@@ -1,4 +1,13 @@
 #our-impact-page {
+    .title-box {
+        background: $orange;
+    }
+    h3 {
+        color: $orange;
+        &.active {
+            border-bottom-color: $orange;
+        }
+    }
     .section-one {
         margin-bottom: 4rem;
         @include for-768-up {
