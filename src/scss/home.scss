@@ -1,5 +1,8 @@
 #panel1 {
-    background-image: url('/images/maui_evening_lr.jpg');
+    /* background-image: url('/images/blackboard-writing.jpg');
+    background-image: url('/images/overlay30.png'), url('/images/coffeeshop.jpg');
+    */
+    background-position: right 40%;
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -184,10 +187,10 @@
     height: 180px;
     background: transparent;
     @include for-768-up {
-        height: 240px;
+        height: 300px;
     }
     @include for-1440-up {
-        height: 320px;
+        height: 380px;
     } 
 }
 #image-breaker {
