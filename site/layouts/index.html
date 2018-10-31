@@ -22,12 +22,68 @@
         </div>
       </div>
     </div>
+    <!-- Our Model ---------------------------->
     <div id="panel3" class="outer-padding pad80">
         <div class="content-wrapper">
-          <div class="panel-overlay content-well">
-            <div id="h3panel" class="margb80">
-
+          <div id="carousel-target" class="panel-overlay content-well carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+            {{ with .Site.Data.home.panelthree }}
+            <div id="h3panel" class="pad80">
+              <div class="content-inner">
+                
+                <h4 class="uppercase">{{ .panelHeader }}</h4>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-target" data-slide-to="0" class="active">
+                        <h1 class="light">Head.</h1>
+                    </li>
+                    <li data-target="#carousel-target" data-slide-to="1">
+                        <h1 class="light">Heart.</h1>
+                    </li>
+                    <li data-target="#carousel-target" data-slide-to="2">
+                        <h1 class="light">Habits.</h1>
+                    </li>
+                </ol>
+              </div>
             </div>
+            <!-- Slides ------------------------------------->
+            <div id="h3text-panel" class="margb80 pad80">
+                <div class="content-inner carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-flex">
+                      <div class="icon-box">
+                        <img class="h3icon" src="/images/uploads/head_180.png">
+                      </div>
+                      <div class="h3text">
+                        <h4>HEAD</h4>
+                        <p class="reg">Core academic content that is aligned to specific curricular materials and research-based practices.</p>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-flex">
+                      <div class="icon-box">
+                        <img class="h3icon" src="/images/uploads/love_180.png">
+                      </div>
+                      <div class="h3text">
+                        <h4>HEART</h4>
+                        <p class="reg">Teacher-led community that builds both social capital and buy-in from teachers.</p>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-flex">
+                      <div class="icon-box">
+                        <img class="h3icon" src="/images/uploads/cycle_180.png">
+                      </div>  
+                      <div class="h3text">
+                        <h4>HABITS</h4>
+                        <p class="reg">Professional learning that is structured around repeated cycles of inquiry.</p>
+                      </div> 
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+            {{ end }}
             <div class="content-inner">
               <h3 class="morebutton"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
             </div>  

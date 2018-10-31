@@ -20,7 +20,7 @@ collections:
           - {label: Header Text, name: headerText, widget: string}
           - {label: Paragraph Text, name: pText, widget: string}
           - {label: Image, name: introImage, widget: image, required: false}
-      - label: "Panel 3 Images and Text"
+      - label: "Panel 3 Our Model"
         name: "panelThree"
         file: "site/data/home/panelthree.yml"
         fields:

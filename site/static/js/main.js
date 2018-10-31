@@ -41,7 +41,7 @@ $('#recipeCarousel').carousel({
   interval: 2000
 })
 
-$('.carousel .carousel-item').each(function(){
+$('#recipeCarousel.carousel .carousel-item').each(function(){
     var next = $(this).next();
     if (!next.length) {
     next = $(this).siblings(':first');
@@ -58,6 +58,20 @@ $('.carousel .carousel-item').each(function(){
       }
 });
 
+// Reverse Homepage Panel 3 Slider Direction
+
+// $( document ).ready(function() {
+/*    
+$('#panel3').carousel({
+    interval: false,
+    });   
+ setInterval(function(){$('#panel3').carousel('prev'); }, 3000);
+ $('#panel3').hover(function() {
+    $(this).carousel('pause');
+}, function() {
+    $(this).carousel('cycle');
+}); */
+ //   });
 // Add toggling of menu
 
 var $hamburger = $(".hamburger");
