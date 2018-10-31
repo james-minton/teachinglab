@@ -64,12 +64,13 @@ collections:
         file: "site/data/home/tv.yml"
         fields:
           - {label: Header, name: header, widget: string, required: false} 
+          - {label: Teacher Voice Quote, name: quote, widget: string, required: false, hint: "No need to type quotation marks here. They're added automatically."} 
           - {label: Button Text, name: buttonText, widget: string, required: false} 
-          - label: Quotes 
-            name: quotes
-            widget: list
-            fields:
-              - {label: Quote, name: quote, widget: string, required: false}  
+          #- label: Quotes 
+          #  name: quotes
+          #  widget: list
+          #  fields:
+          #    - {label: Quote, name: quote, widget: string, required: false}  
       
 
   - label: "How We Work"
