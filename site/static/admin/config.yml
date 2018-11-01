@@ -204,6 +204,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Intro Paragraph, name: introText, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
           - label: Teacher Voices 
             name: teacherVoices
             widget: list

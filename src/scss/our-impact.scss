@@ -2,6 +2,9 @@
     .title-box {
         background: $orange;
     }
+    .rotate {
+        z-index: 2;
+    }
     h3 {
         color: $orange;
         &.active {
@@ -15,6 +18,20 @@
         }
         @include for-1440-up {
             margin-bottom: 8rem;
+        }
+        #voices {
+            background-color: $lightblue;
+            .testimonial-wrapper {
+                display: flex;
+                align-items: center;
+                height: 120px;
+                @include for-768-up {
+                    height: 180px;
+                }
+                @include for-1440-up {
+                    height: 240px;
+                }
+            }
         }
     }
     .section-four {
@@ -35,5 +52,8 @@
                 }
             }
         }
+    }
+    .orange-box-wrapper {
+        background-color: $orange;
     }
 }

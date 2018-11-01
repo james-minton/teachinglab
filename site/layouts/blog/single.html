@@ -15,10 +15,12 @@
             <div class="content-inner blogsection">
                 <div class="blog-well">  
                     <h2>{{ .Title }}</h2>
-                    <div class="author-meta">
-                        <img src="{{ .Params.postauthorimg }}" />
-                        <h4 class="staff-name">{{ .Params.postauthorname }}</h4>
-                    </div>
+                    {{ if eq .Params.contenttype "blog"}}
+                        <div class="author-meta">
+                                <img src="{{ .Params.postauthorimg }}" />
+                            <h4 class="staff-name">{{ .Params.postauthorname }}</h4>
+                        </div>
+                    {{ end }}
                     {{ .Content }}
                 </div>
             </div>    
