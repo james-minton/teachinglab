@@ -335,7 +335,7 @@ collections:
     files:
       - label: "Panel Text and Buttons"
         name: "newsletterSection"
-        file: "site/data/newsletter/content.yml"
+        file: "site/data/newsletter/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Signup Call to Action, name: cta, widget: string}
