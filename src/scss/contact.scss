@@ -1,4 +1,99 @@
 #contact-page {
+    #mail-panel {
+        .content-well {
+            display: flex;
+            align-items: center;
+            background-color: $lightblue;
+            @include for-768-up {
+                height: 200px;
+            }
+            @include for-1440-up {
+                height: 252px;
+            }
+        }
+        .content-inner {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            p {
+                text-align: center;
+            }
+        }
+    }
+    #social-panel {
+        .content-well {
+            display: flex;
+            align-items: center;
+            background-color: $lightblue;
+            @include for-768-up {
+                height: 200px;
+            }
+            @include for-1440-up {
+                height: 252px;
+            }
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 0;
+            li {
+                a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                &.social-icons {
+                    height: initial;
+                }
+                text-align: center;
+                    @include for-1440-up {
+                        width: 140px;
+                    }
+                }
+                a:hover {
+                    h5 {
+                        color: $orange;
+                        transition: color .3s ease;
+                    }
+                    svg {
+                        g, path {
+                            fill: $orange;
+                            transition: fill .3s ease;
+                        }
+                    }
+                }
+                .svg-wrap {
+                    height: 30px;
+                    @include for-768-up {
+                        margin-bottom: 1.6rem;
+                    }
+                    @include for-1440-up {
+                        height: 40px;
+                        margin-bottom: 2.4rem;
+                    }
+                }
+                    svg {
+                        @include for-768-up {
+                            width: 33px;
+                            max-height: 30px;
+                        }
+                        @include for-1440-up {
+                            width: 44px;
+                            max-height: 40px;
+                        }
+                    }
+                a {
+                    @include for-768-up {
+                        
+                    }
+                    @include for-1440-up {
+                     
+                    }
+                }
+            }
+        }
+    }
     #contact-panel {
         background-color: $slategrey;
         .form-row {

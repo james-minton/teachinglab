@@ -430,7 +430,6 @@ h6 {
 .rotate {
     max-width: 360px;
     margin: 0 auto 2.4rem;
-
     @include for-768-up {
         transform: rotate(270deg);
         white-space: nowrap;
