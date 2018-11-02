@@ -19,17 +19,26 @@
         @include for-1440-up {
             margin-bottom: 8rem;
         }
+        p#tv-intro {
+            margin: 4rem;
+        @include for-768-up {
+            margin: 0 auto 5.6rem;
+        }
+        @include for-1440-up {
+            margin: 0 auto 7.2rem;
+        }
+        }
         #voices {
             background-color: $lightblue;
             .testimonial-wrapper {
                 display: flex;
                 align-items: center;
-                height: 120px;
+                height: 150px;
                 @include for-768-up {
-                    height: 180px;
+                    height: 210px;
                 }
                 @include for-1440-up {
-                    height: 240px;
+                    height: 270px;
                 }
             }
         }
@@ -55,5 +64,26 @@
     }
     .orange-box-wrapper {
         background-color: $orange;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-image: url('/images/icons/bio-arrow.svg')
+    }
+    .carousel-nav {
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: relative;
+        display: flex;
+        text-align: center;
+        opacity: 1;
+        span {
+        width: 40px;
+        height: 40px;
+        }
+    }
+    h5.num {
+        display: flex;
+        align-items: center;
     }
 }
