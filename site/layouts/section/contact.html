@@ -1,4 +1,49 @@
 {{ define "main" }}
 
+<div id="contact-page" class="pageWrap">
 
+
+
+<div id="contact-panel" class="pad80">
+    <div class="content-well">
+        <div class="content-inner">
+            <div class="form-row">
+                <div class="col-left">
+                    <h5 class="uppercase">Name</h5>
+                </div>
+                <div class="col-right">
+                    <input class="contact-input">
+                </div>
+            </div>  
+            <div class="form-row">
+                <div class="col-left">
+                    <h5 class="uppercase">Email address</h5>
+                </div>
+                <div class="col-right">
+                    <input class="contact-input">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-left message-label">
+                    <h5 class="uppercase">Message</h5>
+                </div>
+                <div class="col-right">
+                    <input class="contact-message">
+                </div>
+            </div>
+            <div class="form-row">   
+                <div class="col-left">
+                    <h5 class="uppercase"></h5>
+                </div>
+                <div class="col-right">
+                    <input type="submit" class="news-signup uppercase">
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+
+</div>
+{{ partial "newsletter" . }}
 {{ end }}

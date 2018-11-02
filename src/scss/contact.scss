@@ -1,0 +1,79 @@
+#contact-page {
+    #contact-panel {
+        background-color: $slategrey;
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            @include for-768-up {
+                margin-bottom: 1.6rem;
+            }
+            @include for-1440-up {
+                margin-bottom: 2.4rem;
+            }
+            .col-left {
+                @include for-768-up {
+                    padding-right: 1.6rem;
+                }
+                @include for-1440-up {
+                    padding-right: 2.4rem;
+                }   
+                text-align: right;
+                width: 33%;
+                h5 {
+                    color: #fff;
+                }
+                &.message-label {
+                    align-self: flex-start;
+                }
+            }
+            .col-right {
+                width: 66%;
+                input {
+                    border: none;
+                    &.news-signup {
+                        border: 1px solid $boldblue;
+                        color: $boldblue;
+                        margin-left: 0;
+                    }
+                }
+                .contact-input {
+                    width: 100%;
+                    height: 64px;
+                    @include for-1440-up {
+                        height: 90px;
+                    }
+                }
+                .contact-message {
+                    width: 100%;
+                    height: 260px;
+                    align-self: flex-start;
+                    @include for-1440-up {
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
