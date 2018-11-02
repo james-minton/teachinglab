@@ -1,6 +1,26 @@
 sectionHead: Leadership
 foundersList:
   - bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue
+      diam, lacinia a finibus non, rutrum ut felis. Nulla orci leo, pretium ac
+      velit ut, imperdiet sollicitudin tellus. Aliquam ac enim nulla. Aenean
+      sodales arcu neque, at pellentesque neque gravida in. Proin semper
+      efficitur sapien a bibendum. Etiam eget venenatis ante. Nunc nulla nibh,
+      volutpat ac metus ut, placerat consectetur quam. Nulla rhoncus est non sem
+      egestas varius. Suspendisse potenti. Duis hendrerit neque sit amet dui
+      dapibus ullamcorper. Suspendisse vel molestie risus. Maecenas sit amet
+      felis arcu.
+    quote: >-
+      Sed viverra auctor feugiat. Cras finibus, augue vel vulputate scelerisque,
+      nulla tortor pellentesque ex, vel tincidunt ligula nisi sed metus. Ut a
+      justo blandit nunc egestas eleifend. In hac habitasse platea dictumst.
+      Curabitur porttitor hendrerit nunc eu imperdiet. Donec egestas at erat ac
+      fringilla. Fusce fringilla rhoncus nulla nec faucibus. Integer euismod
+      porta gravida.
+    staffImage: /images/uploads/sjohnson.jpg
+    staffName: Sarah Johnson
+    staffTitle: Executive Director
+  - bio: >-
       Max Wagner brings best-in-the-industry experience in grassroots teacher
       organizing.  After serving as a Teach for America corps member in
       Brooklyn, New York, Max has dedicated his career to empowering and
@@ -34,23 +54,3 @@ foundersList:
     staffImage: /images/uploads/cdaniels.jpg
     staffName: Chris Daniels
     staffTitle: Managing Director of Strategy
-  - bio: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue
-      diam, lacinia a finibus non, rutrum ut felis. Nulla orci leo, pretium ac
-      velit ut, imperdiet sollicitudin tellus. Aliquam ac enim nulla. Aenean
-      sodales arcu neque, at pellentesque neque gravida in. Proin semper
-      efficitur sapien a bibendum. Etiam eget venenatis ante. Nunc nulla nibh,
-      volutpat ac metus ut, placerat consectetur quam. Nulla rhoncus est non sem
-      egestas varius. Suspendisse potenti. Duis hendrerit neque sit amet dui
-      dapibus ullamcorper. Suspendisse vel molestie risus. Maecenas sit amet
-      felis arcu.
-    quote: >-
-      Sed viverra auctor feugiat. Cras finibus, augue vel vulputate scelerisque,
-      nulla tortor pellentesque ex, vel tincidunt ligula nisi sed metus. Ut a
-      justo blandit nunc egestas eleifend. In hac habitasse platea dictumst.
-      Curabitur porttitor hendrerit nunc eu imperdiet. Donec egestas at erat ac
-      fringilla. Fusce fringilla rhoncus nulla nec faucibus. Integer euismod
-      porta gravida.
-    staffImage: /images/uploads/sjohnson.jpg
-    staffName: Sarah Johnson
-    staffTitle: Executive Director
