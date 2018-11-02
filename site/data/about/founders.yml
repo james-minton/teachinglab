@@ -1,27 +1,6 @@
 sectionHead: Leadership
 foundersList:
   - bio: >-
-      Silas Kulkarni is co-founder and Executive Director of Teaching Lab, a
-      nonprofit devoted to closing the opportunity gap through teacher-led
-      professional learning. Silas is a nationally renowned expert on the Common
-      Core State Standards and professional learning. Before founding Teaching
-      Lab, he worked as a literacy expert at Student Achievement Partners and as
-      a record-breaking math teacher in Harlem, NY and Washington DC. In 2011,
-      Silas’ students in Southeast DC broke the citywide, all-time record for
-      8th grade math scores, scoring 100% proficient or above, with 62% scoring
-      advanced. He has presented, published research, and led trainings around
-      the country. Silas is a graduate of Yale University.
-    quote: >-
-      As a middle school math teacher in Washington DC, I was lucky enough to be
-      part of a teacher-led community focused on improving our instruction. It
-      worked! To this day, my middle school math students hold the citywide
-      record for highest math test scores. This form of collaboration works and
-      if we can engage more educators in these conversations, we can change our
-      profession.
-    staffImage: /images/uploads/skularni.png
-    staffName: Silas Kulkarni
-    staffTitle: Executive Director
-  - bio: >-
       Max Wagner brings best-in-the-industry experience in grassroots teacher
       organizing.  After serving as a Teach for America corps member in
       Brooklyn, New York, Max has dedicated his career to empowering and
@@ -35,7 +14,7 @@ foundersList:
       the experience of classroom teachers and the best in researched based best
       practices, we can create resource for teachers, by teachers, that can be
       transformational for kids.
-    staffImage: /images/uploads/mwagner.png
+    staffImage: /images/uploads/mwagner.jpg
     staffName: Max Wagner
     staffTitle: Senior Managing Director of Partnerships
   - bio: >-
@@ -55,3 +34,23 @@ foundersList:
     staffImage: /images/uploads/cdaniels.jpg
     staffName: Chris Daniels
     staffTitle: Managing Director of Strategy
+  - bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue
+      diam, lacinia a finibus non, rutrum ut felis. Nulla orci leo, pretium ac
+      velit ut, imperdiet sollicitudin tellus. Aliquam ac enim nulla. Aenean
+      sodales arcu neque, at pellentesque neque gravida in. Proin semper
+      efficitur sapien a bibendum. Etiam eget venenatis ante. Nunc nulla nibh,
+      volutpat ac metus ut, placerat consectetur quam. Nulla rhoncus est non sem
+      egestas varius. Suspendisse potenti. Duis hendrerit neque sit amet dui
+      dapibus ullamcorper. Suspendisse vel molestie risus. Maecenas sit amet
+      felis arcu.
+    quote: >-
+      Sed viverra auctor feugiat. Cras finibus, augue vel vulputate scelerisque,
+      nulla tortor pellentesque ex, vel tincidunt ligula nisi sed metus. Ut a
+      justo blandit nunc egestas eleifend. In hac habitasse platea dictumst.
+      Curabitur porttitor hendrerit nunc eu imperdiet. Donec egestas at erat ac
+      fringilla. Fusce fringilla rhoncus nulla nec faucibus. Integer euismod
+      porta gravida.
+    staffImage: /images/uploads/sjohnson.jpg
+    staffName: Sarah Johnson
+    staffTitle: Executive Director
