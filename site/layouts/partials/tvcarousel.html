@@ -3,14 +3,14 @@
         {{ range first 1 .Site.Data.impact.sectionone.teacherVoices }} 
             <div class="carousel-item active">
                 <div class="testimonial-wrapper">
-                <p>"{{ .testimonial }}"</p>
+                <p class="reg">"{{ .testimonial }}"</p>
                 </div>
             </div>
         {{ end }}
         {{ range after 1 .Site.Data.impact.sectionone.teacherVoices }} 
             <div class="carousel-item">
                 <div class="testimonial-wrapper">
-                    <p>"{{ .testimonial }}"</p>
+                    <p class="reg">"{{ .testimonial }}"</p>
                 </div>    
             </div>
         {{ end }}

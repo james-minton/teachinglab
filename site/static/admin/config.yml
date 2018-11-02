@@ -106,11 +106,11 @@ collections:
         fields:  
           - {label: Title, name: title, widget: hidden} 
           - {label: Section Heading, name: sectionHead, widget: string}  
-          - label: Founders
+          - label: Leadership Team
             name: foundersList
             widget: list
             fields:
-              - {label: Founder Name, name: staffName, widget: string}
+              - {label: Leader Name, name: staffName, widget: string}
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
