@@ -16,7 +16,7 @@
                         </mask>
                         <use id="Mask" fill="#4BC6B9" xlink:href="#path-1"></use>
                         <rect id="Rectangle-4" fill="#33444B" x="0" y="0" width="60" height="574"></rect>
-                        <text id="CYCLES-OF-INQUIRY" transform="translate(30.000000, 287.500000) rotate(-90.000000) translate(-30.000000, -287.500000) " font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" line-spacing="36" letter-spacing="1.53" fill="#FFFFFF">
+                        <text id="CYCLES-OF-INQUIRY" transform="translate(30.000000, 287.500000) rotate(-90.000000) translate(-30.000000, -287.500000) " font-family="Montserrat, sans-serif" font-size="18" font-weight="500" line-spacing="36" letter-spacing="1.53" fill="#FFFFFF">
                             <tspan x="-75.363" y="286.5">CYCLES OF INQUIRY</tspan>
                         </text>
                     </g>

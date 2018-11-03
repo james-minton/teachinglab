@@ -70,6 +70,10 @@
         &:hover {
             background-image: url('/images/icons/advance-blue.svg');
             transition: background-image .3s;
+            span {
+                width: 17px;
+                height: 17px;
+                }
         }
     }
     span.carousel-control-prev-icon {
