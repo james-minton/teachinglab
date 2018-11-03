@@ -1,11 +1,11 @@
 ---
 title: Creating A Community Of Learners
-date: 2018-10-02T02:00:58.021Z
 contenttype: blog
+date: 2018-10-02T02:00:58.021Z
 postauthorname: Chris Daniels
 postauthortitle: Chief of Staff
 postauthorimg: images/uploads/cdaniels.jpg
-image: images/uploads/streetscene.png
+image: /images/uploads/blog-standard.jpg
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius
   sem, eget dictum nunc congue quis. Duis ultrices lorem in purus egestas
