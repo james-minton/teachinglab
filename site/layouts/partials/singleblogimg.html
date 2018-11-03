@@ -1,4 +1,4 @@
-{{ $imgConcat := print .Params.image | print "static/" }} {{/* Adding "static" to image path so imageConfig function below can find it */}}
+{{ $imgConcat := .Params.image | print "/static/" }} {{/* Adding "static" to image path so imageConfig function below can find it */}}
 {{ $imgSize := (imageConfig $imgConcat) }} {{/* Getting width of image using imageConfig function */}}
 {{ if and (gt $imgSize.Width "2000") (in .Params.image ".png") }}{{/* If image is greater than this width, and has file extension x, append filename suffix "lg" to path */}} 
     {{ $cleanFilename := strings.TrimSuffix ".png" .Params.image }} <img src="{{ print $cleanFilename }}-lg.png" />
@@ -13,3 +13,6 @@
 {{ else if and (le $imgSize.Width "2000") (in .Params.image ".jpeg") }}
     {{ $cleanFilename := strings.TrimSuffix ".jpg" .Params.image }} <img src="{{ print $cleanFilename }}-orig.jpeg" />
 {{ end }}
+
+
+

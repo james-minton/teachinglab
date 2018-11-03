@@ -2,7 +2,7 @@
 title: Calcasieu Parish
 date: 2018-10-22T18:10:46.905Z
 contenttype: cases
-image: /images/uploads/streetscene.png
+image: /images/uploads/blog-standard.jpg
 description: Lorem Ipsum
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam risus
