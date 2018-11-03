@@ -86,7 +86,7 @@ gulp.task('fonts', () => (
 // Create responsive image sizes
 gulp.task("img", () =>
   gulp.src([
-    "/site/static/images/uploads/**.*",
+    "site/static/images/uploads/**.*",
     "!static/images/uploads/**.svg"
   ])
     .pipe(responsive({
