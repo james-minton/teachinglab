@@ -268,17 +268,17 @@ collections:
   - name: "opportunities"
     label: Opportunities
     files:
-      label: Opportunities
-      name: opportunitieslist 
-      file: "/site/data/opportunities/contents.yml"
-      fields:
-        - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-        - label: Job Openings 
-          name: openings
-          widget: list
-          fields:
-            - {label: Job Title, name: jobTitle, widget: string} 
-            - {label: Job Description, name: description, widget: string}
+      - label: Opportunities
+        name: opportunitieslist 
+        file: "/site/data/opportunities/contents.yml"
+        fields:
+          - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+          - label: Job Openings 
+            name: openings
+            widget: list
+            fields:
+              - {label: Job Title, name: jobTitle, widget: string} 
+              - {label: Job Description, name: description, widget: string}
 
   - label: "USA Map"
     name: usaMap
