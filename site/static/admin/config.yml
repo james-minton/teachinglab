@@ -265,16 +265,16 @@ collections:
       - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
-- name: "opportunities"
-  label: Opportunities
-  file: "/site/data/opportunities/contents.yml"
-  fields:
-    - label: Job Openings 
-      name: openings
-      widget: list
-      fields:
-        - {label: Job Title, name: jobTitle, widget: string} 
-        - {label: Job Description, name: description, widget: string}
+  - name: "opportunities"
+    label: Opportunities
+    file: "/site/data/opportunities/contents.yml"
+    fields:
+      - label: Job Openings 
+        name: openings
+        widget: list
+        fields:
+          - {label: Job Title, name: jobTitle, widget: string} 
+          - {label: Job Description, name: description, widget: string}
 
   - label: "USA Map"
     name: usaMap
