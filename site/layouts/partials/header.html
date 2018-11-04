@@ -15,7 +15,15 @@
 <nav id="topNav">
     <ul>
         {{ range .Site.Menus.main }}
-        <li><a class="{{if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ if isset $.Params "contenttype"  }}
+                {{ if ne $.Params.contenttype "cases" }}
+                <li><a class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ else }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            {{ else  }}  
+                <li><a class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
         {{ end }}
     </ul>
     

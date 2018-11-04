@@ -1,4 +1,30 @@
 {{ define "main" }}
+<div id="contact-page" class="pageWrap">
+        <div class="page-title outer-padding">
+            <div class="title-box inner-wrapper">
+                <div class="title-container">
+                  
+                        <h2>Opportunities</h2>
+                  
+                </div>
+            </div>
+        </div>
+        <div id="contact-intro-panel" class="margb80">
+            <div class="content-inner">
+                <p>Interested in working for Teaching Lab? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis dolor sed blandit elementum. Maecenas fringilla augue ac ultrices imperdiet. Aenean purus urna, euismod nec felis quis, mollis bibendum lectus. Nam nec est at arcu facilisis vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sed sodales neque. Integer id diam dolor. Duis in finibus tortor. Praesent aliquet semper leo in porttitor.</p>
+            </div>
+        </div>
+        <div id="mail-panel">
+            <div class="content-well margb80">
+                <div class="content-inner">
+                    {{ with .Site.Data.opportunities.contents.openings }}
+                    <h4 class="uppercase">{{ .jobTitle }}</h4>
+                    <p>{{ .description }}</p>
+                </div>
+            </div>
+        </div> 
 
+
+</div>        
 
 {{ end }}
