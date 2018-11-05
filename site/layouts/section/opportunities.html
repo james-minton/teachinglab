@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div id="contact-page" class="pageWrap">
+<div id="opportunities-page" class="pageWrap">
         <div class="page-title outer-padding">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
@@ -17,17 +17,19 @@
             </div>
         </div>
         <div id="jobs-panel">
-            <div class="content-well margb80">
+            {{ range .Site.Data.opportunities.contents.openings }}
+            <div class="content-well pad80 margb80">
                 <div class="content-inner">
-                    {{ range .Site.Data.opportunities.contents.openings }}
+                    
                     <h4 class="uppercase">{{ .jobTitle }}</h4>
                     <p>{{ .description }}</p>
-                    {{ end }}
+                  
                 </div>
             </div>
+            {{ end }}
         </div> 
 
 
 </div>        
-
+{{ partial "newsletter" . }}
 {{ end }}

@@ -232,8 +232,13 @@ h6 {
     }
 }
 .hero-panel-sub {
+   background-color: #eaeaea;
+}
+.hero-panel-sub.parallax-window {
+    background-color: none;
+}
+.hero-panel-sub, .hero-panel-sub.parallax-window {
     width: 100%;
-    background-color: #eaeaea;
         height: 176px;
         margin-bottom: 4rem;
     @include for-768-up {

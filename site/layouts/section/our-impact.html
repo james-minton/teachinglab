@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div id="our-impact-page" class="pageWrap">
-        <div class="hero-panel-sub"></div>
+        <div class="hero-panel-sub parallax-window" data-position-y="10%" data-parallax="scroll" data-speed="0.7" data-image-src="/images/student-profile.jpg"></div>
         <div class="page-title outer-padding">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
@@ -16,8 +16,8 @@
             <div class="content-well target" id="intro">
                 {{ with .Site.Data.impact.sectionone }}
                 <div class="rotate">
-                        <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
-                    </div>
+                    <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
+                </div>
                 {{ end }}
             </div>
             <div class="content-inner">
