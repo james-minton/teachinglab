@@ -72,16 +72,16 @@ p {
 }
 p.reg {
     font-size: 1.4rem;
-    letter-spacing: 0.08rem;
+    letter-spacing: 0.008rem;
     line-height: 2.6rem;
     @include for-768-up {
         font-size: 1.7rem;
-        letter-spacing: 0.09rem;
+        letter-spacing: 0.009rem;
         line-height: 3rem;
     }
     @include for-1440-up {
         font-size: 2.1rem;
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.015rem;
         line-height: 3.6rem;
     }   
     font-weight: 400;
@@ -295,7 +295,9 @@ h6 {
 }
 .content-inner {
     max-width: 360px;
+    padding: 0 2.4rem;
     @include for-768-up {
+        padding: 0;
         max-width: 640px;
     }
     @include for-1024-up {
@@ -478,7 +480,7 @@ h6 {
         }
 }
 .margb72 {
-    margin: 4rem;
+    margin: 0 auto 4rem;
         @include for-768-up {
             margin: 0 auto 5.6rem;
         }
