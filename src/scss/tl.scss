@@ -263,9 +263,17 @@ h6 {
     background-color: $lightblue;
 }
 #content-wrapper {
-    padding: 0 48px;
+    padding: 0 2.4rem;
+    @include for-768-up {
+        padding: 0 48px;
+    }
 }
 .content-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+.content-wrapper-nop {
+    padding: 0;
     max-width: 1200px;
     margin: auto;
 }
@@ -281,6 +289,23 @@ h6 {
 .content-well {
     position: relative;
     max-width: 767px;
+    padding: 0 2.4rem;
+    @include for-768-up {
+        max-width: 720px;
+        padding: 0;
+    }
+    @include for-1024-up {
+        max-width: 840px;
+    }
+    @include for-1440-up {
+        max-width: 1000px;
+    }
+    margin: auto;
+}
+.content-well-nop {
+    position: relative;
+    max-width: 767px;
+    padding: 0;
     @include for-768-up {
         max-width: 720px;
     }
@@ -290,10 +315,23 @@ h6 {
     @include for-1440-up {
         max-width: 1000px;
     }
-    
     margin: auto;
 }
 .content-inner {
+    max-width: 360px;
+    @include for-768-up {
+        padding: 0;
+        max-width: 640px;
+    }
+    @include for-1024-up {
+        max-width: 720px;
+    }
+    @include for-1440-up {
+        max-width: 800px;
+    }
+    margin: auto;
+}
+.content-inner-p {
     max-width: 360px;
     padding: 0 2.4rem;
     @include for-768-up {
@@ -306,7 +344,6 @@ h6 {
     @include for-1440-up {
         max-width: 800px;
     }
-    
     margin: auto;
 }
 .title-box {
@@ -490,6 +527,15 @@ h6 {
 }
 .pad80 {
     padding: 4rem 0;
+    @include for-768-up {
+        padding: 5.6rem 0;
+    }
+    @include for-1440-up {
+        padding: 8rem 0;
+    }
+}
+.padw80 {
+    padding: 4rem 2.4rem;
     @include for-768-up {
         padding: 5.6rem 0;
     }
