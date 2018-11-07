@@ -27,10 +27,12 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('nav').removeClass('nav-down').addClass('nav-up');
+        $('header').addClass('shadow-lite');
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
             $('nav').removeClass('nav-up').addClass('nav-down');
+            $('header').removeClass('shadow-lite');
         }
     }
     lastScrollTop = st;

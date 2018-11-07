@@ -235,11 +235,7 @@
         background-color: $orange;
     }
 }
-
-#panel6 {
-
-
-}    
+   
 #panel6 {
     background-color: $lightblue;
     img {
@@ -285,7 +281,18 @@
     .carousel-inner .carousel-item-left{ 
     transform: translateX(0); 
     }
-
+}
+#panel-6-btn {
+    @include for-phone-only {
+        margin-top: 4rem;
+    }
+    @include for-768-up {
+        background-color: $lightblue;
+        padding: 0 0 5.6rem;
+    }
+    @include for-1440-up {
+        padding: 0 0 8rem;
+    }
 }
 #panel7 {
     .content-well.tv-green {
