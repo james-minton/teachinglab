@@ -58,6 +58,23 @@
     }
     
     .team-bios {
+        @include for-phone-only {
+            margin-bottom: 0;
+            &.content-well {
+                padding: 4rem 0 0;
+                background-color: $lightblue;
+            }
+            .content-inner {
+                margin: 0;
+                max-width: 767px;
+            }
+            .rotate {
+                margin: 0 0 2.4rem;
+            }
+            h3 {
+                margin-left: 2.4rem;
+            }
+        }
         .content-inner {
             display: flex;
             justify-content: space-evenly;
@@ -88,7 +105,7 @@
                 flex-direction: column;
                 margin-bottom: 2.4rem;
                 h4 {
-                    line-height: 2.4rem;
+                    line-height: 1.8rem;
                     margin-bottom: 0.2rem;
                 }
                 h5 {
@@ -262,9 +279,12 @@
     #map-panel {
         background: #EFFBFF; 
         @include for-phone-only {
-            
+            background: #fff; 
             .inner-wrapper {
                 margin: 2.4rem 0 0;
+            }
+            &.pad80 {
+                padding-bottom: 5.6rem;
             }
         }
         @include for-768-up {

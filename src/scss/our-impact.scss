@@ -1,4 +1,9 @@
 #our-impact-page {
+    .hero-panel-sub.parallax-window {
+        @include for-phone-only {
+            background-position: right 10px !important;
+        }
+    }
     .title-box {
         background: $orange;
     }
@@ -20,7 +25,7 @@
             margin-bottom: 8rem;
         }
         p#tv-intro {
-            margin: 4rem;
+            margin: 4rem 0;
         @include for-768-up {
             margin: 0 auto 5.6rem;
         }
@@ -33,7 +38,7 @@
             .testimonial-wrapper {
                 display: flex;
                 align-items: center;
-                height: 134px;
+                height: 250px;
                 @include for-768-up {
                     height: 194px;
                 }
@@ -43,13 +48,30 @@
             }
         }
     }
+    .section-two {
+        .content-well {
+            padding: 0;
+        }
+    }
     .section-four {
+        &.pad96 {
+            @include for-phone-only {
+                padding-top: 0;
+                padding-bottom: 3.2rem;
+            }
+        }
         .content-well {
             ul:nth-of-type(1n) {
-                flex-direction: row;
+                flex-direction: column;
+                @include for-768-up {
+                    flex-direction: row;
+                }
             }
             ul:nth-of-type(2n) {
-                flex-direction: row-reverse;
+                flex-direction: column;
+                @include for-768-up {
+                    flex-direction: row-reverse;
+                }
                 li.blog-excerpt {
                     margin-left: 0;
                     @include for-768-up {
@@ -57,6 +79,21 @@
                     }
                     @include for-1440-up {
                         margin-right: 4.8rem;
+                    }
+                }
+            }
+            li.bloglist-image {
+                @include for-phone-only {
+                    margin-bottom: 3.2rem;
+                }
+                img {
+                max-width: 100%;
+                }
+            }   
+            li.blog-excerpt {
+                @include for-phone-only {
+                    h3.morebutton {
+                        margin: 3.2rem auto;
                     }
                 }
             }
@@ -68,6 +105,10 @@
     .carousel-control-prev, .carousel-control-next {
         /*background-image: url('/images/icons/advance-grey.svg'); */
         svg {
+            @include for-phone-only {
+                width: 24px;
+                height: 24px;
+            }
             width: 17px;
             height: 17px;
         }
@@ -110,6 +151,10 @@
         }
     }
     h5.num {
+        @include for-phone-only {
+            width: 96px;
+            font-size: 1.4rem;
+        }
         display: flex;
         align-items: center;
         justify-content: center;

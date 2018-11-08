@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div id="opportunities-page" class="pageWrap">
-        <div class="page-title outer-padding">
+        <div class="page-title">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
                     
@@ -10,15 +10,17 @@
             </div>
         </div>
         <div id="opp-intro-panel" class="margb80">
-            <div class="content-inner">
-                {{ with .Site.Data.opportunities.contents }}
-                    <p>{{ .intro }}</p>
-                {{ end }}
-            </div>
+            <div class="content-well">
+                <div class="content-inner">
+                    {{ with .Site.Data.opportunities.contents }}
+                        <p>{{ .intro }}</p>
+                    {{ end }}
+                </div>
+            </div>    
         </div>
         <div id="jobs-panel">
             {{ range .Site.Data.opportunities.contents.openings }}
-            <div class="content-well pad80 margb80">
+            <div class="content-well padw80 margb80">
                 <div class="content-inner">
                     
                     <h4 class="uppercase">{{ .jobTitle }}</h4>

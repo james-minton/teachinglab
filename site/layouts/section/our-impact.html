@@ -2,7 +2,7 @@
 
 <div id="our-impact-page" class="pageWrap">
         <div class="hero-panel-sub parallax-window" data-position-y="10%" data-parallax="scroll" data-speed="0.7" data-image-src="/images/student-profile.jpg"></div>
-        <div class="page-title outer-padding">
+        <div class="page-title">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
                     {{ with .Site.Data.impact.pagename }}
@@ -20,12 +20,14 @@
                 </div>
                 {{ end }}
             </div>
-            <div class="content-inner">
-                {{ with .Site.Data.impact.sectionone }}
-                    <p id="tv-intro">{{ .introText }}</p>
-                {{ end }}    
-            </div>
-            <div id="voices" class="content-well pad80">
+            <div class="content-well">
+                <div class="content-inner">
+                    {{ with .Site.Data.impact.sectionone }}
+                        <p id="tv-intro">{{ .introText }}</p>
+                    {{ end }}    
+                </div>
+            </div>    
+            <div id="voices" class="content-well padw80">
                 <div class="content-inner">
                     {{ partial "tvcarousel" . }}   
                 </div>
