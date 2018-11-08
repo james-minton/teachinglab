@@ -12,7 +12,7 @@
 </div>
     
 <div id="blogList">
-    <div id="content-wrapper">
+    
         <div class="content-well">
             {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
             <ul class="blogfeed">
@@ -27,7 +27,7 @@
             </ul>    
             {{ end}}
         </div>
-    </div>
+   
 </div>   
 {{ partial "newsletter" . }} 
 {{ end }}

@@ -1,4 +1,13 @@
 #contact-page {
+    .rotate {
+        @include for-phone-only {
+            max-width: 767px;
+            margin: 0 0 2.4rem;  
+           h3 {
+           margin: 0 0 2.4rem; 
+            }
+        }
+    }
     .title-box {
         background-color: #fff;
         margin-bottom: 0;
@@ -16,10 +25,16 @@
     }
     #mail-panel {
         .content-well {
+            @include for-phone-only {
+                padding: 4rem 2.4rem;
+            }
             display: flex;
-            align-items: center;
+            align-items: left;
             background-color: $lightblue;
+            flex-direction: column;
             @include for-768-up {
+                align-items: center;
+                flex-direction: row;
                 height: 200px;
             }
             @include for-1440-up {
@@ -38,9 +53,15 @@
     #social-panel {
         .content-well {
             display: flex;
-            align-items: center;
+            align-items: left;
             background-color: $lightblue;
+            flex-direction: column;
+            @include for-phone-only {
+                padding: 4rem 2.4rem 2.4rem;
+            }
             @include for-768-up {
+                align-items: center;
+                flex-direction: row;
                 height: 200px;
             }
             @include for-1440-up {
@@ -50,9 +71,16 @@
         ul {
             list-style: none;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            @include for-768-up {
+                flex-direction: row;
+                justify-content: space-between;
+            }
             padding-left: 0;
             li {
+                @include for-phone-only {
+                    margin-bottom: 1.6rem;
+                }
                 a {
                 display: flex;
                 flex-direction: column;
@@ -79,6 +107,8 @@
                 }
                 .svg-wrap {
                     height: 30px;
+                    width: 33px;
+                    margin-bottom: 0.8rem;
                     @include for-768-up {
                         margin-bottom: 1.6rem;
                     }
@@ -110,12 +140,28 @@
     }
     #contact-panel {
         background-color: $slategrey;
+        .rotate {
+            
+            @include for-phone-only {
+                max-width: 767px;
+                margin: 0 0 2.4rem;  
+               h3 {
+               margin: 0 0 2.7rem; 
+               &.active {
+                margin-bottom: 0;
+            }
+                }
+            }
+        }
         .form-row {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 0.8rem;
+            flex-direction: column;
             @include for-768-up {
+                align-items: center;
                 margin-bottom: 1.6rem;
+                flex-direction: row;
             }
             @include for-1440-up {
                 margin-bottom: 2.4rem;
@@ -123,12 +169,13 @@
             .col-left {
                 @include for-768-up {
                     padding-right: 1.6rem;
+                    text-align: right;
+                    width: 33%;
                 }
                 @include for-1440-up {
                     padding-right: 2.4rem;
                 }   
-                text-align: right;
-                width: 33%;
+                
                 h5 {
                     color: #fff;
                 }
@@ -137,7 +184,10 @@
                 }
             }
             .col-right {
-                width: 66%;
+                width: 100%;
+                @include for-768-up {
+                    width: 66%;
+                }
                 input {
                     border: none;
                     &.news-signup {
@@ -148,9 +198,14 @@
                 }
                 .contact-input {
                     width: 100%;
-                    height: 64px;
+                    height: 4.8rem;
+                    margin-bottom: 1.6rem;
+                    @include for-768-up {
+                        height: 6.4rem;
+                        margin-bottom: 0;
+                    }
                     @include for-1440-up {
-                        height: 90px;
+                        height: 9rem;
                     }
                 }
                 .contact-message {

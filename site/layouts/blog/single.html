@@ -1,7 +1,7 @@
 {{ define "main" }}
     
 <div id="blogSingle" class="pageWrap">
-    <div id="content-wrapper">
+    
         {{ if eq .Params.contenttype "blog" }}
             <div id="breadcrumb"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/blog">Blog</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
         {{ end }}
@@ -29,8 +29,7 @@
             
         
         </div>
-        
-    </div>
+  
     {{ if eq .Params.contenttype "blog" }}
     <div class="post-navigation marg80">
             <div class="side-header"><p>Continue Reading</p></div>

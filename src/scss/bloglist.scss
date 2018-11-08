@@ -9,11 +9,19 @@
 
 ul.blogfeed {
     display: flex;
+    flex-direction: column;
+    @include for-768-up {
+        flex-direction: row;
+    }
     padding: 0;
     li {
         list-style: none;
         &.bloglist-image {
+            @include for-phone-only {
+                margin-bottom: 3.2rem;
+            }
             img {
+                max-width: 100%;
                 @include for-768-up {
                     max-width: 210px;
                 }
@@ -45,6 +53,7 @@ ul.blogfeed {
             h3.bloglisttitle {
                 margin-top: 0;
                 text-transform: uppercase;
+                margin-bottom: 1.6rem;
                 @include for-768-up {
                     margin-bottom: 2.4rem;
                 }
@@ -71,6 +80,9 @@ ul.blogfeed {
                     color: $brightblue;
                     border: 1px solid $brightblue;
                     padding: 2.2rem 3.2rem;
+                    @include for-phone-only {
+                        margin: 3.2rem auto;
+                    }
                     margin: 0;
                     display: inline-block;
                     line-height: 150%;
