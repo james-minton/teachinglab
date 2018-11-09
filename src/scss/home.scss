@@ -145,7 +145,7 @@
         }
     }
     
-    #h3panel {
+    #h3panel, #h3panel-mobile {
         width: 100%;
         background-color: $slateblue;
         color: #fff;
@@ -204,6 +204,32 @@
             }
         }
     }
+}
+#panel3-mobile {
+    #h3panel-mobile {
+        width: 100%;
+        background-color: $slateblue;
+        color: #fff;
+        h4 {
+            color: #fff;
+        }
+    }
+    .model-item {
+        margin-bottom: 2.4rem;
+        .model-wrap {
+            display: flex;
+            .icon-box {
+                width: 64px;
+                margin: 0 2.4rem 0 0;
+                img {
+                    max-width: 64px;
+                }
+            }
+        }
+    } 
+    #h3text-panel-phone {
+        background-color: $lightblue;
+    }   
 }
 .parallax-window {
     width: 100%;

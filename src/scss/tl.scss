@@ -582,6 +582,19 @@ h6 {
         padding: 11.2rem 0;
     }
 }
+.mobile-off {
+    @include for-phone-only {
+        display: none;
+    }
+}
+.mobile-on {
+    @include for-phone-only {
+        display: inherit;
+    }
+    @include for-768-up {
+        display: none;
+    }
+}
 
 @import 'nav';
 @import 'home';
