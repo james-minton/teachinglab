@@ -51,7 +51,7 @@
         margin: auto;
         padding-top: 0;
         @include for-768-up {
-            margin: initial;
+            margin: 0 auto;
             
         }
         h1 {
