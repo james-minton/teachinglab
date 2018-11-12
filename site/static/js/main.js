@@ -106,3 +106,4 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
     currentIndex = $('div.active').index() + 1;
    $('.num').html(''+currentIndex+' of '+totalItems+'');
 });
+

@@ -4,7 +4,7 @@
   <div id="panel1" class="outer-padding parallax-window" data-position-y="-80px" data-parallax="scroll" data-speed="0.9" data-image-src="/images/coffeeshop_overlay_30.jpg">
     <div class="content-wrapper">
       <div class="panel-overlay content-inner">
-          <h1 class="tagline">
+          <h1 class="tagline" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
             {{ .Site.Data.home.heropanel.tagline }}
           </h1>
       </div>
@@ -103,7 +103,7 @@
               </div>
             </div>
             <!-- Slides Mobile ------------------------------------->
-            <div id="h3text-panel-phone" class="margb80 padw80">
+            <div id="h3text-panel-phone" class="margb80 padw80" data-aos="fade-in" data-aos-once="true" data-aos-delay="0" data-aos-duration="3000">
                 <div class="content-inner" data-aos="fade-in" data-aos-once="true" data-aos-delay="1000">
                   <div class="model-item">
                     <div class="model-wrap">
@@ -172,9 +172,9 @@
                 <div class="orange-box-wrapper our-impact pad80">
                     <div class="orange-box">
                         <ul>
-                            <li class="uppercase"><h1 class="hero">{{ .quantityOne }}</h1><h4>{{ .textOne }}</h4></li>
-                            <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
-                            <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="0">{{ .quantityOne }}</h1><h4>{{ .textOne }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
                         </ul>
                     </div>     
                 </div>  
