@@ -72,6 +72,7 @@
     }
 }
 #panel3 {
+    display: none;
     &.pad80.outer-padding {
         @include for-phone-only {
             padding: 2.4rem 0 4rem;
@@ -215,6 +216,12 @@
     }
     .model-item {
         margin-bottom: 2.4rem;
+        &.last {
+            margin-bottom: 0;
+            .model-wrap {
+                margin-bottom: 0.8rem;
+            }
+        }
         .model-wrap {
             display: flex;
             .icon-box {
@@ -224,6 +231,17 @@
                     max-width: 64px;
                 }
             }
+            @include for-768-up {
+                margin-bottom: 4rem;
+                .icon-box {
+                    width: 76px;
+                    margin: 0 3.2rem 0 0;
+                    img {
+                        max-width: 76px;
+                    }
+                } 
+            }
+            
         }
     } 
     #h3text-panel-phone {
