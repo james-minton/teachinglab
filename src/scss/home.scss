@@ -10,6 +10,7 @@
     position: relative;
     /* top: 53px; */
     display: flex;
+    
     @include for-768-up {
        /* top: 88px; */
        height: 400px;
@@ -22,16 +23,39 @@
         &.parallax-window {
             background-position: center center !important;
         }
+        
     }
-
+    .panel-gradient {
+        background-image: linear-gradient(to bottom,rgba(255,125,69,.05),rgba(1,32,43,.65));
+        width: 100%;
+        height: auto;
+        padding: 0 48px;
+        z-index: 32;
+    }
     .content-wrapper {
         display: flex;
+        height: 300px;
+        @include for-768-up {
+            justify-content: center;
+            width: 100%;
+            margin: initial;
+            align-items: flex-end;
+            height: 310px;
+        }
+        @include for-1440-up {
+            height: 400px;
+        }
     }
     .panel-overlay {
         margin: auto;
         padding-top: 0;
+        @include for-768-up {
+            margin: initial;
+            
+        }
         h1 {
             color: #fff;
+            z-index: 40;
             margin-top: 0;
             margin: auto;
             font-weight: 500;
@@ -39,7 +63,7 @@
             letter-spacing: 0.043rem;
             line-height: 3.4rem;
             @include for-768-up {
-                font-weight: 400;
+                font-weight: 500;
                 font-size: 4rem;
                 line-height: 5rem;
                 letter-spacing: 0.07rem;

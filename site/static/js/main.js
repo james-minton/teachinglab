@@ -107,3 +107,5 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
    $('.num').html(''+currentIndex+' of '+totalItems+'');
 });
 
+// Counter
+

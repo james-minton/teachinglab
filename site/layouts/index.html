@@ -1,14 +1,16 @@
 {{ define "main" }}
 
 <div id="homepage" class="pageWrap">
-  <div id="panel1" class="outer-padding parallax-window" data-position-y="-80px" data-parallax="scroll" data-speed="0.9" data-image-src="/images/coffeeshop_overlay_30.jpg">
-    <div class="content-wrapper">
-      <div class="panel-overlay content-inner">
-          <h1 class="tagline" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
-            {{ .Site.Data.home.heropanel.tagline }}
-          </h1>
-      </div>
-    </div>
+  <div id="panel1" class="parallax-window" data-position-y="-50px" data-position-x="100px" data-parallax="scroll" data-speed="0.9" data-image-src="/images/wide-classroom-br2.jpg">
+    <div class="panel-gradient" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="0">
+      <div class="content-wrapper">
+          <div class="panel-overlay content-inner">
+              <h1 class="tagline" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                {{ .Site.Data.home.heropanel.tagline }}
+              </h1>
+          </div>
+        </div>
+    </div>    
   </div>
   <div id="panel2" class="pad80">
       <div class="content-well">
@@ -104,13 +106,13 @@
             </div>
             <!-- Slides Mobile ------------------------------------->
             <div id="h3text-panel-phone" class="margb80 padw80" data-aos="fade-in" data-aos-once="true" data-aos-delay="0" data-aos-duration="3000">
-                <div class="content-inner" data-aos="fade-in" data-aos-once="true" data-aos-delay="1000">
+                <div class="content-inner" data-aos="fade-in" data-aos-once="true" data-aos-delay="0">
                   <div class="model-item">
                     <div class="model-wrap">
-                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="1400">
+                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">
                         <img class="h3icon" src="/images/uploads/head_180.png">
                       </div>
-                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="1200">
+                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="500">
                         <h4>HEAD</h4>
                         <p class="reg">Core academic content that is aligned to specific curricular materials and research-based practices.</p>
                       </div> 
@@ -118,10 +120,10 @@
                   </div>
                   <div class="model-item">
                     <div class="model-wrap">
-                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="1400">
+                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">
                         <img class="h3icon" src="/images/uploads/love_180.png">
                       </div>
-                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="1200">
+                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="500">
                         <h4>HEART</h4>
                         <p class="reg">Teacher-led community that builds both social capital and buy-in from teachers.</p>
                       </div> 
@@ -129,10 +131,10 @@
                   </div>
                   <div class="model-item last">
                     <div class="model-wrap">
-                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="1400">
+                      <div class="icon-box" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">
                         <img class="h3icon" src="/images/uploads/cycle_180.png">
                       </div>  
-                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="1200">
+                      <div class="h3text" data-aos="fade-in" data-aos-once="true" data-aos-delay="500">
                         <h4>HABITS</h4>
                         <p class="reg">Professional learning that is structured around repeated cycles of inquiry.</p>
                       </div> 
@@ -144,7 +146,7 @@
             {{ end }}
             <div class="content-wrapper">
               <div class="content-inner">
-                <h3 class="morebutton" data-aos="fade-in" data-aos-once="true" data-aos-delay="200"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
+                <h3 class="morebutton"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
               </div> 
           </div> 
         </div>
@@ -172,16 +174,16 @@
                 <div class="orange-box-wrapper our-impact pad80">
                     <div class="orange-box">
                         <ul>
-                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="0">{{ .quantityOne }}</h1><h4>{{ .textOne }}</h4></li>
-                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
-                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="0">{{ .quantityOne }}</h1><h4 data-aos="fade-in" data-aos-once="true" data-aos-delay="0">{{ .textOne }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityTwo }}</h1><h4 data-aos="fade-in" data-aos-once="true" data-aos-delay="500">{{ .textTwo }}</h4></li>
+                            <li class="uppercase"><h1 class="hero" data-aos="fade-right" data-aos-once="true" data-aos-delay="500">{{ .quantityThree }}</h1><h4 data-aos="fade-in" data-aos-once="true" data-aos-delay="500">{{ .textThree }}</h4></li>
                         </ul>
                     </div>     
                 </div>  
             </div>
         </div>  
         <div class="content-inner">  
-            <h3 class="morebutton" data-aos="fade-in" data-aos-once="true"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
+            <h3 class="morebutton"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
           {{ end }}
         </div>  
     </div>  
@@ -231,7 +233,7 @@
     </div>
     <div id="panel-6-btn">
       <div class="content-inner">  
-          <h3 class="morebutton" data-aos="fade-in" data-aos-once="true"><a class="read-more" href="/about-us">{{ .buttonText }}</a></h3>
+          <h3 class="morebutton"><a class="read-more" href="/about-us">{{ .buttonText }}</a></h3>
         {{ end }}
       </div>
     </div>
@@ -251,7 +253,7 @@
     <div class="content-well">
       <div class="content-inner">
         {{ with .Site.Data.home.tv }}
-          <h3 class="morebutton" data-aos="fade-in" data-aos-once="true"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
+          <h3 class="morebutton"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
         {{ end }}
       </div>
     </div>  
