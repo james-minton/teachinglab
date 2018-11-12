@@ -81,7 +81,11 @@
             }
         }
     .graphic-section {
-        margin-top: 5.6rem;
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+        margin-top: 4rem;
         @include for-768-up {
             margin-top: 7.2rem;
         }

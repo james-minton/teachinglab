@@ -67,7 +67,7 @@ p {
         line-height: 3.6rem;
         margin-bottom: 3.2rem;
     }   
-    font-weight: 300;
+    font-weight: 400;
     color: $deepblack;
 }
 p.reg {
@@ -84,7 +84,7 @@ p.reg {
         letter-spacing: 0.015rem;
         line-height: 3.6rem;
     }   
-    font-weight: 400;
+    font-weight: 500;
     color: $deepblack;
 }
 p:last-of-type {
@@ -104,11 +104,11 @@ h1 {
         letter-spacing: 0.01rem;
         line-height: 7.2rem;
     }    
-    font-weight: 500;
+    font-weight: 600;
 }
 h1.hero {
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 6.4rem;
     letter-spacing: 0.067rem;
     line-height: 8.4rem;
@@ -138,7 +138,7 @@ h2 {
         line-height: 5.2rem;
     }   
     color: $deepblack;
-    font-weight: 500;
+    font-weight: 600;
 }
 h3 {
     font-size: 1.3rem;
@@ -155,7 +155,7 @@ h3 {
         line-height: 3.6rem;
     }   
     color: $deepblack;
-    font-weight: 600;
+    font-weight: 700;
     &.active {
         border-bottom: 3px solid $boldblue;
         display: inline-block;
@@ -179,7 +179,7 @@ h4 {
         margin-bottom: 1.6rem;
     }   
     color: $deepblack;
-    font-weight: 600;
+    font-weight: 700;
     &.staff-name {
         text-transform: uppercase;
     }
@@ -198,7 +198,7 @@ h5 {
         letter-spacing: 0.066rem;
         line-height: 1.9rem;
     }  
-    font-weight: 400; 
+    font-weight: 500; 
     color: $deepblack;
 }
 h6 {
@@ -215,7 +215,7 @@ h6 {
         letter-spacing: 0.02rem;
         line-height: 2.4rem;
     }   
-    font-weight: 300;
+    font-weight: 400;
     color: $deepblack;
 }
 
