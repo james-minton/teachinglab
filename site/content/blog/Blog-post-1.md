@@ -4,7 +4,7 @@ title: >-
   American Schools
 contenttype: blog
 date: 2018-10-01T02:00:58.021Z
-postauthorname: Silas Kularni
+postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: images/uploads/skularni-bio-sm.png
 image: /images/uploads/TravelBlogIntro.jpg
