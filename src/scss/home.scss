@@ -28,6 +28,7 @@
     .panel-gradient {
         background-image: linear-gradient(to bottom,rgba(255,125,69,.05),rgba(1,32,43,.65));
         background-image: linear-gradient(180deg,rgba(255,125,69,.0),rgba(27, 39, 43, 0.65));
+        background-image: linear-gradient(180deg,rgba(251, 251, 251, 0),rgba(43, 43, 43, 0.65));
         width: 100%;
         height: auto;
         padding: 0 48px;
@@ -39,7 +40,7 @@
         @include for-768-up {
             justify-content: center;
             width: 100%;
-            margin: initial;
+            margin: 0 auto;
             align-items: flex-end;
             height: 310px;
         }
