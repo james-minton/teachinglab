@@ -278,7 +278,7 @@ collections:
             widget: list
             fields:
               - {label: Job Title, name: jobTitle, widget: string} 
-              - {label: Job Description, name: description, widget: string}
+              - {label: Job Description, name: description, widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
   - label: "USA Map"
     name: usaMap
