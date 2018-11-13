@@ -5,7 +5,7 @@ title: >-
 contenttype: blog
 date: 2018-10-03T02:00:00.000Z
 postauthorname: Silas Kulkarni
-postauthortitle: Chief of Staff
+postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/fontenot-student.jpg
 listSummary: >-
