@@ -1,10 +1,12 @@
 ---
-title: Creating A Community Of Learners
+title: >-
+  Innovation Road Trip: In Tiny, Impoverished Louisiana Town, School Is ‘a
+  Home-Like Environment You Want to Be a Part Of’
 contenttype: blog
-date: 2018-10-02T02:00:58.021Z
-postauthorname: Chris Daniels
+date: 2018-10-03T02:00:00.000Z
+postauthorname: Silas Kulkarni
 postauthortitle: Chief of Staff
-postauthorimg: images/uploads/cdaniels.jpg
+postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/pencils-blue.jpg
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius
@@ -15,12 +17,50 @@ listSummary: >-
   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
   inceptos himenaeos.
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius sem, eget dictum nunc congue quis. Duis ultrices lorem in purus egestas fermentum. Nullam dapibus tellus quis ex volutpat gravida in vel elit. Donec nisl felis, iaculis in urna non, euismod mollis quam. Duis convallis, sapien non bibendum mollis, nunc nisi tristique mi, eget sodales nisi nisi et lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ut sapien eleifend, posuere velit at, dapibus risus. Nulla facilisis tincidunt felis, at posuere leo consequat non. Nulla facilisi. Nam enim erat, pharetra in neque commodo, iaculis dapibus nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur molestie eu tellus sit amet venenatis.
 
 
+Kinder is a tightly knit 2,400-person community in western Louisiana. The biggest monument in the area is the Coushatta Casino Resort, where many of the local residents work.
 
-Pellentesque elementum massa ac pharetra ultricies. Fusce et malesuada arcu. Cras sollicitudin, mauris vel tristique mollis, diam orci interdum lacus, ut maximus purus augue nec lectus. Sed nec lectus ultricies ex pellentesque rhoncus eu ut diam. Proin in pulvinar lorem. Phasellus consequat consequat tristique. Phasellus sollicitudin massa vel accumsan viverra. Vivamus vitae egestas nibh, eget lacinia purus. Quisque sit amet pulvinar tortor. Quisque gravida libero nisi, id elementum sapien consectetur et. Nunc leo libero, laoreet ac nibh sit amet, lobortis varius tortor. Vestibulum euismod, nisi congue sodales vestibulum, sapien odio sagittis nibh, quis dapibus ex ligula nec velit. Etiam vitae augue cursus, blandit erat in, dapibus ipsum. Donec id suscipit sem.
+Of the nearly 1,000 students enrolled in the town’s two public schools, about 60 percent are classified as low-income. The median household income in Allen Parish, the county in which Kinder resides, is $41,801, according to the 2012–16 American Community Survey. That figure is even lower in Kinder itself.
 
+![Casino in Coushatta, Louisiana](/images/uploads/coushatta.jpg)
 
+Yet in this unexpected place, something remarkable is happening educationally. Using a teacher-written, knowledge-rich curriculum called the Louisiana ELA Guidebooks 2.0, students at Kinder Elementary School are becoming passionate experts and independent thinkers.
 
-Nullam ullamcorper ac ligula nec iaculis. Vivamus id nulla venenatis, molestie risus sit amet, dapibus dolor. Donec ut velit tristique, rutrum quam vel, molestie odio. Maecenas tincidunt lobortis orci, eu tempor urna hendrerit id. Quisque sollicitudin, nunc at venenatis mattis, nisi odio blandit lectus, at suscipit nulla ex congue orci. Etiam felis ipsum, tincidunt dignissim posuere tristique, rutrum commodo erat. In consequat justo quam, quis scelerisque nibh dignissim sed. Pellentesque finibus malesuada lorem, fermentum aliquam nulla rhoncus posuere. Sed tempus tincidunt quam sed suscipit. Aenean vel consectetur nulla. Phasellus convallis enim in libero pharetra fermentum. Sed ac lorem id mi sagittis tempus id eu mi. Quisque in erat molestie, vulputate purus eu, convallis velit. Nam tristique felis in justo rhoncus ultricies. Sed suscipit nunc et ex aliquet placerat. Quisque id dapibus arcu.
+For much of the time that we visited, schools were closed due to an ice storm. But sitting in the lobby of the casino restaurant, instructional coach Jade Welch, parent Chasidy LaFargue, and her son Mason told us why they love their school.
+
+“It’s a very home-like environment,” Welch said.
+
+![Kinder Elementary School fourth-grader Mason LaFargue with his mother Chasidy.](/images/uploads/mason.jpg)
+
+LaFargue enjoyed visiting Kinder Elementary so much that she started working as a substitute teacher.
+
+“It’s like a big group you want to be part of,” she said. “The friendships you get from these women — they are learning, you are learning.”
+
+To be sure, Kinder is in the early stages of its growth and development, and there’s still much more work to do. But this theme of learning together in a community flows from administrators to teachers, to students, to parents — and connects directly to the school’s success in using a new and challenging curriculum.
+
+“If we didn’t have a culture of collaboration in place before Guidebooks, we would have drowned,” Assistant Principal Jennifer Doucet said.
+
+But the best description of the school comes from 9-year old Mason.
+
+“It’s pretty much like a regular school. It’s fun and you learn a lot,” he said.
+
+Mason’s favorite unit was the American Revolution, and he readily rattled off information about the Stamp, Sugar, and Quartering Acts; the Founding Fathers; and why he would have been a Patriot and not a Loyalist. But he is equally knowledgeable about frog adaptations. In his teacher Miss Hannah’s class, students prepared for a unit on The Whipping Boy by reading informational texts about the Middle Ages — from dietary habits to the treatment of soldiers to the design of castles. The students love it.  
+
+This curriculum and instruction didn’t happen by accident. A strong local-control state, Louisiana supported local teachers in writing and revising the Guidebooks as a free online curriculum that any district in the state has the option to use. Nearly 80 percent of districts now use them. Guidebooks’ use of complex texts to build knowledge of topics supports the enthusiastic discussion we observed.
+
+First-grade teacher Carley Chaumont echoed this observation, sharing that she appreciated the complexity of the \[Guidebooks’] texts because she “could engage deep questions and have rich discussions with her kids.”
+
+This engagement isn’t limited to only Miss Carley’s more affluent students.
+
+“The texts in Guidebooks are so engaging to students, I don’t see a difference in our students based on background,” she told us.
+
+![Guidebooks in school library.](/images/uploads/library.jpg)
+
+Indeed, the curriculum was intentionally designed to build knowledge to support access for all students in order to close the achievement gap.
+
+To use Guidebooks or another knowledge-rich curriculum, professional development specific to that curriculum is key, said Stephanie Perry, curriculum and instructional support supervisor for Allen Parish School Board.
+
+District leadership has supported building teachers’ knowledge and ability to use the curriculum by participating in a statewide “Content Leaders” training. Getting the teachers thinking has gotten the students thinking, school leaders say. To support the use of this more rigorous curriculum in schools, teachers collaborate for one hour per day; even administrators have their own collaborative planning group.
+
+“This is a learning journey for me,” Chaumont told us. “Be a learner yourself. Have an open mind.”
