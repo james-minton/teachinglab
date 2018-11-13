@@ -119,12 +119,13 @@
                     <h3 class="bold-blue uppercase" id="contact-form">Message</h3>
                 </div>
             <div class="content-inner">
+            <form action="https://formspree.io/james@jamesminton.com" method="POST">    
                 <div class="form-row">
                     <div class="col-left">
                         <h5 class="uppercase">Name</h5>
                     </div>
                     <div class="col-right">
-                        <input class="contact-input">
+                        <input class="contact-input" type="text" name="name" required>
                     </div>
                 </div>  
                 <div class="form-row">
@@ -132,7 +133,15 @@
                         <h5 class="uppercase">Email address</h5>
                     </div>
                     <div class="col-right">
-                        <input class="contact-input">
+                        <input class="contact-input" type="email" name="_replyto" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-left">
+                        <h5 class="uppercase">Subject</h5>
+                    </div>
+                    <div class="col-right">
+                        <input name="_subject" class="contact-input" required>
                     </div>
                 </div>
                 <div class="form-row">
@@ -140,7 +149,7 @@
                         <h5 class="uppercase">Message</h5>
                     </div>
                     <div class="col-right">
-                        <input class="contact-message">
+                        <textarea name="message" placeholder="" class="contact-message" required></textarea>
                     </div>
                 </div>
                 <div class="form-row">   
@@ -148,10 +157,11 @@
                         <h5 class="uppercase"></h5>
                     </div>
                     <div class="col-right">
-                        <input type="submit" class="news-signup uppercase">
+                        <input type="submit" value="Send" class="news-signup uppercase">
                     </div>
                 </div>    
             </div>
+        </form>    
         </div>
     </div>
 
