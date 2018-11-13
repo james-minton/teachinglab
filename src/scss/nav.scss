@@ -83,6 +83,7 @@ nav#topNav {
                 a {
                     text-decoration: none;
                     color: $deepblack;
+                    white-space: nowrap;
                     &.active {
                         color: #FF7C4C;
                         border-bottom: 3px solid #ff7c4c;
