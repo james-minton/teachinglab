@@ -31,6 +31,9 @@ $tealgreen: #4BC6B9;
 @mixin for-1024-up {
     @media (min-width: 1024px) { @content; }
 }
+@mixin for-1200-up {
+    @media (min-width: 1200px) { @content; }
+}
 @mixin for-1440-up {
     @media (min-width: 1440px) { @content; }
 }
@@ -89,6 +92,26 @@ p.reg {
 }
 p:last-of-type {
     margin-bottom: 0;
+}
+ul {
+    font-size: 1.4rem;
+    letter-spacing: 0.01rem;
+    line-height: 2.6rem;
+    margin-bottom: 1.6rem;
+    @include for-768-up {
+        font-size: 1.8rem;
+        letter-spacing: 0.02rem;
+        line-height: 3rem;
+        margin-bottom: 2.4rem;
+    }
+    @include for-1440-up {
+        font-size: 2.1rem;
+        letter-spacing: 0.03rem;
+        line-height: 3.6rem;
+        margin-bottom: 3.2rem;
+    }   
+    font-weight: 400;
+    color: $deepblack;
 }
 h1 {
     font-size: 2.5rem;
@@ -248,8 +271,11 @@ h6 {
     @include for-1024-up {
         margin-bottom: 6.4rem;
     }
+    @include for-1200-up {
+        height: 240px;
+    }
     @include for-1440-up {
-        height: 230px;
+        height: 272px;
         margin-bottom: 8rem;
     }
 }
