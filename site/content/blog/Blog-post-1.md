@@ -49,8 +49,8 @@ Beyond the many rational, research-based, educationally sound reasons for placin
 
 [**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the [Knowledge Matters Campaign](<Knowledge Matters Campaign>). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts.
 
-\***\*[**Rachel Etienne\*\*](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach.
+[**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach.
 
-\***\*[**Silas Kulkarni\*\*](http://www.teachinglab.us/team/) is President of [Teaching Lab](http://www.teachinglab.org/), leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City.
+[**Silas Kulkarni**](http://www.teachinglab.us/team/) is President of [Teaching Lab](http://www.teachinglab.org/), leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City.
 
-\***\*[**David Liben\*\*](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). He founded two innovative model schools in New York City where he served as principal and lead curriculum designer.
+[**David Liben**](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). He founded two innovative model schools in New York City where he served as principal and lead curriculum designer.
