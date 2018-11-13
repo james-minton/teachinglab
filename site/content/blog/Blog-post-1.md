@@ -15,7 +15,7 @@ listSummary: >-
   happened when our papier-mâché volcano erupted, we won a class debate, or we
   learned why something we were interested in happened.
 ---
-<i>This piece was originally posted on <a href="https://www.the74million.org/article/innovation-road-trip-traveling-from-coast-to-coast-to-explore-knowledge-rich-american-schools/">The 74 Million.</a></i>
+_This piece was originally posted on <a href="https://www.the74million.org/article/innovation-road-trip-traveling-from-coast-to-coast-to-explore-knowledge-rich-american-schools/">The 74 Million.</a>_
 
 When was the moment you fell in love with learning? If you ever fell in love with learning?
 
@@ -47,10 +47,18 @@ Over the next several months, my team and I will chronicle here, on The 74, our 
 
 Beyond the many rational, research-based, educationally sound reasons for placing content knowledge at the center of the educational enterprise in elementary schools, there is something qualitatively different about teaching and learning in schools that do so. We believe there’s a hunger out there to learn more about how schools take this on — if, indeed, it’s possible that knowledge-rich schooling can breathe new life into tired old education practices. So join us this spring as we explore this in schools across the country.
 
-[**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the [Knowledge Matters Campaign](<Knowledge Matters Campaign>). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts.
+__[_**Barbara Davidson**_](https://standardswork.org/about-us/board-of-directors/)_ is president of _[_StandardsWork_](https://standardswork.org/)_ and runs the _[_Knowledge Matters Campaign_](<Knowledge Matters Campaign>)_. A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts._
 
+<<<<<<< HEAD
 [**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach.
 
 [**Silas Kulkarni**](http://www.teachinglab.us/team/) is President of [Teaching Lab](http://www.teachinglab.org/), leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City.
 
 [**David Liben**](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). He founded two innovative model schools in New York City where he served as principal and lead curriculum designer.
+=======
+_**[\*\***Rachel Etienne\*\*](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at _[_Student Achievement Partners_](https://achievethecore.org/)_. She is a former elementary school teacher and literacy coach._
+
+_\[\*\*Silas Kulkarni\*\*](http://www.teachinglab.us/team/) is President of _[_Teaching Lab_](http://www.teachinglab.org/)_, leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City._
+
+_\[\*\*David Liben\*\*](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at _[_Student Achievement Partners_](https://achievethecore.org/)_. He founded two innovative model schools in New York City where he served as principal and lead curriculum designer._
+>>>>>>> 73f7760b30e1e5690e4c355074c81875a148d0b5
