@@ -1,25 +1,87 @@
 sectionHead: Leadership
 foundersList:
   - bio: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue
-      diam, lacinia a finibus non, rutrum ut felis. Nulla orci leo, pretium ac
-      velit ut, imperdiet sollicitudin tellus. Aliquam ac enim nulla. Aenean
-      sodales arcu neque, at pellentesque neque gravida in. Proin semper
-      efficitur sapien a bibendum. Etiam eget venenatis ante. Nunc nulla nibh,
-      volutpat ac metus ut, placerat consectetur quam. Nulla rhoncus est non sem
-      egestas varius. Suspendisse potenti. Duis hendrerit neque sit amet dui
-      dapibus ullamcorper. Suspendisse vel molestie risus. Maecenas sit amet
-      felis arcu.
-    quote: >-
-      Sed viverra auctor feugiat. Cras finibus, augue vel vulputate scelerisque,
-      nulla tortor pellentesque ex, vel tincidunt ligula nisi sed metus. Ut a
-      justo blandit nunc egestas eleifend. In hac habitasse platea dictumst.
-      Curabitur porttitor hendrerit nunc eu imperdiet. Donec egestas at erat ac
-      fringilla. Fusce fringilla rhoncus nulla nec faucibus. Integer euismod
-      porta gravida.
+      Sarah joined OFF from the New York City Department of Education (DOE),
+      where she was the senior adviser to the Deputy Chancellor for Teaching and
+      Learning. In her role, she consulted on strategy for a 600-person division
+      and managed teams that created and implemented the Vision for School
+      Improvement, a strategy and set of resources to accelerate student
+      learning in all NYC schools, and coordinated teacher development and
+      evaluation policy. Before her work at the DOE, she was a high school
+      science teacher in Oakland, CA, where she established the school’s first
+      Environmental Science Curriculum, co-innovated an online modifiable
+      textbook initiative, and founded a social justice student leadership
+      program. She has a Doctorate in Education Leadership from the Harvard
+      Graduate School of Education, an M.A.T. from American University, and
+      graduated summa cum laude with a B.S. in Neuroscience from Emory
+      University.
+    quote: ''
     staffImage: /images/uploads/sjohnson.jpg
     staffName: Sarah Johnson
     staffTitle: Executive Director
+  - bio: >-
+      Chris Daniels brings extensive experience in school district support and
+      business planning to the Teaching Lab team. He previously served as a
+      director at TNTP, working with school systems across the country on
+      academic and human capital strategy. He has also worked on charter school
+      policy at the U.S. Department of Education, at the Bill & Melinda Gates
+      Foundation, and as a seventh grade math teacher in Philadelphia. He holds
+      a BA from Columbia University, an MS in education from the University of
+      Pennsylvania, and an MBA from Harvard Business School.
+    quote: >-
+      As a former middle school teacher, I understand the struggle to master
+      content knowledge, curriculum, student culture, and my own development.
+      I'm thrilled to be able to support other teachers in balancing all of
+      these critical elements so they can best serve their students.
+    staffImage: /images/uploads/cdaniels.jpg
+    staffName: Chris Daniels
+    staffTitle: Managing Director of Strategy
+  - bio: >-
+      Silas Kulkarni is co-founder and Executive Director of Teaching Lab, a
+      nonprofit devoted to closing the opportunity gap through teacher-led
+      professional learning. Silas is a nationally renowned expert on the Common
+      Core State Standards and professional learning. Before founding Teaching
+      Lab, he worked as a literacy expert at Student Achievement Partners and as
+      a record-breaking math teacher in Harlem, NY and Washington DC. In 2011,
+      Silas’ students in Southeast DC broke the citywide, all-time record for
+      8th grade math scores, scoring 100% proficient or above, with 62% scoring
+      advanced. He has presented, published research, and led trainings around
+      the country. Silas is a graduate of Yale University.
+    quote: >-
+      As a middle school math teacher in Washington DC, I was lucky enough to be
+      part of a teacher-led community focused on improving our instruction. It
+      worked! To this day, my middle school math students hold the citywide
+      record for highest math test scores. This form of collaboration works and
+      if we can engage more educators in these conversations, we can change our
+      profession.
+    staffImage: /images/uploads/skularni.jpg
+    staffName: Silas Kulkarni
+    staffTitle: President
+  - bio: >-
+      Vaishali has nearly 15 years of experience as a teacher, curriculum and
+      program designer, and instructional leader in the field of education. She
+      began her career as a fourth grade teacher in Baltimore City through Teach
+      for America. She went on to become a founding teacher at Southwest
+      Baltimore Charter School, where she taught first and third grades, served
+      as a literacy instructional coach and mentor teacher, and served on the
+      the School Leadership Team. She also mentored and supported new and
+      aspiring teachers as a literacy instructor and resident advisor with the
+      Baltimore City Teaching Residency. Vaishali then moved to the Boston area,
+      serving as the inaugural Lower School Academic Dean at Codman Academy
+      Charter Public School and leading a team of curriculum writers for EL
+      Education to design and write comprehensive, integrated literacy
+      curriculum for grades K-2. 
+
+
+      She is thrilled to return to the Maryland/DC Metro area and serve as
+      Teaching Lab's Director of Content Design. Vaishali holds a B.A. in
+      International Relations and Music from the University of North Carolina at
+      Chapel Hill, an M.Ed in Literacy Education from Loyola University of
+      Maryland, and a Doctorate in Education Leadership (Ed.L.D) from the
+      Harvard University Graduate School of Education.
+    staffImage: /images/uploads/vjoshi.jpg
+    staffName: Vaishali Joshi
+    staffTitle: Director of Content Development
   - bio: >-
       Max Wagner brings best-in-the-industry experience in grassroots teacher
       organizing.  After serving as a Teach for America corps member in
@@ -38,19 +100,28 @@ foundersList:
     staffName: Max Wagner
     staffTitle: Senior Managing Director of Partnerships
   - bio: >-
-      Chris Daniels brings extensive experience in school district support and
-      business planning to the Teaching Lab team. He previously served as a
-      director at TNTP, working with school systems across the country on
-      academic and human capital strategy. He has also worked on charter school
-      policy at the U.S. Department of Education, at the Bill & Melinda Gates
-      Foundation, and as a seventh grade math teacher in Philadelphia. He holds
-      a BA from Columbia University, an MS in education from the University of
-      Pennsylvania, and an MBA from Harvard Business School.
-    quote: >-
-      As a former middle school teacher, I understand the struggle to master
-      content knowledge, curriculum, student culture, and my own development.
-      I'm thrilled to be able to support other teachers in balancing all of
-      these critical elements so they can best serve their students.
-    staffImage: /images/uploads/cdaniels.jpg
-    staffName: Chris Daniels
-    staffTitle: Managing Director of Strategy
+      Tracey has 17 years of experience as an educator in both public and
+      private school settings. She began her career as a secondary English
+      Teacher in New Jersey, following her father's footsteps as an educator for
+      four decades. She moved to South Carolina, where she joined the Charleston
+      County School District and wore many hats as an ELA teacher, instructional
+      coach and school and district leader for eight years. She most recently
+      spent three and half years with The Achievement Network on both the
+      Chicago, Illinois, and national network team supporting instructional
+      leaders and entire systems with strategic use of curriculum and
+      assessments including Louisiana's Guidebooks and LEAP summative testing.
+      Her passion for professional learning and writing led to her involvement
+      in The LowCountry Writing Project, The Vermont Writing Collaborative and
+      most recently, a featured blog on Aligned, by Student Achievement
+      Partners.
+
+
+      She continues to live in Charleston, South Carolina, and is thrilled about
+      her continued work in Louisiana as the Director of Site Work. Tracey holds
+      a B.A. in English / minor in Writing from Lehigh University in
+      Pennsylvania, an M.A.T. with a concentration in Secondary English from the
+      College of New Jersey and an M.Ed in Secondary Administration from The
+      Citadel, The Military College of South Carolina.
+    staffImage: /images/uploads/twaters.jpg
+    staffName: Tracey Waters
+    staffTitle: Director of Sitework for Guidebooks
