@@ -303,5 +303,27 @@
             }
         }
     } 
+
+    #support-panel {
+        
+        .content-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+        }
+        .img-wrap {
+            width: 100%;
+            display: block;
+            @include for-768-up {
+                width: 33%;
+            } 
+        }
+        img {
+           max-width: 100%;
+        }
+    }
+    
        
 }
