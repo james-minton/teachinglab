@@ -9,6 +9,8 @@ image: /images/uploads/TravelBlogIntro.jpg
 listSummary: >-
   When was the moment you fell in love with learning? If you ever fell in love with learning? For most of us, it probably wasn’t when we were conjugating verbs, learning about inferences, or sequencing events. More likely it happened when our papier-mâché volcano erupted, we won a class debate, or we learned why something we were interested in happened.
 ---
+<i>This piece was originally posted on <a href="https://www.the74million.org/article/innovation-road-trip-traveling-from-coast-to-coast-to-explore-knowledge-rich-american-schools/">The 74 Million.</a></i>
+
 When was the moment you fell in love with learning? If you ever fell in love with learning?
 
 For most of us, it probably wasn’t when we were conjugating verbs, learning about inferences, or sequencing events. More likely it happened when our papier-mâché volcano erupted, we won a class debate, or we learned why something we were interested in happened. Art, music, foreign cultures, or learning how the world works were probably the things that captivated you the most.
