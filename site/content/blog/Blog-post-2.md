@@ -25,6 +25,8 @@ Of the nearly 1,000 students enrolled in the town’s two public schools, about 
 
 ![Casino in Coushatta, Louisiana](/images/uploads/coushatta.jpg)
 
+<p class="caption">A rare ice storm in Louisiana, as seen outside the Coushatta Casino Resort, resulted in a day off from school. (Photo courtesy Knowledge Matters Campaign)</p>
+
 Yet in this unexpected place, something remarkable is happening educationally. Using a teacher-written, knowledge-rich curriculum called the Louisiana ELA Guidebooks 2.0, students at Kinder Elementary School are becoming passionate experts and independent thinkers.
 
 For much of the time that we visited, schools were closed due to an ice storm. But sitting in the lobby of the casino restaurant, instructional coach Jade Welch, parent Chasidy LaFargue, and her son Mason told us why they love their school.
@@ -32,6 +34,8 @@ For much of the time that we visited, schools were closed due to an ice storm. B
 “It’s a very home-like environment,” Welch said.
 
 ![Kinder Elementary School fourth-grader Mason LaFargue with his mother Chasidy.](/images/uploads/mason.jpg)
+
+<p class="caption">Kinder Elementary School fourth-grader Mason LaFargue with his mother Chasidy. (Photo courtesy Knowledge Matters Campaign)</p>
 
 LaFargue enjoyed visiting Kinder Elementary so much that she started working as a substitute teacher.
 
@@ -56,6 +60,8 @@ This engagement isn’t limited to only Miss Carley’s more affluent students.
 “The texts in Guidebooks are so engaging to students, I don’t see a difference in our students based on background,” she told us.
 
 ![Guidebooks in school library.](/images/uploads/library.jpg)
+
+<p class="caption">Guidebook units are built around text sets of interesting, content-rich books. (Photo courtesy Knowledge Matters Campaign)</p>
 
 Indeed, the curriculum was intentionally designed to build knowledge to support access for all students in order to close the achievement gap.
 
