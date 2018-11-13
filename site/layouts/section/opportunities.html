@@ -13,7 +13,7 @@
             <div class="content-well">
                 <div class="content-inner">
                     {{ with .Site.Data.opportunities.contents }}
-                        <p>{{ .intro }}</p>
+                        <p>{{ .intro | markdownify }}</p>
                     {{ end }}
                 </div>
             </div>    
@@ -23,8 +23,8 @@
             <div class="content-well padw80 margb80">
                 <div class="content-inner">
                     
-                    <h4 class="uppercase">{{ .jobTitle }}</h4>
-                    <p>{{ .description }}</p>
+                    <h4 class="uppercase">{{ .jobTitle | markdownify }}</h4>
+                    <p>{{ .description | markdownify }}</p>
                   
                 </div>
             </div>
