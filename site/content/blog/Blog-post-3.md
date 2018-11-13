@@ -14,7 +14,7 @@ listSummary: >-
   million people nearly seven decades ago. But this city still has fight left in
   it, as we discovered on our sixth Knowledge Matters School Tour stop.
 ---
-First-graders share favorite books from their module on birds. (Photo credit: StandardsWork)Detroit has lost more than 1 million residents since its peak in 1950. Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8 million people nearly seven decades ago.
+Detroit has lost more than 1 million residents since its peak in 1950. Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8 million people nearly seven decades ago.
 
 But this city still has fight left in it, as we discovered on our sixth Knowledge Matters School Tour stop. At two charter schools — Detroit Prep and Detroit Achievement Academy — a small group of committed educators are working to breathe hope into this once-great city by building schools that work for all students.
 
