@@ -230,12 +230,12 @@ h5 {
     @include for-768-up {
         font-size: 1.3rem;
         letter-spacing: 0.054rem;
-        line-height: 1.6rem;
+        line-height: 2.2rem;
     }
     @include for-1440-up {
         font-size: 1.6rem;
         letter-spacing: 0.066rem;
-        line-height: 1.9rem;
+        line-height: 2.4rem;
     }  
     font-weight: 500; 
     color: $deepblack;

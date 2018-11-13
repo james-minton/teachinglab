@@ -1,6 +1,8 @@
 #breadcrumb {
     width: 100%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     h5 {
         font-weight: 500;
         a {
@@ -16,6 +18,12 @@
         display: block;
         max-width: 100%;
         margin: auto;
+        @include for-768-up {
+            max-height: 360px;
+        }
+        @include for-1440-up {
+            max-height: 440px;
+        }
     }
 }
 .author-meta {
@@ -40,7 +48,7 @@
         img {
             display: block;
             margin: auto;
-            max-width: 100%;
+            max-width: 80%;
         }
     }
     
