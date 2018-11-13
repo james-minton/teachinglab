@@ -93,6 +93,22 @@ p.reg {
 p:last-of-type {
     margin-bottom: 0;
 }
+p.caption {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #a9a9a9;
+    @include for-768-up {
+        font-size: 1.6rem;
+        letter-spacing: 0.009rem;
+        line-height: 2.6rem;
+    }
+    @include for-1440-up {
+        font-size: 2rem;
+        letter-spacing: 0.015rem;
+        line-height: 3rem;
+    }   
+    /* font-style: italic; */
+}
 ul {
     font-size: 1.4rem;
     letter-spacing: 0.01rem;
