@@ -9,13 +9,10 @@ postauthortitle: Chief of Staff
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/fontenot-student.jpg
 listSummary: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius
-  sem, eget dictum nunc congue quis. Duis ultrices lorem in purus egestas
-  fermentum. Nullam dapibus tellus quis ex volutpat gravida in vel elit. Donec
-  nisl felis, iaculis in urna non, euismod mollis quam. Duis convallis, sapien
-  non bibendum mollis, nunc nisi tristique mi, eget sodales nisi nisi et lacus.
-  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-  inceptos himenaeos.
+  Kinder is a tightly knit 2,400-person community in western Louisiana. The
+  biggest monument in the area is the Coushatta Casino Resort, where many of the
+  local residents work.Of the nearly 1,000 students enrolled in the town’s two
+  public schools, about 60 percent are classified as low-income.
 ---
 
 
