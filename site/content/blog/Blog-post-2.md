@@ -7,7 +7,7 @@ date: 2018-10-03T02:00:00.000Z
 postauthorname: Silas Kulkarni
 postauthortitle: Chief of Staff
 postauthorimg: /images/uploads/skularni.png
-image: /images/uploads/pencils-blue.jpg
+image: /images/uploads/fontenot-student.jpg
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis varius
   sem, eget dictum nunc congue quis. Duis ultrices lorem in purus egestas
