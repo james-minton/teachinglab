@@ -54,9 +54,3 @@ _[**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Li
 _[**Silas Kulkarni**](http://www.teachinglab.us/team/) is President of [Teaching Lab](http://www.teachinglab.org/), leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City._
 
 _[**David Liben**](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). He founded two innovative model schools in New York City where he served as principal and lead curriculum designer._
-
-_[**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach._
-
-_[**Silas Kulkarni**](http://www.teachinglab.us/team/) is President of [Teaching Lab](http://www.teachinglab.org/), leading powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City._
-
-_[**David Liben**](https://achievethecore.org/about-us) is a senior content specialist on the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). He founded two innovative model schools in New York City where he served as principal and lead curriculum designer._
