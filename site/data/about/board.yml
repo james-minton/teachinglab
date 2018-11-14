@@ -1,6 +1,22 @@
 sectionHead: Board
 boardList:
   - bio: >-
+      Rachel Etienne is the Executive Vice President of Professional Learning at
+      Student Achievement Partners.  As an ELA/literacy specialist, Rachel
+      created and curated online curriculum and professional learning resources
+      and facilitated large-scale training and communities of practice for
+      instructional leaders and teachers across the country.  Prior to joining
+      the team, Rachel had a range of experience in literacy education as an
+      elementary classroom teacher and literacy coach in a large K-12 school
+      district, parochial and charter school networks, and adult education
+      programs. Rachel holds a bachelor's degree in Education from Eastern
+      Michigan University.
+    staffImage: /images/uploads/retienne.jpg
+    staffName: Rachel Etienne
+    staffTitle: >-
+      Executive Vice President of Professional Learning, Student Achievement
+      Partners
+  - bio: >-
       In his role at Aspen, Ross leads professional learning networks for urban
       school district leaders and senior Congressional Education staffers. The
       program assists policymakers and education leaders in strengthening human
@@ -83,19 +99,3 @@ boardList:
     staffImage: /images/uploads/rsheffield.jpg
     staffName: Robert Sheffield
     staffTitle: Director for California Initiatives at WestEd
-  - bio: >-
-      Rachel Etienne is the Executive Vice President of Professional Learning at
-      Student Achievement Partners.  As an ELA/literacy specialist, Rachel
-      created and curated online curriculum and professional learning resources
-      and facilitated large-scale training and communities of practice for
-      instructional leaders and teachers across the country.  Prior to joining
-      the team, Rachel had a range of experience in literacy education as an
-      elementary classroom teacher and literacy coach in a large K-12 school
-      district, parochial and charter school networks, and adult education
-      programs. Rachel holds a bachelor's degree in Education from Eastern
-      Michigan University.
-    staffImage: /images/uploads/retienne.jpg
-    staffName: Rachel Etienne
-    staffTitle: >-
-      Executive Vice President of Professional Learning, Student Achievement
-      Partners
