@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <!--<base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">-->
     <title>{{ $.Site.Title }}</title>
-    <link rel="icon" type="image/png" href="images/icons/favicon.png">
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/tl.css"/>
+    <link rel="icon" type="image/png" href="/images/icons/favicon.png">
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/aos.css" />
+    <link rel="stylesheet" href="/css/tl.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,700" rel="stylesheet">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
@@ -21,8 +21,8 @@
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-    <script src="app.js"></script>
-    <script src="js/aos.js"></script>
+    <script src="/app.js"></script>
+    <script src="/js/aos.js"></script>
     <script>
       AOS.init();
     </script>
