@@ -19,12 +19,13 @@
             </div>    
         </div>
         <div id="jobs-panel">
-            {{ range .Site.Data.opportunities.contents.openings }}
+            {{ range (where .Paginator.Pages "Params.contenttype" ("jobs")) }}
             <div class="content-well padw80 margb80">
                 <div class="content-inner">
                     
-                    <h4 class="uppercase">{{ .jobTitle | markdownify }}</h4>
-                    <p>{{ .description | markdownify }}</p>
+                    <h4 class="uppercase">{{ .Title | markdownify }}</h4>
+                    <p>{{ .Params.listSummary | markdownify }}</p>
+                    <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Learn more</a></h3>
                   
                 </div>
             </div>

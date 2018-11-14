@@ -18,6 +18,17 @@
         .content-well {
             background-color: $lightblue;
         }
+        .content-inner {
+            p:last-of-type {
+                margin-bottom: 3.2rem;
+                @include for-768-up {
+                    margin-bottom: 3.8rem;
+                }
+                @include for-1440-up {
+                    margin-bottom: 6.6rem;
+                }
+            }
+        }
     }
 }    
 
@@ -26,6 +37,10 @@
         h2 {
             text-align: left;
             margin-top: 4rem;
+            @include for-1440-up {
+                margin-bottom: 0;
+            }
         }
+        
     }
 }
