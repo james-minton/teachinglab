@@ -266,9 +266,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
   - name: "opportunities"
-    label: Opportunities
+    label: Opportunities Page
     files:
-      - label: Opportunities
+      - label: Opportunities Intro
         name: opportunitieslist 
         file: "/site/data/opportunities/contents.yml"
         fields:
@@ -279,6 +279,20 @@ collections:
             fields:
               - {label: Job Title, name: jobTitle, widget: string} 
               - {label: Job Description, name: description, widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - label: Positions
+    name: positionsList 
+    folder: "/site/content/opportunities"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Position Title", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "jobs"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        
 
   - label: "USA Map"
     name: usaMap
