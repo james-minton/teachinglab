@@ -171,6 +171,8 @@
             <div class="post-navigation">
                 {{ with .Site.Data.home.impact }}
                 <div class="side-header"><p>{{ .header }}</p></div>
+                {{ end }}
+                {{ with .Site.Data.impact.sectiontwo }}
                 <div class="orange-box-wrapper our-impact pad80">
                     <div class="orange-box">
                         <ul>
@@ -182,6 +184,8 @@
                 </div>  
             </div>
         </div>  
+        {{ end }}
+        {{ with .Site.Data.home.impact }}
         <div class="content-inner">  
             <h3 class="morebutton"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
           {{ end }}
