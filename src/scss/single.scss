@@ -149,7 +149,7 @@
             height: 19px;
         }
         a.fb, a.tw {
-            padding-right: 3.2rem;
+            /* padding-right: 3.2rem; */
         }
     }
     display: flex;
@@ -168,7 +168,7 @@
     @include for-768-up {
       
         a.fb, a.tw {
-            padding-right: 7.2rem;
+           /* padding-right: 7.2rem; */
         }
     }
     @include for-1440-up {
