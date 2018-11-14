@@ -579,6 +579,15 @@ h6 {
             margin: 0 auto 7.2rem;
         }
 }
+.pad56 {
+    padding: 1.6rem 0;
+    @include for-768-up {
+        padding: 3.2rem 0;
+    }
+    @include for-1440-up {
+        padding: 5.6rem 0;
+    }
+}
 .pad80 {
     padding: 4rem 0;
     @include for-768-up {
