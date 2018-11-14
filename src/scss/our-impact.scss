@@ -1,7 +1,7 @@
 #our-impact-page {
     .hero-panel-sub.parallax-window {
         @include for-phone-only {
-            background-position: right 10px !important;
+            /* background-position: right 10px !important; */
         }
     }
     .title-box {
