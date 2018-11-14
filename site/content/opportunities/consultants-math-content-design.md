@@ -1,7 +1,7 @@
 ---
 title: 'Consultants: Math Content Design'
 contenttype: jobs
-date: 2018-11-14T16:36:09.337Z
+date: 2018-11-06T16:36:09.337Z
 listSummary: >-
   Teaching Lab is seeking 1-2 consultants who can support with design of
   professional learning for mathematics. This work will initially focus on the
