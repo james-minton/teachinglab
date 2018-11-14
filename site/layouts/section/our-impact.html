@@ -23,7 +23,7 @@
             <div class="content-well">
                 <div class="content-inner">
                     {{ with .Site.Data.impact.sectionone }}
-                        <p id="tv-intro">{{ .introText }}</p>
+                        <p id="tv-intro">{{ .introText | markdownify }}</p>
                     {{ end }}    
                 </div>
             </div>    
