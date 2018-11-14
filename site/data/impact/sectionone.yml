@@ -1,7 +1,10 @@
 sectionHead: Teacher Voices
 introText: >-
   Teachers are the engine behind our work at every level. At Teaching Lab, their
-  voices matter. Here are what some of them have to say:
+  voices matter. 
+
+
+  Here are what some of them have to say:
 teacherVoices:
   - testimonial: >-
       Teaching Lab is different because we were able to actually practice the
