@@ -6,7 +6,7 @@ contenttype: blog
 date: 2018-10-01T02:00:58.021Z
 postauthorname: Silas Kulkarni
 postauthortitle: Founder
-postauthorimg: images/uploads/skularni-bio-sm.png
+postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/TravelBlogIntro.jpg
 slug: innovation-road-trip-1
 listSummary: >-
