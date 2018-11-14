@@ -8,6 +8,7 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: images/uploads/skularni-bio-sm.png
 image: /images/uploads/TravelBlogIntro.jpg
+slug: innovation-road-trip-1
 listSummary: >-
   When was the moment you fell in love with learning? If you ever fell in love
   with learning? For most of us, it probably wasn’t when we were conjugating

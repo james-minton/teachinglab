@@ -8,6 +8,7 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/fontenot-student.jpg
+slug: innovation-road-trip-2
 listSummary: >-
   Kinder is a tightly knit 2,400-person community in western Louisiana. The
   biggest monument in the area is the Coushatta Casino Resort, where many of the
