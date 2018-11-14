@@ -31,6 +31,12 @@
             @include for-phone-only {
                 margin-bottom: 2.4rem;
             }
+            @include for-768-up {
+            margin: 0 auto 5.6rem;
+            }
+            @include for-1440-up {
+            margin: 0 auto 7.2rem;
+            }
         }
     }
         .icon-section {
