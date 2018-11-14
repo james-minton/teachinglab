@@ -1,12 +1,7 @@
 sectionHead: Teacher Voices
 introText: >-
-  Text introducing Teacher Voices here. Lorem ipsum dolor sit amet, consectetur
-  adipiscing elit. In non est finibus, euismod nisi a, lobortis urna. Praesent
-  ultrices auctor neque et suscipit. In lobortis est eget pretium suscipit.
-  Integer laoreet enim est, at tempus elit finibus eu. Sed est risus, finibus
-  elementum ultrices sit amet, semper ut erat. Sed semper arcu mi, non porta
-  augue sollicitudin in. Curabitur rutrum leo a libero feugiat, at dictum mauris
-  elementum. In leo justo, porttitor eget erat vel, rutrum lobortis nisl.
+  Teachers are the engine behind our work at every level. At Teaching Lab, their
+  voices matter. Here are what some of them have to say:
 teacherVoices:
   - testimonial: >-
       Teaching Lab is different because we were able to actually practice the
