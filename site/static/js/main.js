@@ -107,5 +107,33 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
    $('.num').html(''+currentIndex+' of '+totalItems+'');
 });
 
-// Counter
+// Parallax image responsive positioning
+
+
+var panel = $("#homepage #panel1");
+function checkSize(){   
+    if ($("#panel1").css("height") == "500px"){
+        
+        panel.data("positionY", "-99%");
+    }
+    else if ($("#panel1").css("height") == "400px"){
+       
+        panel.data("positionY", "-56%");
+    }
+    else if ($("#panel1").css("height") == "248px"){
+       
+        panel.data("positionY", "-56px");
+    }
+
+}
+
+$(document).ready(function() {
+    // run test on initial page load
+    checkSize();
+
+    // run test on resize of the window
+    $(window).resize(checkSize);
+});
+
+
 
