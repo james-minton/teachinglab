@@ -109,6 +109,24 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
 
 // Parallax image responsive positioning
 
+
+var panel = $("#homepage #panel1");
+function checkSize(){   
+    if ($("#panel1").css("height") == "500px"){
+        
+        panel.data("positionY", "-99%");
+    }
+    else if ($("#panel1").css("height") == "400px"){
+       
+        panel.data("positionY", "-56%");
+    }
+    else if ($("#panel1").css("height") == "248px"){
+       
+        panel.data("positionY", "-56px");
+    }
+
+}
+
 $(document).ready(function() {
     // run test on initial page load
     checkSize();
@@ -116,24 +134,6 @@ $(document).ready(function() {
     // run test on resize of the window
     $(window).resize(checkSize);
 });
-
-function checkSize(){   
-    if ($("#panel1").css("height") == "500px"){
-        var panel = $("#homepage #panel1");
-        panel.data("positionY", "-99%");
-    }
-    else if ($("#panel1").css("height") == "400px"){
-        var panel = $("#homepage #panel1");
-        panel.data("positionY", "-56%");
-    }
-    else if ($("#panel1").css("height") == "248px"){
-        var panel = $("#homepage #panel1");
-        panel.data("positionY", "-56px");
-    }
-
-}
-
-
 
 
 
