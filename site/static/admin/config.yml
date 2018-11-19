@@ -3,7 +3,6 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "/site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
-publish_mode: editorial_workflow
 collections:
   - label: "Homepage"
     name: "homepage"
