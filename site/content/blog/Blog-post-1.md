@@ -33,7 +33,7 @@ The significant role that background knowledge and command of academic vocabular
 
 Does it just come down to picking the right curriculum and making sure teachers have the necessary supports in place, or is there something more?
 
-{{< figure src="/images/uploads/blog-standard.1.jpg"  caption="Testing caption functionality." >}}
+{{< figure src="/images/uploads/blog-standard.1.jpg"  caption="Testing caption functionality. Let's try this again." >}}
 
 The eight schools we’re visiting over the next few months use different high-quality comprehensive ELA curricula. In selecting these curricula, we relied heavily on [EdReports](https://www.edreports.org/), the nonprofit organization that rates ELA and math curriculum for its alignment with the CCSS. For an ELA curriculum to get high marks from EdReports, it must successfully pass through “[Gateway 2](https://www.edreports.org/about/our-approach/ela-3-8.html),” which is all about building knowledge.
 
