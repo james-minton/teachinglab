@@ -48,7 +48,18 @@
         img {
             display: block;
             margin: auto;
+            @include for-768-up {
             max-width: 80%;
+            }
+        }
+    }
+    figure {
+        img {
+            display: block;
+            margin: auto;
+            @include for-768-up {
+            max-width: 80%;
+            }
         }
     }
     
