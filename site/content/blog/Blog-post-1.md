@@ -8,7 +8,6 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/TravelBlogIntro.jpg
-slug: innovation-road-trip-1
 listSummary: >-
   When was the moment you fell in love with learning? If you ever fell in love
   with learning? For most of us, it probably wasn’t when we were conjugating
@@ -34,6 +33,8 @@ The significant role that background knowledge and command of academic vocabular
 
 Does it just come down to picking the right curriculum and making sure teachers have the necessary supports in place, or is there something more?
 
+{{< figure src="/images/uploads/blog-standard.1.jpg"  caption="Testing caption functionality." >}}
+
 The eight schools we’re visiting over the next few months use different high-quality comprehensive ELA curricula. In selecting these curricula, we relied heavily on [EdReports](https://www.edreports.org/), the nonprofit organization that rates ELA and math curriculum for its alignment with the CCSS. For an ELA curriculum to get high marks from EdReports, it must successfully pass through “[Gateway 2](https://www.edreports.org/about/our-approach/ela-3-8.html),” which is all about building knowledge.
 
 Over the next several months, my team and I will chronicle here, on The 74, our visits to these schools:
@@ -48,7 +49,7 @@ Over the next several months, my team and I will chronicle here, on The 74, our 
 
 Beyond the many rational, research-based, educationally sound reasons for placing content knowledge at the center of the educational enterprise in elementary schools, there is something qualitatively different about teaching and learning in schools that do so. We believe there’s a hunger out there to learn more about how schools take this on — if, indeed, it’s possible that knowledge-rich schooling can breathe new life into tired old education practices. So join us this spring as we explore this in schools across the country.
 
-_[**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the [Knowledge Matters Campaign](Knowledge Matters Campaign). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts._
+_[**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the \[Knowledge Matters Campaign](Knowledge Matters Campaign). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts._
 
 _[**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach._
 
