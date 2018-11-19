@@ -8,7 +8,6 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/detroit1.jpg
-slug: innovation-road-trip-3
 listSummary: >-
   Detroit has lost more than 1 million residents since its peak in 1950.
   Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8
@@ -18,6 +17,10 @@ listSummary: >-
 Detroit has lost more than 1 million residents since its peak in 1950. Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8 million people nearly seven decades ago.
 
 But this city still has fight left in it, as we discovered on our sixth Knowledge Matters School Tour stop. At two charter schools — Detroit Prep and Detroit Achievement Academy — a small group of committed educators are working to breathe hope into this once-great city by building schools that work for all students.
+
+{{< figure src="/images/uploads/TravelBlogIntro.jpg"  caption="Testing caption functionality" >}}
+
+
 
 Both schools we visited have chosen to use [EL Education’s K-5 Language Arts](http://curriculum.eleducation.org/) (EL 2.0), a curriculum that intentionally integrates social-emotional learning, academics, and real-world applications and experience. Indeed, one of the most exciting features of EL 2.0 is that its holistic vision of achievement appeals to parents, teachers, and students of all backgrounds.
 
