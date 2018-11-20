@@ -8,7 +8,7 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/detroit1.jpg
-display: yes
+display: true
 listSummary: >-
   Detroit has lost more than 1 million residents since its peak in 1950.
   Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8
