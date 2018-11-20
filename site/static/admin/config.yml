@@ -76,7 +76,49 @@ collections:
           #  widget: list
           #  fields:
           #    - {label: Quote, name: quote, widget: string, required: false}  
-
+  
+  - label: "Our Model"
+    name: "ourModel"
+    files:
+      - label: "Panel 1 - The Challenge"
+        name: "sectionOne"
+        file: "site/data/model/sectionone.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+      - label: "Panel 2 - Teaching Lab Model"
+        name: "sectionTwo"
+        file: "site/data/model/sectiontwo.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+          - label: Icons and Copy
+            name: iconsCopy
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
+              - {label: Heading, name: heading, widget: string} 
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}    
+      - label: "Panel 3 - Labs"
+        name: "sectionThree"
+        file: "site/data/model/sectionthree.yml"
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+          - label: Icons and Copy
+            name: iconsCopy
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
+              - {label: Heading, name: heading, widget: string} 
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+  
   - label: "About Us"
     name: "aboutUs"
     files:
@@ -136,48 +178,6 @@ collections:
               - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}                       
       
 
-  - label: "Our Model"
-    name: "ourModel"
-    files:
-      - label: "Panel 1 - The Challenge"
-        name: "sectionOne"
-        file: "site/data/model/sectionone.yml"
-        fields:
-          - {label: Title, name: title, widget: hidden}
-          - {label: Page Title, name: pageTitle, widget: string}
-          - {label: Section Heading, name: sectionHead, widget: string} 
-          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-      - label: "Panel 2 - Teaching Lab Model"
-        name: "sectionTwo"
-        file: "site/data/model/sectiontwo.yml"
-        fields:  
-          - {label: Title, name: title, widget: hidden}  
-          - {label: Section Heading, name: sectionHead, widget: string}
-          - {label: Intro, name: introCopy, widget: string}
-          - label: Icons and Copy
-            name: iconsCopy
-            widget: list
-            fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
-              - {label: Heading, name: heading, widget: string} 
-              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}    
-      - label: "Panel 3 - Labs"
-        name: "sectionThree"
-        file: "site/data/model/sectionthree.yml"
-        fields:  
-          - {label: Title, name: title, widget: hidden}  
-          - {label: Section Heading, name: sectionHead, widget: string}
-          - {label: Intro, name: introCopy, widget: string}
-          - label: Icons and Copy
-            name: iconsCopy
-            widget: list
-            fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
-              - {label: Heading, name: heading, widget: string} 
-              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-  
   - label: "Our Impact"
     name: "ourImpact"
     files:
@@ -217,65 +217,6 @@ collections:
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string} 
           - {label: Case Studies Blurb, name: blurb, widget: string}
-          
-  - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
-    label: "Case Studies" # Used in the UI
-    folder: "/site/content/blog/case-studies" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Case Study Title", name: "title", widget: "string"}
-      - {label: "Created Date", name: "date", widget: "datetime"}
-      - {label: "Content Type", name: "contenttype", widget: hidden, default: "cases"}
-      # - {label: "Author Name", name: "postauthorname", widget: "string"}
-      # - {label: "Author Title", name: "postauthortitle", widget: "string"} 
-      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
-      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
-      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
-      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
-      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}        
-
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "/site/content/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Blog Post Title", name: "title", widget: "string"}
-      - {label: "Content Type", name: "contenttype", widget: hidden, default: "blog"}
-      - {label: "Created Date", name: "date", widget: "datetime"}
-      - {label: "Author Name", name: "postauthorname", widget: "string"}
-      - {label: "Author Title", name: "postauthortitle", widget: "string"} 
-      - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
-      - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
-      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
-      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
-      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-
-  - name: "opportunities"
-    label: Opportunities Page
-    files:
-      - label: Opportunities Intro
-        name: opportunitieslist 
-        file: "/site/data/opportunities/contents.yml"
-        fields:
-          - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-
-  - label: Positions
-    name: positionsList 
-    folder: "/site/content/opportunities"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Position Title", name: "title", widget: "string"}
-      - {label: "Content Type", name: "contenttype", widget: hidden, default: "jobs"}
-      - {label: "Created Date", name: "date", widget: "datetime"}
-      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
-      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-        
 
   - label: "USA Map"
     name: usaMap
@@ -343,7 +284,66 @@ collections:
           - {label: "WV", name: "WV", widget: "boolean", required: false, default: false}
           - {label: "WI", name: "WI", widget: "boolean", required: false, default: false}
           - {label: "WY", name: "WY", widget: "boolean", required: false, default: false}
-              
+         
+
+  - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
+    label: "Case Studies" # Used in the UI
+    folder: "/site/content/blog/case-studies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Case Study Title", name: "title", widget: "string"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "cases"}
+      # - {label: "Author Name", name: "postauthorname", widget: "string"}
+      # - {label: "Author Title", name: "postauthortitle", widget: "string"} 
+      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
+      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}        
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "/site/content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Blog Post Title", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "blog"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Author Name", name: "postauthorname", widget: "string"}
+      - {label: "Author Title", name: "postauthortitle", widget: "string"} 
+      - {label: "Author Photo", name: "postauthorimg", widget: "image", required: false}    
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - name: "opportunities"
+    label: Opportunities Page
+    files:
+      - label: Opportunities Intro
+        name: opportunitieslist 
+        file: "/site/data/opportunities/contents.yml"
+        fields:
+          - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+  
+       
+  - label: Positions
+    name: positionsList 
+    folder: "/site/content/opportunities"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Position Title", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "jobs"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        
   - label: "Newsletter Subscribe Panel"
     name: "newsletter"
     files:
