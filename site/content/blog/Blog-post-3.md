@@ -26,17 +26,13 @@ Academically, the curriculum is made up of four modules a year, each focused on 
 
 Woven in with this rich content is the focus on social-emotional learning, a key differentiator of the EL 2.0 curriculum. Schools select their own core values, which are baked into academic conversations, goal-setting, and student self-monitoring. Detroit Prep’s core values, for example, are responsibility, perseverance, curiosity and creativity, integrity, cooperation, and compassion. During our time with them, it wasn’t at all uncommon to hear students encourage each other to be more responsible or even to ask their teachers if they could provide their feedback more compassionately. The teachers emphasized that the focus on social-emotional learning was particularly valuable for students who had come from less advantaged backgrounds and were learning to feel safe and valued at school.
 
-![null](/images/uploads/detroit3.jpg)
-
-<p class="caption">Second graders practice “collaborative conversations” as they work on a unit about pollinators. (Photo credit: StandardsWork)</p>
+{{< figure src="/images/uploads/detroit3.jpg"  caption="Second graders practice “collaborative conversations” as they work on a unit about pollinators. (Photo credit: StandardsWork)" >}}
 
 This blending of social-emotional and academic learning comes together in EL 2.0 schools when students present their work to parents at student-led parent conferences to discuss their progress, as well as at quarterly “celebrations of learning” for the entire school community. We saw the beautiful aftermath of one such celebration at Detroit Achievement Academy, where the entire school was decorated to resemble a tropical rainforest.
 
 The educators at Detroit Prep and Detroit Achievement Academy emphasize that, unlike other curricula, EL 2.0 is not “plug and play,” but instead contains the “seeds to help your garden grow.” Much like a garden, the curriculum can be “messy” and takes time and patience before you see the fruits of your labors, teacher say.
 
-![](/images/uploads/detroit4.jpg)
-
-<p class="caption">Shelly Tremaglio’s kindergarten students are researching trees. (Photo credit: StandardsWork)</p>
+{{< figure src="/images/uploads/detroit4.jpg"  caption="Shelly Tremaglio’s kindergarten students are researching trees. (Photo credit: StandardsWork)" >}}
 
 “It doesn’t feel neat,” Detroit Achievement Academy Principal Adrian Monge said. “There’s not going to be a successful exit ticket at the end of the day…. Sometimes you have to wait till the third unit of the module.”
 
@@ -44,9 +40,7 @@ Educators also emphasized that success with this curriculum requires much more p
 
 Messy as planting this garden may be, an interview with fifth graders Jordan, Justin, and Victoria proved what’s possible. The class was completing a unit on athletes who were leaders of social change, and Victoria had just ably facilitated her peers in a Socratic seminar about whether Jackie Robinson’s success was more attributable to his personal character or to outside factors like the support he received from family and friends.
 
-![](/images/uploads/detroit5.jpg)
-
-<p class="caption">First-grade students in Erin Ellis’s art class at Detroit Prep. (Photo credit: StandardsWork)</p>
+{{< figure src="/images/uploads/detroit5.jpg"  caption="First-grade students in Erin Ellis’s art class at Detroit Prep. " >}}
 
 Jordan, who is now blossoming, said he struggled to learn at his previous school because his teachers were unkind.
 
@@ -56,9 +50,7 @@ Victoria said learning about African-American sprinter Wilma Rudolph — and how
 
 For Victoria, the lessons from Rudolph also translated outside the classroom.
 
-![](/images/uploads/detroit6.jpg)
-
-<p class="caption">Silas Kulkarni and Principal Adrian Monge in the Ellen DeGeneres Library at Detroit Achievement Academy. (Photo credit: StandardsWork)</p>
+{{< figure src="/images/uploads/detroit6.jpg"  caption="Silas Kulkarni and Principal Adrian Monge in the Ellen DeGeneres Library at Detroit Achievement Academy." >}}
 
 “There was a moment when one of our new students was struggling and had a conflict with another student,” teacher Kirstin Stoeckle said. “Victoria went up to her, put her arm around her shoulder, and said, ‘If Wilma Rudolph could overcome polio, you can do this.’”
 
