@@ -56,11 +56,13 @@ collections:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false} 
-          - name: staffImages
-            label: Team Member Images
-            widget: list
-            fields:
-            - {label: Team Member Image, name: staffImage, widget: image}   
+          - {label: Staff Image 1, name: staffImgOne, widget: image, required: false}
+          - {label: Staff Image 2, name: staffImgTwo, widget: image, required: false}
+          - {label: Staff Image 3, name: staffImgThree, widget: image, required: false}
+          - {label: Staff Image 4, name: staffImgFour, widget: image, required: false}
+          - {label: Staff Image 5, name: staffImgFive, widget: image, required: false}
+          - {label: Staff Image 6, name: staffImgSix, widget: image, required: false} 
+    
 
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
