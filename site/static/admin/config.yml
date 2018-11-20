@@ -25,10 +25,13 @@ collections:
         name: "panelThree"
         file: "site/data/home/panelthree.yml"
         fields:
-          - {label: Panel Header, name: panelHeader, widget: string, required: false} 
-          - {label: Head Text, name: headText, widget: string, required: false} 
-          - {label: Heart Text, name: heartText, widget: string, required: false}
-          - {label: Habits Text, name: habitsText, widget: string, required: false}
+          - {label: Panel Header, name: panelHeader, widget: string, required: false}
+          - {label: Component 1 Name, name: headName, widget: string, required: false}  
+          - {label: Component 1 Text, name: headText, widget: string, required: false}
+          - {label: Component 2 Name, name: heartName, widget: string, required: false}
+          - {label: Component 2 Text, name: heartText, widget: string, required: false}
+          - {label: Component 3 Name, name: habitsName, widget: string, required: false}
+          - {label: Component 3 Text, name: habitsText, widget: string, required: false}
           - {label: Button Text, name: buttonText, widget: string, required: false}
       - label: "Panel 4 Image Breaker Blurb"
         name: "panelFour"
