@@ -20,7 +20,6 @@ collections:
         fields:
           - {label: Header Text, name: headerText, widget: string}
           - {label: Paragraph Text, name: pText, widget: string}
-          - {label: Image, name: introImage, widget: image, required: false}
       - label: "Panel 3 Our Model"
         name: "panelThree"
         file: "site/data/home/panelthree.yml"
@@ -75,22 +74,6 @@ collections:
           #  widget: list
           #  fields:
           #    - {label: Quote, name: quote, widget: string, required: false}  
-      
-
-  - label: "How We Work"
-    name: "howWeWork"
-    files:
-      - label: "Content Blocks"
-        name: "contentBlocks"
-        file: "site/data/how-we-work/contents.yml"
-        fields:
-          - {label: Title, name: title, widget: hidden}
-          - label: Blocks
-            name: block
-            widget: list
-            fields:
-              - {label: Header, name: header, widget: string}
-              - {label: Body, name: body, widget: markdown}
 
   - label: "About Us"
     name: "aboutUs"
@@ -306,7 +289,8 @@ collections:
         name: activeStates
         file: "site/data/mapSVG/states.yml"
         fields:
-          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false}
+          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint: 
+          Toggle these switches to turn states in the US map on or off}
           - {label: "AK", name: "AK", widget: "boolean", required: false, default: false}
           - {label: "AZ", name: "AZ", widget: "boolean", required: false, default: false}
           - {label: "AR", name: "AR", widget: "boolean", required: false, default: false}
@@ -388,12 +372,6 @@ collections:
         file: "site/data/footer/contents.yml"
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Footer Logo, name: footerLogo, widget: image, required: false}
           - {label: Copyright Info, name: sponsorText, widget: string, required: false}  
-          - label: Sponsor Logos 
-            name: sponsorLogos
-            widget: list
-            required: false
-            fields:
-              - {label: Logo, name: logo, widget: image, required: false}        
+          
           
