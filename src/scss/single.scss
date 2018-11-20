@@ -60,18 +60,17 @@
         @include for-1440-up {
             margin: 4rem auto;
         }
+        figcaption {    
+            p {
+                margin: 2.4rem auto;
+            }
+        }
         img {
             display: block;
             margin: auto;
             max-width: 100%;
             @include for-768-up {
             max-width: 80%;
-            }
-            figcaption {
-                
-                p {
-                    margin: 2.4rem auto;
-                }
             }
         }
     }
