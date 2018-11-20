@@ -8,7 +8,6 @@ postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/detroit1.jpg
-slug: innovation-road-trip-3
 listSummary: >-
   Detroit has lost more than 1 million residents since its peak in 1950.
   Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8
@@ -23,9 +22,7 @@ Both schools we visited have chosen to use [EL Education’s K-5 Language Arts](
 
 Academically, the curriculum is made up of four modules a year, each focused on a topic in science (like birds, fossils, or weather) or social studies (like leaders of social change or the American Revolution). We saw first-graders reading complex texts about the adaptive value of different kinds of bird beaks and feathers, and heard students recounting with joy the heron they saw over the weekend. Their teacher tells us that the students have even learned to greet each other with bird calls.
 
-![null](/images/uploads/detroit2.jpg)
-
-<p class="caption">First-graders share favorite books from their module on birds. (Photo credit: StandardsWork)</p>
+{{< figure src="/images/uploads/detroit2.jpg"  caption="First-graders share favorite books from their module on birds. (Photo credit: StandardsWork)" >}}
 
 Woven in with this rich content is the focus on social-emotional learning, a key differentiator of the EL 2.0 curriculum. Schools select their own core values, which are baked into academic conversations, goal-setting, and student self-monitoring. Detroit Prep’s core values, for example, are responsibility, perseverance, curiosity and creativity, integrity, cooperation, and compassion. During our time with them, it wasn’t at all uncommon to hear students encourage each other to be more responsible or even to ask their teachers if they could provide their feedback more compassionately. The teachers emphasized that the focus on social-emotional learning was particularly valuable for students who had come from less advantaged backgrounds and were learning to feel safe and valued at school.
 
