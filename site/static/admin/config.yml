@@ -104,9 +104,9 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Page Title, name: pageTitle, widget: string}
-          - {label: Section Heading, name: sectionHead, widget: string} 
-          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+          - {label: Page Title, name: pageTitle, widget: string, delete: false}
+          - {label: Section Heading, name: sectionHead, widget: string, delete: false} 
+          - {label: Section Body Copy, name: body, widget: markdown, delete: false, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       - label: "Panel 2 - Teaching Lab Model"
         name: "sectionTwo"
         file: "site/data/model/sectiontwo.yml"
