@@ -37,11 +37,13 @@
                 {{ range .Site.Data.model.sectiontwo.iconsCopy }}
                 {{ if eq .alignIcon true }}
                     {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "left" }}
                 {{ else if eq .alignIcon false }}
                     {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "right" }}
                 {{ end }}
                     <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
-                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                        <div class="model-icon"><img data-aos="fade-{{ $.Scratch.Get "fadeDirection" }}" data-aos-once="true" src="{{ .icon }}" width="" /></div>
                         <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}
@@ -65,11 +67,13 @@
                 {{ range .Site.Data.model.sectionthree.iconsCopy }}
                 {{ if eq .alignIcon true }}
                     {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "left" }}
                 {{ else if eq .alignIcon false }}
                     {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "right" }}
                 {{ end }}
                     <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
-                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                        <div class="model-icon"><img data-aos="fade-{{ $.Scratch.Get "fadeDirection" }}" data-aos-once="true" src="{{ .icon }}" width="" /></div>
                         <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}

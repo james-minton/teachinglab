@@ -198,6 +198,7 @@
                 
                 h5 {
                     color: #fff;
+                    font-weight: 600;
                 }
                 &.message-label {
                     align-self: flex-start;
@@ -214,6 +215,7 @@
                         border: 1px solid $boldblue;
                         color: $boldblue;
                         margin-left: 0;
+                        font-weight: 500;
                     }
                 }
                 .contact-input {

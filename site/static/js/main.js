@@ -112,13 +112,13 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
 
 var panel = $("#homepage #panel1");
 function checkSize(){   
-    if ($("#panel1").css("height") == "500px"){
+    if ($("#panel1").css("height") == "540px"){
         
         panel.data("positionY", "-99%");
     }
-    else if ($("#panel1").css("height") == "400px"){
+    else if ($("#panel1").css("height") == "420px"){
        
-        panel.data("positionY", "-56%");
+        panel.data("positionY", "-68%");
     }
     else if ($("#panel1").css("height") == "248px"){
        

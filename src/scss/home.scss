@@ -15,11 +15,11 @@
     
     @include for-768-up {
        /* top: 88px; */
-       height: 400px;
+       height: 420px;
     }
     @include for-1440-up {
       /*  top: 170px; */
-      height: 500px;
+      height: 540px;
       border: none;
     }
     @include for-phone-only {
@@ -45,10 +45,10 @@
             width: 100%;
             margin: 0 auto;
             align-items: flex-end;
-            height: 320px;
+            height: 340px;
         }
         @include for-1440-up {
-            height: 400px;
+            height: 440px;
         }
     }
     .panel-overlay {

@@ -10,6 +10,7 @@ iconsCopy:
       ineffective or even counterproductive and do not grow their knowledge over
       time.
     heading: Head
+    alignIcon: false
     icon: /images/uploads/head_180.png
   - alignIcon: true
     copy: >-
