@@ -231,6 +231,7 @@ collections:
         file: "site/data/impact/sectiontwo.yml"
         delete: false
         fields:
+          - {label: Intro Paragraph, name: intro, widget: markdown, required: false}
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Quantity One, name: quantityOne, widget: string, required: false}
           - {label: Text One, name: textOne, widget: string, required: false}
