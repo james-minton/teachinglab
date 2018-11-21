@@ -402,6 +402,8 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
+          - {label: Contact Page Header, name: pageHeader, widget: string}
+          - {label: Contact Page Intro, name: pageintro, widget: markdown}
           - {label: Contact Address, name: contact, widget: markdown, buttons: [bold, italic, link]}
 
   - label: "Footer"
