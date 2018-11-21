@@ -35,9 +35,9 @@
         </div>
         <div class="section-two">
             <div class="content-well margb80">
-                <div id="impact-intro" class="content-inner margb80"><p>Learn more about the impact of our work in states, districts, and schools:</p></div>
+                {{ with .Site.Data.impact.sectiontwo }}
+                <div id="impact-intro" class="content-inner margb80"><p>{{ .intro | markdownify }}</p></div>
                 <div class="post-navigation">
-                    {{ with .Site.Data.impact.sectiontwo }}
                         <div class="side-header"><p>{{ .header }}</p></div>
                         <div class="orange-box-wrapper our-impact pad80">
                             <div class="orange-box">

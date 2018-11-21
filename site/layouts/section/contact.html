@@ -1,20 +1,22 @@
 {{ define "main" }}
 
 <div id="contact-page" class="pageWrap">
+    {{ with .Site.Data.contact.contents }}
     <div class="page-title">
         <div class="title-box inner-wrapper">
             <div class="title-container">
-                    <h2>Contact Us</h2>
+                    <h2>{{ .pageHeader }}</h2>
             </div>
         </div>
     </div>
     <div id="contact-intro-panel" class="margb80">
         <div class="content-well">
             <div class="content-inner">
-                <p>Have a question or comment about Teaching Lab? Reach out through social media, or send us a message below.</p>
+                <p>{{ .pageintro | markdownify }}</p>
             </div>
         </div>    
     </div>
+    {{ end }}
        
     <div id="social-panel">
         <div class="content-well target margb80" id="connect">
@@ -107,8 +109,9 @@
             </div>
             <div class="content-inner">
                 <h4 class="uppercase">Teaching Lab</h4>
-                <p>P.O. Box 73008<br />
-                Washington, DC 20056-3008</p>
+                {{ with .Site.Data.contact.contents }}
+                <p>{{ .contact | markdownify }}</p>
+                {{ end }}
             </div>
         </div>
     </div> 
