@@ -7,33 +7,55 @@
     {{ $.Scratch.Set "description" "We're a nonprofit organization that works to close the educational opportunity gap through teacher-led professional learning." }}
     {{ if .Params.socialDescription }}
 			{{ $.Scratch.Set "socialDescription" .Params.socialDescription }}
-		{{ end }}
-    <!-- General metadata -->
-		<meta name="description" content="{{ $.Scratch.Get "description" }}" />
-    <meta name='author' content='Teaching Lab' />
-    <!-- Facebook metadata -->
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="{{ .Title }}" />
-		{{ if .Params.socialDescription }}
-		<meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-		{{ else }}
-		<meta property="og:description" content="{{ $.Scratch.Get "description" }}" />
-		{{ end }}
-		<meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:site_name" content="Teaching Lab" />
-    <meta property="og:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
-		<meta property="og:image:secure_url" content="https://teachinglab.org/images/social/socialcard1.jpg" />
-		<!-- Twitter metadata -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@TeachingLabHQ" />
-		<meta name="twitter:title" content="{{ .Title }}" />
-		{{ if .Params.socialDescription }}
-		<meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-		{{ else }}
-		<meta name="twitter:description" content="{{ $.Scratch.Get "description" }}" />
     {{ end }}
-    <meta name="twitter:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+    {{ if .Params.image }}
+      {{ $.Scratch.Set "socialImage" .Params.image }}
+    {{ end }} 
+    {{ if .Params.socialDefaultImg }}
+      {{ $.Scratch.Set "socialDefaultImage" .Params.socialDefaultImg }}
+    {{ end }}  
+    
+<!-- General metadata -->
+<meta name="description" content="{{ $.Scratch.Get "description" }}" />
+<meta name='author' content='Teaching Lab' />
+<!-- Facebook metadata -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ .Title }}" />
+{{ if .Params.socialDescription }}
+  <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
+  {{ else }}
+  <meta property="og:description" content="{{ $.Scratch.Get "description" }}" />
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="Teaching Lab" />
+{{ if .Params.image }}
+  <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
+  <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialImage" }}" />
+  {{ else if .Params.socialDefaultImg }}
+  <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImg" }}" />
+  <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialDefaultImage" }}" />
+  {{ else }}
+  <meta property="og:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+  <meta property="og:image:secure_url" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+{{ end }}
+  <!-- Twitter metadata -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@TeachingLabHQ" />
+<meta name="twitter:title" content="{{ .Title }}" />
+{{ if .Params.socialDescription }}
+  <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
+  {{ else }}
+  <meta name="twitter:description" content="{{ $.Scratch.Get "description" }}" />
+{{ end }}
+{{ if .Params.image }}
+  <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
+  {{ else if .Params.socialDefaultImg }}
+  <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImage" }}" />
+  {{ else }}
+  <meta name="twitter:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+{{ end }}
+
     <title>{{ $.Site.Title }}</title>
     <link rel="icon" type="image/png" href="/images/icons/favicon.png">
     <link rel="stylesheet" href="/css/reset.css"/>
