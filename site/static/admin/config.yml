@@ -7,6 +7,7 @@ publish_mode: editorial_workflow
 collections:
   - label: "Default Social Media Image"
     name: socialDefaultImg
+    delete: false
     files: 
       - label: "Social Media Image"
         name: "smImage"
@@ -20,18 +21,21 @@ collections:
       - label: "Hero Image Section"
         name: "heroSection"
         file: "site/data/home/heropanel.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Hero Image Overlay Text, name: tagline, widget: string}
       - label: "Panel 2 Intro"
         name: "panelTwo"
         file: "site/data/home/paneltwo.yml"
+        delete: false
         fields:
           - {label: Header Text, name: headerText, widget: string}
           - {label: Paragraph Text, name: pText, widget: string}
       - label: "Panel 3 Our Model"
         name: "panelThree"
         file: "site/data/home/panelthree.yml"
+        delete: false
         fields:
           - {label: Panel Header, name: panelHeader, widget: string, required: false}
           - {label: Component 1 Name, name: headName, widget: string, required: false}  
@@ -44,11 +48,13 @@ collections:
       - label: "Panel 4 Image Breaker Blurb"
         name: "panelFour"
         file: "site/data/home/panel4blurb.yml"
+        delete: false
         fields:
           - {label: Blurb, name: blurb, widget: string, required: false} 
       - label: "Panel 5 Our Impact"
         name: "panelfive"
         file: "site/data/home/impact.yml"
+        delete: false
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Quantity One, name: quantityOne, widget: string, required: false}
@@ -61,6 +67,7 @@ collections:
       - label: "Panel 6 Who We Are"
         name: "panelsix"
         file: "site/data/home/whoweare.yml"
+        delete: false
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Body, name: body, widget: string, required: false}
@@ -76,6 +83,7 @@ collections:
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
         file: "site/data/home/tv.yml"
+        delete: false
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Teacher Voice Quote, name: quote, widget: string, required: false, hint: "No need to type quotation marks here. They're added automatically."} 
@@ -88,10 +96,12 @@ collections:
   
   - label: "Our Model"
     name: "ourModel"
+    delete: false
     files:
       - label: "Panel 1 - The Challenge"
         name: "sectionOne"
         file: "site/data/model/sectionone.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
@@ -100,6 +110,7 @@ collections:
       - label: "Panel 2 - Teaching Lab Model"
         name: "sectionTwo"
         file: "site/data/model/sectiontwo.yml"
+        delete: false
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - {label: Section Heading, name: sectionHead, widget: string}
@@ -115,6 +126,7 @@ collections:
       - label: "Panel 3 - Labs"
         name: "sectionThree"
         file: "site/data/model/sectionthree.yml"
+        delete: false
         fields:  
           - {label: Title, name: title, widget: hidden}  
           - {label: Section Heading, name: sectionHead, widget: string}
@@ -134,6 +146,7 @@ collections:
       - label: "Intro Copy"
         name: "introCopy"
         file: "site/data/about/contents.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
@@ -143,6 +156,7 @@ collections:
       - label: "Leadership Section"
         name: "founders"
         file: "site/data/about/founders.yml"
+        delete: false
         fields:  
           - {label: Title, name: title, widget: hidden} 
           - {label: Section Heading, name: sectionHead, widget: string}  
@@ -158,6 +172,7 @@ collections:
       - label: "Staff Section"
         name: "team"
         file: "site/data/about/team.yml"
+        delete: false
         fields:  
           - {label: Title, name: title, widget: hidden} 
           - {label: Section Heading, name: sectionHead, widget: string}  
@@ -173,6 +188,7 @@ collections:
       - label: "Board Section"
         name: "board"
         file: "site/data/about/board.yml"
+        delete: false
         fields:  
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string}   
@@ -193,12 +209,14 @@ collections:
       - label: "Page Name"
         name: "pageName"
         file: "site/data/impact/pagename.yml"
+        delete: false
         fields: 
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
       - label: "Panel 1 - Teacher Voices"
         name: "sectionOne"
         file: "site/data/impact/sectionone.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string} 
@@ -211,6 +229,7 @@ collections:
       - label: "Panel 2 - Our Impact Graphic"
         name: "panelTwo"
         file: "site/data/impact/sectiontwo.yml"
+        delete: false
         fields:
           - {label: Header, name: header, widget: string, required: false} 
           - {label: Quantity One, name: quantityOne, widget: string, required: false}
@@ -222,6 +241,7 @@ collections:
       - label: "Panel 3 - Case Studies"
         name: "sectionThree"
         file: "site/data/impact/sectionthree.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string} 
@@ -233,6 +253,7 @@ collections:
       - label: "Map Intro"
         name: "introCopy"
         file: "site/data/mapSVG/contents.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string} 
@@ -240,6 +261,7 @@ collections:
       - label: "Active / Inactive US States"
         name: activeStates
         file: "site/data/mapSVG/states.yml"
+        delete: false
         fields:
           - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint: 
           Toggle these switches to turn states in the US map on or off}
@@ -339,6 +361,7 @@ collections:
     files:
       - label: Opportunities Intro
         name: opportunitieslist 
+        delete: false
         file: "/site/data/opportunities/contents.yml"
         fields:
           - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
@@ -363,6 +386,7 @@ collections:
       - label: "Panel Text and Buttons"
         name: "newsletterSection"
         file: "site/data/newsletter/contents.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Signup Call to Action, name: cta, widget: string}
@@ -375,6 +399,7 @@ collections:
       - label: "Contact Address"
         name: "contactAdress"
         file: "site/data/contact/contents.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Contact Address, name: contact, widget: markdown, buttons: [bold, italic, link]}
@@ -385,6 +410,7 @@ collections:
       - label: "Footer Elements"
         name: "footerElements"
         file: "site/data/footer/contents.yml"
+        delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Copyright Info, name: sponsorText, widget: string, required: false}  
