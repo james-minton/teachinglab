@@ -7,10 +7,13 @@ publish_mode: editorial_workflow
 collections:
   - label: "Default Social Media Image"
     name: socialDefaultImg
-    file: "site/data/home/defaultsocial.yml"
-    fields:
-      - {label: Title, name: title, widget: hidden}
-      - {label: Default image for social media posts, name: socialDefaultImg, widget: image, hint: "This image will accompany social media posts by default. It will be overridden in blog posts and case studies by their 'featured images.'"}
+    files: 
+      - label: "Social Media Image"
+        name: "smImage"
+        file: "site/data/home/defaultsocial.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Default image for social media posts, name: socialDefaultImg, widget: image, hint: "This image will accompany social media posts by default. It will be overridden in blog posts and case studies by their 'featured images.'"}
   - label: "Homepage"
     name: "homepage"
     files:
