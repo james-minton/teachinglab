@@ -19,8 +19,7 @@ listSummary: >-
 Teaching Lab is seeking an Executive Assistant to support the growth of our organization as we open a New York City office. Teaching Lab is a dynamic, fast-paced environment where deadlines, projects, and responsibilities change on a frequent basis. The Executive Assistant will likely have multiple roles and projects, including office operations and scheduling as well as research and special projects management. The Executive Assistant will support several members of Teaching Lab’s Leadership Team. 
 Eligible candidates should have an associate’s or bachelor’s degree, experience with administrative management, and a strong interest in Teaching Lab’s mission: to achieve educational equity through instructional improvement. 
 
-**Responsibilities
-**
+**Responsibilities**
 
 Logistics, Operations, Administration (50% time): 
 
@@ -47,8 +46,7 @@ Special Projects (30% time)
 
 In addition to the above responsibilities, candidates will gain invaluable skills and experiences related to building a mission-oriented organization with an inspiring, fun, and sustainable culture. Role will also include significant experience working with top education experts and mentors.
 
-**Core Candidate Attributes
-**
+**Core Candidate Attributes**
 
 We enthusiastically welcome candidates from **diverse backgrounds**, including candidates of color, who are inspired by our mission to serve all students through instructional improvement. 
 
@@ -68,9 +66,7 @@ Ideal Candidate Attributes
 * **Collaborative:** we believe working on teams is essential to achieving our mission; we listen, we learn, we disagree and we support each other. Candidates should be interested in working on a team and co-constructing our work together.
 * **Flexible:** we have a lean start-up culture. Candidates should be excited to help build an organization and also have the flexibility necessary to adapt to fast-changing and dynamic contexts.
 
-**
-Working Conditions
-**
+**Working Conditions**
 
 This position requires very limited **work-related travel** (2-4 trips per year; likely 1-2 nights each) based on organizational needs, capacity, and season.
 
@@ -78,13 +74,10 @@ We are committed to building a **sustainable organization**. We love our work an
 
 Teaching Lab has not yet settled on a final office location in New York City, but expect it to be near a major subway line in Manhattan (Harlem or downtown). 
 
-**
-To Learn More
-**
+**To Learn More**
 
 Read about our work in the <a href="https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf" target="_blank">Aspen Institute report, Practice What You Teach</a> (pg. 9-11) and visit www.teachinglab.org
 
-**To Apply
-**
+**To Apply**
 
 Please submit your resume and a cover letter in PDF format to jobs@teachinglab.org with the subject line: “Executive Assistant Candidate: \[First Name Last Name]” (e.g., “Executive Assistant Candidate: Angela Smith”).
