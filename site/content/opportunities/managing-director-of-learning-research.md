@@ -9,8 +9,6 @@ listSummary: >-
   also develop Teaching Lab into a learning organization committed to an
   iterative and adaptive approach to continuous improvement.
 ---
-
-
 **Location:** Flexible (continental U.S.)
 
 **Type of Vacancy:** Full-Time
@@ -93,7 +91,7 @@ Working Conditions
 
 To Learn More
 
-* Read about our work in the Aspen Institute report, Practice What You Teach (pg. 9-11) and visit www.teachinglab.org
+* Read about our work in the <a href="https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf" target="_blank">Aspen Institute report, Practice What You Teach</a> (pg. 9-11) and visit www.teachinglab.org
 
 To Apply
 
