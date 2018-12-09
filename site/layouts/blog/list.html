@@ -16,10 +16,10 @@
         <div class="content-well">
             {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
             <ul class="blogfeed">
-                <li class="bloglist-image" data-aos="fade-right" data-aos-once="true" data-aos-delay="0" data-aos-duration="600">
+                <li class="bloglist-image">
                     <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
                 </li> 
-                <li class="blog-excerpt" data-aos="fade-in" data-aos-once="true">
+                <li class="blog-excerpt">
                     <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
                     <p>{{ .Params.listSummary }}</p>
                     <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>

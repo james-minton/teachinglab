@@ -43,7 +43,7 @@
                     {{ $.Scratch.Set "fadeDirection" "right" }}
                 {{ end }}
                     <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
-                        <div class="model-icon"><img data-aos="fade-{{ $.Scratch.Get "fadeDirection" }}" data-aos-once="true" src="{{ .icon }}" width="" /></div>
+                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
                         <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}
@@ -73,7 +73,7 @@
                     {{ $.Scratch.Set "fadeDirection" "right" }}
                 {{ end }}
                     <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
-                        <div class="model-icon"><img data-aos="fade-{{ $.Scratch.Get "fadeDirection" }}" data-aos-once="true" src="{{ .icon }}" width="" /></div>
+                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
                         <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
                     </div>
                 {{ end }}
