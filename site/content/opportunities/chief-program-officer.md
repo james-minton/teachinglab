@@ -7,8 +7,6 @@ listSummary: >-
   the Executive Director, to join our Leadership Team and support our
   organizational mission and growth.
 ---
-
-
 **Location:** Washington, DC or New York, NY preferred; remote eligible 
 
 **Type of Vacancy:** Full-time, leadership level
@@ -101,7 +99,7 @@ Working Conditions
 
 To Learn More
 
-* Read about our work in the Aspen Institute report, Practice What You Teach (pg. 9-11)
+* Read about our work in the <a href="https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf" target="_blank">Aspen Institute report, Practice What You Teach</a> (pg. 9-11)
 * Explore one of the curricula we currently support including:
   * [EL Education Literacy Curriculum](https://curriculum.eleducation.org/curriculum) (Grades K-5)
   * [Louisiana ELA Guidebooks 2.0](https://learnzillion.com/resources/81666-english-language-arts-guidebook-units) (Grades 3-12)

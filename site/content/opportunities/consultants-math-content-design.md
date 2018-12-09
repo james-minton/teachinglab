@@ -8,8 +8,6 @@ listSummary: >-
   Illustrative Mathematics curriculum but may expand to additional
   standards-aligned curricula over time.
 ---
-
-
 **Location:** Flexible (U.S.)
 
 **Type of Vacancy:** Contract work
@@ -48,7 +46,7 @@ Working Conditions
 
 To Learn More
 
-* Read about our work in the Aspen Institute report, Practice What You Teach (pg. 9-11) and visit www.teachinglab.org
+* Read about our work in the <a href="https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf" target="_blank">Aspen Institute report, Practice What You Teach</a> (pg. 9-11) and visit www.teachinglab.org
 
 To Apply
 
