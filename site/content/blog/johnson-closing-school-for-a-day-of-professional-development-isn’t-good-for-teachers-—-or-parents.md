@@ -7,9 +7,15 @@ contenttype: blog
 date: 2018-12-20T17:59:47.133Z
 postauthorname: Sarah Johnson
 postauthortitle: CEO
-postauthorimg: ''
+postauthorimg: /images/uploads/sjohnson-2.jpg
 image: /images/uploads/teachers-meeting-getty-1-.jpg
 socialDescription: ''
+listSummary: >-
+  A one-day approach to teacher training isn’t just inconvenient. It’s weak
+  practice, with research suggesting that educators do not typically learn much
+  from an eight-hour session. Teachers, instead, benefit from an ongoing process
+  of professional development that’s focused on instructional leadership and
+  rich content — and goes on throughout the school year.
 ---
 It was an awkward scramble that’s all too familiar to families in New York City. The district’s schools shuttered recently to give teachers time for a one-day professional development session, and the closing sent thousands of parents like me hunting for childcare options.
 
