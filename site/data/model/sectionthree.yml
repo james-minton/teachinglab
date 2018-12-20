@@ -4,24 +4,31 @@ introCopy: >-
   systems: 
 iconsCopy:
   - copy: >-
-      Educators work with students from aligned grade levels and subject areas
-      and meet regularly to collaborate, share successes and, discuss
-      challenges.
+      Labs are small groups of educators working with students in the same or
+      similar grade levels and subject areas that meet regularly to collaborate
+      and share successes and challenges.
     heading: '“LABS” ARE GROUPS OF 10-25 EDUCATORS WORKING WITH STUDENTS. '
     icon: /images/uploads/teacher.png
   - alignIcon: true
     copy: >-
-      Lab Leaders work from within their school system to facilitate the
-      exploration of content modules within Labs.
+      Lab Leaders are experienced teachers and instructional coaches from within
+      a school system who facilitate the exploration of content modules within
+      Labs.
     heading: 'LAB LEADERS ARE EXPERIENCED TEACHERS AND INSTRUCTIONAL COACHES. '
     icon: /images/uploads/leader.png
   - alignIcon: false
     copy: >-
-      Teaching Lab directly supports Lab Leaders through direct and virtual
-      coaching.
+      Professional learning content modules are PD session plans created by
+      Teaching Lab and vetted by experts; these modules are both content- and
+      curriculum-specific. Teaching Lab directly supports Lab Leaders in
+      implementation of these modules through direct and virtual coaching.
     heading: 'TEACHING LAB CONTENT MODULES ARE VETTED BY EXPERTS. '
     icon: /images/uploads/coaching.png
   - alignIcon: true
-    copy: ' “Cycles” are 6-8-week, structured inquiry investigations focused on curriculum-aligned content, instructional practice, and evidence-based learning. Labs typically complete four cycles per year.'
+    copy: >-
+      Cycles are six-to-eight-week, structured inquiry investigations,
+      consisting of multiple sessions focused on curriculum-aligned content,
+      practice, and evidence. Led by Lab Leaders who are coached by Teaching
+      Lab, Labs typically complete between two and four cycles per year.
     heading: '“CYCLES OF INQUIRY” ARE BASED ON CONTENT, PRACTICE, AND EVIDENCE. '
     icon: /images/uploads/inquiry.png
