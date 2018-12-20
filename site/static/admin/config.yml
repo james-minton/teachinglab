@@ -320,7 +320,7 @@ collections:
 
   - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
     label: "Case Studies" # Used in the UI
-    folder: "/site/content/blog/case-studies" # The path to the folder where the documents are stored
+    folder: "site/content/blog/case-studies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: {field: "display", value: "yes" }
@@ -340,7 +340,7 @@ collections:
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "/site/content/blog" # The path to the folder where the documents are stored
+    folder: "site/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: {field: "display", value: "yes" }
@@ -363,14 +363,14 @@ collections:
       - label: Opportunities Intro
         name: opportunitieslist 
         delete: false
-        file: "/site/data/opportunities/contents.yml"
+        file: "site/data/opportunities/contents.yml"
         fields:
           - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
   
        
   - label: Positions
     name: positionsList 
-    folder: "/site/content/opportunities"
+    folder: "site/content/opportunities"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
