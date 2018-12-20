@@ -25,8 +25,6 @@ The additional burden on parents might be worth it if this approach to developin
 
 There are several reasons the one-day model doesn’t work. One is time: An eight-hour workshop is simply too short to enable teachers to really develop a new set of applicable skills or build expertise. Another is that the one-off approach isn’t targeted enough and doesn’t significantly improve teachers’ skills in specific content areas.
 
-
-
 So what does work in teaching development?
 
 While we need more research in this area, some of the best evidence shows that teachers need on average almost 50 hours of learning and practice time, spread out over the course of each year, to see improvements in student learning.
@@ -41,6 +39,4 @@ Many schools in New York City and elsewhere are doing right by their educators a
 
 It’s time for schools to ditch the practice of one-shot teacher training that inconveniences educators and the families they serve. Instead, districts like New York should focus on the best-proven alternative: yearlong, content-focused learning experiences that treat educators as professional leaders.
 
-
-
-_This piece was originally posted on _[_the74million.org._](https://www.the74million.org/article/johnson-closing-school-for-a-day-of-professional-development-isnt-good-for-teachers-or-parents/?utm_source=The+74+Million+Newsletter&utm_campaign=fb2b2083c2-EMAIL_CAMPAIGN_2018_12_06_10_15&utm_medium=email&utm_term=0_077b986842-fb2b2083c2-176207077)__
+_This piece was originally posted on _[_the74million.org._](https://www.the74million.org/article/johnson-closing-school-for-a-day-of-professional-development-isnt-good-for-teachers-or-parents/?utm_source=The+74+Million+Newsletter&utm_campaign=fb2b2083c2-EMAIL_CAMPAIGN_2018_12_06_10_15&utm_medium=email&utm_term=0_077b986842-fb2b2083c2-176207077)
