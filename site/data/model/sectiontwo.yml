@@ -5,11 +5,11 @@ introCopy: >-
 iconsCopy:
   - alignIcon: false
     copy: >-
-      Core academic content that is aligned to specific curricular materials and
-      research-based practices is essential. We refer to this as the “head” of
-      professional learning. Without core content, teachers adopt new techniques
-      that may be ineffective or even counterproductive and do not grow their
-      knowledge over time.
+      Core academic content is aligned to specific curricular materials and
+      research-based practices. We refer to this as the “head” of professional
+      learning. Without core content, teachers adopt new techniques that may be
+      ineffective or even counterproductive and do not grow their knowledge over
+      time.
     heading: 1. HEAD
     icon: /images/uploads/head_180.png
   - alignIcon: true
