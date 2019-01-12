@@ -85,6 +85,9 @@ nav#footerNav {
         }
     }
     #footersocial {
+        a.fb {
+            padding-right: 2.4rem; 
+        }
         @include for-phone-only {
             position: relative;
             top: -104px;
@@ -92,8 +95,11 @@ nav#footerNav {
                 width: 22px;
                 height: 19px;
             }
-            a.fb, a.tw, a.ig {
-               /* padding-right: 2.4rem; */
+            /* a.fb, a.tw, a.ig {
+               padding-right: 2.4rem; 
+            } */
+            a.fb {
+                padding-right: 1.6rem; 
             }
         }
         display: inherit;

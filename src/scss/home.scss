@@ -253,6 +253,7 @@
         }
         .model-wrap {
             display: flex;
+            align-items: center;
             .icon-box {
                 width: 64px;
                 margin: 0 2.4rem 0 0;
@@ -305,6 +306,11 @@
 #panel5 {
     .orange-box-wrapper {
         background-color: $orange;
+    }
+    .side-header p {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.15rem;
     }
 }
    
