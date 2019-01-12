@@ -5,11 +5,11 @@ introCopy: >-
 iconsCopy:
   - alignIcon: false
     copy: >-
-      Core academic content that is aligned to specific curricular materials and
-      research-based practices is essential. We refer to this as the “head” of
-      professional learning. Without core content, teachers adopt new techniques
-      that may be ineffective or even counterproductive and do not grow their
-      knowledge over time.
+      Core academic content is aligned to specific curricular materials and
+      research-based practices. We refer to this as the “head” of professional
+      learning. Without core content, teachers adopt new techniques that may be
+      ineffective or even counterproductive and do not grow their knowledge over
+      time.
     heading: 1. HEAD
     icon: /images/uploads/head_180.png
   - alignIcon: true
@@ -23,8 +23,8 @@ iconsCopy:
     icon: /images/uploads/love_180.png
   - alignIcon: false
     copy: >-
-      Professional learning structured around repeated cycles of inquiry allows
-      teachers to apply what they learn and evaluate evidence of student
+      Professional learning is structured around repeated cycles of inquiry that
+      allows teachers to apply what they learn and evaluate evidence of student
       learning. We call this the “habits” of professional learning. Without
       cycles of inquiry, new ideas are not incorporated into regular practice
       and those that are adopted are not verified using evidence of student
