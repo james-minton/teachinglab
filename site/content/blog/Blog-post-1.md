@@ -2,15 +2,14 @@
 title: >-
   Innovation Road Trip: Traveling From Coast to Coast to Explore Knowledge-Rich
   American Schools
-display: yes
-socialDescription: When was the moment you fell in love with learning?
+display: 'yes'
 contenttype: blog
 date: 2018-10-01T02:00:58.021Z
 postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/TravelBlogIntro.jpg
-slug: innovation-road-trip-1
+socialDescription: When was the moment you fell in love with learning?
 listSummary: >-
   When was the moment you fell in love with learning? If you ever fell in love
   with learning? For most of us, it probably wasn’t when we were conjugating
@@ -50,7 +49,9 @@ Over the next several months, my team and I will chronicle here, on The 74, our 
 
 Beyond the many rational, research-based, educationally sound reasons for placing content knowledge at the center of the educational enterprise in elementary schools, there is something qualitatively different about teaching and learning in schools that do so. We believe there’s a hunger out there to learn more about how schools take this on — if, indeed, it’s possible that knowledge-rich schooling can breathe new life into tired old education practices. So join us this spring as we explore this in schools across the country.
 
-_[**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the [Knowledge Matters Campaign](Knowledge Matters Campaign). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts._
+_This article was originally published in _[_The 74 Million_](https://www.the74million.org/article/innovation-road-trip-traveling-from-coast-to-coast-to-explore-knowledge-rich-american-schools/)_._
+
+_[**Barbara Davidson**](https://standardswork.org/about-us/board-of-directors/) is president of [StandardsWork](https://standardswork.org/) and runs the \[Knowledge Matters Campaign](Knowledge Matters Campaign). A former classroom teacher of students with learning disabilities, she has worked for the past 30 years at the intersection of education policy and practice and has led a number of curriculum development efforts._
 
 _[**Rachel Etienne**](https://achievethecore.org/about-us) is a member of the Literacy and English Language Arts team at [Student Achievement Partners](https://achievethecore.org/). She is a former elementary school teacher and literacy coach._
 
