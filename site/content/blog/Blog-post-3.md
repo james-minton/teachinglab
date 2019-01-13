@@ -2,13 +2,13 @@
 title: >-
   Innovation Road Trip: From the Wreckage of Detroit, a Curriculum Rises to
   Teach Science, Social Studies — and Integrity
+display: 'yes'
 contenttype: blog
 date: 2018-10-05T02:00:00.000Z
 postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/detroit1.jpg
-display: yes
 listSummary: >-
   Detroit has lost more than 1 million residents since its peak in 1950.
   Once-beautiful homes sit boarded up in a 672,000-person city that housed 1.8
@@ -56,3 +56,7 @@ For Victoria, the lessons from Rudolph also translated outside the classroom.
 “There was a moment when one of our new students was struggling and had a conflict with another student,” teacher Kirstin Stoeckle said. “Victoria went up to her, put her arm around her shoulder, and said, ‘If Wilma Rudolph could overcome polio, you can do this.’”
 
 Stories like this give us hope that from the wreckage of closed factories and abandoned houses, the seeds of opportunity in Detroit are sprouting.
+
+_This article was originally published in _[_The 74 Million_](https://www.the74million.org/article/innovation-road-trip-from-the-wreckage-of-detroit-a-curriculum-rises-to-teach-science-social-studies-and-integrity/)_._
+
+_Silas Kulkarni is President of Teaching Lab, where he leads powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City._
