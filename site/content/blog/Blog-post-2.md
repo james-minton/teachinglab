@@ -2,22 +2,19 @@
 title: >-
   Innovation Road Trip: In Tiny, Impoverished Louisiana Town, School Is ‘a
   Home-Like Environment You Want to Be a Part Of’
-display: yes
+display: 'yes'
 contenttype: blog
 date: 2018-10-03T02:00:00.000Z
 postauthorname: Silas Kulkarni
 postauthortitle: Founder
 postauthorimg: /images/uploads/skularni.png
 image: /images/uploads/fontenot-student.jpg
-slug: innovation-road-trip-2
 listSummary: >-
   Kinder is a tightly knit 2,400-person community in western Louisiana. The
   biggest monument in the area is the Coushatta Casino Resort, where many of the
   local residents work.Of the nearly 1,000 students enrolled in the town’s two
   public schools, about 60 percent are classified as low-income.
 ---
-
-
 Kinder is a tightly knit 2,400-person community in western Louisiana. The biggest monument in the area is the Coushatta Casino Resort, where many of the local residents work.
 
 Of the nearly 1,000 students enrolled in the town’s two public schools, about 60 percent are classified as low-income. The median household income in Allen Parish, the county in which Kinder resides, is $41,801, according to the 2012–16 American Community Survey. That figure is even lower in Kinder itself.
@@ -69,3 +66,7 @@ To use Guidebooks or another knowledge-rich curriculum, professional development
 District leadership has supported building teachers’ knowledge and ability to use the curriculum by participating in a statewide “Content Leaders” training. Getting the teachers thinking has gotten the students thinking, school leaders say. To support the use of this more rigorous curriculum in schools, teachers collaborate for one hour per day; even administrators have their own collaborative planning group.
 
 “This is a learning journey for me,” Chaumont told us. “Be a learner yourself. Have an open mind.”
+
+_This article was originally published in _[_The 74 Million_](https://www.the74million.org/article/innovation-road-trip-in-tiny-impoverished-louisiana-town-school-is-a-home-like-environment-you-want-to-be-a-part-of/)_._
+
+__
