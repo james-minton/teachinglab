@@ -70,7 +70,3 @@ District leadership has supported building teachers’ knowledge and ability to 
 _This article was originally published in _[_The 74 Million_](https://www.the74million.org/article/innovation-road-trip-in-tiny-impoverished-louisiana-town-school-is-a-home-like-environment-you-want-to-be-a-part-of/)_._
 
 _Silas Kulkarni is President of Teaching Lab, where he leads powerful professional learning experiences in school districts around the country by applying lessons learned as a record-busting middle school teacher in Washington, D.C., and New York City._
-
-__
-
-__
