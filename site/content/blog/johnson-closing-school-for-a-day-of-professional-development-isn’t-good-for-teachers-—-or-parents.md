@@ -45,6 +45,6 @@ Many schools in New York City and elsewhere are doing right by their educators a
 
 It’s time for schools to ditch the practice of one-shot teacher training that inconveniences educators and the families they serve. Instead, districts like New York should focus on the best-proven alternative: yearlong, content-focused learning experiences that treat educators as professional leaders.
 
-_This piece was originally posted in _[_The74million.org._](https://www.the74million.org/article/johnson-closing-school-for-a-day-of-professional-development-isnt-good-for-teachers-or-parents/?utm_source=The+74+Million+Newsletter&utm_campaign=fb2b2083c2-EMAIL_CAMPAIGN_2018_12_06_10_15&utm_medium=email&utm_term=0_077b986842-fb2b2083c2-176207077)
+This piece was originally posted in [The74million.org](https://www.the74million.org/article/johnson-closing-school-for-a-day-of-professional-development-isnt-good-for-teachers-or-parents/).
 
 _Sarah Johnson is CEO of Teaching Lab._
