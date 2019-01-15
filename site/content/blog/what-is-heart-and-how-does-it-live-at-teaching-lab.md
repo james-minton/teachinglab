@@ -5,7 +5,7 @@ contenttype: blog
 date: 2019-01-14T13:45:00.097Z
 postauthorname: Addie Kelley
 postauthortitle: Fellow
-postauthorimg: /images/uploads/addie-kelley_01-copy-2.jpg
+postauthorimg: /images/uploads/addie-kelley_01-copy.jpg
 listSummary: >-
   As a team, we define heart as “teacher-led community that builds both social
   capital and buy-in from teachers”.
