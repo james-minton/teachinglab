@@ -139,7 +139,24 @@ collections:
               - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
               - {label: Heading, name: heading, widget: string} 
               - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-  
+      - label: "Cycles of Inquiry Graphic"
+        name: "coiGraphic"
+        file: "site/data/model/coigraphic.yml"
+        delete: false
+        fields:  
+          - {label: Title, name: title, widget: hidden}  
+          - {label: Sideways Header, name: header, widget: string}
+          - {label: Step One Line 1, name: textOne, widget: string, required: false}
+          - {label: Step One Line 2, name: textOneTwo, widget: string, required: false}
+          - {label: Step Two Line 1, name: textTwo, widget: string, required: false}
+          - {label: Step Two Line 2, name: textTwoTwo, widget: string, required: false}
+          - {label: Step Three Line 1, name: textThree, widget: string, required: false}
+          - {label: Step Three Line 2, name: textThreeTwo, widget: string, required: false}
+          - {label: Step Four Line 1, name: textFour, widget: string, required: false}
+          - {label: Step Four Line 2, name: textFourTwo, widget: string, required: false}
+          - {label: Step Five Line 1, name: textFive, widget: string, required: false}
+          - {label: Step Five Line 2, name: textFiveTwo, widget: string, required: false}
+
   - label: "About Us"
     name: "aboutUs"
     files:

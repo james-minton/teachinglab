@@ -52,6 +52,11 @@
         .content-well {
             padding: 0;
         }
+        .side-header p {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.15rem;
+        }
     }
     .section-four {
         &.pad96 {
