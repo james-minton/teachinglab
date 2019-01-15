@@ -29,6 +29,4 @@ As a team, we define heart as “teacher-led community that builds both social c
 
 By the end of the day with teachers, we’d made progress toward defining “heart” but acknowledged that we weren’t finished just yet. We all felt “heart”. We all knew its value, its importance, and its weight. But we also knew that it would take time to develop it in practice. For now, we’ve got a working definition that resonates with our team, which we will use to guide and propel our work as we continue to refine our practice and build community and culture within and outside of our organization. As we build “heart” amongst ourselves, we look forward to working with even more leaders and teachers to help them find the “heart” in their work too. 
 
-_Addie Kelley is a fellow at Teaching Lab where she works to enhance the professional learning experiences of teachers in Louisiana. _
-
-__
+_Addie Kelley is a fellow at Teaching Lab where she works to enhance the professional learning experiences of teachers in Louisiana._
