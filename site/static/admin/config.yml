@@ -153,38 +153,22 @@ collections:
           - {label: Section Heading, name: sectionHead, widget: string} 
           - {label: Section Bold Intro, name: sectionBoldIntro, widget: string} 
           - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-      - label: "Leadership Section"
+      - label: "Team Section"
         name: "founders"
         file: "site/data/about/founders.yml"
         delete: false
         fields:  
           - {label: Title, name: title, widget: hidden} 
           - {label: Section Heading, name: sectionHead, widget: string}  
-          - label: Leadership Team
-            name: foundersList
-            widget: list
-            fields:
-              - {label: Leader Name, name: staffName, widget: string}
-              - {label: Title, name: staffTitle, widget: string}   
-              - {label: Image, name: staffImage, widget: image} 
-              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}  
-      - label: "Staff Section"
-        name: "team"
-        file: "site/data/about/team.yml"
-        delete: false
-        fields:  
-          - {label: Title, name: title, widget: hidden} 
-          - {label: Section Heading, name: sectionHead, widget: string}  
           - label: Team
-            name: teamList
+            name: foundersList
             widget: list
             fields:
               - {label: Team Member Name, name: staffName, widget: string}
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}       
+              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}  
       - label: "Board Section"
         name: "board"
         file: "site/data/about/board.yml"
