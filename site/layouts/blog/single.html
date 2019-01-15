@@ -9,8 +9,10 @@
             <div id="breadcrumb" class="content-well"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/our-impact/#case-studies">Case Studies</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
         {{ end }}
         <div class="content-well">
-            <div class="featured-img">    
-                {{ partial "singleblogimg" . }} 
+            <div class="featured-img"> 
+               {{ if (isset .Params "image" ) }}   
+                    {{ partial "singleblogimg" . }} 
+                {{ end }}   
             </div>
             <div class="content-inner blogsection">
                 <div class="blog-well">  

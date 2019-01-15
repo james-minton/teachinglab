@@ -26,17 +26,20 @@
     <div class="team-bios founders content-well target" id="leaders">
         {{ with .Site.Data.about.founders }}
             <div class="rotate">
-                <h3 class="bold-blue uppercase" id="leaders">LEADERSHIP</h3>
+                <h3 class="bold-blue uppercase" id="leaders">TEAM</h3>
             </div>    
         {{ end }} 
         <div class="content-inner"> 
             {{ range .Site.Data.about.founders.foundersList }} 
                 {{ partial "aboutmodals" . }}
-            {{ end }}    
+            {{ end }}
+            {{ range .Site.Data.about.team.teamList }} 
+                {{ partial "aboutmodals" . }}
+            {{ end }}     
         </div>     
     </div>
 <!-- STAFF ------------------------>    
-    <div class="team-bios staff content-well target" id="staff">
+    <!--<div class="team-bios staff content-well target" id="staff">
         {{ with .Site.Data.about.team }}
             <div class="rotate">
                 <h3 class="bold-blue uppercase" id="staff">TEAM</h3>
@@ -47,7 +50,7 @@
                 {{ partial "aboutmodals" . }}
             {{ end }}    
         </div>     
-    </div>  
+    </div>  -->
 <!-- LEADERSHIP ------------------------>    
     <div class="team-bios board content-well target" id="board">
         {{ with .Site.Data.about.board }}
