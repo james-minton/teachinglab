@@ -11,7 +11,7 @@ listSummary: >-
   As a team, we define heart as “teacher-led community that builds both social
   capital and buy-in from teachers”.
 ---
-**What is Heart and How Does it Live at Teaching Lab? **
+**What is Heart and How Does it Live at Teaching Lab?**
 
 While facilitating Teaching Lab's last state-wide professional learning session for Louisiana teachers, I observed over 300 teachers develop a roadmap for building “heart” in their schools and districts. For an entire day, they worked together to define what “heart” truly meant for them and how to create the conditions that would allow it to properly manifest in teacher professional learning. Specifically, we discussed the importance of building relationships and community amongst teachers, ensuring professional learning is relevant and meaningful, and using professional learning to enhance teacher buy-in and leadership. Leaders and educators know from research that “heart” is essential to effective professional learning; for this reason, it is one of the three core principles of Teaching Lab’s model. Yet, even though we have this knowledge, many of us continue to struggle with articulating what it actually looks and feels like in practice while ensuring that our organizations, team members, partners, teachers, and students all see and feel it for themselves. 
 
