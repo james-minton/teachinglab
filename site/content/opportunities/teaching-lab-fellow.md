@@ -135,4 +135,4 @@ Explore our website at [www.teachinglab.org](www.teachinglab.org)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLFellows](https://docs.google.com/forms/d/e/1FAIpQLSf_OaoOpmV94319SepESLOu1kJ9Qb_s5pk5IZ6pB2Z_bi7XMQ/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLFellows](https://docs.google.com/forms/d/e/1FAIpQLSf_OaoOpmV94319SepESLOu1kJ9Qb_s5pk5IZ6pB2Z_bi7XMQ/viewform). Additional questions may be directed to jobs@teachinglab.org.
