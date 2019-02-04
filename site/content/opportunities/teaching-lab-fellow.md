@@ -12,7 +12,7 @@ listSummary: >-
 
 **Location:** Remote/home office anywhere in the United States
 
-**Reports to: **Director of Sitework or Director of Content Design 
+**Reports to::** Director of Sitework or Director of Content Design 
 
 **Travel Required:** 20-40% depending on season
 
