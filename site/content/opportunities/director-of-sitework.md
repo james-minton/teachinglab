@@ -127,4 +127,4 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLDoSEL](www.tinyurl.com/TLDoSEL). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLDoSEL](https://docs.google.com/forms/d/e/1FAIpQLSccmgBNgOYJG8mjU94VbnCcRQu6ZaUiP_hdRnvP0kPvuJmyGw/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
