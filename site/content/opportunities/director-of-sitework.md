@@ -19,8 +19,7 @@ listSummary: >-
 
 **Compensation:** Commensurate with experience 
 
-**Summary of Position
-**
+**Summary of Position**
 
 Teaching Lab is seeking a Director of Sitework (DoS) to join our Partnerships Team and lead a portfolio of engagements with school systems as they implement EL Education’s ELA curriculum (including both EL 1.0 in grades 6-8 and EL 2.0 in grades K-5) using our model for professional learning. 
 
