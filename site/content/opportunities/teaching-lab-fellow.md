@@ -8,7 +8,7 @@ listSummary: >-
   country while investigating their own inquiry project and learning from a
   diverse cohort of fellow educators.
 ---
-**Type of Vacancy:: **One-year term position; either 4 or 5 days a week (applicant’s choice), starting April-June 2019  
+**Type of Vacancy:: ** One-year term position; either 4 or 5 days a week (applicant’s choice), starting April-June 2019  
 
 **Location:** Remote/home office anywhere in the United States
 
@@ -56,9 +56,9 @@ Inquiry Project (10% time)
 
 * Ideate, plan, and execute an inquiry project on a topic decided on in conjunction between you and your manager. Ideal projects sit at the intersection of a candidate’s interests and Teaching Lab’s research and development needs.
 * Past projects have included:
-  * _Research on the connection between specific qualities of a teacher’s vision and their classroom culture/classroom practices. What do great visions have in common? What do teachers with great visions have in common? How can we coach teachers to develop powerful visions which both inform and transcend their instruction?_
-  * _Why aren’t more districts and schools adopting content-rich and standards-aligned curriculum and how can we create more informed consumers of curricula and content-specific professional learning? Project includes work with local district and school through pilots of aligned curriculum to address problems of practice based on student achievement data. _
-  * _Research literature shows what works in professional development, which has shaped our model, but how do we prove that it works with rigorous evidence? Project includes development of part of Teaching Lab’s impact evaluation protocol._
+  * Research on the connection between specific qualities of a teacher’s vision and their classroom culture/classroom practices. What do great visions have in common? What do teachers with great visions have in common? How can we coach teachers to develop powerful visions which both inform and transcend their instruction?_
+  * Why aren’t more districts and schools adopting content-rich and standards-aligned curriculum and how can we create more informed consumers of curricula and content-specific professional learning? Project includes work with local district and school through pilots of aligned curriculum to address problems of practice based on student achievement data. _
+  * Research literature shows what works in professional development, which has shaped our model, but how do we prove that it works with rigorous evidence? Project includes development of part of Teaching Lab’s impact evaluation protocol._
 
 **Areas for Growth**
 
