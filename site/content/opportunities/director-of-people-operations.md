@@ -17,8 +17,7 @@ listSummary: >-
 
 **Compensation:** Commensurate with experience 
 
-**Summary of Position
-**
+**Summary of Position**
 
 Teaching Lab is seeking a Director of People Operations and Development (D-POD) to support our growing team of passionate educators. The D-POD will work closely with the Chief Operating Officer to support Teaching Lab’s 30+ staff members by:
 
@@ -127,8 +126,7 @@ Salary for this position will be commensurate with experience. Teaching Lab offe
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab 
-**
+**To Learn More About Teaching Lab**
 
 Explore our website at [www.teachinglab.org
 ](www.teachinglab.org)
