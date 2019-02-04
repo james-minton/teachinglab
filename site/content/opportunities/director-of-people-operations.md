@@ -17,7 +17,8 @@ listSummary: >-
 
 **Compensation:** Commensurate with experience 
 
-**Summary of Position**
+**Summary of Position
+**
 
 Teaching Lab is seeking a Director of People Operations and Development (D-POD) to support our growing team of passionate educators. The D-POD will work closely with the Chief Operating Officer to support Teaching Lab’s 30+ staff members by:
 
@@ -33,7 +34,8 @@ This role affords the possibility of working on both an operational level and he
 
 Eligible candidates must have deep expertise in human capital management, including many, if not all, of the above workstreams. Ideal candidates will have the unique combination of intellectual depth and skill in managing teams and projects. Above all, any candidate must demonstrate interest and alignment with Teaching Lab’s mission to end educational inequity. 
 
-**Key Responsibilities & Workstreams**
+**Key Responsibilities & Workstreams
+**
 
 Developing & Managing Human Capital Pipeline (30% time)
 
@@ -63,7 +65,8 @@ Organization-Wide Research Efforts (up to 10% time)
 
 * Support the Chief Operating Officer and the organization’s leadership team to research and develop strategy around compensation, benefits, staffing projections, project assignments, and other elements of a growing organization 
 
-**Areas for Growth **
+**Areas for Growth 
+**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. The Director of People Operations and Development will lead efforts to develop our work in this area, but will also have the following growth opportunities: 
 
@@ -74,7 +77,8 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years. This role offers unparalleled opportunities for career advancement and extended impact as we grow from a small organization into one with 50+ employees. 
 
-**Qualifications**
+**Qualifications
+**
 
 Teaching Lab team members bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective Director of People Operations and Development candidates should be able to demonstrate experience or background in the following categories:
 
@@ -109,7 +113,8 @@ Values
 * Belief in the power of relationships to drive collaboration
 * Relentless focus on results for traditionally underserved students, including a high bar for quality work
 
-**Working at Teaching Lab **
+**Working at Teaching Lab 
+**
 
 This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
@@ -122,13 +127,16 @@ Salary for this position will be commensurate with experience. Teaching Lab offe
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab **
+**To Learn More About Teaching Lab 
+**
 
-Explore our website at [www.teachinglab.org](www.teachinglab.org)
+Explore our website at [www.teachinglab.org
+](www.teachinglab.org)
 
-* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
+* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
+  ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
 * Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
-**To Apply**
+**To Apply**
 
-Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLDirPOD](www.tinyurl.com/TLDirPOD). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLDirPOD](https://docs.google.com/forms/d/e/1FAIpQLSf42HrVlfWsqCt-ULA-E55zOkA9NYtx-PELNwu0V8hv9uz13Q/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
