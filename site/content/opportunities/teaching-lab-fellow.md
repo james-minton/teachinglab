@@ -8,7 +8,7 @@ listSummary: >-
   country while investigating their own inquiry project and learning from a
   diverse cohort of fellow educators.
 ---
-**Type of Vacancy: **One-year term position; either 4 or 5 days a week (applicant’s choice), starting April-June 2019  
+**Type of Vacancy:: **One-year term position; either 4 or 5 days a week (applicant’s choice), starting April-June 2019  
 
 **Location:** Remote/home office anywhere in the United States
 
