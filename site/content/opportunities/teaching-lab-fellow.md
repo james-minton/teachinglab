@@ -107,7 +107,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * A relentless focus on results for underserved students, including a high bar for quality work
 
-**Working at Teaching Lab **
+**Working at Teaching Lab**
 
 This role is a one-year, term-limited position, structured as either four days a week (without benefits) or five days a week (with benefits). Teaching Lab’s benefits package covers 100% of employee costs and 50% of dependent costs for health/dental/vision insurance and a 401(k) program with diverse investment options. 
 
@@ -126,12 +126,11 @@ As a benefit to joining the Teaching Lab team, Fellows will engage in several vi
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab **
+**To Learn More About Teaching Lab**
 
-* Explore our website at [www.teachinglab.org
-  ](www.teachinglab.org)
-* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
-  ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
+Explore our website at [www.teachinglab.org](www.teachinglab.org)
+
+* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
 * Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
 **To Apply**
