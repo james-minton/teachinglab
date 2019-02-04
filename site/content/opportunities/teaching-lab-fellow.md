@@ -18,7 +18,7 @@ listSummary: >-
 
 **Compensation:** Commensurate with experience 
 
-**Summary of Position**
+**Summary of Position**
 
 Teaching Lab is seeking Math and ELA Fellows to support professional learning content design and implementation work across content areas for School Year 2019-2020. Teaching Lab Fellows are an integral part of Teaching Lab’s work, leading and developing high-quality, curriculum-aligned professional learning experiences for teachers, schools, and districts across the country. 
 
@@ -34,7 +34,7 @@ The Fellowship year can be structured as either a four-day-a-week role, not elig
 
 Eligible candidates must have strong expertise in relationship management, leading professional learning, project planning, high-quality curriculum, and the Common Core or similar College- and Career-Ready state standards in their designated content area. Ideal candidates will have the unique combination of intellectual curiosity and established skill in these areas. Above all, any candidate must have a demonstrated commitment to educational equity.
 
-**Key Responsibilities & Workstreams**
+**Key Responsibilities & Workstreams**
 
 Leading Professional Learning (45% time; somewhat higher in summer/fall)
 
@@ -56,11 +56,11 @@ Inquiry Project (10% time)
 
 * Ideate, plan, and execute an inquiry project on a topic decided on in conjunction between you and your manager. Ideal projects sit at the intersection of a candidate’s interests and Teaching Lab’s research and development needs.
 * Past projects have included:
-  * _Research on the connection between specific qualities of a teacher’s vision and their classroom culture/classroom practices. What do great visions have in common? What do teachers with great visions have in common? How can we coach teachers to develop powerful visions which both inform and transcend their instruction?_
-  * _Why aren’t more districts and schools adopting content-rich and standards-aligned curriculum and how can we create more informed consumers of curricula and content-specific professional learning? Project includes work with local district and school through pilots of aligned curriculum to address problems of practice based on student achievement data. _
-  * _Research literature shows what works in professional development, which has shaped our model, but how do we prove that it works with rigorous evidence? Project includes development of part of Teaching Lab’s impact evaluation protocol._
+  * _Research on the connection between specific qualities of a teacher’s vision and their classroom culture/classroom practices. What do great visions have in common? What do teachers with great visions have in common? How can we coach teachers to develop powerful visions which both inform and transcend their instruction?_
+  * _Why aren’t more districts and schools adopting content-rich and standards-aligned curriculum and how can we create more informed consumers of curricula and content-specific professional learning? Project includes work with local district and school through pilots of aligned curriculum to address problems of practice based on student achievement data. _
+  * _Research literature shows what works in professional development, which has shaped our model, but how do we prove that it works with rigorous evidence? Project includes development of part of Teaching Lab’s impact evaluation protocol._
 
-**Areas for Growth **
+**Areas for Growth **
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. 
 
@@ -76,7 +76,7 @@ During the course of the Fellowship year, Teaching Lab will provide the followin
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time for interested candidates.  
 
-**Qualifications**
+**Qualifications**
 
 Teaching Lab team members bring both relevant experience and commitment to shared values and norms. Prospective Fellows should be able to demonstrate experience or background in the following categories. Note that Fellows will apply for either a Math or ELA Fellowship; demonstrated expertise in both content areas is not required.
 
@@ -107,7 +107,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * A relentless focus on results for underserved students, including a high bar for quality work
 
-**Working at Teaching Lab **
+**Working at Teaching Lab **
 
 This role is a one-year, term-limited position, structured as either four days a week (without benefits) or five days a week (with benefits). Teaching Lab’s benefits package covers 100% of employee costs and 50% of dependent costs for health/dental/vision insurance and a 401(k) program with diverse investment options. 
 
@@ -126,12 +126,14 @@ As a benefit to joining the Teaching Lab team, Fellows will engage in several vi
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab **
+**To Learn More About Teaching Lab **
 
-* Explore our website at [www.teachinglab.org](www.teachinglab.org)
-* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
+* Explore our website at [www.teachinglab.org
+  ](www.teachinglab.org)
+* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
+  ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
 * Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
-**To Apply**
+**To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLFellows](www.tinyurl.com/TLFellows). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLFellows](https://docs.google.com/forms/d/e/1FAIpQLSf_OaoOpmV94319SepESLOu1kJ9Qb_s5pk5IZ6pB2Z_bi7XMQ/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
