@@ -60,7 +60,7 @@ Inquiry Project (10% time)
   * _Why aren’t more districts and schools adopting content-rich and standards-aligned curriculum and how can we create more informed consumers of curricula and content-specific professional learning? Project includes work with local district and school through pilots of aligned curriculum to address problems of practice based on student achievement data. _
   * _Research literature shows what works in professional development, which has shaped our model, but how do we prove that it works with rigorous evidence? Project includes development of part of Teaching Lab’s impact evaluation protocol._
 
-**Areas for Growth **
+**Areas for Growth**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. 
 
