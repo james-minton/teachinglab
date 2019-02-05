@@ -14,12 +14,11 @@ listSummary: >-
 
 **Reports to:** Managing Director of Content Design
 
-**Travel Required: **15-20% depending on season
+**Travel Required:** 15-20% depending on season
 
-**Compensation: **Commensurate with experience 
+**Compensation:** Commensurate with experience 
 
-**Summary of Position
-**
+**Summary of Position**
 
 Teaching Lab is seeking a Director of ELA Content Design to support our continued work in ELA and to create curriculum-specific professional learning content modules to support teacher-led cycles of inquiry. This work will focus on EL Education’s K-5 and 6-8 ELA curriculum and Guidebooks 2.0 but may expand to additional highly-reviewed, standards-aligned curricula over time.
 
@@ -35,8 +34,7 @@ Eligible candidates must have deep expertise in teaching, professional learning,
 
 The Director of ELA Content Design will be a key member of the organization’s program team, tasked with implementing and iterating on the organization’s core program. As a rapidly growing nonprofit, we seek an entrepreneurial team member excited about building a team and an organization from the ground up. This position has high potential for both large-scale impact and career growth as Teaching Lab scales.
 
-**Key Responsibilities & Workstreams
-**
+**Key Responsibilities & Workstreams**
 
 Content Development (60% time)
 
@@ -58,8 +56,7 @@ Client Support & Business Development (up to 10% time)
 * Support clients & sitework team members with troubleshooting and major challenges
 * Collaborate with team members to support business development efforts (depending on candidate interest)
 
-**Areas for Growth 
-**
+**Areas for Growth**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. The Director of ELA Content Design will have the following growth opportunities: 
 
@@ -70,8 +67,7 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time. 
 
-**Qualifications
-**
+**Qualifications**
 
 Teaching Lab team members bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective Director of ELA Content Design candidates should be able to demonstrate experience or background in the following categories:
 
@@ -107,8 +103,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * Relentless focus on results for traditionally underserved students, including a high bar for quality work
 
-**Working at Teaching Lab 
-**
+**Working at Teaching Lab**
 
 This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
@@ -121,8 +116,7 @@ Salary for this position will be commensurate with experience. Teaching Lab offe
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab 
-**
+**To Learn More About Teaching Lab**
 
 * Explore our website at[ www.teachinglab.org
   ](www.teachinglab.org)
