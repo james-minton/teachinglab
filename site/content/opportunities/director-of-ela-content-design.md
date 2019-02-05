@@ -118,12 +118,12 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Learn More About Teaching Lab**
 
-* Explore our website at[ www.teachinglab.org
-  ](www.teachinglab.org)
+* Explore our website at [www.teachinglab.org](https://www.teachinglab.org/)
+
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
   ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report[ Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
+* Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLELACD](https://docs.google.com/forms/d/e/1FAIpQLSdoZdYtA3XntI35H4S9lTkjvyqgxWrA-LkJ1PmhcA3Jfobo3Q/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLELACD](https://docs.google.com/forms/d/e/1FAIpQLSdoZdYtA3XntI35H4S9lTkjvyqgxWrA-LkJ1PmhcA3Jfobo3Q/viewform). Additional questions may be directed to jobs@teachinglab.org.
