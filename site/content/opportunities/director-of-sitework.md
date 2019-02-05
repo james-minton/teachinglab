@@ -33,9 +33,7 @@ As a rapidly growing nonprofit, we seek an entrepreneurial individual excited ab
 
 Eligible candidates must have strong expertise in relationship and client management, leading professional learning, project planning, the EL curriculum, and the Common Core or similar College- and Career-Ready state standards. Ideal candidates will have the unique combination of intellectual curiosity and established skill in each of these areas. Above all, any candidate must have a demonstrated commitment to educational equity.
 
-**
-Key Responsibilities & Workstreams
-**
+**Key Responsibilities & Workstreams**
 
 Build & Maintain High-Level District Relationships. The DoS will:
 
@@ -58,8 +56,7 @@ Collaborate With Other Teams. The DoS will:
 * Work with Teaching Lab’s Business and Operations team to support project management, staffing, performance management, and financial goals
 * Liaise with external stakeholders, including EL Education and other experts in the field, to ensure continued success of Teaching Lab’s work with school systems
 
-**Areas for Growth 
-**
+**Areas for Growth**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. The Director of Sitework will have the following growth opportunities: 
 
@@ -70,9 +67,7 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time. 
 
-**
-Qualifications
-**
+**Qualifications**
 
 Teaching Lab team members bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective Director of Sitework candidates should be able to demonstrate experience or background in the following categories:
 
@@ -105,8 +100,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * Relentless focus on results for traditionally underserved students, including a high bar for quality work
 
-**Working at Teaching Lab 
-**
+**Working at Teaching Lab**
 
 This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
@@ -119,12 +113,12 @@ Salary for this position will be commensurate with experience. Teaching Lab offe
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab **
+**To Learn More About Teaching Lab**
 
-* Explore our website at [www.teachinglab.org](www.teachinglab.org)
+* Explore our website at [www.teachinglab.org](https://www.teachinglab.org/)
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
+* Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLDoSEL](https://docs.google.com/forms/d/e/1FAIpQLSccmgBNgOYJG8mjU94VbnCcRQu6ZaUiP_hdRnvP0kPvuJmyGw/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [www.tinyurl.com/TLDoSEL](https://docs.google.com/forms/d/e/1FAIpQLSccmgBNgOYJG8mjU94VbnCcRQu6ZaUiP_hdRnvP0kPvuJmyGw/viewform). Additional questions may be directed to jobs@teachinglab.org.
