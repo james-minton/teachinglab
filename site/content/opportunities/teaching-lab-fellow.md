@@ -128,10 +128,10 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Learn More About Teaching Lab**
 
-Explore our website at [www.teachinglab.org](www.teachinglab.org)
+Explore our website at [www.teachinglab.org](teachinglab.org)
 
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
+* Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
 **To Apply**
 
