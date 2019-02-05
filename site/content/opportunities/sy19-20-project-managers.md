@@ -23,7 +23,7 @@ Teaching Lab is seeking experienced math or ELA educators to manage professional
 
 PMs will lead professional learning in one to three Teaching Lab partnership sites over the course of the year. PMs will:
 
-* Manage and build client relationships, 
+* Manage and build client relationships 
 * Plan and lead on-the-ground professional learning (individually and in teams)
 * Collect data
 * Coach local Lab Leaders and other educators in person and virtually
@@ -101,7 +101,7 @@ This position requires significant work-related travel (50%+ time) based on orga
 
 As a benefit to joining the Teaching Lab team, PMs will engage in several virtual and in-person trainings to support delivery of best-in-class teacher professional learning with our partners
 
-* 'All PMs, regardless of start date, will be required to attend our Facilitator Training weekend from Saturday, June 1st through Monday, June 3rd in Washington, DC. Please identify in your application if you will be unable to make those dates. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year. Teaching Lab will cover travel costs.)
+* All PMs, regardless of start date, will be required to attend our Facilitator Training weekend from Saturday, June 1st through Monday, June 3rd in Washington, DC. Please identify in your application if you will be unable to make those dates. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year. Teaching Lab will cover travel costs.)
 * PMs will be required to complete the following virtual training before mid-June. If these dates fall during your employment (i.e., you start in April), they will be part of your regular workstreams. If they fall before your official start date, you will be asked to complete them on your own time (a small stipend will be provided):
   * April: approximately 25 hours of curriculum study (virtual/self-paced)
   * May/Early June: approximately 42 hours of content module study (30 hours virtual/self-paced, plus 12 hours of video calls to practice delivery to be scheduled during late weekday afternoons in late May and early June)
@@ -110,12 +110,11 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Learn More About Teaching Lab**
 
-* Explore our website at [www.teachinglab.org
-  ](www.teachinglab.org)
+* Explore our website at [www.teachinglab.org](https://www.teachinglab.org/)
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
   ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report [Practice What You Teach](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
+* Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLPMs](https://docs.google.com/forms/d/e/1FAIpQLSe-lnr8tG28yzicYA8ycV2rtYkmjgfGJHyk6x6XnS7NEpH8Bg/viewform). Additional questions may be directed to[ jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [www.tinyurl.com/TLPMs](https://docs.google.com/forms/d/e/1FAIpQLSe-lnr8tG28yzicYA8ycV2rtYkmjgfGJHyk6x6XnS7NEpH8Bg/viewform). Additional questions may be directed to jobs@teachinglab.org.
