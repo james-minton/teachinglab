@@ -13,7 +13,7 @@ listSummary: >-
 
 **Reports to:** Chief Operating Officer 
 
-**Travel Required:** roughly once a month 
+**Travel Required:** Roughly once a month 
 
 **Compensation:** Commensurate with experience 
 
