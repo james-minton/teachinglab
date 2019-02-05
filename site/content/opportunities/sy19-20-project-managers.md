@@ -99,7 +99,7 @@ This position is eligible for remote work anywhere in the continental United Sta
 
 This position requires significant work-related travel (50%+ time) based on organizational needs, capacity, and season. We expect travel to be more frequent in summer and fall and lighter in the winter and spring. 
 
-As a benefit to joining the Teaching Lab team, PMs will engage in several virtual and in-person trainings to support delivery of best-in-class teacher professional learning with our partners
+As a benefit to joining the Teaching Lab team, PMs will engage in several virtual and in-person trainings to support delivery of best-in-class teacher professional learning with our partners:
 
 * All PMs, regardless of start date, will be required to attend our Facilitator Training weekend from Saturday, June 1st through Monday, June 3rd in Washington, DC. Please identify in your application if you will be unable to make those dates. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year. Teaching Lab will cover travel costs.)
 * PMs will be required to complete the following virtual training before mid-June. If these dates fall during your employment (i.e., you start in April), they will be part of your regular workstreams. If they fall before your official start date, you will be asked to complete them on your own time (a small stipend will be provided):
