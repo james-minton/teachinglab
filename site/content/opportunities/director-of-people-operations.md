@@ -33,8 +33,7 @@ This role affords the possibility of working on both an operational level and he
 
 Eligible candidates must have deep expertise in human capital management, including many, if not all, of the above workstreams. Ideal candidates will have the unique combination of intellectual depth and skill in managing teams and projects. Above all, any candidate must demonstrate interest and alignment with Teaching Lab’s mission to end educational inequity. 
 
-**Key Responsibilities & Workstreams
-**
+**Key Responsibilities & Workstreams**
 
 Developing & Managing Human Capital Pipeline (30% time)
 
@@ -64,8 +63,7 @@ Organization-Wide Research Efforts (up to 10% time)
 
 * Support the Chief Operating Officer and the organization’s leadership team to research and develop strategy around compensation, benefits, staffing projections, project assignments, and other elements of a growing organization 
 
-**Areas for Growth 
-**
+**Areas for Growth**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. The Director of People Operations and Development will lead efforts to develop our work in this area, but will also have the following growth opportunities: 
 
@@ -76,8 +74,7 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years. This role offers unparalleled opportunities for career advancement and extended impact as we grow from a small organization into one with 50+ employees. 
 
-**Qualifications
-**
+**Qualifications**
 
 Teaching Lab team members bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective Director of People Operations and Development candidates should be able to demonstrate experience or background in the following categories:
 
@@ -112,8 +109,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * Relentless focus on results for traditionally underserved students, including a high bar for quality work
 
-**Working at Teaching Lab 
-**
+**Working at Teaching Lab**
 
 This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
