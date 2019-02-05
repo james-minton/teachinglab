@@ -11,14 +11,13 @@ listSummary: >-
 
 **Location:** Remote/home office anywhere in the United States
 
-**Reports to: **Director of Sitework or Director of Content Design 
+**Reports to:** Director of Sitework or Director of Content Design 
 
-**Travel Required: **50%+ depending on season
+**Travel Required:** 50%+ depending on season
 
 **Compensation:** Commensurate with experience 
 
-**Summary of Position
-**
+**Summary of Position**
 
 Teaching Lab is seeking experienced math or ELA educators to manage professional learning projects with school systems in School Year 2019-2020. Project Managers (PMs) are integral parts of Teaching Lab’s work, leading high-quality, curriculum-aligned professional learning experiences for teachers, schools, and districts across the country. 
 
@@ -37,8 +36,7 @@ PMs are part-time, hourly employees, ideally working 2-3 full days a week, and e
 
 Eligible candidates must have strong expertise in relationship management, leading professional learning, project planning, high-quality curriculum, and the Common Core or similar College- and Career-Ready state standards in their designated content area. Ideal candidates will have the unique combination of intellectual curiosity and established skill in these areas. Above all, any candidate must have a demonstrated commitment to educational equity.
 
-**Key Responsibilities & Workstreams
-**
+**Key Responsibilities & Workstreams**
 
 * Manage and build client relationships with Teaching Lab partner sites across the country
 * Lead professional learning on site, including facilitation with teachers, principals, coaches, and other educators
@@ -48,8 +46,7 @@ Eligible candidates must have strong expertise in relationship management, leadi
 * Give feedback on professional learning content modules in conjunction with Teaching Lab’s Content Development team
 * Work closely with the Managing Director of Partnerships and Director of Sitework to support the goal of sustainable, independently-led Labs in client districts by co-creating multi-year sequences of learning
 
-**Areas for Growth 
-**
+**Areas for Growth**
 
 Teaching Lab is committed to practicing what we preach, which means that development of our team is a key organizational priority. As a community of learners, we support one another through thought partnership, direct assistance, and opportunities to expand our own knowledge. 
 
@@ -61,8 +58,7 @@ Teaching Lab will provide the following growth opportunities for Project Manager
 
 In addition, Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time for interested candidates.  
 
-**Qualifications
-**
+**Qualifications**
 
 Teaching Lab team members bring both relevant experience and commitment to shared values and norms. Prospective PMs should be able to demonstrate experience or background in the following categories. Note that PMs will apply for either math or ELA projects; demonstrated expertise in both content areas is not required.
 
@@ -93,8 +89,7 @@ Values
 * Belief in the power of relationships to drive collaboration
 * A relentless focus on results for underserved students, including a high bar for quality work
 
-**Working at Teaching Lab 
-**
+**Working at Teaching Lab**
 
 This role is a one-year, hourly, part-time position, eligible for overtime subject to applicable federal and local laws. This position is not eligible for benefits. Candidates should be prepared to work 2-3 days per week, on average, in this role. 
 
@@ -113,8 +108,7 @@ As a benefit to joining the Teaching Lab team, PMs will engage in several virtua
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-**To Learn More About Teaching Lab 
-**
+**To Learn More About Teaching Lab**
 
 * Explore our website at [www.teachinglab.org
   ](www.teachinglab.org)
