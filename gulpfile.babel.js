@@ -42,6 +42,13 @@ gulp.task("build-preview", ["scss", "css", "js", "fonts", "img"], (cb) => buildS
     .pipe(browserSync.stream())
 ));
 
+/* gulp.task("scss", function() {
+  return gulp.src("./src/scss/tl.scss")
+    .pipe(sass()) // Using gulp-sass
+    // .pipe(postcss([cssnext({browserslist: [ ">= 1% in US" ]}), cssnano()]))
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(browserSync.stream());
+}); */
 
 gulp.task("scss", function() {
   return gulp.src("./src/scss/tl.scss")
@@ -50,6 +57,7 @@ gulp.task("scss", function() {
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream());
 });
+
 
 
 // Compile Javascript
@@ -104,7 +112,7 @@ gulp.task("img", () =>
         format: 'jpeg'
       }, {
         width: 288, 
-        rename: {suffix: "-bio-sm"}, // output smaller bio size
+        rename: {suffix: "-bio-sm"}, // output larger bio size
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
@@ -146,7 +154,8 @@ function runServer() {
   gulp.watch("./src/scss/**/*", ["scss"]);
   gulp.watch("./src/img/**/*", ["img"]);
 };
-
+//JM ADD
+// gulp.task('default', ['scss' /*, possible other tasks... */]);
 
 /**
  * Run hugo and build the site
