@@ -89,7 +89,7 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 70,
-        format: 'jpeg'
+        format: 'jpg'
       }, {
         width: 2000,
         rename: {suffix: "-lg"},
@@ -97,7 +97,7 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 70,
-        format: 'jpeg'
+        format: 'jpg'
       }, {
         rename: {suffix: "-orig"}, // output an original
         quality: 70,
@@ -109,7 +109,7 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 90,
-        format: 'jpeg'
+        format: 'jpg'
       }, {
         width: 320, 
         rename: {suffix: "-bio-lg"}, // output larger bio size
@@ -117,7 +117,7 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 90,
-        format: 'jpeg'
+        format: 'jpg'
       }, {
         quality: 100,
       }
