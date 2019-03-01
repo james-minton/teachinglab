@@ -2,7 +2,7 @@
 title: 'Teacher Vision: What, Why, and How? (Part 1)'
 display: 'yes'
 contenttype: blog
-date: 2019-03-01T15:47:13.347Z
+date: 2019-03-01T15:00:00.000Z
 postauthorname: Spencer Russell
 postauthortitle: Fellow
 postauthorimg: >-
