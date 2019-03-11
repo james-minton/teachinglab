@@ -3,10 +3,10 @@
   <a class="staff-link" data-toggle="modal" data-target="#modal-{{ .staffName | md5 }}">
     <ul class="staff-entry">
       <li class="staff-pic">
-        {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}} 
+        {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}}
           {{ $cleanFilename := strings.TrimSuffix ".png" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.png" />
         {{ else if in .staffImage ".jpg" }}
-          {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpg" />
+          {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
         {{ else if in .staffImage ".jpeg" }}
           {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
         {{ end }}
@@ -22,7 +22,7 @@
               </g>
           </g>
       </svg>
-      </li>  
+      </li>
       <li>
           <h4 class="uppercase">{{ .staffName }}</h4>
       </li>
@@ -30,19 +30,19 @@
         <h5 class="uppercase">{{ .staffTitle }}</h5>
       </li>
     </ul>
-  </a>  
-</div>            
+  </a>
+</div>
       <!-- Modal -->
       <div class="modal fade" id="modal-{{ .staffName | md5 }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
-            <div class="modal-transparent"></div>  
+            <div class="modal-transparent"></div>
             <div class="modal-header">
               <div class="staff-wrap">
-                  {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}} 
+                  {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}}
                     {{ $cleanFilename := strings.TrimSuffix ".png" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.png" />
                   {{ else if in .staffImage ".jpg" }}
-                    {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpg" />
+                    {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
                   {{ else if in .staffImage ".jpeg" }}
                     {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
                   {{ end }}
@@ -57,7 +57,7 @@
             </div>
             {{ if isset . "quote" }}
               <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
-            {{ end }}  
+            {{ end }}
           </div>
         </div>
       </div>

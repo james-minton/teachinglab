@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div id="our-impact-page" class="pageWrap">
-        <div class="hero-panel-sub parallax-window" data-position="center" data-parallax="scroll" data-speed="0.7" data-image-src="/images/teachers-talking.jpg"></div>
+        <div class="hero-panel-sub parallax-window" data-position="center" data-parallax="scroll" data-speed="0.7" data-image-src="/images/teachers-talking.jpeg"></div>
         <div class="page-title">
             <div class="title-box inner-wrapper">
                 <div class="title-container">
                     {{ with .Site.Data.impact.pagename }}
                         <h2>{{ .pageTitle }}</h2>
-                    {{ end }}    
+                    {{ end }}
                 </div>
             </div>
         </div>
@@ -24,14 +24,14 @@
                 <div class="content-inner">
                     {{ with .Site.Data.impact.sectionone }}
                         <div id="tv-intro" class="margb80">{{ .introText | markdownify }}</div>
-                    {{ end }}    
+                    {{ end }}
                 </div>
-            </div>    
+            </div>
             <div id="voices" class="content-well padw80">
                 <div class="content-inner">
-                    {{ partial "tvcarousel" . }}   
+                    {{ partial "tvcarousel" . }}
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="section-two">
             <div class="content-well margb80">
@@ -46,11 +46,11 @@
                                     <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
                                     <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
                                 </ul>
-                            </div>     
+                            </div>
                         </div>
-                    {{ end }}    
+                    {{ end }}
                 </div>
-            </div>            
+            </div>
         </div>
         <!--<div class="section-three pad96" id="case-studies">
             <div class="content-well target" id="blurb">
@@ -59,7 +59,7 @@
                             <h3 class="bold-blue uppercase" id="blurb">{{ .sectionHead }}</h3>
                         </div>
                 </div>
-            <div class="content-well">    
+            <div class="content-well">
                 <div class="content-inner">
                     <p>{{ .blurb }}</p>
                 {{ end }}
@@ -72,21 +72,21 @@
                     <ul class="blogfeed">
                         <li class="bloglist-image">
                             <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
-                        </li> 
+                        </li>
                         <li class="blog-excerpt">
                             <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
                             <p>{{ .Params.listSummary }}</p>
                             <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
                         </li>
-                    </ul> 
-                {{ end }}       
+                    </ul>
+                {{ end }}
             </div>
         </div>-->
-        
-        
-       
- 
-    
+
+
+
+
+
     {{ partial "newsletter" . }}
 
 {{ end }}

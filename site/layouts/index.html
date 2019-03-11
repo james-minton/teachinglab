@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div id="homepage" class="pageWrap">
-  <div id="panel1" class="parallax-window" data-parallax="scroll" data-speed="0.9" data-image-src="/images/smiling-teacher-br.jpg">
+  <div id="panel1" class="parallax-window" data-parallax="scroll" data-speed="0.9" data-image-src="/images/smiling-teacher-br.jpeg">
     <div class="panel-gradient" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0">
       <div class="content-wrapper">
           <div class="panel-overlay content-inner">
@@ -10,9 +10,9 @@
               </h1>
           </div>
         </div>
-    </div>    
+    </div>
   </div>
- 
+
   <div id="panel2" class="pad80">
       <div class="content-well">
         <div class="panel-overlay content-inner">
@@ -26,7 +26,7 @@
       </div>
     </div>
     <!-- Our Model Tablet Up ---------------------------->
-    
+
      <!-- Our Model Phone Only ---------------------------->
      <div id="panel3-mobile" class="outer-padding pad80 content-well">
         <div class="content-wrapper-nop">
@@ -48,7 +48,7 @@
                       <div class="h3text">
                         <h4 class="uppercase">{{ .headName }}</h4>
                         <p class="reg ">{{ .headText }}</p>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                   <div class="model-item">
@@ -59,36 +59,36 @@
                       <div class="h3text">
                         <h4 class="uppercase">{{ .heartName }}</h4>
                         <p class="reg">{{ .heartText }}</p>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                   <div class="model-item last">
                     <div class="model-wrap">
                       <div class="icon-box">
                         <img class="h3icon"  src="/images/uploads/cycle_180.png">
-                      </div>  
+                      </div>
                       <div class="h3text">
                         <h4 class="uppercase">{{ .habitsName }}</h4>
                         <p class="reg">{{ .habitsText }}</p>
-                      </div> 
+                      </div>
                     </div>
                   </div>
-                  
+
                 </div>
             </div>
             {{ end }}
             <div class="content-wrapper">
               <div class="content-inner">
                 <h3 class="morebutton"><a class="read-more" href="/our-model">{{ .Site.Data.home.panelthree.buttonText }}</a></h3>
-              </div> 
-          </div> 
+              </div>
+          </div>
         </div>
         </div>
-      </div>  
+      </div>
     <!-- Image Breaker ----------------------->
     <div class="parallax-window margb80" data-position-y="center" data-parallax="scroll" data-speed="0.95" data-image-src="/images/counseling2.jpg">
-    </div>  
-    
+    </div>
+
     <div id="panel4" class="outer-padding">
       <div class="content-wrapper">
         <div class="panel-overlay content-inner">
@@ -113,18 +113,18 @@
                             <li class="uppercase"><h1 class="hero">{{ .quantityTwo }}</h1><h4>{{ .textTwo }}</h4></li>
                             <li class="uppercase"><h1 class="hero">{{ .quantityThree }}</h1><h4>{{ .textThree }}</h4></li>
                         </ul>
-                    </div>     
-                </div>  
+                    </div>
+                </div>
             </div>
-        </div>  
+        </div>
         {{ end }}
         {{ with .Site.Data.home.impact }}
-        <div class="content-inner">  
+        <div class="content-inner">
             <h3 class="morebutton"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
           {{ end }}
-        </div>  
-    </div>  
-  <!-- About Us Section ------------------->  
+        </div>
+    </div>
+  <!-- About Us Section ------------------->
   <div id="panel6" class="pad80">
     <div class="text-center my-3">
       <div class="row mx-auto my-auto">
@@ -149,7 +149,7 @@
                   <div class="carousel-item">
                       <img class=" col-3 img-fluid" src="{{ .staffImgSix }}">
                   </div>
-                {{ end }}  
+                {{ end }}
               </div>
               <!--<a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -168,25 +168,25 @@
           <h4 class="uppercase">{{ .header }}</h4>
           <p>{{ .body }}</p>
       </div>
-    </div>  
+    </div>
     </div>
     <div id="panel-6-btn">
-      <div class="content-inner">  
+      <div class="content-inner">
           <h3 class="morebutton"><a class="read-more" href="/about-us">{{ .buttonText }}</a></h3>
         {{ end }}
       </div>
     </div>
-  
+
   <!-- Teacher Voices ------------------>
   <div id="panel7" class="pad80">
     <div class="content-well padw80 margb80 tv-green">
       <div class="content-inner">
         {{ with .Site.Data.home.tv }}
           <h4 class="uppercase">{{ .header }}</h4>
-        {{ end }} 
+        {{ end }}
         {{ with .Site.Data.home.tv }}
           <h2>"{{ .quote }}"</h2>
-        {{ end }} 
+        {{ end }}
       </div>
     </div>
     <div class="content-well">
@@ -195,12 +195,12 @@
           <h3 class="morebutton"><a class="read-more" href="/our-impact">{{ .buttonText }}</a></h3>
         {{ end }}
       </div>
-    </div>  
+    </div>
   </div>
 </div>
- 
+
   {{ partial "newsletter" . }}
-  
+
 
 <script>
     if (window.netlifyIdentity) {

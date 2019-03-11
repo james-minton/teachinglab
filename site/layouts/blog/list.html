@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div id="blog-page" class="pageWrap">
-        <div class="hero-panel-sub parallax-window" data-position-x="right" data-parallax="scroll" data-speed="0.7" data-image-src="/images/hands-writing2.jpg"></div>
+        <div class="hero-panel-sub parallax-window" data-position-x="right" data-parallax="scroll" data-speed="0.7" data-image-src="/images/hands-writing2.jpeg"></div>
     <div class="page-title">
         <div class="title-box inner-wrapper">
             <div class="title-container">
@@ -10,24 +10,24 @@
         </div>
     </div>
 </div>
-    
+
 <div id="blogList">
-    
+
         <div class="content-well">
             {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
             <ul class="blogfeed">
                 <li class="bloglist-image">
                     <a href="{{ .RelPermalink }}">{{ partial "bloglistimg" . }}</a>
-                </li> 
+                </li>
                 <li class="blog-excerpt">
                     <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
                     <p>{{ .Params.listSummary }}</p>
                     <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
                 </li>
-            </ul>    
+            </ul>
             {{ end}}
         </div>
-   
-</div>   
-{{ partial "newsletter" . }} 
+
+</div>
+{{ partial "newsletter" . }}
 {{ end }}

@@ -2,7 +2,7 @@
 
 
 <div id="our-model-page" class="pageWrap">
-        <div class="hero-panel-sub parallax-window" data-position-y="top" data-parallax="scroll" data-speed="0.7" data-image-src="/images/diverse-learners3.jpg"></div>
+        <div class="hero-panel-sub parallax-window" data-position-y="top" data-parallax="scroll" data-speed="0.7" data-image-src="/images/diverse-learners3.jpeg"></div>
     <div class="page-title">
         <div class="title-box inner-wrapper">
             <div class="title-container">
@@ -17,9 +17,9 @@
                 <div class="rotate">
                     <h3 class="uppercase" id="intro">{{ .sectionHead }}</h3>
                 </div>
-                <div class="content-inner">    
+                <div class="content-inner">
                     <p>{{ .body | markdownify }}</p>
-                </div>    
+                </div>
             {{ end }}
 
         </div>
@@ -30,10 +30,10 @@
             <div class="rotate">
                     <h3 class="uppercase" id="model">{{ .sectionHead }}</h3>
                 </div>
-             
+
             <div class="content-inner">
-                <p id="model-intro" class="margb72 ">{{ .introCopy }}</p>{{ end }}   
-        
+                <p id="model-intro" class="margb72 ">{{ .introCopy }}</p>{{ end }}
+
                 {{ range .Site.Data.model.sectiontwo.iconsCopy }}
                 {{ if eq .alignIcon true }}
                     {{ $.Scratch.Set "iconAlign" "rightAlign" }}
@@ -49,7 +49,7 @@
                 {{ end }}
             </div>
         </div>
-    </div>    
+    </div>
     <div class="graphic-section content-well">
         {{ partial "coi-v3" . }}
         <!--<img src="/images/coi.svg" />-->
@@ -60,10 +60,10 @@
             <div class="rotate">
                     <h3 class="uppercase" id="section3">{{ .sectionHead }}</h3>
                 </div>
-             
+
             <div class="content-inner">
-                <p class="margb72 labs-intro">{{ .introCopy }}</p>{{ end }}   
-         
+                <p class="margb72 labs-intro">{{ .introCopy }}</p>{{ end }}
+
                 {{ range .Site.Data.model.sectionthree.iconsCopy }}
                 {{ if eq .alignIcon true }}
                     {{ $.Scratch.Set "iconAlign" "rightAlign" }}
@@ -79,7 +79,7 @@
                 {{ end }}
             </div>
         </div>
-    </div>    
+    </div>
 </div>
 
 
