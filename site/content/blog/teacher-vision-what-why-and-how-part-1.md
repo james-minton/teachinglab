@@ -7,7 +7,7 @@ postauthorname: Spencer Russell
 postauthortitle: Fellow
 postauthorimg: >-
   https://raw.githubusercontent.com/james-minton/teachinglab/master/site/static/images/uploads/head-shot_spencer.jpg
-image: /images/uploads/11.7.18-teachinglab116.jpg
+image: /images/uploads/11.7.18-teachinglab209-1-.jpg
 listSummary: >-
   If excellent teaching is not innate, how do we coach, develop, and train
   teachers to become the champions that every child deserves?
