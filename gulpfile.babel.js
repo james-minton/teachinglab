@@ -4,7 +4,7 @@ import hugoBin from "hugo-bin";
 import log from "fancy-log";
 import pluginError from "plugin-error";
 import flatten from "gulp-flatten";
-import watch from "gulp-watch";  
+import watch from "gulp-watch";
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";
@@ -89,7 +89,7 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 70,
-        format: 'jpg'
+        format: "jpeg"
       }, {
         width: 2000,
         rename: {suffix: "-lg"},
@@ -97,27 +97,27 @@ gulp.task("img", () =>
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 70,
-        format: 'jpg'
+        format: "jpeg"
       }, {
         rename: {suffix: "-orig"}, // output an original
         quality: 70,
-        format: 'jpeg'
+        format: "jpeg"
       }, {
-        width: 288, 
+        width: 288,
         rename: {suffix: "-bio-sm"}, // output smaller bio size
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 90,
-        format: 'jpg'
+        format: "jpeg"
       }, {
-        width: 320, 
+        width: 320,
         rename: {suffix: "-bio-lg"}, // output larger bio size
         withoutEnlargement: false, // enlarge the output
         skipOnEnlargement: false, // don't skip the file if enlarged
         errorOnEnlargement: false, // don't throw errors
         quality: 90,
-        format: 'jpg'
+        format: "jpeg"
       }, {
         quality: 100,
       }

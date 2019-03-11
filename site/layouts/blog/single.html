@@ -1,7 +1,7 @@
 {{ define "main" }}
-    
+
 <div id="blogSingle" class="pageWrap">
-    
+
         {{ if eq .Params.contenttype "blog" }}
             <div id="breadcrumb" class="content-well"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/blog">Blog</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
         {{ end }}
@@ -9,13 +9,13 @@
             <div id="breadcrumb" class="content-well"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/our-impact/#case-studies">Case Studies</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
         {{ end }}
         <div class="content-well">
-            <div class="featured-img"> 
-               {{ if (isset .Params "image" ) }}   
-                    {{ partial "singleblogimg" . }} 
-                {{ end }}   
+            <div class="featured-img">
+               {{ if (isset .Params "image" ) }}
+                    {{ partial "singleblogimg" . }}
+                {{ end }}
             </div>
             <div class="content-inner blogsection">
-                <div class="blog-well">  
+                <div class="blog-well">
                     <h2>{{ .Title }}</h2>
                     {{ if eq .Params.contenttype "blog"}}
                         <div class="author-meta">
@@ -25,44 +25,44 @@
                     {{ end }}
                     {{ .Content }}
                 </div>
-            </div>    
-            <div class="publishdate subhead pad80"><h5>{{ .PublishDate.Format "January 2, 2006" }}</h5></div> 
+            </div>
+            <div class="publishdate subhead pad80"><h5>{{ .PublishDate.Format "January 2, 2006" }}</h5></div>
             {{ partial "blogsocial" }}
-            
-        
+
+
         </div>
-  
+
     {{ if eq .Params.contenttype "blog" }}
     <div class="post-navigation marg80">
             <div class="side-header"><p>Continue Reading</p></div>
             <div class="adjacent-posts-wrapper">
                 <div class="adjacent-posts">
                     <ul>
-                      
-                        
+
+
                         {{ range last 1 (where (where .Site.Pages.ByDate "Date.Unix" "<" $.Date.Unix) "Params.contenttype" "=" "blog") }}
-                            {{ if gt $.Date.Unix .Date.Unix }}  
-                                <li><h4>NEXT:</h4>                    
+                            {{ if gt $.Date.Unix .Date.Unix }}
+                                <li><h4>NEXT:</h4>
                                 <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
                             {{ end }}
                         {{ end }}
-                     
+
                         {{ range first 1 (where (where .Site.Pages.ByDate "Date.Unix" ">" $.Date.Unix) "Params.contenttype" "=" "blog") }}
-                            {{ if lt $.Date.Unix .Date.Unix }}   
-                                <li><h4>PREVIOUS:</h4>                       
+                            {{ if lt $.Date.Unix .Date.Unix }}
+                                <li><h4>PREVIOUS:</h4>
                                 <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
                             {{ end }}
                         {{ end }}
-                       
-                        
+
+
                     </ul>
-                </div>     
+                </div>
             </div>
         </div>
-    {{ end }} 
-    {{ if eq .Params.contenttype "cases" }}  
+    {{ end }}
+    {{ if eq .Params.contenttype "cases" }}
         <div class="post-navigation marg80" style="min-height: 0"></div>
-    {{ end }} 
+    {{ end }}
 </div>
-{{ partial "newsletter" . }}    
+{{ partial "newsletter" . }}
 {{ end }}

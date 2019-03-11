@@ -7,8 +7,7 @@ postauthorname: Spencer Russell
 postauthortitle: Fellow
 postauthorimg: >-
   https://raw.githubusercontent.com/james-minton/teachinglab/master/site/static/images/uploads/head-shot_spencer.jpg
-image: >-
-  https://raw.githubusercontent.com/james-minton/teachinglab/master/site/static/images/uploads/11.7.18-teachinglab209-1-.jpg
+image: /images/uploads/11.7.18-teachinglab209-1-.jpg
 listSummary: >-
   If excellent teaching is not innate, how do we coach, develop, and train
   teachers to become the champions that every child deserves?
@@ -23,15 +22,15 @@ As the governor made his way around the table, asking each teacher in turn what 
 
 Unsurprisingly, I never got the bold, “here it is” sort of revelation I was looking for. But, as each teacher shared their experience, one common thread began to emerge, connecting the origins of our (their) teaching prowess.  
 
-Determined to make the most of my daycation in Austin, I aimed my first question at Shanna Peeples, the 2015 National Teacher of the Year, “How good were you when you started?”  She laughed. Then I asked the rest of the table, “How good were you?” 
+Determined to make the most of my daycation in Austin, I aimed my first question at Shanna Peeples, the 2015 National Teacher of the Year, “How good were you when you started?”  She laughed. Then I asked the rest of the table, “How good were you?”
 
-In a room full of some of the most accomplished teachers in the state , not a single teacher admitted to being effective in their first year in the classroom.  Consequently, several teachers alluded to a coach or a mentor who had trained them, not just in how to deliver content, but in how to think about their students and their profession. 
+In a room full of some of the most accomplished teachers in the state , not a single teacher admitted to being effective in their first year in the classroom.  Consequently, several teachers alluded to a coach or a mentor who had trained them, not just in how to deliver content, but in how to think about their students and their profession.
 
-My point to Governor Greg Abbott: recruitment and retention is a false premise.  Which is to say we would not visit a college biology class and recruit the best doctors, because we know that becoming a great doctor takes years of additional education, residency, feedback, and professional development.  The same, it seems, was true here for great teachers. 
+My point to Governor Greg Abbott: recruitment and retention is a false premise.  Which is to say we would not visit a college biology class and recruit the best doctors, because we know that becoming a great doctor takes years of additional education, residency, feedback, and professional development.  The same, it seems, was true here for great teachers.
 
-I came to Austin determined to make the case for teacher retention.  But, I left Austin equally determined to answer this fundamental question: _If excellent teaching is not innate, how do we coach, develop, and train teachers to become the champions that every child deserves?_ 
+I came to Austin determined to make the case for teacher retention.  But, I left Austin equally determined to answer this fundamental question: _If excellent teaching is not innate, how do we coach, develop, and train teachers to become the champions that every child deserves?_
 
-Two years later, in my first year out of the classroom, I am propelled forward in my educational pursuit not only to help develop great teachers, but to question the very core of teacher professional learning, coaching, and development.  What do great teachers really have in common? What makes a teacher great? Is great teaching context-specific? How do you coach it? 
+Two years later, in my first year out of the classroom, I am propelled forward in my educational pursuit not only to help develop great teachers, but to question the very core of teacher professional learning, coaching, and development.  What do great teachers really have in common? What makes a teacher great? Is great teaching context-specific? How do you coach it?
 
 These questions, and many others, led me to a Fellowship year with Teaching Lab: an organization that is also focused on teacher development through research and inquiry.  
 
@@ -43,7 +42,7 @@ And, I believe there is.
 
 A teacher’s vision is most commonly and simply defined as their ideal image of their classroom practice. For some teachers, this is a mental snapshot. For others, a detailed play. For some teachers their image is literal, and for others it is conceptual.  But, what is true across all teachers is that all teachers have a vision (whether they realize it or not), and that vision is critically important to the work they do with their students each day.
 
-Researchers have long written about the power and implications of a teacher’s vision.  A teacher’s vision can affect their [curricular choices](https://www.amazon.com/Best-Practices-Literacy-Instruction-Fourth/dp/1609181786) with their students, how quickly they [adapt to changes](https://www.tandfonline.com/doi/abs/10.1080/19388070209558375), their decision to stay or leave their school, [their decision to stay or leave the profession](https://link.springer.com/article/10.1023/A:1017961615264), and numerous other aspects of their experience that we have yet to identify. 
+Researchers have long written about the power and implications of a teacher’s vision.  A teacher’s vision can affect their [curricular choices](https://www.amazon.com/Best-Practices-Literacy-Instruction-Fourth/dp/1609181786) with their students, how quickly they [adapt to changes](https://www.tandfonline.com/doi/abs/10.1080/19388070209558375), their decision to stay or leave their school, [their decision to stay or leave the profession](https://link.springer.com/article/10.1023/A:1017961615264), and numerous other aspects of their experience that we have yet to identify.
 
 Despite the importance of teacher vision, many teachers and coaches are unfamiliar with the term. Teachers aware of their vision are often unsure how it applies to their daily work, and those who do make the connection to their work are unsure what their vision should look and sound like in order to best serve their students.
 
