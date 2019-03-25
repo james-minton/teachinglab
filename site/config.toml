@@ -4,9 +4,10 @@ languageLang = "en"
 title = "Teaching Lab"
 # Define how many posts should appear on a site
 paginate = 10
+googleAnalytics = "UA-136113056-1"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
@@ -19,35 +20,34 @@ SectionPagesMenu = "main"
  [[menu.main]]
  name = "Home"
  url  = "/"
- weight = 2 
+ weight = 2
 
  #[[menu.main]]
 # name = "How We Work"
  # url  = "/map"
-  # weight = 10 
+  # weight = 10
 
  # [[menu.main]]
  # name = "About Us"
  # url  = "/about"
- # weight = 20 
+ # weight = 20
 
  # [[menu.main]]
- # name = "Case Studies" 
+ # name = "Case Studies"
  # url  = "/case-studies"
- # weight = 30 
+ # weight = 30
 
 #  [[menu.main]]
-#  name = "Blog" 
+#  name = "Blog"
 #  url  = "/blog"
-#  weight = 40 
+#  weight = 40
 
 #  [[menu.main]]
-#  name = "Opportunities" 
+#  name = "Opportunities"
 #  url  = "/opportunities"
-#  weight = 50 
+#  weight = 50
 
 #  [[menu.main]]
-#  name = "Contact Us" 
+#  name = "Contact Us"
 #  url  = "/contact"
-#  weight = 60 
-
+#  weight = 60

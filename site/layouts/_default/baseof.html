@@ -1,17 +1,6 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   <head>
-    <!-- GA script -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136113056-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-136113056-1');
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <!--<base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">-->
@@ -21,11 +10,11 @@
     {{ end }}
     {{ if .Params.image }}
       {{ $.Scratch.Set "socialImage" .Params.image }}
-    {{ end }} 
+    {{ end }}
     {{ if .Params.socialDefaultImg }}
       {{ $.Scratch.Set "socialDefaultImage" .Params.socialDefaultImg }}
-    {{ end }}  
-    
+    {{ end }}
+
 <!-- General metadata -->
 <meta name="description" content="{{ $.Scratch.Get "description" }}" />
 <meta name='author' content='Teaching Lab' />

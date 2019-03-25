@@ -17,11 +17,11 @@ setInterval(function() {
 
 function hasScrolled() {
     var st = $(this).scrollTop();
-    
+
     // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
-    
+
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
@@ -49,13 +49,13 @@ $('#recipeCarousel.carousel .carousel-item').each(function(){
     next = $(this).siblings(':first');
     }
     next.children(':first-child').clone().appendTo($(this));
-    
+
     for (var i=0;i<2;i++) {
         next=next.next();
         if (!next.length) {
         	next = $(this).siblings(':first');
       	}
-        
+
         next.children(':first-child').clone().appendTo($(this));
       }
 });
@@ -63,10 +63,10 @@ $('#recipeCarousel.carousel .carousel-item').each(function(){
 // Reverse Homepage Panel 3 Slider Direction
 
 // $( document ).ready(function() {
-/*    
+/*
 $('#panel3').carousel({
     interval: false,
-    });   
+    });
  setInterval(function(){$('#panel3').carousel('prev'); }, 3000);
  $('#panel3').hover(function() {
     $(this).carousel('pause');
@@ -111,17 +111,17 @@ $('#tv-carousel').on('slid.bs.carousel', function() {
 
 
 var panel = $("#homepage #panel1");
-function checkSize(){   
+function checkSize(){
     if ($("#panel1").css("height") == "540px"){
-        
+
         panel.data("positionY", "-99%");
     }
     else if ($("#panel1").css("height") == "420px"){
-       
+
         panel.data("positionY", "-68%");
     }
     else if ($("#panel1").css("height") == "248px"){
-       
+
         panel.data("positionY", "-56px");
     }
 
@@ -133,7 +133,31 @@ $(document).ready(function() {
 
     // run test on resize of the window
     $(window).resize(checkSize);
+
+    // Fix to accommodate parallax.js bug on Chrome
+    var isChromium = window.chrome;
+    var winNav = window.navigator;
+    var vendorName = winNav.vendor;
+    var isOpera = typeof window.opr !== "undefined";
+    var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+    var isIOSChrome = winNav.userAgent.match("CriOS");
+
+    if (isIOSChrome) {
+       // is Google Chrome on IOS
+       // console.log('Is chrome, applying parallax image fix.');
+       setTimeout(function() {
+         $('.parallax-mirror').css('z-index', 'auto');
+       }, 1000);
+    } else if(
+      isChromium !== null &&
+      typeof isChromium !== "undefined" &&
+      vendorName === "Google Inc." &&
+      isOpera === false &&
+      isIEedge === false
+    ) {
+        // console.log('Is chrome, applying parallax image fix.');
+        setTimeout(function() {
+          $('.parallax-mirror').css('z-index', 'auto');
+        }, 1000);
+    }
 });
-
-
-
