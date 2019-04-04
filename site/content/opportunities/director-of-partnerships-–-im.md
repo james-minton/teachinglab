@@ -20,7 +20,7 @@ listSummary: >-
 
 **Summary of Position**
 
-Teaching Lab is seeking a Director of Partnerships (DoP) to join our Partnerships Team and lead a portfolio of engagements with school systems as they implement Illustrative Math’s 6-8 curriculum (IM) and OUR Math’s 6-8 curriculum using our model for professional learning. 
+Teaching Lab is seeking a Director of Partnerships (DoP) to join our Partnerships Team and lead a portfolio of engagements with school systems as they implement [Illustrative Math’s 6-8 curriculum](https://www.illustrativemathematics.org/curriculum/im-6-8-math-curriculum/) (IM) and[ OUR Math’s 6-8 curriculum](https://im.openupresources.org/) using our model for professional learning. 
 
 Specifically, the DoP will engage in three major workstreams:
 
@@ -111,10 +111,14 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Learn More About Teaching Lab** 
 
-* Explore our website at [www.teachinglab.org](https://www.teachinglab.org/)
-* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report [Practice What You Teach (pg. 9-11)](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf)
+* Explore our website at [www.teachinglab.org
+  ](https://www.teachinglab.org/)
+* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
+  ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
+* Read about our work in the Aspen Institute report [Practice What You Teach (pg. 9-11)
+  ](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLDoPIM](https://docs.google.com/a/teachinglab.org/forms/d/e/1FAIpQLSccmgBNgOYJG8mjU94VbnCcRQu6ZaUiP_hdRnvP0kPvuJmyGw/closedform). Additional questions may be directed to[ jobs@teachinglab.org.](jobs@teachinglab.org)
+Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLDoPIM](https://docs.google.com/a/teachinglab.org/forms/d/e/1FAIpQLSccmgBNgOYJG8mjU94VbnCcRQu6ZaUiP_hdRnvP0kPvuJmyGw/closedform). Additional questions may be directed to[ jobs@teachinglab.org.
+](jobs@teachinglab.org)
