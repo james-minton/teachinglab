@@ -45,7 +45,7 @@ Eligible candidates must have incredible detail orientation, a passion for build
 * Support data collection and analysis across these systems.
 * Manage operational components of human capital systems, including scheduling, expense management, state-level registrations, etc.
 
-**Support of Chief Operating Officer. The Operations Analyst will:**
+**Support of Chief Operating Officer.** The Operations Analyst will:
 
 * Support the Chief Operating Officer to further develop and implement operational systems around communications, marketing, finance, and strategic growth.
 * Manage organization-wide project management systems, including co-leading or leading our weekly organization-wide operations meetings. 
