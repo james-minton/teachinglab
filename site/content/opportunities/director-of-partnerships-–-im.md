@@ -34,13 +34,13 @@ Eligible candidates must have strong expertise in relationship and client manage
 
 **Key Responsibilities & Workstreams**
 
-Build & Maintain High-Level District Relationships. The DoP will:
+**Build & Maintain High-Level District Relationships.** The DoP will:
 
 * Liaise with senior leadership in client school systems, including superintendents, chief academic officers, curriculum and instruction experts, and principals, to build their knowledge of research-based professional learning practices, Teaching Lab’s professional learning model, and the IM curriculum
 * Support district leaders by scoping, proposing, and leading multi-year efforts to create sustainable, research-based, district-led professional learning that lead to self-sustaining professional learning communities 
 * Work with Teaching Lab’s Partnerships Team to identify and engage new school system clients on scopes of work to meet business development goals and drive towards impact and outcomes for teachers and students
 
-Support & Develop Project Managers and Facilitators. The DoP will:
+**Support & Develop Project Managers and Facilitators.** The DoP will:
 
 * Lead project management across Teaching Lab’s portfolio of IM projects 
 * Build a strong team culture with Project Managers and Facilitators in the IM portfolio 
@@ -48,7 +48,7 @@ Support & Develop Project Managers and Facilitators. The DoP will:
 * Coach project managers through an inquiry process aimed at developing their practice
 * Support Project Managers as they lead day-to-day implementation of the work in partner sites 
 
-Collaborate With Other Teams. The DoP will:
+**Collaborate With Other Teams.** The DoP will:
 
 * Engage with Teaching Lab’s Content Design team to support development and iteration on IM-specific professional learning content modules and sequences, including maintaining site-specific versions of that content   
 * Support Teaching Lab’s data collection and impact evaluation processes in conjunction with the Research and Learning team
