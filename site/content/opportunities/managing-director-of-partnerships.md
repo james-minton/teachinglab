@@ -20,21 +20,22 @@ Teaching Lab is seeking a Managing Director of Partnerships (MDoP) to manage our
 
 The MDoP is a member of the Leadership Team and will support the Chief Operating Officer and Chief Executive Officer to: 
 
-Develop and implement a revenue-generating business development strategy and manage Teaching Lab’s sales pipeline from start to finish. 
-
+* Develop and implement a revenue-generating business development strategy and manage Teaching Lab’s sales pipeline from start to finish. 
 * Collaborate with the Partnerships Team to successfully implement sitework across over 20 districts and several states, developing processes and systems to efficiently run high-impact partnerships. 
-* This combination of roles will chart a path for meeting Teaching Lab’s demand for professional learning services and achieving the organization’s earned revenue goals, all while maintaining exceptional program quality. Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time.
-  Eligible candidates must have experience and demonstrated success managing partnership and business development, particularly in the following areas: 
-  * Developing growth strategies and plans
-  * Managing and retaining relationships with existing clients
-  * Using research on business opportunities to expand viable income streams and increase a client base 
-  * Creating pitch decks and writing business proposals
-  * Negotiating with stakeholders
-  * Identifying and mapping business strengths and partner needs
-  * Drafting and reviewing contracts
+
+This combination of roles will chart a path for meeting Teaching Lab’s demand for professional learning services and achieving the organization’s earned revenue goals, all while maintaining exceptional program quality. Teaching Lab is a fast-growing nonprofit organization; we expect to double in size annually for the next several years, which will provide pathways for career growth and expanded impact over time.
+
+Eligible candidates must have experience and demonstrated success managing partnership and business development, particularly in the following areas: 
+
+* Developing growth strategies and plans
+* Managing and retaining relationships with existing clients
+* Using research on business opportunities to expand viable income streams and increase a client base 
+* Creating pitch decks and writing business proposals
+* Negotiating with stakeholders
+* Identifying and mapping business strengths and partner needs
+* Drafting and reviewing contracts
 
 Ideal candidates will have the unique combination of intellectual depth and skill in managing teams and projects. Above all, any candidate must demonstrate interest and alignment with Teaching Lab’s mission to end educational inequity. 
-
 
 **Key Responsibilities**
 
@@ -58,7 +59,6 @@ Ideal candidates will have the unique combination of intellectual depth and skil
 * Assess and maintain facilitator quality and align assessment with performance management systems and development opportunities (e.g., facilitator trainings, etc.)
 * Foster a high-performance culture within the Partnerships Team, ensuring alignment with Teaching Lab core values and cohesion across all phases of Teaching Lab engagements
 * Motivate and inspire staff to work collaboratively toward team goals by clearly communicating the organizational vision, implementing staff development plans, scheduling 1-1 and team check-ins and fostering team and organizational best practice sharing
-
 
 **Areas for Growth** 
 
@@ -107,15 +107,11 @@ Values
 
 This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
-
 This position will require significant work travel based on organizational needs and capacity and time of year. Teaching Lab staff members are required to attend “home weeks” in DC or NYC every other month in addition to travel required for day-to-day job responsibilities. In particular, we hope that the candidate will be able to attend our Partnerships training on June 1-3, 2019. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year.)
-
 
 Salary for this position will be commensurate with experience. Teaching Lab offers a comprehensive benefits package, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies.
 
-
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
-
 
 To Learn More About Teaching Lab 
 
