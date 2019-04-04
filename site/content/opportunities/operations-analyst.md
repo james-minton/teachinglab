@@ -110,4 +110,4 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLOpsAnalyst](https://docs.google.com/forms/d/e/1FAIpQLSfmeClK0DWN2uKJed_fQygrpGrfoPuYUc6Pknny_nQX2mYWGA/viewform?usp=sf_link). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLOpsAnalyst](https://docs.google.com/forms/d/e/1FAIpQLSfmeClK0DWN2uKJed_fQygrpGrfoPuYUc6Pknny_nQX2mYWGA/viewform?usp=sf_link). Additional questions may be directed to jobs@teachinglab.org.
