@@ -101,10 +101,13 @@ We are committed to building a sustainable organization. We love our work and wa
 
 **To Learn More About Teaching Lab** 
 
-* Explore our website at [www.teachinglab.org](https://www.teachinglab.org/)
-* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
-* Read about our work in the Aspen Institute report [Practice What You Teach (pg. 9-11)](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf)
+* Explore our website at [www.teachinglab.org
+  ](https://www.teachinglab.org/)
+* Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide
+  ](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
+* Read about our work in the Aspen Institute report [Practice What You Teach (pg. 9-11)
+  ](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf)
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLOpsAnalyst](https://docs.google.com/forms/d/e/1FAIpQLSdaspYt6uljtHHYgqgidztyQV9oZ5_DTq0kX0bkMSJnUWHLxg/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLOpsAnalyst](https://docs.google.com/forms/d/e/1FAIpQLSfmeClK0DWN2uKJed_fQygrpGrfoPuYUc6Pknny_nQX2mYWGA/viewform?usp=sf_link). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
