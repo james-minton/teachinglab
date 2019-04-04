@@ -16,6 +16,7 @@ listSummary: >-
 **Compensation:** Commensurate with experience
 
 **Summary of Position**
+
 Teaching Lab is seeking a Managing Director of Partnerships (MDoP) to manage our growth and partnerships strategy to advance our mission to shift the paradigm of teacher professional learning for educational equity. 
 
 The MDoP is a member of the Leadership Team and will support the Chief Operating Officer and Chief Executive Officer to: 
@@ -49,12 +50,16 @@ Ideal candidates will have the unique combination of intellectual depth and skil
 * Collaborate with programmatic implementation teams to create contract-winning proposals for current and prospective partners
 * Negotiate contract terms with partners and communicate terms to stakeholders
 * Collaborate with content design and program teams to ensure contracted service specifications are executed on-time and as agreed
-  Partnership Implementation 
+
+**Partnership Implementation** 
+
 * Become a subject matter expert on Teaching Lab services, processes and operations, and remain up-to-date on relevant educational research and standards
 * Collaborating closely with the Content Design Team, lead staffing and planning on engagements, including assigning roles and responsibilities for the successful implementation of new scopes of work
 * Collaborate with the Partnerships Team to successfully implement Teaching Lab’s model of professional development and develop each sites’ understanding and commitment to the Head, Heart, Habits and Equity approach
 * Coordinate with the Leadership Team to implement new program ideas and pilot projects 
-  Management 
+
+**Management** 
+
 * Supervise a growing Partnerships Team, building staff skills in relationship and project management, facilitation, and partner capacity building
 * Assess and maintain facilitator quality and align assessment with performance management systems and development opportunities (e.g., facilitator trainings, etc.)
 * Foster a high-performance culture within the Partnerships Team, ensuring alignment with Teaching Lab core values and cohesion across all phases of Teaching Lab engagements
