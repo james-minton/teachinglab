@@ -120,5 +120,4 @@ We are committed to building a **sustainable** **organization**. We love our wor
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLDoPIM.](https://tinyurl.com/TLDoPIM) Additional questions may be directed to[ jobs@teachinglab.org.
-](jobs@teachinglab.org)
+Please fill out some basic biographical details and upload a resume by using this Google form: [https://tinyurl.com/TLDoPIM.](https://tinyurl.com/TLDoPIM) Additional questions may be directed to jobs@teachinglab.org.
