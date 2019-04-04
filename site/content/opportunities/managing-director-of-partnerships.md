@@ -73,7 +73,7 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 Teaching Lab team members bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective Managing Director of Partnerships candidates should be able to demonstrate experience or background in the following categories:
 
-Educational & Work Experience
+**Educational & Work Experience**
 
 * Bachelor’s degree 
 * Minimum five years working experience in partnership development, business development, client management, sales/marketing and/or analogous work
@@ -83,7 +83,7 @@ Educational & Work Experience
 * Working experience in K-12 education (preferred) 
 * Experience in an entrepreneurial role or startup organization (preferred)
 
-Knowledge 
+**Knowledge**
 
 * Experience with design and implementation of business development strategy
 * Experience working to and exceeding growth and revenue targets
@@ -96,7 +96,7 @@ Knowledge
 * Ability to define program objectives, establish metrics, monitor and evaluate progress, and manage projects independently through a complete life cycle
 * Ability to form credible and lasting relationships with diverse internal and external stakeholders
 
-Values
+**Values**
 
 * Deep commitment to Teaching Lab’s organizational mission and educational equity for traditionally underserved students 
 * Strong commitment to growth mindset for both adults and students, and a desire to work collaboratively to grow team skills and capabilities 
@@ -113,7 +113,7 @@ Salary for this position will be commensurate with experience. Teaching Lab offe
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-To Learn More About Teaching Lab 
+**To Learn More About Teaching Lab** 
 
 * Explore our website at [www.teachinglab.org](<Working at Teaching Lab This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. This position will require significant work travel based on organizational needs and capacity and time of year. Teaching Lab staff members are required to attend “home weeks” in DC or NYC every other month in addition to travel required for day-to-day job responsibilities. In particular, we hope that the candidate will be able to attend our Partnerships training on June 1-3, 2019. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year.) Salary for this position will be commensurate with experience. Teaching Lab offers a comprehensive benefits package, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies. We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives. To Learn More About Teaching Lab • Explore our website at www.teachinglab.org • Read more about our model and the services we offer in our SY19-20 Professional Learning Services guide • Read about our work in the Aspen Institute report Practice What You Teach (pg. 9-11) To Apply Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: https://tinyurl.com/TLMDoP. Additional questions may be directed to jobs@teachinglab.org.>)
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
