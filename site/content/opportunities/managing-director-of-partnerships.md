@@ -109,11 +109,11 @@ Values
 
 **Working at Teaching Lab** 
 
-This position is eligible for remote work anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
+This position is eligible for **remote** **work** anywhere in the continental United States. Candidates who live near New York City or Washington, DC may elect to work out of Teaching Lab offices located in those cities if they choose. 
 
-This position will require significant work travel based on organizational needs and capacity and time of year. Teaching Lab staff members are required to attend “home weeks” in DC or NYC every other month in addition to travel required for day-to-day job responsibilities. In particular, we hope that the candidate will be able to attend our Partnerships training on June 1-3, 2019. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year.)
+This position will require **significant work** travel based on organizational needs and capacity and time of year. Teaching Lab staff members are required to attend “home weeks” in DC or NYC every other month in addition to travel required for day-to-day job responsibilities. In particular, we hope that the candidate will be able to attend our Partnerships training on June 1-3, 2019. (Note that in general, Teaching Lab does not require weekend travel and we expect this to be the only instance of required weekend work throughout the year.)
 
-Salary for this position will be commensurate with experience. Teaching Lab offers a comprehensive benefits package, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies.
+**Salary** for this position will be commensurate with experience. Teaching Lab offers a **comprehensive benefits package**, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies.
 
 We are committed to building a sustainable organization. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
