@@ -125,4 +125,4 @@ To Learn More About Teaching Lab
 
 **To Apply**
 
-Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [https://tinyurl.com/TLMDoP](https://docs.google.com/forms/d/e/1FAIpQLSdaspYt6uljtHHYgqgidztyQV9oZ5_DTq0kX0bkMSJnUWHLxg/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out some basic biographical details and upload a resume and cover letter by using this Google form: [https://tinyurl.com/TLMDoP](https://docs.google.com/forms/d/e/1FAIpQLSdaspYt6uljtHHYgqgidztyQV9oZ5_DTq0kX0bkMSJnUWHLxg/viewform). Additional questions may be directed to jobs@teachinglab.org.
