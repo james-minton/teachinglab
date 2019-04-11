@@ -201,7 +201,7 @@ collections:
               - {label: Title, name: staffTitle, widget: string}   
               - {label: Image, name: staffImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}                       
+              - {label: Quote, name: quote, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}
       
 
   - label: "Our Impact"
