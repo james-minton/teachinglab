@@ -77,8 +77,20 @@
                     </div>
                 </div>
             </div>
-
+        <script src="https://kit.fontawesome.com/cbd2e66978.js"></script>
+        {{ if eq (getenv "NODE_ENV") "development" }}
+          <!-- If site is being served (ostensibly dev) provide local path -->
+          <script>
+            var tweetPath = {{ .Site.Params.localFunctionsPath }};
+          </script>
+        {{ else }}
+          <!-- If site is production, different path to fetch tweets -->
+          <script>
+            var tweetPath = {{ .Site.Params.productionFunctionsPath }};
+          </script>
+        {{ end }}
         <script src="/js/lib.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="/js/main.js?{{ now.Unix }}"></script>
         <script src="/js/parallax.min.js"></script>
         {{ template "_internal/google_analytics_async.html" . }}

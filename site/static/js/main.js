@@ -160,4 +160,82 @@ $(document).ready(function() {
           $('.parallax-mirror').css('z-index', 'auto');
         }, 1000);
     }
+
+    if (tweetPath && tweetPath.length >= 0 && $('#tweetsParent').length >= 1) {
+      // console.log('testing main.js ' + tweetPath);
+      $.ajax({
+        type: "GET",
+        url: tweetPath + "/gettweets/",
+        success: function(result) {
+          console.log(result);
+          // Build slides from result
+          var slides = Object.values(result);
+          // console.log(slides[0]);
+          var content = '';
+          slides.forEach(function(el, i) {
+            // console.log(el);
+            // console.log(i);
+
+            // Build slide markup
+            var slide =
+              '<a href="https://twitter.com/' +
+              el.user.screen_name +
+              '/status/' +
+              el.id_str +
+              '" class="tweet" target="_blank">' +
+              '<i class="fab fa-twitter"></i>' +
+              '<div class="text"><div class="center">' + el.text + '</div></div>' +
+              '</a>';
+
+            // Insert slide
+            content += slide;
+          });
+          // console.log(content);
+          // Inject into page
+          $('#tweetsParent')
+          .html(content)
+          .slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true, // Turn this to true before deploying.
+            autoplaySpeed: 2000,
+            accessibility: true,
+            // arrows: true,
+            // nextArrow: $('#nextTweet'),
+            // prevArrow: $('#prevTweet'),
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  infinite: true,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  dots: false,
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              },
+              // {
+              //   breakpoint: 480,
+              //   settings: {
+              //     dots: false,
+              //     slidesToShow: 1,
+              //     slidesToScroll: 1
+              //   }
+              // }
+            ]
+          });
+        }
+      });
+    } else {
+      console.error("😲 Uh oh, something's wrong with the tweet fetching code. Have your developer take a look.");
+    }
 });

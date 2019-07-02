@@ -27,7 +27,7 @@ rules:
   # Possible Errors
   # https://github.com/eslint/eslint/tree/master/docs/rules#possible-errors
   no-control-regex: 2
-  no-console: 1
+  no-console: 0
   no-debugger: 2
   no-dupe-args: 2
   no-dupe-keys: 2
@@ -61,7 +61,7 @@ rules:
   no-multiple-empty-lines: [2, {max: 2}]
   no-trailing-spaces: 2
   object-curly-spacing: [2, "never"]
-  quotes: [2, "double", "avoid-escape"]
+  quotes: [1, "single", "avoidEscape"]
   semi: 2
   space-before-blocks: [2, "always"]
   space-before-function-paren: [2, "never"]
