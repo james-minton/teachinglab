@@ -17,8 +17,8 @@ SectionPagesMenu = "main"
 
   logo = "teachinglab_logo1500w.png"
   localFunctionsPath = "http://localhost:9000"
-  # productionFunctionsPath = "https://teachinglab.org/.netlify/functions"
-  productionFunctionsPath = "https://5d1bed96222b710008212316--eloquent-gates-b65172.netlify.com/.netlify/functions"
+  productionFunctionsPath = "https://teachinglab.org/.netlify/functions"
+  # productionFunctionsPath = "https://5d1bed96222b710008212316--eloquent-gates-b65172.netlify.com/.netlify/functions"
 
  [[menu.main]]
  name = "Home"

@@ -166,15 +166,17 @@ $(document).ready(function() {
       $.ajax({
         type: "GET",
         url: tweetPath + "/gettweets/",
+        headers: {
+          'content-type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
+        },
         success: function(result) {
-          console.log(result);
+          // console.log(result);
           // Build slides from result
           var slides = Object.values(result);
           // console.log(slides[0]);
           var content = '';
           slides.forEach(function(el, i) {
-            // console.log(el);
-            // console.log(i);
 
             // Build slide markup
             var slide =
