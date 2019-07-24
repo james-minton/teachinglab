@@ -1,6 +1,7 @@
 ---
 title: Chief Program Officer
 contenttype: jobs
+open: false
 date: 2018-11-13T16:26:38.842Z
 listSummary: >-
   Teaching Lab is seeking a Chief Program Officer (CPO), reporting directly to

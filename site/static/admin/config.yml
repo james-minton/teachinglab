@@ -378,6 +378,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Position Title", name: "title", widget: "string"}
       - {label: "Content Type", name: "contenttype", widget: hidden, default: "jobs"}
+      - {label: "Is this job open?", name: "open", widget: "boolean", required: true, default: true}
       - {label: "Created Date", name: "date", widget: "datetime"}
       - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
       - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}

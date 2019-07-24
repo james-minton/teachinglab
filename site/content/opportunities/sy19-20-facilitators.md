@@ -1,6 +1,7 @@
 ---
 title: SY19-20 Facilitators
 contenttype: jobs
+open: false
 date: 2019-02-04T05:00:00.000Z
 listSummary: >-
   Teaching Lab seeks passionate Math or ELA educators to work with us on a
