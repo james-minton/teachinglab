@@ -1,5 +1,5 @@
 ---
-type: index  
+type: index
 title: Opportunities
 weight: 50
 aliases:

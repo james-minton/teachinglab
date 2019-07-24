@@ -8,7 +8,7 @@ collections:
   - label: "Default Social Media Image"
     name: socialDefaultImg
     delete: false
-    files: 
+    files:
       - label: "Social Media Image"
         name: "smImage"
         file: "site/data/home/defaultsocial.yml"
@@ -38,7 +38,7 @@ collections:
         delete: false
         fields:
           - {label: Panel Header, name: panelHeader, widget: string, required: false}
-          - {label: Component 1 Name, name: headName, widget: string, required: false}  
+          - {label: Component 1 Name, name: headName, widget: string, required: false}
           - {label: Component 1 Text, name: headText, widget: string, required: false}
           - {label: Component 2 Name, name: heartName, widget: string, required: false}
           - {label: Component 2 Text, name: heartText, widget: string, required: false}
@@ -50,50 +50,50 @@ collections:
         file: "site/data/home/panel4blurb.yml"
         delete: false
         fields:
-          - {label: Blurb, name: blurb, widget: string, required: false} 
+          - {label: Blurb, name: blurb, widget: string, required: false}
       - label: "Panel 5 Our Impact"
         name: "panelfive"
         file: "site/data/home/impact.yml"
         delete: false
         fields:
-          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Header, name: header, widget: string, required: false}
           - {label: Quantity One, name: quantityOne, widget: string, required: false}
           - {label: Text One, name: textOne, widget: string, required: false}
           - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
-          - {label: Text Two, name: textTwo, widget: string, required: false} 
+          - {label: Text Two, name: textTwo, widget: string, required: false}
           - {label: Quantity Three, name: quantityThree, widget: string, required: false}
           - {label: Text Three, name: textThree, widget: string, required: false}
-          - {label: Button Text, name: buttonText, widget: string, required: false} 
+          - {label: Button Text, name: buttonText, widget: string, required: false}
       - label: "Panel 6 Who We Are"
         name: "panelsix"
         file: "site/data/home/whoweare.yml"
         delete: false
         fields:
-          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Header, name: header, widget: string, required: false}
           - {label: Body, name: body, widget: string, required: false}
-          - {label: Button Text, name: buttonText, widget: string, required: false} 
+          - {label: Button Text, name: buttonText, widget: string, required: false}
           - {label: Staff Image 1, name: staffImgOne, widget: image, required: false}
           - {label: Staff Image 2, name: staffImgTwo, widget: image, required: false}
           - {label: Staff Image 3, name: staffImgThree, widget: image, required: false}
           - {label: Staff Image 4, name: staffImgFour, widget: image, required: false}
           - {label: Staff Image 5, name: staffImgFive, widget: image, required: false}
-          - {label: Staff Image 6, name: staffImgSix, widget: image, required: false} 
-    
+          - {label: Staff Image 6, name: staffImgSix, widget: image, required: false}
+
 
       - label: "Panel 5 Teacher Voices"
         name: "panelFive"
         file: "site/data/home/tv.yml"
         delete: false
         fields:
-          - {label: Header, name: header, widget: string, required: false} 
-          - {label: Teacher Voice Quote, name: quote, widget: string, required: false, hint: "No need to type quotation marks here. They're added automatically."} 
-          - {label: Button Text, name: buttonText, widget: string, required: false} 
-          #- label: Quotes 
+          - {label: Header, name: header, widget: string, required: false}
+          - {label: Teacher Voice Quote, name: quote, widget: string, required: false, hint: "No need to type quotation marks here. They're added automatically."}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
+          #- label: Quotes
           #  name: quotes
           #  widget: list
           #  fields:
-          #    - {label: Quote, name: quote, widget: string, required: false}  
-  
+          #    - {label: Quote, name: quote, widget: string, required: false}
+
   - label: "Our Model"
     name: "ourModel"
     delete: false
@@ -105,14 +105,14 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string, delete: false}
-          - {label: Section Heading, name: sectionHead, widget: string, delete: false} 
-          - {label: Section Body Copy, name: body, widget: markdown, delete: false, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+          - {label: Section Heading, name: sectionHead, widget: string, delete: false}
+          - {label: Section Body Copy, name: body, widget: markdown, delete: false, buttons: [bold, italic, link, bulleted-list, numbered-list]}
       - label: "Panel 2 - Teaching Lab Model"
         name: "sectionTwo"
         file: "site/data/model/sectiontwo.yml"
         delete: false
-        fields:  
-          - {label: Title, name: title, widget: hidden}  
+        fields:
+          - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string}
           - {label: Intro, name: introCopy, widget: string}
           - label: Icons and Copy
@@ -120,15 +120,15 @@ collections:
             widget: list
             fields:
               - {label: Icon, name: icon, widget: image}
-              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
-              - {label: Heading, name: heading, widget: string} 
-              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}    
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}
+              - {label: Heading, name: heading, widget: string}
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
       - label: "Panel 3 - Labs"
         name: "sectionThree"
         file: "site/data/model/sectionthree.yml"
         delete: false
-        fields:  
-          - {label: Title, name: title, widget: hidden}  
+        fields:
+          - {label: Title, name: title, widget: hidden}
           - {label: Section Heading, name: sectionHead, widget: string}
           - {label: Intro, name: introCopy, widget: string}
           - label: Icons and Copy
@@ -136,15 +136,15 @@ collections:
             widget: list
             fields:
               - {label: Icon, name: icon, widget: image}
-              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}   
-              - {label: Heading, name: heading, widget: string} 
-              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}
+              - {label: Heading, name: heading, widget: string}
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
       - label: "Cycles of Inquiry Graphic"
         name: "coiGraphic"
         file: "site/data/model/coigraphic.yml"
         delete: false
-        fields:  
-          - {label: Title, name: title, widget: hidden}  
+        fields:
+          - {label: Title, name: title, widget: hidden}
           - {label: Sideways Header, name: header, widget: string}
           - {label: Step One Line 1, name: textOne, widget: string, required: false}
           - {label: Step One Line 2, name: textOneTwo, widget: string, required: false}
@@ -167,42 +167,42 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
-          - {label: Section Heading, name: sectionHead, widget: string} 
-          - {label: Section Bold Intro, name: sectionBoldIntro, widget: string} 
-          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Section Bold Intro, name: sectionBoldIntro, widget: string}
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
       - label: "Team Section"
         name: "founders"
         file: "site/data/about/founders.yml"
         delete: false
-        fields:  
-          - {label: Title, name: title, widget: hidden} 
-          - {label: Section Heading, name: sectionHead, widget: string}  
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
           - label: Team
             name: foundersList
             widget: list
             fields:
               - {label: Team Member Name, name: staffName, widget: string}
-              - {label: Title, name: staffTitle, widget: string}   
-              - {label: Image, name: staffImage, widget: image} 
-              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-              - {label: Quote, required: false, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}  
+              - {label: Title, name: staffTitle, widget: string}
+              - {label: Image, name: staffImage, widget: image}
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+              - {label: Quote, required: false, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}
       - label: "Board Section"
         name: "board"
         file: "site/data/about/board.yml"
         delete: false
-        fields:  
+        fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Section Heading, name: sectionHead, widget: string}   
+          - {label: Section Heading, name: sectionHead, widget: string}
           - label: Board
             name: boardList
             widget: list
             fields:
               - {label: Board Member Name, name: staffName, widget: string}
-              - {label: Title, name: staffTitle, widget: string}   
-              - {label: Image, name: staffImage, widget: image} 
-              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+              - {label: Title, name: staffTitle, widget: string}
+              - {label: Image, name: staffImage, widget: image}
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
               - {label: Quote, name: quote, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}
-      
+
 
   - label: "Our Impact"
     name: "ourImpact"
@@ -211,7 +211,7 @@ collections:
         name: "pageName"
         file: "site/data/impact/pagename.yml"
         delete: false
-        fields: 
+        fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Page Title, name: pageTitle, widget: string}
       - label: "Panel 1 - Teacher Voices"
@@ -220,24 +220,24 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Heading, name: sectionHead, widget: string}
           - {label: Intro Paragraph, name: introText, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-          - label: Teacher Voices 
+          - label: Teacher Voices
             name: teacherVoices
             widget: list
             fields:
-              - {label: Testimonial, name: testimonial, widget: string, hint: "No need to add quotation marks; they appear automatically."} 
+              - {label: Testimonial, name: testimonial, widget: string, hint: "No need to add quotation marks; they appear automatically."}
       - label: "Panel 2 - Our Impact Graphic"
         name: "panelTwo"
         file: "site/data/impact/sectiontwo.yml"
         delete: false
         fields:
           - {label: Intro Paragraph, name: intro, widget: markdown, required: false}
-          - {label: Header, name: header, widget: string, required: false} 
+          - {label: Header, name: header, widget: string, required: false}
           - {label: Quantity One, name: quantityOne, widget: string, required: false}
           - {label: Text One, name: textOne, widget: string, required: false}
           - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
-          - {label: Text Two, name: textTwo, widget: string, required: false} 
+          - {label: Text Two, name: textTwo, widget: string, required: false}
           - {label: Quantity Three, name: quantityThree, widget: string, required: false}
           - {label: Text Three, name: textThree, widget: string, required: false}
       - label: "Panel 3 - Case Studies"
@@ -246,7 +246,7 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Section Heading, name: sectionHead, widget: string} 
+          - {label: Section Heading, name: sectionHead, widget: string}
           - {label: Case Studies Blurb, name: blurb, widget: string}
 
   - label: "USA Map"
@@ -258,14 +258,14 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Section Heading, name: sectionHead, widget: string} 
-          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
       - label: "Active / Inactive US States"
         name: activeStates
         file: "site/data/mapSVG/states.yml"
         delete: false
         fields:
-          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint: 
+          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint:
           Toggle these switches to turn states in the US map on or off}
           - {label: "AK", name: "AK", widget: "boolean", required: false, default: false}
           - {label: "AZ", name: "AZ", widget: "boolean", required: false, default: false}
@@ -274,7 +274,7 @@ collections:
           - {label: "CO", name: "CO", widget: "boolean", required: false, default: false}
           - {label: "CT", name: "CT", widget: "boolean", required: false, default: false}
           - {label: "DE", name: "DE", widget: "boolean", required: false, default: false}
-          - {label: "DC", name: "DC", widget: "boolean", required: false, default: false}            
+          - {label: "DC", name: "DC", widget: "boolean", required: false, default: false}
           - {label: "FL", name: "FL", widget: "boolean", required: false, default: false}
           - {label: "GA", name: "GA", widget: "boolean", required: false, default: false}
           - {label: "HI", name: "HI", widget: "boolean", required: false, default: false}
@@ -317,7 +317,7 @@ collections:
           - {label: "WV", name: "WV", widget: "boolean", required: false, default: false}
           - {label: "WI", name: "WI", widget: "boolean", required: false, default: false}
           - {label: "WY", name: "WY", widget: "boolean", required: false, default: false}
-         
+
 
   - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
     label: "Case Studies" # Used in the UI
@@ -331,13 +331,13 @@ collections:
       - {label: "Created Date", name: "date", widget: "datetime"}
       - {label: "Content Type", name: "contenttype", widget: hidden, default: "cases"}
       # - {label: "Author Name", name: "postauthorname", widget: "string"}
-      # - {label: "Author Title", name: "postauthortitle", widget: "string"} 
-      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}  
-      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}  
+      # - {label: "Author Title", name: "postauthortitle", widget: "string"}
+      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}
+      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}
       - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
       - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
       - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}        
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -351,8 +351,8 @@ collections:
       - {label: "Content Type", name: "contenttype", widget: hidden, default: "blog"}
       - {label: "Created Date", name: "date", widget: "datetime"}
       - {label: "Author Name", name: "postauthorname", widget: "string"}
-      - {label: "Author Title", name: "postauthortitle", widget: "string"} 
-      - {label: "Author Photo", name: "postauthorimg", widget: "image", required: false}    
+      - {label: "Author Title", name: "postauthortitle", widget: "string"}
+      - {label: "Author Photo", name: "postauthorimg", widget: "image", required: false}
       - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
       - {label: "Social Media Description", name: "socialDescription", widget: "string", required: false}
       - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
@@ -362,15 +362,16 @@ collections:
     label: Opportunities Page
     files:
       - label: Opportunities Intro
-        name: opportunitieslist 
+        name: opportunitieslist
         delete: false
         file: "site/data/opportunities/contents.yml"
         fields:
           - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-  
-       
+          - {label: "No Openings Text", name: "noOpenings", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+
   - label: Positions
-    name: positionsList 
+    name: positionsList
     folder: "site/content/opportunities"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -381,7 +382,7 @@ collections:
       - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
       - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
-        
+
   - label: "Newsletter Subscribe Panel"
     name: "newsletter"
     files:
@@ -392,7 +393,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Signup Call to Action, name: cta, widget: string}
-          - {label: Email address field text, name: email, widget: string} 
+          - {label: Email address field text, name: email, widget: string}
           - {label: Button text, name: button, widget: string}
 
   - label: "Contact Form"
@@ -417,6 +418,4 @@ collections:
         delete: false
         fields:
           - {label: Title, name: title, widget: hidden}
-          - {label: Copyright Info, name: sponsorText, widget: string, required: false}  
-          
-          
+          - {label: Copyright Info, name: sponsorText, widget: string, required: false}
