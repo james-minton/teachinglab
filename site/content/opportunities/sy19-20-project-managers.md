@@ -1,7 +1,7 @@
 ---
 title: SY19-20 Project Managers
 contenttype: jobs
-open: true
+open: false
 date: 2019-02-04T05:00:00.000Z
 listSummary: >-
   Teaching Lab seeks passionate math or ELA educators to work with us on a
