@@ -4,19 +4,13 @@ contenttype: jobs
 open: true
 date: 2019-09-30T20:19:04.660Z
 ---
-_****_
+**_Teaching Lab seeks a Director of Partnerships to join our Partnerships Team and lead a portfolio of innovative, research-based professional learning engagements with diverse school districts across the country that are implementing the Louisiana ELA Guidebooks curriculum in Grades 3-12._**
 
-_**Teaching Lab seeks a Director of Partnerships to join our Partnerships Team and lead a portfolio of innovative, research-based professional learning engagements with diverse school districts across the country that are implementing the Louisiana ELA Guidebooks curriculum in Grades 3-12.**_
-
- 
-
-****
+- - -
 
 **Open Position: Director of Partnerships – Guidebooks**
 
-****
-
-****
+- - -
 
 **Type of Vacancy:** Salaried full-time, starting October 2019  
 
@@ -28,13 +22,9 @@ _**Teaching Lab seeks a Director of Partnerships to join our Partnerships Team a
 
 **Compensation:** Commensurate with experience 
 
+**_Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of diverse backgrounds to apply for this role._**
 
-
-_**Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of diverse backgrounds to apply for this role.**_
-
-
-
-****
+- - -
 
 **Who We Are**
 
@@ -42,9 +32,9 @@ Teaching Lab is a nonprofit organization with a mission to fundamentally shift t
 
 Our model is based on the best educational research and years of experience using exceptional instructional materials with teachers. Our team of experienced educators is committed to ensuring all students—especially students traditionally underserved by our school systems—meet the academic expectations necessary to succeed now and in the future. Our partners believe in the power of great teaching to inspire students at all levels to learn and grow. Together, we are building a nationwide movement for evidence-based teacher professional learning.
 
-****
+- - -
 
-****
+- - -
 
 **Our Model**
 
@@ -54,15 +44,11 @@ The core of Teaching Lab’s work is a belief that stronger professional learnin
 
 ![](/images/uploads/screen-shot-2019-09-30-at-4.24.14-pm.png)
 
-
-
-****
+- - -
 
 **Summary of Position**
 
 Teaching Lab is seeking a **Director of Partnerships** (DoP): ELA Guidebooks to join our Partnerships Team and lead a portfolio of engagements with school systems as they implement the [Louisiana ELA Guidebooks](https://www.louisianabelieves.com/academics/ela-guidebooks) curriculum using our model for professional learning. 
-
- 
 
 Specifically, the DoP will engage in four major workstreams:
 
@@ -71,13 +57,11 @@ Specifically, the DoP will engage in four major workstreams:
 3. **Project management:** Create staffing and project plans that support the continued development of Project Managers and Facilitators and ensure that all siteworks for the Louisiana ELA Guidebooks curriculum are efficiently and appropriately staffed. 
 4. **Collaboration:** Foster a culture of collaboration with the Louisiana ELA Guidebooks team and with other members of the Teaching Lab community, including our professional learning content design team, our business and operations team, our impact and evaluation team, and external stakeholders like the Louisiana Department of Education and other professional learning organizations, to ensure success for our school system partners and the students they serve. 
 
- 
-
 As a rapidly growing nonprofit, we seek an entrepreneurial individual excited about leading a team. This position has high potential for both large-scale impact and career growth.
 
 Eligible candidates must have strong expertise in relationship and client management, leading professional learning, project management, the Louisiana ELA Guidebooks, and the Common Core or similar College- and Career-Ready state standards. Ideal candidates will have the unique combination of intellectual curiosity and established skill in each of these areas. Above all, any candidate must have a demonstrated commitment to racial and educational equity.
 
-****
+- - -
 
 **Key Responsibilities & Workstreams**
 
@@ -170,7 +154,5 @@ We are committed to building a **sustainable organization**. We love our work an
 **To Apply**
 
 Please fill out the application form [here](https://tinyurl.com/y552aes5). Additional questions may be directed to [jobs@teachinglab.org.](jobs@teachinglab.org)
-
-
 
 Teaching Lab is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive and equitable environment for all employees.
