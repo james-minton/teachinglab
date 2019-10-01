@@ -1,5 +1,5 @@
 ---
-title: 'Teacher Vision: What, Why, and How? (Part 1)'
+title: 'Teacher Vision: What, Why, and How? '
 display: 'yes'
 contenttype: blog
 date: 2019-03-01T15:00:00.000Z
@@ -22,7 +22,7 @@ As the governor made his way around the table, asking each teacher in turn what 
 
 Unsurprisingly, I never got the bold, “here it is” sort of revelation I was looking for. But, as each teacher shared their experience, one common thread began to emerge, connecting the origins of our (their) teaching prowess.  
 
-Determined to make the most of my daycation in Austin, I aimed my first question at Shanna Peeples, the 2015 National Teacher of the Year, “How good were you when you started?”  She laughed. Then I asked the rest of the table, “How good were you?”
+Determined to make the most of my daycation in Austin, I aimed my first question at the 2015 National Teacher of the Year, “How good were you when you started?”  She laughed. Then I asked the rest of the table, “How good were you?”
 
 In a room full of some of the most accomplished teachers in the state , not a single teacher admitted to being effective in their first year in the classroom.  Consequently, several teachers alluded to a coach or a mentor who had trained them, not just in how to deliver content, but in how to think about their students and their profession.
 
