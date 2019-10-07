@@ -8,7 +8,7 @@ date: 2019-10-07T04:00:00.000Z
 postauthorname: Jade Porche
 postauthortitle: 'Middle School ELA teacher in St. Martin Parish, LA'
 image: ''
-socialDescription: '@jadee_15'
+socialDescription: ''
 ---
 My journey teaching the Guidebooks began at the start of my teaching career. In 2016, fresh out of college and fresh into an Alternative Certification program at Louisiana College (TEACH), I was a 7th grade ELA teacher at a junior high in my hometown. During the professional development before the start of the school year, our supervisor asked us to write down the names of two Unit Readers that we wanted them to purchase for each grade. This was when the Guidebooks 1.0 was being rolled out. I knew NOTHING about the Guidebooks and so I relied on my fellow ELA teachers to choose the Unit Readers for the year. We chose The Christmas Carol and The Giver. I received zero training to implement this curriculum and the school’s attitude towards the Guidebooks was:
 
