@@ -7,7 +7,8 @@ contenttype: blog
 date: 2019-10-07T04:00:00.000Z
 postauthorname: Jade Porche
 postauthortitle: 'Middle School ELA teacher in St. Martin Parish, LA'
-image: ''
+postauthorimg: /images/uploads/cycle_180.png
+image: /images/uploads/untitled-project.jpg
 socialDescription: ''
 ---
 My journey teaching the Guidebooks began at the start of my teaching career. In 2016, fresh out of college and fresh into an Alternative Certification program at Louisiana College (TEACH), I was a 7th grade ELA teacher at a junior high in my hometown. During the professional development before the start of the school year, our supervisor asked us to write down the names of two Unit Readers that we wanted them to purchase for each grade. This was when the Guidebooks 1.0 was being rolled out. I knew NOTHING about the Guidebooks and so I relied on my fellow ELA teachers to choose the Unit Readers for the year. We chose The Christmas Carol and The Giver. I received zero training to implement this curriculum and the school’s attitude towards the Guidebooks was:
@@ -23,8 +24,6 @@ In the fall of 2017, I became a 7th grade ELA teacher at Breaux Bridge Junior Hi
 That put me at the “Ineffective” level with my Student Learning Targets. It was a gut punch because I know how that made me look. Not. Good.
 
 In the summer of 2018, I asked my principal to move into an 8th grade ELA vacancy that we had. I spent all summer poring over into the units, looking at the lessons, creating outlines of the lessons, etc. I was going to be prepared this year to provide my students with the high-quality instruction they deserve. Then I was asked to be a participant in the Content Leader Distinction, with training provided by Teaching Lab. At the first Content Module (CM) meeting, I was skeptical. Yes, I had been studying the Guidebook lessons all summer, but now I was being told I was supposed to teach them with fidelity and integrity? My first thought was, “I’m not a robot! It feels like I’m going to be reading from a script,” which was how I felt at the beginning of the previous school year. The curriculum felt constrained and cookie-cutter, and I struggled with the time limits for my students.
-
-{{< figure src="/images/uploads/untitled-project.jpg"  caption="St. Martin Parish leaders including Jade " >}}
 
 But after the first unit, I worked out the kinks, I adjusted some suggested time limits, and I really dug into the “Supports for Differentiations” that each lesson provided. I didn’t change anything; I only employed the supports the Guidebooks units included to support learners of all kinds. And ultimately, I made this fantastic curriculum fit my kids’ unique needs.
 
