@@ -32,12 +32,10 @@ We pushed through the challenging parts of the lessons and celebrated the growth
 
 The Guidebooks work. They absolutely work. Yes, I understand the skepticism about adopting curriculum, but this curriculum was built by teachers for teachers. The curriculum is designed to support the classroom teacher (and special ed teacher) in every way, so their students can dive into complex texts, and emerge with a greater understanding. 
 
-
-
 \    
 
-****[**Jade Porche**](https://twitter.com/jadee_15) is a Middle School ELA teacher in St. Martin Parish, LA. She completed Content Leaders training with Teaching Lab in 2018-19 and was asked to write about her personal journey with the Guidebooks by Addie Kelley. 
+[Jade Porche](https://twitter.com/jadee_15) is a Middle School ELA teacher in St. Martin Parish, LA. She completed Content Leaders training with Teaching Lab in 2018-19 and was asked to write about her personal journey with the Guidebooks by Addie Kelley. 
 
-****[**Addie Kelley**](https://www.teachinglab.org/about-us/) is a Teaching Lab fellow. Addie has worked in the classroom for over 10 years, was a Louisiana Teacher Leader Advisor and has authored two 3rd-grade units for Louisiana Guidebooks. 
+[Addie Kelley](https://www.teachinglab.org/about-us/) is a Teaching Lab fellow. Addie has worked in the classroom for over 10 years, was a Louisiana Teacher Leader Advisor and has authored two 3rd-grade units for Louisiana Guidebooks. 
 
-****[**Content Leaders**](https://www.louisianabelieves.com/academics/louisiana-content-leaders) ****are local educators who have the knowledge, skills, and concrete resources to provide high-quality, content-rich, and curriculum specific professional development to new and current teachers in their district. The Content Leader role is also an important step in the leadership pipeline for talented local educators.
+[Content Leaders](https://www.louisianabelieves.com/academics/louisiana-content-leaders) are local educators who have the knowledge, skills, and concrete resources to provide high-quality, content-rich, and curriculum specific professional development to new and current teachers in their district. The Content Leader role is also an important step in the leadership pipeline for talented local educators.
