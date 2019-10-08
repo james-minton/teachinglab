@@ -33,7 +33,7 @@ We pushed through the challenging parts of the lessons and celebrated the growth
 
 The Guidebooks work. They absolutely work. Yes, I understand the skepticism about adopting curriculum, but this curriculum was built by teachers for teachers. The curriculum is designed to support the classroom teacher (and special ed teacher) in every way, so their students can dive into complex texts, and emerge with a greater understanding. 
 
-\    
+![](/images/uploads/untitled-project-2-.png)
 
 [Jade Porche](https://twitter.com/jadee_15) is a Middle School ELA teacher in St. Martin Parish, LA. She completed Content Leaders training with Teaching Lab in 2018-19 and was asked to write about her personal journey with the Guidebooks by Addie Kelley. 
 
