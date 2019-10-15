@@ -1,7 +1,7 @@
 ---
 title: Director of Partnerships – Guidebooks
 contenttype: jobs
-open: true
+open: false
 date: 2019-09-30T20:19:04.660Z
 ---
 **_Teaching Lab seeks a Director of Partnerships to join our Partnerships Team and lead a portfolio of innovative, research-based professional learning engagements with diverse school districts across the country that are implementing the Louisiana ELA Guidebooks curriculum in Grades 3-12._**
