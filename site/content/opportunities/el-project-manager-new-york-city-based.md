@@ -14,8 +14,6 @@ Travel Required: 20-40% NYC local client onsite work and some travel outside NYC
 
 Compensation: Commensurate with experience
 
-
-
 _Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of all backgrounds to apply for this role._
 
 __
@@ -30,15 +28,15 @@ Our model is based on the best educational research and years of experience usin
 
 The core of Teaching Lab’s work is a belief that stronger professional learning for teachers can radically improve student opportunities and equity. Research suggests that effective professional learning incorporates three critical components:
 
-![](/images/uploads/screen-shot-2019-11-12-at-3.09.31-pm.png)
+![](/images/uploads/screen-shot-2019-11-22-at-10.41.13-am.png)
 
 We integrate Head, Heart, and Habits through the creation of “Labs” in schools and districts:
 
-![](/images/uploads/screen-shot-2019-11-12-at-3.12.49-pm.png)
+![](/images/uploads/screen-shot-2019-11-22-at-10.40.12-am.png)
 
 **Summary of Position**
 
-Teaching Lab is seeking an EL Project Manager (NYC) to join our Partnerships Team to manage implementation of Teaching Lab’s EL partner  portfolio projects and lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing [EL Education’s K-8 ELA curriculum](https://curriculum.eleducation.org/) using our model for professional learning. 
+Teaching Lab is seeking an EL Project Manager (NYC) to join our Partnerships Team to manage implementation of Teaching Lab’s EL partner portfolio projects and lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing [EL Education’s K-8 ELA curriculum](https://curriculum.eleducation.org/) using our model for professional learning. 
 
 **Specifically, the EL Project Manager will engage in five major workstreams:**
 
