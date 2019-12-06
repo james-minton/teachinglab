@@ -1,6 +1,33 @@
 sectionHead: Board
 boardList:
   - bio: >-
+      Gwen Baker is Bellwether Education Partners’ Chief Operating Officer and
+      serves as a senior adviser with the Strategic Advising practice area. She
+      has over 15 years of experience in education reform and focuses primarily
+      on the uses of technology to advance ambitious goals.
+
+
+      Before joining Bellwether, Gwen was CEO and Co-Founder of CoreSpring,
+      Inc., a nonprofit whose mission is to provide the field with access to
+      high-quality formative assessment content and digital authoring tools.
+      Prior to CoreSpring, Gwen worked at NewSchools Venture Fund, where she led
+      the organization’s portfolio data collection and analysis efforts as well
+      as its community of practice work. Before NewSchools, Gwen served as
+      Director of Knowledge Management at New Visions for Public Schools, the
+      largest school reform organization in New York City. Gwen also worked at
+      Teachscape, Inc., where she served as Vice President of Teaching and
+      Learning and Senior Vice President of Operations. She began her career at
+      Andersen Consulting (now Accenture), working with clients to build
+      performance-based and simulated learning solutions.
+
+
+      Gwen holds a master’s degree in Learning Sciences from Northwestern
+      University and a bachelor’s degree in Corporate Communication from Ithaca
+      College. She lives in New York City.
+    staffImage: /images/uploads/gwen-baker.jpg
+    staffName: Gwen Baker
+    staffTitle: Chief Operating Officer at Bellwether Education Partners
+  - bio: >-
       Rachel Etienne is the Executive Vice President of Professional Learning at
       Student Achievement Partners.  As an ELA/literacy specialist, Rachel
       created and curated online curriculum and professional learning resources
@@ -126,30 +153,3 @@ boardList:
     staffImage: /images/uploads/rweiner.jpg
     staffName: Ross Weiner
     staffTitle: 'Vice President for Education, Aspen Institute'
-  - bio: >-
-      Gwen Baker is Bellwether Education Partners’ Chief Operating Officer and
-      serves as a senior adviser with the Strategic Advising practice area. She
-      has over 15 years of experience in education reform and focuses primarily
-      on the uses of technology to advance ambitious goals.
-
-
-      Before joining Bellwether, Gwen was CEO and Co-Founder of CoreSpring,
-      Inc., a nonprofit whose mission is to provide the field with access to
-      high-quality formative assessment content and digital authoring tools.
-      Prior to CoreSpring, Gwen worked at NewSchools Venture Fund, where she led
-      the organization’s portfolio data collection and analysis efforts as well
-      as its community of practice work. Before NewSchools, Gwen served as
-      Director of Knowledge Management at New Visions for Public Schools, the
-      largest school reform organization in New York City. Gwen also worked at
-      Teachscape, Inc., where she served as Vice President of Teaching and
-      Learning and Senior Vice President of Operations. She began her career at
-      Andersen Consulting (now Accenture), working with clients to build
-      performance-based and simulated learning solutions.
-
-
-      Gwen holds a master’s degree in Learning Sciences from Northwestern
-      University and a bachelor’s degree in Corporate Communication from Ithaca
-      College. She lives in New York City.
-    staffImage: /images/uploads/gwen-baker.jpg
-    staffName: Gwen Baker
-    staffTitle: Chief Operating Officer at Bellwether Education Partners
