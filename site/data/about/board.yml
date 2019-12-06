@@ -17,21 +17,6 @@ boardList:
       Executive Vice President of Professional Learning, Student Achievement
       Partners
   - bio: >-
-      In his role at Aspen, Ross leads professional learning networks for urban
-      school district leaders and senior Congressional Education staffers. The
-      program assists policymakers and education leaders in strengthening human
-      capital systems, supporting implementation of Common Core State Standards,
-      and strategically reallocating financial resources. From 2002 to 2009,
-      Ross worked as policy director and then as vice president for program and
-      policy at the Education Trust, a national, non-profit organization
-      dedicated to raising standards and closing achievement gaps in public
-      education. Prior to Education Trust, Ross served as a trial attorney in
-      the U.S. Department of Justice, Civil Rights Division, Educational
-      Opportunities Section.
-    staffImage: /images/uploads/rweiner.jpg
-    staffName: Ross Weiner
-    staffTitle: 'Vice President for Education, Aspen Institute'
-  - bio: >-
       Jenny currently serves as Chief Operating Officer at Teach For America –
       Bay Area. Prior to that role, she served on the founding team at a new
       education philanthropy, the Schusterman Foundation; helped replicate
@@ -43,23 +28,6 @@ boardList:
     staffImage: /images/uploads/jjordan.jpg
     staffName: Jenny Jordan
     staffTitle: 'Chief Operating Officer, Teach For America – Bay Area'
-  - bio: >-
-      Bryan brings 15 years of public and private sector management experience.
-      He has been recognized nationally as an expert in implementing complex
-      management and technology reforms and for his expertise in the development
-      and implementation of the Stat performance management processes. His
-      engagements have included leading the development of performance
-      management processes with school districts in Baltimore and Paterson, NJ,
-      and state education agencies of New York, Rhode Island, and the District
-      of Columbia. He has also served as an adviser to the US Department of
-      Education on performance management and to the Bill and Melinda Gates
-      Foundation on personalizing teacher training, performance management, and
-      education technology. Bryan led work in the Rhode Island Department of
-      Education to develop seven inter-dependent data systems in parallel as
-      part of the state’s Race to the Top Initiative.
-    staffImage: /images/uploads/brichardson.jpg
-    staffName: Bryan Richardson
-    staffTitle: 'Senior Program Officer, Bill & Melinda Gates Foundation'
   - bio: >-
       David is the Senior Content Specialist of the Literacy and English
       Language Arts team at Student Achievement Partners. David has taught
@@ -78,6 +46,23 @@ boardList:
     staffTitle: >-
       Education Researcher & Senior Content Specialist, Student Achievement
       Partners
+  - bio: >-
+      Bryan brings 15 years of public and private sector management experience.
+      He has been recognized nationally as an expert in implementing complex
+      management and technology reforms and for his expertise in the development
+      and implementation of the Stat performance management processes. His
+      engagements have included leading the development of performance
+      management processes with school districts in Baltimore and Paterson, NJ,
+      and state education agencies of New York, Rhode Island, and the District
+      of Columbia. He has also served as an adviser to the US Department of
+      Education on performance management and to the Bill and Melinda Gates
+      Foundation on personalizing teacher training, performance management, and
+      education technology. Bryan led work in the Rhode Island Department of
+      Education to develop seven inter-dependent data systems in parallel as
+      part of the state’s Race to the Top Initiative.
+    staffImage: /images/uploads/brichardson.jpg
+    staffName: Bryan Richardson
+    staffTitle: 'Senior Program Officer, Bill & Melinda Gates Foundation'
   - bio: >-
       As the Director for California Initiatives at the Center for the Future of
       Teaching & Learning at WestEd, Robert Sheffield focuses on strengthening
@@ -126,3 +111,45 @@ boardList:
     staffTitle: >-
       Chief Organizational Effectiveness and Talent Development Officer, Draper
       Richards Kaplan Foundation
+  - bio: >-
+      In his role at Aspen, Ross leads professional learning networks for urban
+      school district leaders and senior Congressional Education staffers. The
+      program assists policymakers and education leaders in strengthening human
+      capital systems, supporting implementation of Common Core State Standards,
+      and strategically reallocating financial resources. From 2002 to 2009,
+      Ross worked as policy director and then as vice president for program and
+      policy at the Education Trust, a national, non-profit organization
+      dedicated to raising standards and closing achievement gaps in public
+      education. Prior to Education Trust, Ross served as a trial attorney in
+      the U.S. Department of Justice, Civil Rights Division, Educational
+      Opportunities Section.
+    staffImage: /images/uploads/rweiner.jpg
+    staffName: Ross Weiner
+    staffTitle: 'Vice President for Education, Aspen Institute'
+  - bio: >-
+      Gwen Baker is Bellwether Education Partners’ Chief Operating Officer and
+      serves as a senior adviser with the Strategic Advising practice area. She
+      has over 15 years of experience in education reform and focuses primarily
+      on the uses of technology to advance ambitious goals.
+
+
+      Before joining Bellwether, Gwen was CEO and Co-Founder of CoreSpring,
+      Inc., a nonprofit whose mission is to provide the field with access to
+      high-quality formative assessment content and digital authoring tools.
+      Prior to CoreSpring, Gwen worked at NewSchools Venture Fund, where she led
+      the organization’s portfolio data collection and analysis efforts as well
+      as its community of practice work. Before NewSchools, Gwen served as
+      Director of Knowledge Management at New Visions for Public Schools, the
+      largest school reform organization in New York City. Gwen also worked at
+      Teachscape, Inc., where she served as Vice President of Teaching and
+      Learning and Senior Vice President of Operations. She began her career at
+      Andersen Consulting (now Accenture), working with clients to build
+      performance-based and simulated learning solutions.
+
+
+      Gwen holds a master’s degree in Learning Sciences from Northwestern
+      University and a bachelor’s degree in Corporate Communication from Ithaca
+      College. She lives in New York City.
+    staffImage: /images/uploads/gwen-baker.jpg
+    staffName: Gwen Baker
+    staffTitle: Chief Operating Officer at Bellwether Education Partners
