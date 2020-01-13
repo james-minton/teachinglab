@@ -16,11 +16,7 @@ date: 2020-01-13T20:36:37.089Z
 
 **Compensation**: Commensurate with experience
 
-
-
 ***Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end, and enthusiastically welcome candidates of all backgrounds to apply for this role.***
-
-
 
 **Who We Are**
 
@@ -38,8 +34,6 @@ At Teaching Lab, our work is in pursuit of **racial educational equity**, and ou
 
 * **Racial educational equity** is “raising the achievement of all students, while eliminating the racial predictability and disproportionality of which student groups occupy the highest and lowest achievement categories.” (Adapted from Pacific Educational Group)
 * **Racial equity** is the active work to ensure that colleagues of all racial backgrounds are truly respected, are able to function with dignity, are able to exercise influence over their lives, and, in the end, be able to determine for themselves the course of their professional realities. (Adapted from Howard Fuller)
-
-
 
 **Summary of Position**
 
@@ -61,8 +55,6 @@ The Chief Innovation Officer is a member of the Executive Team and will support 
 As a rapidly growing nonprofit, we seek an entrepreneurial individual excited to lead Teaching Lab to become a high-influence learning organization.This position is a senior-level role and has high potential for large-scale educational impact.
 
 Eligible candidates must have strong expertise in system-level leadership, relationship and partnership cultivation and management, public-speaking and influence, expertise in the Common Core or similar College- and Career-Ready state standards, a clear vision for how to scale evidence-based teacher professional learning, deep knowledge of how racism and historical systems of oppression impact PK-12 education, and experience effectively leading for racial equity. Ideal candidates will have the unique combination of intellectual curiosity and established skill in each of these areas.Teaching Lab is a mission- and values-driven organization. We seek outstanding leaders who have demonstrated a commitment to educational equity and racial equity.
-
-
 
 **Key Responsibilities & Functions**
 
@@ -100,8 +92,6 @@ Eligible candidates must have strong expertise in system-level leadership, relat
   * Supporting the development of best-in-class and equity-driven professional learning content and programming;
   * Representing the organization externally through meetings, speaking engagements, writing, and publishing.
 
-
-
 **Qualifications**
 
 We seek team members who bring relevant experience, knowledge, and skills, as well as a commitment to shared values and norms. Prospective CIO candidates should be able to demonstrate experience or background in the following categories:
@@ -136,8 +126,6 @@ We seek team members who bring relevant experience, knowledge, and skills, as we
 * Strong commitment to growth mindset for both adults and students, and a desire to work collaboratively to grow team skills and capabilities.
 * Belief in the power of relationships and collaboration to drive results.
 * Focus on achieving results for traditionally underserved students, including a high bar for quality work.
-
-
 
 **Working at Teaching Lab**
 
