@@ -28,11 +28,11 @@ Our model is based on the best educational research and years of experience usin
 
 The core of Teaching Lab’s work is a belief that stronger professional learning for teachers can radically improve student opportunities and equity. Research suggests that effective professional learning incorporates three critical components:
 
-![](/images/uploads/screen-shot-2019-11-22-at-10.41.13-am.png)
+![Exceptional instructional materials, teacher-led communities, and cycles of learning](/images/uploads/screen-shot-2019-11-22-at-10.41.13-am.png)
 
 We integrate Head, Heart, and Habits through the creation of “Labs” in schools and districts:
 
-![](/images/uploads/screen-shot-2019-11-22-at-10.40.12-am.png)
+![Definitions of labs, lab leaders, content modules, and cycles](/images/uploads/screen-shot-2019-11-22-at-10.40.12-am.png)
 
 **Summary of Position**
 
