@@ -1,7 +1,7 @@
 ---
 title: EL Project Manager (New York City-Based)
 contenttype: jobs
-open: true
+open: false
 date: 2019-11-12T20:05:04.790Z
 ---
 Type of Vacancy: Salaried full-time, starting January 2020  
