@@ -16,14 +16,20 @@
     margin: auto;
     img {
         display: block;
-        max-width: 100%;
+        // max-width: 100%;
+        // width: auto;
         margin: auto;
-        @include for-768-up {
-            max-height: 360px;
-        }
-        @include for-1440-up {
-            max-height: 440px;
-        }
+        // height: 360px;
+        // max-width: 100%;
+        // object-fit: contain;
+        // @include for-768-up {
+        //     // max-height: 360px;
+        //     height: 360px;
+        // }
+        // @include for-1440-up {
+        //     // max-height: 440px;
+        //     height: 440px;
+        // }
     }
 }
 .author-meta {
