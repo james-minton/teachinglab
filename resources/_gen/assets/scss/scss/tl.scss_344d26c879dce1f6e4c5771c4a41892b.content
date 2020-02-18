@@ -1617,6 +1617,13 @@ h3.morebutton a:hover {
   margin: auto;
 }
 
+@media (min-width: 768px) {
+  .featured-img img {
+    max-height: 360px;
+    width: auto;
+  }
+}
+
 .author-meta {
   display: flex;
   justify-content: center;

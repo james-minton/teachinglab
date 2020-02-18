@@ -12,25 +12,16 @@
     }
 }
 .featured-img {
-    max-width: 1000px;
+  max-width: 1000px;
+  margin: auto;
+  img {
+    display: block;
     margin: auto;
-    img {
-        display: block;
-        // max-width: 100%;
-        // width: auto;
-        margin: auto;
-        // height: 360px;
-        // max-width: 100%;
-        // object-fit: contain;
-        // @include for-768-up {
-        //     // max-height: 360px;
-        //     height: 360px;
-        // }
-        // @include for-1440-up {
-        //     // max-height: 440px;
-        //     height: 440px;
-        // }
+    @include for-768-up {
+      max-height: 360px;
+      width: auto;
     }
+  }
 }
 .author-meta {
     display: flex;
