@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: switch-to-hugo # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 media_folder: "/content/uploads" # Media files will be stored in the repo under ./content/uploads. Note that this used to be ./site/static/images/uploads and so we have lots of legacy uploads sitting in that location in the repo.
 public_folder: "/uploads" # Path appended to uploaded media. For older uploads this will be /images/uploads and that will be stripped for image processing.
 collections:
