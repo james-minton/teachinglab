@@ -24,7 +24,7 @@
                     <!-- Options in addition to width, q = quality of jpeg -->
                     {{ $imgParams.Set "options" "738x q70" }}
                     {{ $imgParams.Set "doresponsive" true }}
-                    {{ $imgParams.Set "options2x" "1476x q90" }}
+                    {{ $imgParams.Set "options2x" "1476x q70" }}
                     {{ partial "scaleimage.html" (dict "context" . "imgParams" $imgParams ) }}
                 {{ end }}
             </div>
