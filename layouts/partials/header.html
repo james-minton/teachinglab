@@ -1,0 +1,64 @@
+<header id="main-header">
+    <div id="header-wrapper">
+        <div id="logo-wrapper"><a href="/"><img id="logo" src="/images/tl-website-logo.svg" /></a></div>
+        <div class="header-icons">
+            <button class="btn btn-icon hamburger">
+                <svg class="icon" id="menu" viewBox="0 0 22 22">
+                    <path d="M0,0 L22,0 L22,4 L0,4 L0,0 Z M0,9 L22,9 L22,13 L0,13 L0,9 Z M0,18 L22,18 L22,22 L0,22 L0,18 Z"></path>
+                </svg>
+                <span></span>
+            </button>
+        </div>
+    </div>    
+</header>
+
+<nav id="topNav">
+    <ul>
+        {{/* {{ range .Site.Menus.main }}
+          <p></p>
+          <!-- {{ if ne $.Params.headless true }} -->
+            {{ if isset $.Params "contenttype"  }}
+                {{ if ne $.Params.contenttype "cases" }}
+                <li><a class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ else }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            {{ else  }}
+                <li><a class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          <!-- {{ end }} -->
+        {{ end }} */}}
+        
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+              {{ $active := "" }}
+              {{ $isMenu := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+              {{ if or $isMenu (eq $currentPage.Title .Name) }}
+                {{ $active = "active" }}
+              {{ end }}
+              <li><a class="{{ $active }}" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        
+    </ul>
+
+</nav>
+
+<div class="app-menu">
+    <div id="buttonzone">
+        <div id="button-close-wrapper">
+            <button tabindex="-1" class="btn btn-icon menu-close hamburger">
+                <svg class="icon" id="close" viewBox="0 0 20 20">
+                    <polygon points="12.8571429 10 20 17.1428571 17.1428571 20 10 12.8571429 2.85714286 20 0 17.1428571 7.14285714 10 0 2.85714286 2.85714286 0 10 7.14285714 17.1428571 0 20 2.85714286"></polygon>
+                </svg>
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <nav id="flyout-nav">
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li><a class="{{if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</div>

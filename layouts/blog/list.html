@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<div id="blog-page" class="pageWrap">
+        <div class="hero-panel-sub parallax-window" data-position-x="right" data-parallax="scroll" data-speed="0.7" data-image-src="{{ "images/hands-writing2.jpg" | absURL }}"></div>
+    <div class="page-title">
+        <div class="title-box inner-wrapper">
+            <div class="title-container">
+                    <h2>Blog</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="blogList">
+
+        <div class="content-well">
+            {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
+            <ul class="blogfeed">
+                <li class="bloglist-image">
+                    <a href="{{ .RelPermalink }}">
+                      {{/* partial "bloglistimg" . */}}
+                      <!-- Build map of params to call image partial -->
+                      {{ $imgParams := newScratch }}
+                      {{ $imgParams.Set "image" .Params.image }}
+                      <!-- Actions can be "Fill", "Fit", "Resize" -->
+                      {{ $imgParams.Set "action" "Resize" }}
+                      <!-- image alt attr -->
+                      {{ $imgParams.Set "alt" "Blog entry feature image" }}
+                      <!-- x1 width of image -->
+                      {{ $imgParams.Set "width" "248" }}
+                      <!-- Options in addition to width, q = quality of jpeg -->
+                      {{ $imgParams.Set "options" "248x q70" }}
+                      {{ $imgParams.Set "doresponsive" true }}
+                      {{ $imgParams.Set "options2x" "498x q90" }}
+                      {{ partial "scaleimage.html" (dict "context" . "imgParams" $imgParams ) }}
+                    </a>
+                </li>
+                <li class="blog-excerpt">
+                    <h3 class="bloglisttitle"><a href="{{ .RelPermalink }}">{{ .Title}}</a></h3>
+                    <p>{{ .Params.listSummary }}</p>
+                    <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Read more</a></h3>
+                </li>
+            </ul>
+            {{ end}}
+        </div>
+
+</div>
+{{ partial "newsletter" . }}
+{{ end }}

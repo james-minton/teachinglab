@@ -1,0 +1,55 @@
+{{/*
+  To use this partial, build a map of values in $imgParams,
+  then pass with context to the partial:
+
+  {{ partial "scaleimg.html" (dict "context" . "imgParams" $imgParams ) }
+*/}}
+{{ $action := .imgParams.Get "action" }}
+{{ $alt := .imgParams.Get "alt" }}
+{{ $width := .imgParams.Get "width" }}
+{{ $height := .imgParams.Get "height" }}
+{{ $doResponsive := .imgParams.Get "doresponsive" }}
+{{ $options := .imgParams.Get "options" }}
+{{ $options2x := .imgParams.Get "options2x" }}
+{{ $img := strings.TrimPrefix "/uploads/" (strings.TrimPrefix "/images/uploads/" (.imgParams.Get "image")) }}
+{{/* For degugging: */}}
+{{/* <p>$img = {{$img}}, $options = {{$options}}, $alt = {{$alt}}, $action = {{$action}}, $doResponsive = {{$doResponsive}}</p> */}}
+{{ if eq $action "Fit"}}
+    {{ with site.GetPage "uploads/index.md" }}
+        {{ with .Resources.GetMatch $img }}
+            {{ $processed := .Fit $options }}
+            {{ if $doResponsive }}
+              {{ $processed2x := .Resize $options2x }}
+              <img class="img-fluid" src="{{ $processed2x.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x">
+            {{ else }}
+              <img src="{{ $processed.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}">
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ else if eq $action "Resize"}}
+    {{ with site.GetPage "uploads/index.md" }}
+        {{ with .Resources.GetMatch $img }}
+            {{ $processed := .Resize $options }}
+            {{ if $doResponsive }}
+              {{ $processed2x := .Resize $options2x }}
+              <img class="img-fluid" src="{{ $processed.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x">
+            {{ else }}
+              <img src="{{ $processed.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}">
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ else if eq $action "Fill"}}
+    {{ with site.GetPage "uploads/index.md" }}
+        {{ with .Resources.GetMatch $img }}
+            {{ $processed := .Fill $options }}
+            {{ if $doResponsive }}
+              {{ $processed2x := .Resize $options2x }}
+              <img class="img-fluid" src="{{ $processed2x.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x">
+            {{ else }}
+              <img src="{{ $processed.RelPermalink }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}">
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+    {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ if in .Params.image ".png" }}{{/* If image has file extension x, append filename suffix "sm" to path */}}
+    {{ $cleanFilename := strings.TrimSuffix ".png" .Params.image }} <img src="{{ print $cleanFilename }}-sm.png" />
+{{ else if in .Params.image ".jpg" }}
+    {{ $cleanFilename := strings.TrimSuffix ".jpg" .Params.image }} <img src="{{ print $cleanFilename }}-sm.jpeg" />
+{{ else if in .Params.image ".jpeg" }}
+    {{ $cleanFilename := strings.TrimSuffix ".jpeg" .Params.image }} <img src="{{ print $cleanFilename }}-sm.jpeg" />
+{{ end }}

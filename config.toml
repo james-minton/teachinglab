@@ -1,0 +1,56 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Teaching Lab"
+# Define how many posts should appear on a site
+paginate = 10
+googleAnalytics = "UA-136113056-1"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# SectionPagesMenu = "main"
+
+[Params]
+
+  logo = "teachinglab_logo1500w.png"
+  localFunctionsPath = "http://localhost:9000"
+  productionFunctionsPath = "https://www.teachinglab.org/.netlify/functions"
+  functionsPath = ".netlify/functions"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 2
+
+[[menu.main]]
+name = "Our Model"
+url  = "/our-model"
+weight = 10
+
+[[menu.main]]
+name = "About Us"
+url  = "/about-us"
+weight = 20
+
+[[menu.main]]
+name = "Our Impact"
+url  = "/our-impact"
+weight = 30
+
+[[menu.main]]
+name = "Blog"
+url  = "/blog"
+weight = 40
+
+[[menu.main]]
+name = "Opportunities"
+url  = "/opportunities"
+weight = 50
+
+[[menu.main]]
+name = "Contact Us"
+url  = "/contact"
+weight = 60

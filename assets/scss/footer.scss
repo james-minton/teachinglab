@@ -1,0 +1,127 @@
+#footer-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    img#footer-logo {
+        padding: 4.8rem 0 3.2rem;
+        width: 100px;
+    }
+    @include for-768-up {
+        img#footer-logo {
+            padding: 8rem 0;
+            width: 154px;
+        }
+    }
+    @include for-1440-up {
+        height: 265px;
+        img#footer-logo {
+            width: 154px;
+            padding: 0;
+        }
+    }
+}
+nav#footerNav {
+    max-width: 800px;
+    margin: auto;
+    ul {
+        @include for-768-up {
+            padding-bottom: 4rem;
+        }
+        @include for-1440-up {
+            height: 145px;
+            padding-bottom: 4rem;
+        }
+        
+        flex-direction: row;
+            display: inline-flex;
+            justify-content: space-between;
+            padding-inline-start: 0;
+            width: 100%;
+            align-items: flex-end;
+            border-bottom: 1px solid $lightblue;
+        @include for-phone-only {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 2.4rem;
+            padding-bottom: 3.7rem;
+            margin-bottom: 0;
+        }    
+        li {
+            list-style: none;
+            a {
+                @include for-768-up {
+                    font-size: 1.2rem;
+                    letter-spacing: 0.015rem;
+                    line-height: 2.4rem;
+                }
+                @include for-1440-up {
+                    font-size: 1.3rem;
+                    letter-spacing: 0.02rem;
+                    line-height: 2.4rem;
+                }
+                font-weight: 400;
+                text-transform: uppercase;
+                color: $deepblack;
+                &:hover {
+                    text-decoration: none;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
+#subfooter {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    h6 {
+        @include for-phone-only {
+            line-height: 2.4rem;
+            margin-bottom: 6.4rem;
+        }
+    }
+    #footersocial {
+        a.fb {
+            padding-right: 2.4rem; 
+        }
+        @include for-phone-only {
+            position: relative;
+            top: -104px;
+            svg {
+                width: 22px;
+                height: 19px;
+            }
+            /* a.fb, a.tw, a.ig {
+               padding-right: 2.4rem; 
+            } */
+            a.fb {
+                padding-right: 1.6rem; 
+            }
+        }
+        display: inherit;
+        a.social-icon {
+            height: 32px;
+        }
+    }
+    a:hover {
+        svg {
+            g, path {
+                fill: $orange;
+            }
+        }
+    }    
+    @include for-768-up {
+        height: 150px;
+        a.fb, a.tw, a.ig {
+           /* padding-right: 5.6rem; */
+        }
+    }
+    @include for-1440-up {
+        height: 192px;
+    }
+
+}

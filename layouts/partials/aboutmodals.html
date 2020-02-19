@@ -1,0 +1,87 @@
+<!-- Button trigger modal -->
+<div class="staff-wrapper">
+  <a class="staff-link" data-toggle="modal" data-target="#modal-{{ .staffName | md5 }}">
+    <ul class="staff-entry">
+      <li class="staff-pic">
+        <!-- {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}}
+          {{ $cleanFilename := strings.TrimSuffix ".png" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.png" />
+        {{ else if in .staffImage ".jpg" }}
+          {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
+        {{ else if in .staffImage ".jpeg" }}
+          {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
+        {{ end }} -->
+        <!-- Build map of params to call image partial -->
+        {{ $imgParams := newScratch }}
+        {{ $imgParams.Set "image" .staffImage }}
+        <!-- Actions can be "Fill", "Fit", "Resize" -->
+        {{ $imgParams.Set "action" "Resize" }}
+        <!-- image alt attr -->
+        {{ $imgParams.Set "alt" "Blog entry banner image" }}
+        <!-- Options in addition to width, q = quality of jpeg -->
+        {{ $imgParams.Set "options" "160x156 q70" }}
+        {{ $imgParams.Set "doresponsive" true }}
+        {{ $imgParams.Set "options2x" "320x312 q80" }}
+        {{ partial "scaleimage.html" (dict "context" . "imgParams" $imgParams ) }}
+        <svg class="bio-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="person-truncated" transform="translate(-159.000000, -155.000000)">
+                  <g id="Group-2" transform="translate(128.000000, 156.000000)">
+                      <g id="Group-3" transform="translate(32.000000, 0.000000)">
+                          <circle id="Oval" stroke-opacity="0.474524457" stroke="#2EC7FF" stroke-width="2" fill="#EFFBFF" cx="19.2871287" cy="18.7128713" r="18.7128713"></circle>
+                          <path d="M26.2970293,17.7843151 C26.1056432,18.1740445 26.0115039,18.5824808 25.7619891,18.8385101 C24.2217607,20.4194357 22.6457045,21.9649647 21.0835407,23.5244322 C20.1907712,24.4155827 19.3287113,25.3401124 18.4034044,26.195683 C17.5552368,26.9797267 16.6045214,26.9855955 15.5768494,26.453913 C15.6135912,26.0335556 15.640462,25.7256235 15.6709887,25.3762426 C18.3767163,23.3186551 21.0232184,21.1965101 23.392421,18.7323203 C23.0502292,17.7773459 22.3418996,17.232275 21.6865805,16.6938066 C19.9741595,15.2869295 18.2025129,13.9528631 16.4655974,12.5753303 C15.7912676,12.04053 15.0833036,11.5196682 14.7425743,10.4535521 C15.188045,10.3961473 15.5446775,10.2791368 15.8768156,10.3288387 C16.1718463,10.3730386 16.4630383,10.569829 16.7154778,10.7545149 C18.8229183,12.296926 20.996896,13.7617582 22.9844231,15.4477731 C23.7795802,16.1221424 24.5666943,16.7114132 25.4819475,17.1721191 C25.7528493,17.308937 25.9765901,17.5396568 26.2970293,17.7843151 Z" id="Shape" fill-opacity="0.522050498" fill="#2EC7FF" fill-rule="nonzero"></path>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+      </li>
+      <li>
+          <h4 class="uppercase">{{ .staffName }}</h4>
+      </li>
+      <li>
+        <h5 class="uppercase">{{ .staffTitle }}</h5>
+      </li>
+    </ul>
+  </a>
+</div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-{{ .staffName | md5 }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-transparent"></div>
+            <div class="modal-header">
+              <div class="staff-wrap">
+                  <!-- {{ if in .staffImage ".png" }}{{/* If image has file extension x, append filename suffix to path */}}
+                    {{ $cleanFilename := strings.TrimSuffix ".png" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.png" />
+                  {{ else if in .staffImage ".jpg" }}
+                    {{ $cleanFilename := strings.TrimSuffix ".jpg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
+                  {{ else if in .staffImage ".jpeg" }}
+                    {{ $cleanFilename := strings.TrimSuffix ".jpeg" .staffImage }} <img src="{{ print $cleanFilename }}-bio-sm.jpeg" />
+                  {{ end }} -->
+                  <!-- Build map of params to call image partial -->
+                  {{ $imgParams := newScratch }}
+                  {{ $imgParams.Set "image" .staffImage }}
+                  <!-- Actions can be "Fill", "Fit", "Resize" -->
+                  {{ $imgParams.Set "action" "Resize" }}
+                  <!-- image alt attr -->
+                  {{ $imgParams.Set "alt" (print "Bio photo for " .staffName) }}
+                  <!-- Options in addition to width, q = quality of jpeg -->
+                  {{ $imgParams.Set "options" "144x141 q70" }}
+                  {{ $imgParams.Set "doresponsive" true }}
+                  {{ $imgParams.Set "options2x" "288x282 q80" }}
+                  {{ partial "scaleimage.html" (dict "context" . "imgParams" $imgParams ) }}
+                <div class="staff-headline"><h4 class="uppercase bump-up modal-staff">{{ .staffName }}&nbsp; &nbsp; &nbsp;</h4><h4 class="uppercase medium">{{ .staffTitle }}</h4></div>
+              </div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><img src="/images/icons/modal-close.svg"/></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-bio"><p class="light">{{ .bio }}</p></div>
+            </div>
+            {{ if isset . "quote" }}
+              <div class="modal-quote"><p class="light">"{{ .quote }}"</p></div>
+            {{ end }}
+          </div>
+        </div>
+      </div>

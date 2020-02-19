@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<div id="homepage" class="pageWrap">
+  <div id="panel1" class="parallax-window" data-parallax="scroll" data-speed="0.9" data-image-src="{{ "images/smiling-teacher-br.jpg" | absURL }}">
+    <div class="panel-gradient" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0">
+      <div class="content-wrapper">
+          <div class="panel-overlay content-inner">
+              <h1 class="tagline" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200">
+                {{ .Site.Data.home.heropanel.tagline }}
+              </h1>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="panel2" class="pad80">
+      <div class="content-well">
+        <div class="panel-overlay content-inner">
+            <h2>
+                Something went wrong...
+            </h2>
+            <p>
+              Looks like something went wrong. Be sure and <a href="/contact/">let us know</a> so we can prevent this in the future.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- Our Model Tablet Up ---------------------------->
+
+    
+    <!-- Image Breaker ----------------------->
+    <div class="parallax-window margb80" data-position-y="center" data-parallax="scroll" data-speed="0.95" data-image-src="/images/counseling2.jpg">
+    </div>
+
+
+
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+        });
+      }
+      });
+    }
+    </script>
+{{end}}

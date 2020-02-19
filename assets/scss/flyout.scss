@@ -1,0 +1,81 @@
+.header-icons {
+    .hamburger {
+        width: 33px;
+        @include for-768-up {
+            width: 41px;
+        }
+    }
+    @include for-1024-up {
+        display: none;
+    }
+    svg {
+        fill: $brightblue;
+        width: 24px;
+            @include for-768-up {
+                width: 32px;
+            }
+    }
+}
+.app-menu {
+    display: block;
+    right:-320px;
+    width:320px;
+    top: 0;
+    position: fixed;
+    transition: transform 0.4s ease;
+    z-index: 99;
+    overflow: auto;
+    height: 100vh;
+    background: $brightblue;
+   
+
+    &.is-active {
+       
+        transform: translate3d(-320px,0,0);        
+        
+        /*transition: transform 0.4s ease; */
+    }
+    #buttonzone {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 24px;
+        height: 53px;
+        align-items: center;
+        @include for-768-up {
+            padding-right: 40px;
+            height: 88px;
+        }
+        #button-close-wrapper {
+            width: 41px;
+            button {
+                background: rgba(0,0,0,0);
+            }
+            svg {
+                fill: #fff;
+                width: 24px;
+                @include for-768-up {
+                    width: 32px;
+                }   
+            }
+        }
+    }
+}
+nav#flyout-nav {
+    ul {
+        li {
+            list-style: none;
+            padding-bottom: 1.6rem;
+            a {
+                color: #fff;
+                font-size: 2rem;
+                @include for-768-up {
+                    font-size: 2.4rem;
+                }
+                
+            }
+        }
+    }
+}
+button.btn.btn-icon.hamburger {
+    background-color: #fff;
+}

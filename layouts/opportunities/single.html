@@ -1,0 +1,55 @@
+{{ define "main" }}
+    
+<div id="oppSingle" class="pageWrap">
+    <div id="breadcrumb" class="content-well"><h5><a href="/">Teaching Lab</a> &nbsp;| &nbsp;<a href="/opportunities">Opportunities</a>&nbsp; | &nbsp;{{ .Title }}</h5></div>
+
+    <div class="content-well">
+        <div class="content-inner blogsection">
+            <div class="blog-well">  
+                <h2 class="">{{ .Title }}</h2>
+                <div class="content-inner pad56">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>    
+       
+        {{ partial "blogsocial" }}
+        
+    
+    </div>
+
+{{ if eq .Params.contenttype "jobs" }}
+<div class="post-navigation marg80">
+        <div class="side-header"><p>More Opportunities</p></div>
+        <div class="adjacent-posts-wrapper">
+            <div class="adjacent-posts">
+                <ul>
+                  
+                    
+                    {{ range last 1 (where (where .Site.Pages.ByDate "Date.Unix" "<" $.Date.Unix) "Params.contenttype" "=" "jobs") }}
+                        {{ if gt $.Date.Unix .Date.Unix }}  
+                            <li><h4>NEXT:</h4>                    
+                            <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
+                        {{ end }}
+                    {{ end }}
+                 
+                    {{ range first 1 (where (where .Site.Pages.ByDate "Date.Unix" ">" $.Date.Unix) "Params.contenttype" "=" "jobs") }}
+                        {{ if lt $.Date.Unix .Date.Unix }}   
+                            <li><h4>PREVIOUS:</h4>                       
+                            <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2></li>
+                        {{ end }}
+                    {{ end }}
+                   
+                    
+                </ul>
+            </div>     
+        </div>
+    </div>
+{{ end }} 
+{{ if eq .Params.contenttype "cases" }}  
+    <div class="post-navigation marg80" style="min-height: 0"></div>
+{{ end }} 
+</div>
+
+{{ partial "newsletter" . }}    
+{{ end }}

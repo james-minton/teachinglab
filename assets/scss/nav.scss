@@ -1,0 +1,103 @@
+header#main-header {
+    width: 100%;
+    height: 53px;
+    @include for-768-up {
+        height: 88px;
+    }
+    @include for-1024-up {
+        height: 110px;
+    }
+    overflow: hidden;
+    display:block; 
+    padding: 0 24px;
+    @include for-768-up {
+        padding: 0 40px;
+    }
+    @include for-1024-up {
+        padding: 0 48px;
+    }
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+    #header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 53px; 
+        @include for-768-up {
+            height: 88px;
+        }
+        @include for-1024-up {
+            height: 110px;
+        }
+        overflow: hidden;
+        max-width: 1200px;
+        margin: 0 auto;
+        img#logo {
+            display: inline-flex;
+            height: 32px;
+            @include for-768-up {
+                height: 54px;
+            }
+        }
+    }
+}    
+nav#topNav {
+    width: 100%;
+    z-index: 98;
+    display: none;
+    align-items: center;
+    background: #F8FDFF;
+    position: fixed;
+    top: 88px;
+    @include for-1024-up {
+        display: inline-flex;
+        top: 110px;
+    }
+    height: 60px;
+    transition: top 0.3s ease-in-out;
+    padding: 0 48px;
+        &.nav-up {
+            top: 50px;
+        }
+        ul {
+            flex-direction: row;
+            display: inline-flex;
+            justify-content: space-between;
+            padding-inline-start: 0;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            li {
+                list-style: none;
+                text-transform: uppercase;
+                @include for-1024-up {
+                    font-size: 1.3rem;
+                    letter-spacing: 0.054rem;
+                }
+                @include for-1440-up {
+                    font-size: 1.6rem;
+                    letter-spacing: 0.066rem;
+                }
+                font-weight: 600;
+                a {
+                    text-decoration: none;
+                    color: $deepblack;
+                    white-space: nowrap;
+                    &.active {
+                        color: #FF7C4C;
+                        border-bottom: 3px solid #ff7c4c;
+                        padding-bottom: 3px;
+                    }
+                    &:hover {
+                        color: #FF7C4C;
+                    }
+                }
+            }
+        }
+    }
+
+// Container layout
+// ---
+
+  

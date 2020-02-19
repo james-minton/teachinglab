@@ -1,0 +1,421 @@
+backend:
+  name: git-gateway
+  branch: switch-to-hugo # Branch to update (optional; defaults to master)
+media_folder: "/content/uploads" # Media files will be stored in the repo under ./content/uploads. Note that this used to be ./site/static/images/uploads and so we have lots of legacy uploads sitting in that location in the repo.
+public_folder: "/uploads" # Path appended to uploaded media. For older uploads this will be /images/uploads and that will be stripped for image processing.
+collections:
+  - label: "Default Social Media Image"
+    name: socialDefaultImg
+    delete: false
+    files:
+      - label: "Social Media Image"
+        name: "smImage"
+        file: "data/home/defaultsocial.yml"
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Default image for social media posts, name: socialDefaultImg, widget: image, hint: "This image will accompany social media posts by default. It will be overridden in blog posts and case studies by 'featured images' for these content types. Optimal size: 1200x630 pixels"}
+  - label: "Homepage"
+    name: "homepage"
+    files:
+      - label: "Hero Image Section"
+        name: "heroSection"
+        file: "data/home/heropanel.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Hero Image Overlay Text, name: tagline, widget: string}
+      - label: "Panel 2 Intro"
+        name: "panelTwo"
+        file: "data/home/paneltwo.yml"
+        delete: false
+        fields:
+          - {label: Header Text, name: headerText, widget: string}
+          - {label: Paragraph Text, name: pText, widget: string}
+      - label: "Panel 3 Our Model"
+        name: "panelThree"
+        file: "data/home/panelthree.yml"
+        delete: false
+        fields:
+          - {label: Panel Header, name: panelHeader, widget: string, required: false}
+          - {label: Component 1 Name, name: headName, widget: string, required: false}
+          - {label: Component 1 Text, name: headText, widget: string, required: false}
+          - {label: Component 2 Name, name: heartName, widget: string, required: false}
+          - {label: Component 2 Text, name: heartText, widget: string, required: false}
+          - {label: Component 3 Name, name: habitsName, widget: string, required: false}
+          - {label: Component 3 Text, name: habitsText, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
+      - label: "Panel 4 Image Breaker Blurb"
+        name: "panelFour"
+        file: "data/home/panel4blurb.yml"
+        delete: false
+        fields:
+          - {label: Blurb, name: blurb, widget: string, required: false}
+      - label: "Panel 5 Our Impact"
+        name: "panelfive"
+        file: "data/home/impact.yml"
+        delete: false
+        fields:
+          - {label: Header, name: header, widget: string, required: false}
+          - {label: Quantity One, name: quantityOne, widget: string, required: false}
+          - {label: Text One, name: textOne, widget: string, required: false}
+          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
+          - {label: Text Two, name: textTwo, widget: string, required: false}
+          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
+          - {label: Text Three, name: textThree, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
+      - label: "Panel 6 Who We Are"
+        name: "panelsix"
+        file: "data/home/whoweare.yml"
+        delete: false
+        fields:
+          - {label: Header, name: header, widget: string, required: false}
+          - {label: Body, name: body, widget: string, required: false}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
+          - {label: Staff Image 1, name: staffImgOne, widget: image, required: false}
+          - {label: Staff Image 2, name: staffImgTwo, widget: image, required: false}
+          - {label: Staff Image 3, name: staffImgThree, widget: image, required: false}
+          - {label: Staff Image 4, name: staffImgFour, widget: image, required: false}
+          - {label: Staff Image 5, name: staffImgFive, widget: image, required: false}
+          - {label: Staff Image 6, name: staffImgSix, widget: image, required: false}
+
+
+      - label: "Panel 5 Teacher Voices"
+        name: "panelFive"
+        file: "data/home/tv.yml"
+        delete: false
+        fields:
+          - {label: Header, name: header, widget: string, required: false}
+          - {label: Teacher Voice Quote, name: quote, widget: string, required: false, hint: "No need to type quotation marks here. They're added automatically."}
+          - {label: Button Text, name: buttonText, widget: string, required: false}
+          #- label: Quotes
+          #  name: quotes
+          #  widget: list
+          #  fields:
+          #    - {label: Quote, name: quote, widget: string, required: false}
+
+  - label: "Our Model"
+    name: "ourModel"
+    delete: false
+    files:
+      - label: "Panel 1 - The Challenge"
+        name: "sectionOne"
+        file: "data/model/sectionone.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string, delete: false}
+          - {label: Section Heading, name: sectionHead, widget: string, delete: false}
+          - {label: Section Body Copy, name: body, widget: markdown, delete: false, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: "Panel 2 - Teaching Lab Model"
+        name: "sectionTwo"
+        file: "data/model/sectiontwo.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+          - label: Icons and Copy
+            name: iconsCopy
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}
+              - {label: Heading, name: heading, widget: string}
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: "Panel 3 - Labs"
+        name: "sectionThree"
+        file: "data/model/sectionthree.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro, name: introCopy, widget: string}
+          - label: Icons and Copy
+            name: iconsCopy
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Align icon right?, name: alignIcon, widget: boolean, default: false, hint: "If not selected, icon will align left."}
+              - {label: Heading, name: heading, widget: string}
+              - {label: Copy, name: copy, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: "Cycles of Inquiry Graphic"
+        name: "coiGraphic"
+        file: "data/model/coigraphic.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Sideways Header, name: header, widget: string}
+          - {label: Step One Line 1, name: textOne, widget: string, required: false}
+          - {label: Step One Line 2, name: textOneTwo, widget: string, required: false}
+          - {label: Step Two Line 1, name: textTwo, widget: string, required: false}
+          - {label: Step Two Line 2, name: textTwoTwo, widget: string, required: false}
+          - {label: Step Three Line 1, name: textThree, widget: string, required: false}
+          - {label: Step Three Line 2, name: textThreeTwo, widget: string, required: false}
+          - {label: Step Four Line 1, name: textFour, widget: string, required: false}
+          - {label: Step Four Line 2, name: textFourTwo, widget: string, required: false}
+          - {label: Step Five Line 1, name: textFive, widget: string, required: false}
+          - {label: Step Five Line 2, name: textFiveTwo, widget: string, required: false}
+
+  - label: "About Us"
+    name: "aboutUs"
+    files:
+      - label: "Intro Copy"
+        name: "introCopy"
+        file: "data/about/contents.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Section Bold Intro, name: sectionBoldIntro, widget: string}
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: "Team Section"
+        name: "founders"
+        file: "data/about/founders.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - label: Team
+            name: foundersList
+            widget: list
+            fields:
+              - {label: Team Member Name, name: staffName, widget: string}
+              - {label: Title, name: staffTitle, widget: string}
+              - {label: Image, name: staffImage, widget: image}
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+              - {label: Quote, required: false, name: quote, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}
+      - label: "Board Section"
+        name: "board"
+        file: "data/about/board.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - label: Board
+            name: boardList
+            widget: list
+            fields:
+              - {label: Board Member Name, name: staffName, widget: string}
+              - {label: Title, name: staffTitle, widget: string}
+              - {label: Image, name: staffImage, widget: image}
+              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+              - {label: Quote, name: quote, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list, numbered-list], hint: "No need to wrap this text in quotation marks; they appear automatically."}
+
+
+  - label: "Our Impact"
+    name: "ourImpact"
+    files:
+      - label: "Page Name"
+        name: "pageName"
+        file: "data/impact/pagename.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: pageTitle, widget: string}
+      - label: "Panel 1 - Teacher Voices"
+        name: "sectionOne"
+        file: "data/impact/sectionone.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Intro Paragraph, name: introText, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+          - label: Teacher Voices
+            name: teacherVoices
+            widget: list
+            fields:
+              - {label: Testimonial, name: testimonial, widget: string, hint: "No need to add quotation marks; they appear automatically."}
+      - label: "Panel 2 - Our Impact Graphic"
+        name: "panelTwo"
+        file: "data/impact/sectiontwo.yml"
+        delete: false
+        fields:
+          - {label: Intro Paragraph, name: intro, widget: markdown, required: false}
+          - {label: Header, name: header, widget: string, required: false}
+          - {label: Quantity One, name: quantityOne, widget: string, required: false}
+          - {label: Text One, name: textOne, widget: string, required: false}
+          - {label: Quantity Two, name: quantityTwo, widget: string, required: false}
+          - {label: Text Two, name: textTwo, widget: string, required: false}
+          - {label: Quantity Three, name: quantityThree, widget: string, required: false}
+          - {label: Text Three, name: textThree, widget: string, required: false}
+      - label: "Panel 3 - Case Studies"
+        name: "sectionThree"
+        file: "data/impact/sectionthree.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Case Studies Blurb, name: blurb, widget: string}
+
+  - label: "USA Map"
+    name: usaMap
+    files:
+      - label: "Map Intro"
+        name: "introCopy"
+        file: "data/mapSVG/contents.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Section Heading, name: sectionHead, widget: string}
+          - {label: Section Body Copy, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: "Active / Inactive US States"
+        name: activeStates
+        file: "data/mapSVG/states.yml"
+        delete: false
+        fields:
+          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint:
+          Toggle these switches to turn states in the US map on or off}
+          - {label: "AK", name: "AK", widget: "boolean", required: false, default: false}
+          - {label: "AZ", name: "AZ", widget: "boolean", required: false, default: false}
+          - {label: "AR", name: "AR", widget: "boolean", required: false, default: false}
+          - {label: "CA", name: "CA", widget: "boolean", required: false, default: false}
+          - {label: "CO", name: "CO", widget: "boolean", required: false, default: false}
+          - {label: "CT", name: "CT", widget: "boolean", required: false, default: false}
+          - {label: "DE", name: "DE", widget: "boolean", required: false, default: false}
+          - {label: "DC", name: "DC", widget: "boolean", required: false, default: false}
+          - {label: "FL", name: "FL", widget: "boolean", required: false, default: false}
+          - {label: "GA", name: "GA", widget: "boolean", required: false, default: false}
+          - {label: "HI", name: "HI", widget: "boolean", required: false, default: false}
+          - {label: "ID", name: "ID", widget: "boolean", required: false, default: false}
+          - {label: "IL", name: "IL", widget: "boolean", required: false, default: false}
+          - {label: "IN", name: "IN", widget: "boolean", required: false, default: false}
+          - {label: "IA", name: "IA", widget: "boolean", required: false, default: false}
+          - {label: "KS", name: "KS", widget: "boolean", required: false, default: false}
+          - {label: "KY", name: "KY", widget: "boolean", required: false, default: false}
+          - {label: "LA", name: "LA", widget: "boolean", required: false, default: false}
+          - {label: "ME", name: "ME", widget: "boolean", required: false, default: false}
+          - {label: "MD", name: "MD", widget: "boolean", required: false, default: false}
+          - {label: "MA", name: "MA", widget: "boolean", required: false, default: false}
+          - {label: "MI", name: "MI", widget: "boolean", required: false, default: false}
+          - {label: "MN", name: "MN", widget: "boolean", required: false, default: false}
+          - {label: "MS", name: "MS", widget: "boolean", required: false, default: false}
+          - {label: "MO", name: "MO", widget: "boolean", required: false, default: false}
+          - {label: "MT", name: "MT", widget: "boolean", required: false, default: false}
+          - {label: "NE", name: "NE", widget: "boolean", required: false, default: false}
+          - {label: "NV", name: "NV", widget: "boolean", required: false, default: false}
+          - {label: "NH", name: "NH", widget: "boolean", required: false, default: false}
+          - {label: "NJ", name: "NJ", widget: "boolean", required: false, default: false}
+          - {label: "NM", name: "NM", widget: "boolean", required: false, default: false}
+          - {label: "NY", name: "NY", widget: "boolean", required: false, default: false}
+          - {label: "NC", name: "NC", widget: "boolean", required: false, default: false}
+          - {label: "ND", name: "ND", widget: "boolean", required: false, default: false}
+          - {label: "OH", name: "OH", widget: "boolean", required: false, default: false}
+          - {label: "OK", name: "OK", widget: "boolean", required: false, default: false}
+          - {label: "OR", name: "OR", widget: "boolean", required: false, default: false}
+          - {label: "PA", name: "PA", widget: "boolean", required: false, default: false}
+          - {label: "RI", name: "RI", widget: "boolean", required: false, default: false}
+          - {label: "SC", name: "SC", widget: "boolean", required: false, default: false}
+          - {label: "SD", name: "SD", widget: "boolean", required: false, default: false}
+          - {label: "TN", name: "TN", widget: "boolean", required: false, default: false}
+          - {label: "TX", name: "TX", widget: "boolean", required: false, default: false}
+          - {label: "UT", name: "UT", widget: "boolean", required: false, default: false}
+          - {label: "VT", name: "VT", widget: "boolean", required: false, default: false}
+          - {label: "VA", name: "VA", widget: "boolean", required: false, default: false}
+          - {label: "WA", name: "WA", widget: "boolean", required: false, default: false}
+          - {label: "WV", name: "WV", widget: "boolean", required: false, default: false}
+          - {label: "WI", name: "WI", widget: "boolean", required: false, default: false}
+          - {label: "WY", name: "WY", widget: "boolean", required: false, default: false}
+
+
+  - name: "caseStudies" # Used in routes, e.g., /admin/collections/blog
+    label: "Case Studies" # Used in the UI
+    folder: "content/blog/case-studies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    filter: {field: "display", value: "yes" }
+    fields: # The fields for each document, usually in front matter
+      - {label: "Case Study Title", name: "title", widget: "string"}
+      - {label: "Display", name: "display", widget: hidden, default: "yes" }
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "cases"}
+      # - {label: "Author Name", name: "postauthorname", widget: "string"}
+      # - {label: "Author Title", name: "postauthortitle", widget: "string"}
+      # - {label: "Author Photo", name: "postauthorimg", widget: "image"}
+      # - {label: "Author Photo", name: "authorpic", widget: "image", required: false}
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    filter: {field: "display", value: "yes" }
+    fields: # The fields for each document, usually in front matter
+      - {label: "Blog Post Title", name: "title", widget: "string"}
+      - {label: "Display", name: "display", widget: hidden, default: "yes" }
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "blog"}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Author Name", name: "postauthorname", widget: "string"}
+      - {label: "Author Title", name: "postauthortitle", widget: "string"}
+      - {label: "Author Photo", name: "postauthorimg", widget: "image", required: false}
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Accepted file extensions: jpg, jpeg, png", required: false}
+      - {label: "Social Media Description", name: "socialDescription", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - name: "opportunities"
+    label: Opportunities Page
+    files:
+      - label: Opportunities Intro
+        name: opportunitieslist
+        delete: false
+        file: "data/opportunities/contents.yml"
+        fields:
+          - {label: "Opportunities Intro", name: "intro", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+          - {label: "No Openings Text", name: "noOpenings", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+
+  - label: Positions
+    name: positionsList
+    folder: "content/opportunities"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Position Title", name: "title", widget: "string"}
+      - {label: "Content Type", name: "contenttype", widget: hidden, default: "jobs"}
+      - {label: "Is this job open?", name: "open", widget: "boolean", required: true, default: true}
+      - {label: "Created Date", name: "date", widget: "datetime"}
+      - {label: "Social Media / Search Description", name: "description", widget: "string", required: false}
+      - {label: "Excerpt for Articles List", name: "listSummary", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - label: "Newsletter Subscribe Panel"
+    name: "newsletter"
+    files:
+      - label: "Panel Text and Buttons"
+        name: "newsletterSection"
+        file: "data/newsletter/contents.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Signup Call to Action, name: cta, widget: string}
+          - {label: Email address field text, name: email, widget: string}
+          - {label: Button text, name: button, widget: string}
+
+  - label: "Contact Form"
+    name: "contact"
+    files:
+      - label: "Contact Address"
+        name: "contactAdress"
+        file: "data/contact/contents.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Contact Page Header, name: pageHeader, widget: string}
+          - {label: Contact Page Intro, name: pageintro, widget: markdown}
+          - {label: Contact Address, name: contact, widget: markdown, buttons: [bold, italic, link]}
+
+  - label: "Footer"
+    name: "footer"
+    files:
+      - label: "Footer Elements"
+        name: "footerElements"
+        file: "data/footer/contents.yml"
+        delete: false
+        fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Copyright Info, name: sponsorText, widget: string, required: false}

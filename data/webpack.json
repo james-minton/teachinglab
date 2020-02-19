@@ -1,0 +1,16 @@
+{
+  "main": {
+    "js": "main.js",
+    "css": "css/tl.css"
+  },
+  "": {
+    "css": [
+      "css/aos.css",
+      "css/bootstrap.min.css",
+      "css/cms.css",
+      "css/main.css",
+      "css/reset.css"
+    ],
+    "": "fonts/.keep"
+  }
+}

@@ -1,0 +1,87 @@
+{{ define "main" }}
+
+
+<div id="our-model-page" class="pageWrap">
+        <div class="hero-panel-sub parallax-window" data-position-y="top" data-parallax="scroll" data-speed="0.7" data-image-src="{{ "images/diverse-learners3.jpg" | absURL }}"></div>
+    <div class="page-title">
+        <div class="title-box inner-wrapper">
+            <div class="title-container">
+                    <h2>Our Model</h2>
+            </div>
+        </div>
+    </div>
+    <!--- Page Body ---------------------------------->
+    <div class="section-one">
+        <div class="content-well target" id="intro">
+            {{ with .Site.Data.model.sectionone }}
+                <div class="rotate">
+                    <h3 class="uppercase" id="intro">{{ .sectionHead }}</h3>
+                </div>
+                <div class="content-inner">
+                    <p>{{ .body | markdownify }}</p>
+                </div>
+            {{ end }}
+
+        </div>
+    </div>
+    <div class="altbg model pad96">
+        <div class="section-two content-well target" id="model">
+            {{ with .Site.Data.model.sectiontwo }}
+            <div class="rotate">
+                    <h3 class="uppercase" id="model">{{ .sectionHead }}</h3>
+                </div>
+
+            <div class="content-inner">
+                <p id="model-intro" class="margb72 ">{{ .introCopy }}</p>{{ end }}
+
+                {{ range .Site.Data.model.sectiontwo.iconsCopy }}
+                {{ if eq .alignIcon true }}
+                    {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "left" }}
+                {{ else if eq .alignIcon false }}
+                    {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "right" }}
+                {{ end }}
+                    <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
+                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                        <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="graphic-section content-well">
+        {{ partial "coi-v3" . }}
+        <!--<img src="/images/coi.svg" />-->
+    </div>
+    <div class="section-three pad96-last">
+            <div class="content-well target" id="section3">
+            {{ with .Site.Data.model.sectionthree }}
+            <div class="rotate">
+                    <h3 class="uppercase" id="section3">{{ .sectionHead }}</h3>
+                </div>
+
+            <div class="content-inner">
+                <p class="margb72 labs-intro">{{ .introCopy }}</p>{{ end }}
+
+                {{ range .Site.Data.model.sectionthree.iconsCopy }}
+                {{ if eq .alignIcon true }}
+                    {{ $.Scratch.Set "iconAlign" "rightAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "left" }}
+                {{ else if eq .alignIcon false }}
+                    {{ $.Scratch.Set "iconAlign" "leftAlign" }}
+                    {{ $.Scratch.Set "fadeDirection" "right" }}
+                {{ end }}
+                    <div class="icon-section margb72 {{ $.Scratch.Get "iconAlign"  }}">
+                        <div class="model-icon"><img src="{{ .icon }}" width="" /></div>
+                        <div class="model-copy"><h4 class="uppercase">{{ .heading }}</h4><p>{{ .copy }}</p></div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{ partial "newsletter" . }}
+{{ end }}

@@ -1,0 +1,198 @@
+#breadcrumb {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    h5 {
+        font-weight: 500;
+        a {
+            font-weight: 300;
+            color: $slategrey;
+        }
+    }
+}
+.featured-img {
+  max-width: 1000px;
+  margin: auto;
+  img {
+    display: block;
+    margin: auto;
+    @include for-768-up {
+      max-height: 360px;
+      width: auto;
+    }
+  }
+}
+.author-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+}
+.blog-well {
+    max-width: 800px;
+    margin: auto;
+    h2 {
+        text-align: center;
+        color: $tealgreen;
+    }
+    p {
+        img {
+            display: block;
+            margin: auto;
+            @include for-768-up {
+            max-width: 80%;
+            }
+        }
+    }
+    figure {
+        @include for-768-up {
+            margin: 3.2rem auto;
+        }
+        @include for-1440-up {
+            margin: 4rem auto;
+        }
+        figcaption {    
+            p {
+                margin: 2.4rem auto;
+                text-align: center;
+            }
+        }
+        img {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            @include for-768-up {
+            max-width: 80%;
+            }
+        }
+    }
+    
+}
+.blog-well {
+    h2 {
+        margin: 3.2rem 0 1.6rem;
+        @include for-768-up {
+            margin: 3.2rem 0 1.6rem;
+        }
+        @include for-1440-up {
+            margin: 5.6rem 0 3.2rem;
+        }
+    }
+    .author-meta {
+        margin-bottom: 2.4rem;
+        @include for-768-up {
+            margin-bottom: 3.2rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 4.8rem;
+        }
+        h4 {
+            margin-bottom: 0;
+        }
+    }
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+.publishdate {
+    &.subhead {
+    text-align: center;
+    }
+}
+.post-navigation {
+    width: 100%;
+    @include for-768-up {
+        max-width: 720px;
+    }
+    @include for-768-up {
+        max-width: 840px;
+    }
+    @include for-1440-up {
+        max-width: 1000px;
+    }
+    height: auto;
+    min-height: 300px;
+    background-color: $tealgreen;
+    display: flex;
+    justify-content: left;
+    .side-header {
+        width: 120px;
+        background-color: $deepblack;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        p {
+            transform: rotate(270deg);
+            color: $white;
+            white-space: nowrap;
+        }
+    }
+    .adjacent-posts-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .adjacent-posts {
+            ul {
+                display: flex;
+                flex-direction: column;
+                min-height: 240px;
+                justify-content: space-evenly;
+                 margin-left: 0.2rem; 
+                 margin-right: 2.4rem;
+                li {
+                    list-style: none;
+                    margin: 0;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    h2, h4 {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+#blogsocial {
+    @include for-phone-only {
+        position: relative;
+        svg {
+            width: 22px;
+            height: 19px;
+        }
+        a.fb, a.tw {
+            /* padding-right: 3.2rem; */
+        }
+    }
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    a.social-icon {
+        height: 32px;
+    }
+    a:hover {
+        svg {
+            g, path {
+                fill: $orange;
+            }
+        }
+    }    
+    @include for-768-up {
+      
+        a.fb, a.tw {
+           /* padding-right: 7.2rem; */
+        }
+    }
+    @include for-1440-up {
+   
+    }
+}

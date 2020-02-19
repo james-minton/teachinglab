@@ -11,6 +11,19 @@ var client = new Twitter({
 
 var params = {screen_name: "TeachingLabHQ", count: "10"};
 
+function getCallbackObj(statusCode, bodyObj) {
+  return {
+    statusCode: statusCode,
+    headers: {
+      'content-type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,OPTIONS',
+      'Access-Control-Allow-Headers': 'x-requested-with, x-requested-by, Access-Control-Allow-Origin, content-type, X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept'
+    },
+    body: JSON.stringify(bodyObj)
+  };
+}
+
 function getTweets(callback) {
   console.log("getTweets");
   client.get("statuses/user_timeline", params, function(error, tweets, response) {
@@ -19,7 +32,7 @@ function getTweets(callback) {
         statusCode: 200,
         headers: {
           'content-type': 'application/json',
-          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Origin': '*'
         },
         body: JSON.stringify(tweets)
       })
@@ -30,11 +43,19 @@ function getTweets(callback) {
   });
 }
 
+function preflight(callback) {
+  console.log('preflight');
+  callback(null, getCallbackObj(204, {'result': 'Preflight success.'}))
+}
 
 exports.handler = (event, context, callback) => {
   // If it's a get request, we return the tweets data.
   if (event.httpMethod === "GET") {
     console.log("getting tweets");
     const result = getTweets(callback);
+  }
+  if (event.httpMethod === "OPTIONS") {
+    console.log("returning preflight response");
+    const result = preflight(callback);
   }
 }

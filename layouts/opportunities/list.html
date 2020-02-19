@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div id="opportunities-page" class="pageWrap">
+        <div class="page-title">
+            <div class="title-box inner-wrapper">
+                <div class="title-container">
+
+                        <h2>Opportunities</h2>
+
+                </div>
+            </div>
+        </div>
+        <div id="opp-intro-panel" class="margb80">
+            <div class="content-well">
+                <div class="content-inner">
+                  {{/* Get a count of all the open jobs. Only display the jobs list if there are jobs that are open. */}}
+                  {{ $openings := newScratch }}
+                  {{ $openings.Set "count" 0 }}
+                  {{ $jobs := where .Site.Pages "Params.contenttype" ("jobs") }}
+                  {{ range $jobs }}
+                    {{ if .Params.open }}
+                      {{ $openings.Add "count" 1 }}
+                    {{ end }}
+                  {{ end }}
+                  {{ $numOpenings := ($openings.Get "count") }}
+                  {{/* <p>$numOpenings = {{ $numOpenings }}</p> */}}
+                  {{ if lt $numOpenings 1 }}
+                    <div class="job-openings">
+                      {{ with .Site.Data.opportunities.contents }}
+                          <p class="no-openings" tabindex="0">{{ .noOpenings | markdownify }}</p>
+                      {{ end }}
+                    </div>
+                  {{ else }}
+                    {{ with .Site.Data.opportunities.contents }}
+                        <p>{{ .intro | markdownify }}</p>
+                    {{ end }}
+                  {{ end }}
+                </div>
+            </div>
+        </div>
+        <div id="jobs-panel">
+          {{ if gt $numOpenings 0 }}
+            {{ range (where .Paginator.Pages "Params.contenttype" ("jobs")) }}
+              {{ if .Params.open }}
+                <div class="content-well padw80 margb80">
+                    <div class="content-inner">
+                      <h4 class="uppercase">{{ .Title | markdownify }}</h4>
+                      <p>{{ .Params.listSummary | markdownify }}</p>
+                      <h3 class="morebutton"><a class="read-more" href="{{ .RelPermalink }}">Learn more</a></h3>
+                    </div>
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+
+
+</div>
+{{ partial "newsletter" . }}
+{{ end }}

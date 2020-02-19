@@ -1,0 +1,337 @@
+#about-us-page {
+    .title-box {
+        background: $brightblue;
+    }
+    .section-one {
+        margin-bottom: 4rem;
+        @include for-768-up {
+            margin-bottom: 5.6rem;
+        }
+        @include for-1440-up {
+            margin-bottom: 8rem;
+        }
+        h2 {
+            margin-bottom: 2.4rem;
+            @include for-768-up {
+                margin-bottom: 4rem;
+            }
+            @include for-1440-up {
+                margin-bottom: 5.6rem;
+            }
+        }
+        .rotate {
+            @include for-1024-up {
+            }
+            @include for-1440-up {
+            }
+        }
+    }
+    .team-bios {
+        margin-bottom: 3.2rem;
+        @include for-768-up {
+            margin-bottom: 4rem;
+            &.board {
+                margin-bottom: 8rem;
+            }
+        }
+        &.founders h3.rotate {
+            @include for-1024-up {
+            }
+            @include for-1440-up {
+                
+            }
+        }
+        &.staff h3.rotate {
+            @include for-1024-up {
+            }
+            @include for-1440-up {
+               
+            }
+        }    
+        &.board h3.rotate {
+            @include for-1024-up {
+            }
+            
+            @include for-1440-up {
+            }
+        }
+    }
+    
+    .team-bios {
+        @include for-phone-only {
+            margin-bottom: 0;
+            &.content-well {
+                padding: 4rem 0 0;
+                background-color: $lightblue;
+            }
+            .content-inner {
+                margin: 0;
+                max-width: 767px;
+            }
+            .rotate {
+                margin: 0 0 2.4rem;
+            }
+            h3 {
+                margin-left: 2.4rem;
+            }
+        }
+        .content-inner {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: $lightblue;
+            flex-wrap: wrap;
+            padding: 2.4rem 0.8rem 0;
+            @include for-768-up {
+                padding: 4rem 2.4rem 0;
+            }
+            a.staff-link:hover {
+                svg {
+                    path#Shape {
+                        fill: $brightblue;
+                        transition: fill .3s ease;
+                    }
+                    circle#Oval {
+                        fill: white;
+                        stroke: $brightblue;
+                        transition: fill .3s ease;
+                    }
+                }
+            }
+            .staff-entry {
+                width: 160px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                margin-bottom: 2.4rem;
+                h4 {
+                    line-height: 1.8rem;
+                    margin-bottom: 0.2rem;
+                }
+                h5 {
+                    line-height: 1.5rem;
+                    margin: 0 .8rem;
+                }
+                @include for-768-up {
+                    width: 224px;
+                    margin-bottom: 4rem;
+                    h4, h5 {
+                        line-height: 1.6rem;
+                    }
+                    h4 {
+                        margin-bottom: .8rem;
+                    }
+                }
+                @include for-1440-up {
+                    width: 224px;
+                    h4, h5 {
+                        line-height: 2.4rem;
+                    }
+                    h4 {
+                        margin-bottom: .8rem;
+                    }
+                }
+                svg.bio-arrow {
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    top: -36px;
+                    right: -54px;
+                    @include for-phone-only {
+                        right: -46px;
+                        top: -32px;
+                        circle#Oval {
+                            r: 15;
+                        }
+                    }
+                }
+            }
+            .staff-pic {
+                height: 136px;
+                @include for-768-up {
+                    margin-bottom: 2.4rem;
+                }
+                @include for-768-up {
+                    height: 160px;
+                    width: 160px;
+                }
+                @include for-1440-up {
+                    margin-bottom: 2.4rem;
+                }
+                img {
+                    border-radius: 50%;
+                    width: 120px;
+                    @include for-768-up {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+    }
+    a.staff-link {
+        cursor: pointer;
+    }
+    ul.staff-entry {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .modal-dialog {
+        @media (max-width: 575px) {
+            &.modal-dialog-centered {
+                max-width: 85%;
+                width: 85%;
+                margin: auto;
+            }
+        }
+        .modal-content {
+            background: rgba(0,0,0,0);
+            border: none;
+        }
+        .modal-transparent {
+            height: 100px;
+        }
+        .modal-header {
+            border: none;
+            background: $lightblue;
+            padding: 1.4rem 3.2rem 0.2rem;
+            @include for-768-up {
+                padding: 48px 72px 0;
+            }
+            @include for-1024-up {
+                padding: 48px 96px 0;
+            }
+            .staff-wrap {
+                display: flex;
+            }
+            img {
+                width: 144px;
+                border-radius: 50%;
+                position: absolute;
+                top: 27px;
+            }
+            button {
+                    width: 44px;
+                    height: 44px;
+                    position: relative;
+                    top: 8px;
+                    left: -4px;
+                    @include for-768-up {
+                        top: -21px;
+                        right: -20px;
+                    }
+                    @include for-1024-up {
+                        right: -46px;
+                    }
+                    &:focus {
+                        display: none;
+                    }
+                img {
+                    width: 32px;
+                    @include for-768-up {
+                        width: 44px;
+                    }
+                    top: 0;
+                }
+            }
+        }
+        
+        .staff-headline {
+            display: block;
+            position: relative;
+            padding: 8.8rem 0 0;
+            @include for-phone-only {
+                line-height: 0.6rem;
+            }
+            @include for-768-up {
+                padding: 6.4rem 0 0;
+            }
+            @include for-1024-up {
+                line-height: 1rem;
+                display: flex;
+                padding: 0 0 0 170px;
+                top: 0px;
+            }
+            h4.modal-staff {
+                letter-spacing: 0.153rem;
+                /* line-height: 1;*/
+            }
+        } 
+        .modal-body {
+            background: $lightblue;
+            padding: 1.6rem 3.2rem;
+            @include for-768-up {
+                padding: 28px 72px 48px;
+            }
+            @include for-1024-up {
+                padding: 28px 96px 48px;
+            }
+        }
+        .modal-quote {
+            background: $slateblue;
+            padding: 3.2rem 3.2rem;
+            @include for-768-up {
+                padding: 48px 72px;
+            }
+            @include for-1024-up {
+                padding: 48px 96px;
+            }
+        }
+    }
+    #map-panel {
+        background: #EFFBFF; 
+        @include for-phone-only {
+            background: #fff; 
+            .inner-wrapper {
+                margin: 2.4rem 0 0;
+            }
+            &.pad80 {
+                padding-bottom: 5.6rem;
+            }
+        }
+        @include for-768-up {
+            
+            .inner-wrapper {
+                margin-top: 5.6rem;
+                padding-bottom: 4.8rem;
+            }
+        }
+        @include for-1440-up {
+            
+            .inner-wrapper {
+                margin-top: 6.4rem;
+                padding-bottom: 6.4rem;
+            }
+        }
+    } 
+
+    #support-panel {
+        
+        .content-inner {
+            display: block;
+            width: 100%;
+            @include for-768-up {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+            }
+            
+            
+        }
+        .img-wrap {
+            display: block;
+            max-width: 150px;
+            margin: 3.2rem auto;
+            @include for-768-up {
+                max-width: 33%;
+                margin: initial;
+            } 
+        }
+        img {
+           max-width: 100%;
+        }
+    }
+    
+       
+}

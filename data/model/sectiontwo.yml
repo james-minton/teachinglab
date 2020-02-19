@@ -1,0 +1,33 @@
+sectionHead: The Teaching Lab Model
+introCopy: >-
+  Research suggests that effective professional learning incorporates three
+  critical components: 
+iconsCopy:
+  - alignIcon: false
+    copy: >-
+      Core academic content is aligned to specific curricular materials and
+      research-based practices. We refer to this as the “head” of professional
+      learning. Without core content, teachers adopt new techniques that may be
+      ineffective or even counterproductive and do not grow their knowledge over
+      time.
+    heading: 1. HEAD
+    icon: /images/uploads/head_180.png
+  - alignIcon: true
+    copy: >-
+      Teacher-led community is critical to build both social capital and buy-in
+      from teachers. We call this the “heart” of professional learning. Without
+      teacher-led community, there is low buy-in and often resentment; teachers
+      feel that professional learning is not relevant to their needs and resist
+      adoption of new content or techniques or passively comply.
+    heading: 2. HEART
+    icon: /images/uploads/love_180.png
+  - alignIcon: false
+    copy: >-
+      Professional learning is structured around repeated cycles of inquiry that
+      allows teachers to apply what they learn and evaluate evidence of student
+      learning. We call this the “habits” of professional learning. Without
+      cycles of inquiry, new ideas are not incorporated into regular practice
+      and those that are adopted are not verified using evidence of student
+      learning.
+    heading: 3. HABITS
+    icon: /images/uploads/cycle_180.png

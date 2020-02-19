@@ -1,0 +1,22 @@
+<div id="newsletter">
+    <div id="content-wrapper">
+        <div class="panel-overlay content-well">
+            <div id="newsletter-cta">
+                <p class="cta-span">
+                    {{ .Site.Data.newsletter.contents.cta }}
+                </p>
+            </div>
+            <div id="newsletter-form">
+                <form action="https://teachinglab.us19.list-manage.com/subscribe/post?u=3ed24e1509e8510eee85eabb7&amp;id=6d39f07f52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <input type="email" value="" class="newsform-input required email" id="mce-EMAIL" name="EMAIL" placeholder="{{ .Site.Data.newsletter.contents.email }}" />
+                    <input type="submit" class="news-signup" value="{{ .Site.Data.newsletter.contents.button }}" name="subscribe" id="mc-embedded-subscribe" />
+                    <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3ed24e1509e8510eee85eabb7_6d39f07f52" tabindex="-1" value=""></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

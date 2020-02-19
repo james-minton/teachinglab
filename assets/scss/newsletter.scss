@@ -1,0 +1,150 @@
+#newsletter {
+    height: 280px;
+    @include for-768-up {
+        height: 200px;
+    }
+    background-color: $brightblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    #content-wrapper {
+        display: flex;
+        max-width: 1000px;
+        width: 100%; 
+        padding: 0;
+    }
+    .panel-overlay.content-well {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        @include for-768-up {
+            justify-content: center;
+            width: 100%;
+        }
+        @include for-1024-up {
+            flex-direction: row;
+            justify-content: left;
+            width: 100%;
+        }
+        p {
+            color: #fff;
+            display: block;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            font-weight: 400;
+            @include for-phone-only {
+                margin-bottom: 2.4rem;
+            }
+            @include for-768-up {
+                top: -1.9rem;
+                font-size: 1.8rem;
+            }
+            @include for-1024-up {
+                display: initial;
+                width: initial;
+                text-align: left;
+                position: initial;
+                top: 0;
+            }
+            @include for-1440-up {
+                font-size: 2.1rem;
+            }
+        }
+        #newsletter-cta {
+            @include for-768-up {
+                width: 100%;
+            } 
+            @include for-1024-up {
+                width: 33%;
+            }
+            padding-right: 2.4rem;
+            display: flex;
+            align-items: center;
+        }
+        #newsletter-form {
+            @include for-768-up {
+                width: 100%;
+            } 
+            @include for-1024-up {
+                width: 67%;
+            }
+        }
+        input.newsform-input {
+            width: 100%;
+            height: 4.8rem;
+            font-size: 1.3rem;
+            @include for-768-up {
+                width: calc(100% - 181px);
+                height: 64px;
+                font-size: 1.3rem;
+            }
+            @include for-1440-up {
+                height: 90px; 
+                font-size: 1.6rem;
+            }
+            font-weight: 700;
+            padding-left: 2.4rem;
+        }
+        input.news-signup {
+            background-color: rgba(0,0,0,0);
+            width: 154px;
+            margin-left: 0;
+            height: 4.8rem;
+            font-size: 1.5rem;
+            @include for-phone-only {
+                margin-top: 3.2rem;
+            }
+            @include for-768-up {
+                height: 62px;
+                margin-left: 2.4rem;
+            }
+            @include for-1440-up {
+                height: 88px;
+                font-size: 1.8rem;
+            }
+            border: 1px solid #fff;
+            color: #fff;
+            font-weight: 700;
+            
+            &:hover {
+                color: $brightblue;
+                background-color: #fff;
+                transition: background-color 0.3s ease;
+                transition: color 0.3s ease;
+                cursor: pointer;
+            }
+        }
+    }
+}
+input.news-signup {
+    background-color: rgba(0,0,0,0);
+    width: 154px;
+    margin-left: 0;
+    height: 4.8rem;
+    font-size: 1.5rem;
+    @include for-phone-only {
+        margin-top: 2.4rem;
+    }
+    @include for-768-up {
+        height: 62px;
+        margin-left: 2.4rem;
+    }
+    @include for-1440-up {
+        height: 88px;
+        font-size: 1.8rem;
+    }
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    
+    &:hover {
+        color: $brightblue;
+        background-color: #fff;
+        transition: background-color 0.3s ease;
+        transition: color 0.3s ease;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,107 @@
+{{ define "main" }}
+<div id="about-us-page" class="pageWrap">
+        <div class="hero-panel-sub parallax-window mobile-off"  data-position-x="left" data-position-y="top" data-parallax="scroll" data-speed="0.7" data-image-src="{{ "images/chris-and-team.jpg" | absURL }}"></div>
+        <div class="hero-panel-sub parallax-window mobile-on" data-position-x="left" data-parallax="scroll" data-speed="0.7" data-image-src="{{ "images/chris-and-team.jpg" | absURL }}"></div>
+    <div class="page-title">
+        <div class="title-box inner-wrapper">
+            <div class="title-container">
+                    <h2>About Us</h2>
+            </div>
+        </div>
+    </div>
+    <div class="section-one">
+        <div class="content-well target" id="intro">
+            {{ with .Site.Data.about.contents }}
+                <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="intro">{{ .sectionHead }}</h3>
+                </div>
+            <div class="content-inner">
+                <h2>{{ .sectionBoldIntro }}</h2>
+                <p>{{ .body | markdownify }}</p>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+<!-- LEADERSHIP ------------------------>
+    <div class="team-bios founders content-well target" id="leaders">
+        {{ with .Site.Data.about.founders }}
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="leaders">TEAM</h3>
+            </div>
+        {{ end }}
+        <div class="content-inner">
+            {{ range .Site.Data.about.founders.foundersList }}
+                {{ partial "aboutmodals" . }}
+            {{ end }}
+            {{ range .Site.Data.about.team.teamList }}
+                {{ partial "aboutmodals" . }}
+            {{ end }}
+        </div>
+    </div>
+<!-- STAFF ------------------------>
+    <!--<div class="team-bios staff content-well target" id="staff">
+        {{ with .Site.Data.about.team }}
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="staff">TEAM</h3>
+            </div>
+        {{ end }}
+        <div class="content-inner">
+            {{ range .Site.Data.about.team.teamList }}
+                {{ partial "aboutmodals" . }}
+            {{ end }}
+        </div>
+    </div>  -->
+<!-- LEADERSHIP ------------------------>
+    <div class="team-bios board content-well target" id="board">
+        {{ with .Site.Data.about.board }}
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="board">BOARD</h3>
+            </div>
+        {{ end }}
+        <div class="content-inner">
+            {{ range .Site.Data.about.board.boardList }}
+                {{ partial "aboutmodals" . }}
+            {{ end }}
+        </div>
+    </div>
+<!-- MAP ------------------------------->
+    <div id="map-panel" class="pad80">
+        <div class="content-well target" id="map">
+            {{ with .Site.Data.mapSVG.contents }}
+            <div class="rotate">
+                <h3 class="bold-blue uppercase" id="map">{{ .sectionHead }}</h3>
+            </div>
+                <div class="content-inner">
+                    <p>{{ .body | markdownify }}</p>
+                </div>
+            {{ end }}
+        </div>
+            <div class="inner-wrapper">
+                {{ partial "mapSVG" . }}
+            </div>
+    </div>
+
+<!-- SUPPORT --------------------------->
+    <div id="support-panel" class="pad80">
+        <div class="support content-well target" id="support">
+
+                <div class="rotate">
+                    <h3 class="bold-blue uppercase" id="support">SUPPORTED BY</h3>
+                </div>
+
+            <div class="content-inner">
+                <div class="img-wrap">
+                    <img src="/images/icons/Carnegie_Logo_Black.png"/>
+                </div>
+                <div class="img-wrap">
+                    <img src="/images/icons/schusterman-logo.png"/>
+                </div>
+                <div class="img-wrap">
+                    <img src="/images/icons/Overdeck_logo.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "newsletter" . }}
+{{ end }}
