@@ -1,7 +1,7 @@
 ---
 title: Chief Innovation Officer
 contenttype: jobs
-open: true
+open: false
 date: 2020-01-13T20:36:37.089Z
 ---
 ***Teaching Lab seeks a full time Chief Innovation Officer to join our Executive Team to and pursue our mission to fundamentally shift the paradigm of teacher professional learning for educational equity.***
