@@ -6,6 +6,9 @@ date: 2020-03-30T19:32:15.596Z
 postauthorname: Sarah Johnson
 postauthortitle: CEO
 postauthorimg: /uploads/sjohnson-2.jpg
+listSummary: >-
+  During this time of crisis, I sincerely hope you, your families, and your
+  loved ones are safe and well.
 ---
 **Dear Teaching Lab Community,**
 
