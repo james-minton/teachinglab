@@ -61,7 +61,7 @@ Sincerely,
 * [Preparing educators for school closings and a new learning environment | Learning Forward](https://learningforward.org/webinar/preparing-educators-for-school-closings-and-a-new-learning-environment/)
 * [Remote Learning Webinar | Success Academy](https://saremotelearning.splashthat.com/)
 
-**Resources to Supporting Students and Families**
+**Resources for Supporting Students and Families**
 
 * [How to Support Our Children's Mental Health During a Pandemic](https://www.leadingequitycenter.com/132)
 * [How Can We Support Student Learning AmidSchool Closures Due To The Coronavirus (COVID-19)? | EL Education](https://eleducation.org/news/how-can-we-support-student-learning-amid-school-closures-due-to-the-coronavirus-covid-19)
