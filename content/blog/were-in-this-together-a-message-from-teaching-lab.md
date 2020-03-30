@@ -40,7 +40,7 @@ Sincerely,
 
 [Sarah Johnson](https://twitter.com/OnlySJJ), CEO, Teaching Lab
 
-**Resources to Supporting Teachers and School Communities**
+**Resources for Supporting Teachers and School Communities**
 
 * [New Database: Dozens of School Districts Share Their Early Plans for Teaching, Learning and Supports During the Pandemic. Here’s What the Top 12 Systems Are Doing | The 74](https://www.the74million.org/new-database-dozens-of-school-districts-share-their-early-plans-for-teaching-learning-and-supports-during-the-pandemic-heres-what-the-top-12-systems-are-doing/)
 * [Approaches to Instruction During School Closure | Charter School Growth Fund](https://stories.chartergrowthfund.org/approaches-to-instruction-during-school-closure-70e56b064d13)
