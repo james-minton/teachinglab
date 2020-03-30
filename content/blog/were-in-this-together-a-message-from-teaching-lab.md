@@ -40,17 +40,7 @@ Sincerely,
 
 [Sarah Johnson](https://twitter.com/OnlySJJ), CEO, Teaching Lab
 
-
-
-
-
-
-
-**Resources to Support Schools and Families**
-
-
-
-**Supporting Teachers and School Communities**
+**Resources to Supporting Teachers and School Communities**
 
 * [New Database: Dozens of School Districts Share Their Early Plans for Teaching, Learning and Supports During the Pandemic. Here’s What the Top 12 Systems Are Doing | The 74](https://www.the74million.org/new-database-dozens-of-school-districts-share-their-early-plans-for-teaching-learning-and-supports-during-the-pandemic-heres-what-the-top-12-systems-are-doing/)
 * [Approaches to Instruction During School Closure | Charter School Growth Fund](https://stories.chartergrowthfund.org/approaches-to-instruction-during-school-closure-70e56b064d13)
@@ -71,11 +61,7 @@ Sincerely,
 * [Preparing educators for school closings and a new learning environment | Learning Forward](https://learningforward.org/webinar/preparing-educators-for-school-closings-and-a-new-learning-environment/)
 * [Remote Learning Webinar | Success Academy](https://saremotelearning.splashthat.com/)
 
-
-
-
-
-**Supporting Students and Families**
+**Resources to Supporting Students and Families**
 
 * [How to Support Our Children's Mental Health During a Pandemic](https://www.leadingequitycenter.com/132)
 * [How Can We Support Student Learning AmidSchool Closures Due To The Coronavirus (COVID-19)? | EL Education](https://eleducation.org/news/how-can-we-support-student-learning-amid-school-closures-due-to-the-coronavirus-covid-19)
