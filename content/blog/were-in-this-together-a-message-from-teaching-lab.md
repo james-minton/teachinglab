@@ -69,8 +69,8 @@ Sincerely,
 * [Resources for learning from home during COVID-19 school closures | The Thomas B. Fordham Institute](https://fordhaminstitute.org/national/commentary/resources-learning-home-during-covid-19-school-closures)
 
   **Scheduling & Structure Resources:**
-* [Guidance for Establishing a schedule | Nebraska DOE](https://drive.google.com/file/d/1FEkwoba3Q2NUGllaZs176VktR2IkTbHR/view?usp=sharing)
-* [Read at Home Plan for Student Success](https://cdn.education.ne.gov/wp-content/uploads/2019/09/Read-At-Home-Plan-3.pdf)
+* [Guidance for Establishing a schedule | Nebraska DOE](https://www.education.ne.gov/publichealth/resources/)
+* [](https://www.education.ne.gov/publichealth/resources/)[Read at Home Plan for Student Success](https://cdn.education.ne.gov/wp-content/uploads/2019/09/Read-At-Home-Plan-3.pdf)
 
   **Resources for Student Learning:**
 * [Need Help Sorting Through the Avalanche of Online Resources for Kids Who Are Now Learning at Home? 11 Sites for Parents to Look At | The 74](https://www.the74million.org/article/need-help-sorting-through-the-avalanche-of-online-resources-for-kids-who-are-now-learning-at-home-11-sites-for-parents-to-look-at/)
