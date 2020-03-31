@@ -3,58 +3,56 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <!--<base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">-->
-    {{ $.Scratch.Set "description" "We're a nonprofit organization that works to close the educational opportunity gap through teacher-led professional learning." }}
-    {{ if .Params.socialDescription }}
-			{{ $.Scratch.Set "socialDescription" .Params.socialDescription }}
-    {{ end }}
     {{ if .Params.image }}
       {{ $.Scratch.Set "socialImage" .Params.image }}
     {{ end }}
     {{ if .Params.socialDefaultImg }}
       {{ $.Scratch.Set "socialDefaultImage" .Params.socialDefaultImg }}
     {{ end }}
-
-<!-- General metadata -->
-<meta name="description" content="{{ $.Scratch.Get "description" }}" />
-<meta name='author' content='Teaching Lab' />
-<!-- Facebook metadata -->
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="{{ .Title }}" />
-{{ if .Params.socialDescription }}
-  <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-  {{ else }}
-  <meta property="og:description" content="{{ $.Scratch.Get "description" }}" />
-{{ end }}
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:site_name" content="Teaching Lab" />
-{{ if .Params.image }}
-  <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
-  <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialImage" }}" />
-  {{ else if .Params.socialDefaultImg }}
-  <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImg" }}" />
-  <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialDefaultImage" }}" />
-  {{ else }}
-  <meta property="og:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
-  <meta property="og:image:secure_url" content="https://teachinglab.org/images/social/socialcard1.jpg" />
-{{ end }}
-  <!-- Twitter metadata -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@TeachingLabHQ" />
-<meta name="twitter:title" content="{{ .Title }}" />
-{{ if .Params.socialDescription }}
-  <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-  {{ else }}
-  <meta name="twitter:description" content="{{ $.Scratch.Get "description" }}" />
-{{ end }}
-{{ if .Params.image }}
-  <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
-  {{ else if .Params.socialDefaultImg }}
-  <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImage" }}" />
-  {{ else }}
-  <meta name="twitter:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
-{{ end }}
+    <!-- General metadata -->
+    {{ if .Site.Data.home.social.description }}
+      <meta name="description" content="{{ .Site.Data.home.social.description  }}" />
+      {{ else }}
+      <meta name="description" content="{{ .Site.Params.socialDescription }}" />
+    {{ end }}
+    <meta name='author' content='Teaching Lab' />
+    <!-- Facebook metadata -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ .Title }}" />
+    {{ if .Site.Data.home.social.description }}
+      <meta property="og:description" content="{{ .Site.Data.home.social.description  }}" />
+      {{ else }}
+      <meta property="og:description" content="{{ .Site.Params.socialDescription }}" />
+    {{ end }}
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:site_name" content="Teaching Lab" />
+    {{ if .Params.image }}
+      <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
+      <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialImage" }}" />
+      {{ else if .Params.socialDefaultImg }}
+      <meta property="og:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImg" }}" />
+      <meta property="og:image:secure_url" content="https://teachinglab.org/{{ $.Scratch.Get "socialDefaultImage" }}" />
+      {{ else }}
+      <meta property="og:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+      <meta property="og:image:secure_url" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+    {{ end }}
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@TeachingLabHQ" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    {{ if .Site.Data.home.social.description }}
+      <meta name="twitter:description" content="{{ .Site.Data.home.social.description }}" />
+      {{ else }}
+      <meta name="twitter:description" content="{{ .Site.Params.socialDescription }}" />
+    {{ end }}
+    {{ if .Params.image }}
+      <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialImage" }}" />
+      {{ else if .Params.socialDefaultImg }}
+      <meta name="twitter:image" content="https://teachinglab.org{{ $.Scratch.Get "socialDefaultImage" }}" />
+      {{ else }}
+      <meta name="twitter:image" content="https://teachinglab.org/images/social/socialcard1.jpg" />
+    {{ end }}
 
     <title>{{ $.Site.Title }}</title>
     <link rel="icon" type="image/png" href="/images/icons/favicon.png">

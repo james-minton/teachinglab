@@ -4,7 +4,7 @@ backend:
 media_folder: "/content/uploads" # Media files will be stored in the repo under ./content/uploads. Note that this used to be ./site/static/images/uploads and so we have lots of legacy uploads sitting in that location in the repo.
 public_folder: "/uploads" # Path appended to uploaded media. For older uploads this will be /images/uploads and that will be stripped for image processing.
 collections:
-  - label: "Default Social Media Image"
+  - label: "Default Social Media Info"
     name: socialDefaultImg
     delete: false
     files:
@@ -14,6 +14,11 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Default image for social media posts, name: socialDefaultImg, widget: image, hint: "This image will accompany social media posts by default. It will be overridden in blog posts and case studies by 'featured images' for these content types. Optimal size: 1200x630 pixels"}
+      - label: "Site Description"
+        name: "siteDescription"
+        file: "data/home/social.yml"
+        fields:
+          - {label: Site Description, name: description, widget: string}
   - label: "Homepage"
     name: "homepage"
     files:

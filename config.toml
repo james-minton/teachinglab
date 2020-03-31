@@ -19,6 +19,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   localFunctionsPath = "http://localhost:9000"
   productionFunctionsPath = "https://www.teachinglab.org/.netlify/functions"
   functionsPath = ".netlify/functions"
+  # .Site.Params.socialDescription is a fallback for .Site.Data.home.social.description
+  socialDescription = "Teaching Lab's mission is to fundamentally shift the paradigm of teacher professional learning for educational equity."
+
 
 [[menu.main]]
 name = "Home"
