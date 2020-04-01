@@ -29,6 +29,13 @@ collections:
         fields:
           - {label: Title, name: title, widget: hidden}
           - {label: Hero Image Overlay Text, name: tagline, widget: string}
+      - label: "Notification Panel"
+        name: "notificationPanel"
+        file: "data/notification"
+        fields:
+          - { label: "Is the notification enabled?", name: "enabled", widget: "boolean", default: false }
+          - { label: "Text of notification link:", name: "text", widget: "string" }
+          - { label: "Relative path of notification link", name: "text", widget: "string", hint: "/path/to/page/" }
       - label: "Panel 2 Intro"
         name: "panelTwo"
         file: "data/home/paneltwo.yml"
