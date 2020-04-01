@@ -76,8 +76,9 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,700" rel="stylesheet">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   </head>
-  <body>
+  <body class="hide-notification" {{ if .Site.Data.notification.enabled }}data-notification-link-path="{{.Site.Data.notification.relurl}}" {{ end }}>
 
     {{ block "header" . }}{{ partial "header" . }}{{end}}
 

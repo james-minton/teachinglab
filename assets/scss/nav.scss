@@ -43,61 +43,132 @@ header#main-header {
     }
 }    
 nav#topNav {
+  width: 100%;
+  z-index: 98;
+  display: none;
+  align-items: center;
+  background: #F8FDFF;
+  position: fixed;
+  top: 88px;
+  @include for-1024-up {
+      display: inline-flex;
+      top: 110px;
+  }
+  height: 60px;
+  transition: top 0.3s ease-in-out;
+  padding: 0 48px;
+      &.nav-up {
+          top: 50px;
+      }
+      ul {
+          flex-direction: row;
+          display: inline-flex;
+          justify-content: space-between;
+          padding-inline-start: 0;
+          width: 100%;
+          max-width: 1200px;
+          margin: auto;
+          li {
+              list-style: none;
+              text-transform: uppercase;
+              @include for-1024-up {
+                  font-size: 1.3rem;
+                  letter-spacing: 0.054rem;
+              }
+              @include for-1440-up {
+                  font-size: 1.6rem;
+                  letter-spacing: 0.066rem;
+              }
+              font-weight: 600;
+              a {
+                  text-decoration: none;
+                  color: $deepblack;
+                  white-space: nowrap;
+                  &.active {
+                      color: #FF7C4C;
+                      border-bottom: 3px solid #ff7c4c;
+                      padding-bottom: 3px;
+                  }
+                  &:hover {
+                      color: #FF7C4C;
+                  }
+              }
+          }
+      }
+  }
+.show-notification {
+  // header#main-header {
+  //   top: 60px;
+  // }
+  // nav#topNav {
+  //   // top: 170px;
+  //   height: 120px;
+  // }
+  .notification.top {
+    background-color: #FF7C4C;
     width: 100%;
-    z-index: 98;
-    display: none;
+    text-align: center;
+    color: #fff;
+    // height: 60px;
+    padding: 18px;
+    // position: fixed;
+    // top: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    background: #F8FDFF;
-    position: fixed;
-    top: 88px;
-    @include for-1024-up {
-        display: inline-flex;
-        top: 110px;
+    z-index: 3000;
+    a {
+      flex-grow: 1;
+      padding-right: 20px;
+      padding-left: 20px;
+      @include for-768-up {
+        padding-right: 100px;
+        padding-left: 100px;
+      }
     }
-    height: 60px;
-    transition: top 0.3s ease-in-out;
-    padding: 0 48px;
-        &.nav-up {
-            top: 50px;
-        }
-        ul {
-            flex-direction: row;
-            display: inline-flex;
-            justify-content: space-between;
-            padding-inline-start: 0;
-            width: 100%;
-            max-width: 1200px;
-            margin: auto;
-            li {
-                list-style: none;
-                text-transform: uppercase;
-                @include for-1024-up {
-                    font-size: 1.3rem;
-                    letter-spacing: 0.054rem;
-                }
-                @include for-1440-up {
-                    font-size: 1.6rem;
-                    letter-spacing: 0.066rem;
-                }
-                font-weight: 600;
-                a {
-                    text-decoration: none;
-                    color: $deepblack;
-                    white-space: nowrap;
-                    &.active {
-                        color: #FF7C4C;
-                        border-bottom: 3px solid #ff7c4c;
-                        padding-bottom: 3px;
-                    }
-                    &:hover {
-                        color: #FF7C4C;
-                    }
-                }
-            }
-        }
+    a,
+    button {
+      color: #fff;
+      font-size: 12px;
+      @include for-768-up {
+          font-size: 16px;
+      }
+      @include for-1024-up {
+          font-size: 18px;
+      }
+      font-weight: 600;
+      &:hover {
+        color: #756161; // #33444B;
+      }
     }
+    button {
+      color: #fff;
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      @include for-768-up {
+        font-size: 36px;
+        width: 36px;
+        height: 36px;
+      }
+      text-shadow: none;
+      opacity: 1 !important;
+      margin-right: 0;
+      @include for-768-up {
+        margin-right: 12px;
+      }
+      @include for-1024-up {
+        margin-right: 12px;
+      }
+      &:hover {
+        color: #756161 !important; // #33444B !important;
+      }
+    }
+  }
+}
 
-// Container layout
-// ---
-
-  
+.hide-notification {
+  .notification.top {
+    display: none;
+  }
+}

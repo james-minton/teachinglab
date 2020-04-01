@@ -1,6 +1,14 @@
 {{ define "main" }}
 
 <div id="homepage" class="pageWrap">
+  {{/* If notification enabled, display it. */}}
+  {{ if .Site.Data.notification.enabled }}
+    <div class="notification top">
+      <a id="notification_link" href="{{ .Site.Data.notification.relurl | relURL }}">
+        {{ .Site.Data.notification.text }}
+      </a>
+    </div>
+  {{ end }}
   <div id="panel1" class="parallax-window" data-parallax="scroll" data-speed="0.9" data-image-src="{{ "images/smiling-teacher-br.jpg" | absURL }}">
     <div class="panel-gradient" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0">
       <div class="content-wrapper">
@@ -12,7 +20,15 @@
         </div>
     </div>
   </div>
-
+  {{/* If notification enabled, display it. */}}
+  {{ if .Site.Data.notification.enabled }}
+    <div class="notification top">
+      <a id="notification_link" href="{{ .Site.Data.notification.relurl | relURL }}">
+        {{ .Site.Data.notification.text }}
+      </a>
+      <button id="close_notification" class="close">&times;</button>
+    </div>
+  {{ end }}
   <div id="panel2" class="pad80">
       <div class="content-well">
         <div class="panel-overlay content-inner">

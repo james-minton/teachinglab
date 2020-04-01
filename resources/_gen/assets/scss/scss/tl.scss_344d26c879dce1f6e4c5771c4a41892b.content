@@ -1039,6 +1039,95 @@ nav#topNav ul li a:hover {
   color: #FF7C4C;
 }
 
+.show-notification .notification.top {
+  background-color: #FF7C4C;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.show-notification .notification.top a {
+  flex-grow: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .show-notification .notification.top a {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+.show-notification .notification.top a,
+.show-notification .notification.top button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .show-notification .notification.top a,
+  .show-notification .notification.top button {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .show-notification .notification.top a,
+  .show-notification .notification.top button {
+    font-size: 18px;
+  }
+}
+
+.show-notification .notification.top a:hover,
+.show-notification .notification.top button:hover {
+  color: #756161;
+}
+
+.show-notification .notification.top button {
+  color: #fff;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-shadow: none;
+  opacity: 1 !important;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .show-notification .notification.top button {
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  .show-notification .notification.top button {
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .show-notification .notification.top button {
+    margin-right: 12px;
+  }
+}
+
+.show-notification .notification.top button:hover {
+  color: #756161 !important;
+}
+
+.hide-notification .notification.top {
+  display: none;
+}
+
 #panel1 {
   /* background-image: url('/images/blackboard-writing.jpg');
     background-image: url('/images/overlay30.png'), url('/images/coffeeshop.jpg');

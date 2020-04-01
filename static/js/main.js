@@ -37,8 +37,9 @@ function hasScrolled() {
     }
     lastScrollTop = st;
 }
-// Multi-slide carousel
 
+
+// Multi-slide carousel
 $('#recipeCarousel').carousel({
   interval: 2000
 })
@@ -128,6 +129,39 @@ function checkSize(){
 }
 
 $(document).ready(function() {
+  // Check to see if user is visiting the notification link path.
+  // If the two match, set the cookie so we stop showing the notification.
+  var pathname = window.location.pathname;
+  var notificationLinkPath = $('body').attr('data-notification-link-path');
+  if (pathname === notificationLinkPath) {
+    // console.log('You\'re on the notification link path.');
+    Cookies.set('covid_notification', false, { expires: 7 });
+  }
+  // Manage notification display, if notification is in the page markup.
+  if ( $('#notification_link').length >= 1 ) {
+    var showCovidNotification = Cookies.get('covid_notification') !== 'false';
+    // console.log('showCovidNotification', showCovidNotification);
+    if (!showCovidNotification) {
+      // console.log('not showing notification', showCovidNotification);
+      $('body').removeClass('show-notification').addClass('hide-notification');
+    } else {
+      // If null or true
+      // console.log('showing notification', showCovidNotification);
+      $('body').removeClass('hide-notification').addClass('show-notification');
+      Cookies.set('covid_notification', true);
+      function hideNotification() {
+        $('body').removeClass('show-notification').addClass('hide-notification');
+        $('#panel1').parallax({imageSrc: $('#panel1').attr('data-image-src')});
+      }
+      $('#close_notification').on('click', function() {
+        // console.log('click close');
+        $('#notification_link').unbind('click');
+        hideNotification();
+        Cookies.set('covid_notification', false, { expires: 7 });
+      })
+    }
+  }
+
     // run test on initial page load
     checkSize();
 
