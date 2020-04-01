@@ -35,7 +35,7 @@ collections:
         fields:
           - { label: "Is the notification enabled?", name: "enabled", widget: "boolean", default: false }
           - { label: "Text of notification link:", name: "text", widget: "string", hint: "Read our new blog post about topic!" }
-          - { label: "Relative path of notification link", name: "relurl", widget: "string", hint: "/path/to/page/" }
+          - { label: "Relative path of notification link:", name: "relurl", widget: "string", hint: "/path/to/page/" }
       - label: "Panel 2 Intro"
         name: "panelTwo"
         file: "data/home/paneltwo.yml"
