@@ -276,8 +276,7 @@ collections:
         file: "data/mapSVG/states.yml"
         delete: false
         fields:
-          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint:
-          Toggle these switches to turn states in the US map on or off}
+          - {label: "AL", name: "AL", widget: "boolean", required: false, default: false, hint: Toggle these switches to turn states in the US map on or off}
           - {label: "AK", name: "AK", widget: "boolean", required: false, default: false}
           - {label: "AZ", name: "AZ", widget: "boolean", required: false, default: false}
           - {label: "AR", name: "AR", widget: "boolean", required: false, default: false}
