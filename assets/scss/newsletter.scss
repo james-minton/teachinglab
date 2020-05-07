@@ -63,6 +63,11 @@
             padding-right: 2.4rem;
             display: flex;
             align-items: center;
+            .cta-span {
+              @include for-768-up {
+                line-height: 6rem;
+              }
+            }
         }
         #newsletter-form {
             @include for-768-up {
