@@ -12,6 +12,8 @@ googleAnalytics = "UA-136113056-1"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 # SectionPagesMenu = "main"
+[markup.goldmark.renderer]
+unsafe = true
 
 [Params]
 
