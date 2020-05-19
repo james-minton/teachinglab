@@ -1,10 +1,11 @@
 ---
 title: Amidst Uncertainty, Start With What We Know Matters
-display: yes
+display: true
 contenttype: blog
 date: 2020-05-19T16:35:06.168Z
 postauthorname: Sarah Johnson
 postauthortitle: CEO of Teaching Lab
+postauthorimg: /uploads/sjohnson.jpg
 image: /uploads/screen-shot-2020-05-19-at-12.43.14-pm.png
 listSummary: Announcing Teaching Lab’s Impact Report
 ---
