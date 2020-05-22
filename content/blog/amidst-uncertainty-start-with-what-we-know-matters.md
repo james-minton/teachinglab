@@ -1,6 +1,6 @@
 ---
 title: Amidst Uncertainty, Start With What We Know Matters
-display: true
+display: 'yes'
 contenttype: blog
 date: 2020-05-19T16:35:06.168Z
 postauthorname: Sarah Johnson
