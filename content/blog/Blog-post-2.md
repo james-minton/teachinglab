@@ -2,7 +2,7 @@
 title: >-
   Innovation Road Trip: In Tiny, Impoverished Louisiana Town, School Is ‘a
   Home-Like Environment You Want to Be a Part Of’
-display: 'yes'
+# display: 'yes'
 contenttype: blog
 date: 2018-10-03T02:00:00.000Z
 postauthorname: Silas Kulkarni

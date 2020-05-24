@@ -2,7 +2,7 @@
 title: >-
   Innovation Road Trip: Traveling From Coast to Coast to Explore Knowledge-Rich
   American Schools
-display: 'yes'
+# display: 'yes'
 contenttype: blog
 date: 2018-10-01T02:00:58.021Z
 postauthorname: Silas Kulkarni

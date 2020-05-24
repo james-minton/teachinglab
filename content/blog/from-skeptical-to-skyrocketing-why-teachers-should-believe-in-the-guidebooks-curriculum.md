@@ -2,7 +2,7 @@
 title: >-
   From Skeptical to Skyrocketing: Why Teachers Should Believe in the Guidebooks
   Curriculum
-display: 'yes'
+# display: 'yes'
 contenttype: blog
 date: 2019-10-07T04:00:00.000Z
 postauthorname: Jade Porche

@@ -14,7 +14,10 @@
 <div id="blogList">
 
         <div class="content-well">
-            {{ range (where .Paginator.Pages "Params.contenttype" ("blog")) }}
+            {{/* range (where .Paginator.Pages "Params.contenttype" ("blog") 5) */}}
+            {{ $paginator := .Paginate (where .Pages "Params.contenttype" "blog") 5 }}
+            {{/* range .Paginate (where .Pages "Params.contenttype" "blog") 5 */}}
+            {{ range $paginator.Pages }}
             <ul class="blogfeed">
                 <li class="bloglist-image">
                     <a href="{{ .RelPermalink }}">
@@ -43,7 +46,11 @@
             </ul>
             {{ end}}
         </div>
-
+        <div class="row paginator">
+          <div class="col">
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </div>
 </div>
 {{ partial "newsletter" . }}
 {{ end }}

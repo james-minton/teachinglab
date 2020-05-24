@@ -112,3 +112,35 @@ ul.blogfeed {
        /*  background-position-y: 64px !important;*/
     }
 }
+
+// Styles paginator feature for blog list page.
+.row.paginator {
+  .col {
+    display: flex;
+    justify-content: center;
+    ul.pagination {
+      align-self: center;
+      .page-item {
+        .page-link {
+          color: $brightblue;
+          padding: 1.5rem 2rem;
+          &:hover {
+            background-color: #F8FDFF;
+          }
+        }
+        &.active {
+          .page-link {
+            color: $white;
+            background-color: $brightblue;
+            border-color: $brightblue;
+          }
+        }
+        &.disabled {
+          .page-link {
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}
