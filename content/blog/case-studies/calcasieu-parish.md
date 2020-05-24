@@ -4,7 +4,7 @@ date: 2018-10-22T18:10:46.905Z
 contenttype: cases
 image: /images/uploads/blog-standard.jpg
 description: Lorem Ipsum
-display: yes
+display: false
 listSummary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam risus
   sapien, vulputate scelerisque leo dictum suscipit.

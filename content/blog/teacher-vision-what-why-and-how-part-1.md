@@ -1,6 +1,6 @@
 ---
-title: 'Teacher Vision: What, Why, and How? '
-# display: 'yes'
+title: 'Teacher Vision: What, Why, and How?'
+display: true
 contenttype: blog
 date: 2019-03-01T15:00:00.000Z
 postauthorname: Spencer Russell

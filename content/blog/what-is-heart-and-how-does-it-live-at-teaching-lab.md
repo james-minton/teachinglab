@@ -1,6 +1,6 @@
 ---
 title: 'What is Heart and How Does it Live at Teaching Lab? '
-# display: 'yes'
+display: true
 contenttype: blog
 date: 2019-01-14T13:45:00.097Z
 postauthorname: Addie Kelley

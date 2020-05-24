@@ -1,8 +1,8 @@
 ---
 title: >-
-  We're in this Together; A Message from Teaching Lab with Resources for
+  We're in this Together: A Message from Teaching Lab with Resources for
   Teachers & Families
-# display: 'yes'
+display: true
 contenttype: blog
 date: 2020-03-30T19:32:15.596Z
 postauthorname: Sarah Johnson

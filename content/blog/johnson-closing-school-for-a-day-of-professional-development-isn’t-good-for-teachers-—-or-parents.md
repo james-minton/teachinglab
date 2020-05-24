@@ -2,7 +2,7 @@
 title: >-
   Johnson: Closing School for a Day of Professional Development Isn’t Good for
   Teachers — or Parents
-# display: 'yes'
+display: true
 contenttype: blog
 date: 2018-12-20T17:59:47.133Z
 postauthorname: Sarah Johnson

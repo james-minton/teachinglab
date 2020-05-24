@@ -1,7 +1,7 @@
 ---
 title: 'Innovation Road Trip: From the Wreckage of Detroit, a Curriculum Rises to
   Teach Science, Social Studies — and Integrity'
-display: 'yes'
+display: true
 contenttype: blog
 date: 2018-10-05T02:00:00.000Z
 postauthorname: Silas Kulkarni

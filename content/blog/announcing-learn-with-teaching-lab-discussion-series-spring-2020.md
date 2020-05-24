@@ -1,6 +1,6 @@
 ---
 title: "Announcing: Learn With Teaching Lab Discussion Series [Spring 2020]"
-# display: yes
+display: true
 contenttype: blog
 date: 2020-05-01T12:56:14.109Z
 postauthorname: Sarah Johnson
