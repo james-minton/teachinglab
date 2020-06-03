@@ -11,14 +11,15 @@ listSummary: Teaching Lab seeks a  full-time ELA Content Manager to join our
 *Teaching Lab seeks a full-time ELA Content Manager to join our Content Development team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing high quality instructional materials (HQIM) with a focus on EL Education’s K-8 ELA Curriculum.*
 
 \
-**Type of Vacancy**: Salaried full-time, starting ASAP Location: Remote/home office anywhere in the United States
-**Reports to**: Director of Content-ELA 
-**Travel Required**: None; likely 20-40% starting July 2021
+**Type of Vacancy**: Salaried full-time, starting ASAP Location: Remote/home office anywhere in the United States 
+
+**Reports to**: Director of Content-ELA  
+
+**Travel Required**: None; likely 20-40% starting July 2021 
+
 **Compensation**: The starting salary for this position is $80,000.  Teaching Lab is committed to equity for all of our team members and does not negotiate salaries.
 
 *Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of all backgrounds to apply for this role.*
-
-
 
 **Who We Are**
 
@@ -65,23 +66,17 @@ Eligible candidates must have strong content area expertise; experience in desig
 * Maintain, implement, and iterate upon content development principles, tools, and processes
 * Hold self and others accountable to high standards and agreed upon guidelines and processes for content finalization and maintaining Teaching Lab’s brand identity
 
-
-
 **Project Management - To implement scopes of work,** the Content Manager will:
 
 * Support high-level project management across Teaching Lab’s portfolio of ELA content development projects
 * Collaborate with other members of the Content Development Team to innovate staffing and project management systems and structures to increase impact, efficiency, and sustainable knowledge management
 * Demonstrate strong organizational skills, time management, and workflow management while attending to the diverse needs of partners
 
-
-
 **Learning and Research - To keep abreast of current research and best field practices,** the Content Manager will:
 
 * Critically consume current field research in ELA content and integrate that learning into Teaching Lab’s evolving program and professional learning design
 * Deepen and expand knowledge in ELA content and curriculum by attending webinars, engaging with curriculum authors, and attending conferences and symposiums as appropriate
 * Reflect on analyses of landscape and partner needs assessment data
-
-
 
 **Collaboration - To foster a culture of collaboration,** the Content Manager will:
 
@@ -90,15 +85,11 @@ Eligible candidates must have strong content area expertise; experience in desig
 * Participate in organization wide working groups, committees, and meetings to further personal and organization growth and learning, specifically engaging in the organization wide arc of learning with respect to becoming an anti-racist organization.
 * Liaise with external stakeholders, including other professional learning organizations and district and school leaders to ensure continued success of Teaching Lab’s work with school systems.
 
-
-
 **Facilitation - To effectively lead professional learning sessions,** the Content Manager will:
 
 * Plan and lead professional learning for district leaders, school leaders, teacher leaders, and teachers aligned to the Teaching Lab’s model of professional learning
 * Collect, reflect on, and apply data from participant feedback surveys to improve facilitation, relationships, and knowledge building at each site
 * Build skill in professional learning best practices and facilitation techniques, particularly in a virtual environment, and engage in preparation practices to internalize and effectively lead Teaching Lab’s high-quality curriculum-aligned professional learning sequences
-
-
 
 **Areas for Growth**
 
@@ -106,8 +97,6 @@ Teaching Lab is committed to practicing what we preach, which means that develop
 
 * Unparalleled networking and learning opportunities with Teaching Lab staff, board members, and experts in the field, including Student Achievement Partners, UnboundEd, Departments of Education, and others.
 * A peer community of other Content Managers focused on collaborating and supporting each other in their core areas of responsibility.
-
-
 
 **Qualifications**
 
@@ -141,8 +130,6 @@ We seek team members who bring relevant experience, knowledge, and skills, as we
 * Belief in the power of relationships to drive collaboration
 * Relentless focus on results for traditionally underserved students, including a high bar for quality work
 
-
-
 **Working at Teaching Lab**
 
 This position is eligible for **work** in the United States. This position will require **work related travel** (likely starting in July 2021) based on organizational needs and capacity and time of year.
@@ -151,15 +138,11 @@ This position is eligible for **work** in the United States. This position will 
 
 We are committed to building a **sustainable organization**. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
-
-
 **To Learn More About Teaching Lab**
 
 * Explore our website at [www.teachinglab.org](http://www.teachinglab.org)
 * Read more about our model and the services we offer in our [SY19-20 Professional Learning Services guide](https://www.dropbox.com/s/tbolveueiy4kbbg/SY19-20%20Teaching%20Lab%20Professional%20Learning%20Services.pdf?dl=0)
 * Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
-
-
 
 **To Apply**
 
