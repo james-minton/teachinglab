@@ -5,6 +5,7 @@ contenttype: blog
 date: 2020-06-08T20:15:21.002Z
 postauthorname: The Teaching Lab Team
 postauthortitle: " "
+postauthorimg: /uploads/teaching-lab-logo-square.png
 ---
 *On behalf of the Teaching Lab Team*
 
