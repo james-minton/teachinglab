@@ -3,7 +3,7 @@ title: Black Lives Matter. Dismantle White Supremacy.
 display: true
 contenttype: blog
 date: 2020-06-08T20:15:21.002Z
-postauthorname: Sarah Johnson & The Teaching Lab Team
+postauthorname: The Teaching Lab Team
 postauthortitle: " "
 ---
 *On behalf of the Teaching Lab Team*
