@@ -8,8 +8,6 @@ postauthortitle: " "
 ---
 *On behalf of the Teaching Lab Team*
 
-
-
 **Dear Friends, Partners, and Supporters,**
 
 We are experiencing the grief and anger brought on by the recent murders of Ahmaud Arbery, Breonna Taylor, George Floyd, Tony McDade, David McAtee, and so many before them. We are painfully aware that we will never know all the names, all the lives that have been violently taken in communities across our country and the world. We are also still dealing with a devastating pandemic that disproportionately impacts black, brown, and indigenous people, and extended school closures that are exposing the already-existing systemic racism in our healthcare and educational systems.
@@ -23,18 +21,12 @@ Black Lives Matter should not be a radical statement but it is when day-in and d
 At Teaching Lab, we are not immune to white supremacy culture. And we recognize that although our values ask all team members to enact antidotes to white supremacy culture, we have not done enough. And so, as a team, we have made these commitments:
 
 1. **Start at home: Confront white supremacy culture within our own organization.** We are taking data on the experiences of people of color seriously. We’ve seen that people of color on our team sometimes experience our culture differently. We’re in the midst of identifying concrete ways to hold each other and our leadership accountable to improve our culture for people of color. In our continued work towards building an internal culture that centers race equity, we have used the [AWAKE to WOKE to WORK: Building a Race Equity Culture Framework](https://www.equityinthecenter.org/wp-content/uploads/2019/04/Equity-in-Center-Awake-Woke-Work-2019-final-1.pdf) to guide our work.
-2. **Listen to people of color, but don’tput all the work on them.** We continue to engage in affinity group conversations so that white people do their own I learning without harming people of color and so people of color can have a sacred space for shared discussion, support, and healing. This is a [concrete tool](https://www.racialequitytools.org/resourcefiles/olson.pdf?fbclid=IwAR2jZjt7Ut1_tv4XY0rFyZMWdTORuq2cJwQmLxWcC9wiWUz2dpdUuLZmh_A) we are using to support white people in avoiding detours that prevent anti-racism.
-3. **Deepen our programmatic commitment to racial justice.** We recognize that preparing students to be college- and career-ready, means that we must prepare educators and systems to fight institutional racism and confront injustice. We are holding conversations with our programmatic teams to identify ways to enhance how racial equity is centered in our core program, both in terms of our professional learning content and our facilitation with partners.
-
-
+2. **Listen to people of color, but don’tput all the work on them.** We continue to engage in affinity group conversations so that white people do their own learning without harming people of color and so people of color can have a sacred space for shared discussion, support, and healing. This is a [concrete tool](https://www.racialequitytools.org/resourcefiles/olson.pdf?fbclid=IwAR2jZjt7Ut1_tv4XY0rFyZMWdTORuq2cJwQmLxWcC9wiWUz2dpdUuLZmh_A) we are using to support white people in avoiding detours that prevent anti-racism.
+3. **Deepen our programmatic commitment to racial justice.** We recognize that preparing students to be college- and career-ready means that we must prepare educators and systems to fight institutional racism and confront injustice. We are holding conversations with our programmatic teams to identify ways to enhance how racial equity is centered in our core program, both in terms of our professional learning content and our facilitation with partners.
 
 If you don’t know what to do, find a list of organizations [here](https://www.teenvogue.com/story/george-floyd-protests-how-to-help-bail-funds) to support.
 
-
-
 Now, let’s get to work.
-
-
 
 In solidarity,
 
