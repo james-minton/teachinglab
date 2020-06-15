@@ -5,7 +5,7 @@ contenttype: blog
 date: 2020-06-15T21:13:59.027Z
 postauthorname: Sarah Johnson
 postauthortitle: CEO at Teaching Lab
-postauthorimg: /uploads/sjohnson.jpg
+postauthorimg: /uploads/sjohnson-2.jpg
 ---
 Last week, as part of our **Learn with Teaching Lab Discussion Series**, we hosted a conversation between Sarah Johnson (CEO of Teaching Lab) and Dr. Jawan Brown-Alexander (Chief of Schools at New Schools for New Orleans) about **how we can support the Whole Educator on behalf of the Whole Child, as we equitably reopen schools.** 
 
@@ -23,20 +23,20 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 
 ***Framework to Equitably Reopen Schools***
 
-**Center equitable instruction while planning for multiple reopening-school scenarios.**
+**I. Center equitable instruction while planning for multiple reopening-school scenarios.**
 
 * Attend UnboundEd’s Virtual Standards Institute. The UnboundEd Virtual Summit is a two-day interactive experience with the goal of preparing educators to learn and lead this fall. June 22/23 and June 24/25, **[join the waiting list](https://bit.ly/3dYPjbO)**.
 * [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://docs.google.com/document/d/1M0snDVnRxgWYFpO2XOnDs2FNaZFlTsOc-17zsH0oMzo/edit)
 * For state and system leaders: [The Return: How Should Education Leaders Prepare for Reentry and Beyond? | Chiefs for Change](https://chiefsforchange.org/wp-content/uploads/2020/05/CFC-TheReturn_5-13-20.pdf)
 
-**Listen to students, families/caregivers, and educators and develop plans that are informed by and responsive to them.**
+**II. Listen to students, families/caregivers, and educators and develop plans that are informed by and responsive to them.**
 
 * [Parent communication resources | Schusterman](https://www.schusterman.org/national-education/covid-19-response-toolkit-for-school-communicators). A suite of learnings, recommendations, and templates to help school systems effectively reach students and their families.
 
   * Research to support what Parents want: [Learning Heroes Survey Data](https://bealearninghero.org/research/).
 * Tools for Parents from Learning Heroes: [Readiness Roadmap](https://bealearninghero.org/readiness-roadmap/) and [Readiness Check](https://bealearninghero.org/readiness-check/)
 
-**Assume all students can and will learn when educators use high-quality instructional materials, take an asset-based approach, and engage in targeted support for diverse learners (including English learners, students with disabilities, and students with unfinished learning).**
+**III. Assume all students can and will learn when educators use high-quality instructional materials, take an asset-based approach, and engage in targeted support for diverse learners (including English learners, students with disabilities, and students with unfinished learning).**
 
 * [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://docs.google.com/document/d/1M0snDVnRxgWYFpO2XOnDs2FNaZFlTsOc-17zsH0oMzo/edit)
 * High-Quality Instructional Materials, Distance Learning Resources
@@ -46,11 +46,11 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
   * [ELA Guidebooks, Distance Learning](https://www.louisianabelieves.com/resources/library/docs/default-source/strong-start-2020/louisiana-ela-guidebooks---distance-learning)
 * [ELA Diverse Learners Planning Guide | Teaching Lab](https://drive.google.com/file/d/1QUJ2zNeXVcXRYoSOVGdWtyHzM9HiJPMV/view)
 
-**Invest in high-impact and ongoing teacher professional learning, focused on Head, Heart, Habits, and Equity.**
+**IV. Invest in high-impact and ongoing teacher professional learning, focused on Head, Heart, Habits, and Equity.**
 
 * Contact us [here](mailto:sheena.lights@teachinglab.org) to learn more about Teaching Lab’s high-impact, ongoing, and equity-centered Teacher Professional Learning.
 
-**Attend to the social and emotional well-being of students, families/caregivers, and educators.**
+**VI. Attend to the social and emotional well-being of students, families/caregivers, and educators.**
 
 * For state and system leaders: [State Actions to Support Social, Emotional, and Academic Development: Fostering Connectedness in the Pandemic Era | Aspen Institute](https://assets.aspeninstitute.org/content/uploads/2020/05/AESP-State-SEAD-Actions-for-COVID-19.pdf?_ga=2.30687928.668129938.1588872364-718475952.1588872364)
 * [SEL Resources During COVID-19 | CASEL Framework](https://casel.org/resources-covid/)
@@ -59,7 +59,7 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 
   * Sample surveys: [TNTP](https://tntp.org/covid-19-school-response-toolkit/view/covid-19-support-survey-questions), [Broward County](https://www.browardschools.com/distancesurvey), and [Cleveland School District](https://www.erstrategies.org/cms/files/4519-cleveland-surveys.pdf)
 
-**Assess students using short-cycle assessments that assist teachers in taking clear and in-the-moment actions to support student learning.**
+**VII. Assess students using short-cycle assessments that assist teachers in taking clear and in-the-moment actions to support student learning.**
 
 * [Guidance for Assessments During Instruction Recovery & Beyond | ANet](https://www.achievementnetwork.org/anetblog/assessments-during-instructional-recovery)
 
