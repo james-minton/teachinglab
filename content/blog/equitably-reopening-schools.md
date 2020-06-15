@@ -13,15 +13,13 @@ We must acknowledge that when we held this discussion we were, and are still, ex
 
 It is with this context that we focused our discussion on principles to consider in order to **equitably reopen schools.** The discussion focused on the following questions:
 
-* ***What is our vision for supporting all students to engage in grade-level work** when millions of students return to school in the fall after being out of school for months?*
-* ***What are the concrete systems and structures school systems should put into place** to ensure all students continue to learn with an aligned high-quality curriculum?*
-* ***What specific professional learning supports do teachers need** to engage in effective, manageable, and equitable instruction?*
+* **\*What is our vision for supporting all students to engage in grade-level work** when millions of students return to school in the fall after being out of school for months?*
+* **\*What are the concrete systems and structures school systems should put into place** to ensure all students continue to learn with an aligned high-quality curriculum?*
+* **\*What specific professional learning supports do teachers need** to engage in effective, manageable, and equitable instruction?*
 
 To ground our conversation, Teaching Lab presented our **Framework to Equitably Reopen Schools**. We are using the following principles to frame holistic support for our partners. Below, we have listed the framework principles along with useful resources and tools. 
 
 *Did you miss the Discussion?* Watch the recording **[here](https://us02web.zoom.us/rec/play/uZwoIb-h-zk3SYXA4wSDUPErW9W7fKqs0nccrqFZzE_kAXMFZgKmMOBDMOQCgDm92DtC2CVaToiC8LFL)**.
-
-
 
 ***Framework to Equitably Reopen Schools***
 
@@ -29,14 +27,14 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 
 * Attend UnboundEd’s Virtual Standards Institute. The UnboundEd Virtual Summit is a two-day interactive experience with the goal of preparing educators to learn and lead this fall. June 22/23 and June 24/25, **[join the waiting list](https://bit.ly/3dYPjbO)**.
 * [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://docs.google.com/document/d/1M0snDVnRxgWYFpO2XOnDs2FNaZFlTsOc-17zsH0oMzo/edit)
-* For state and system leaders:[The Return: How Should Education Leaders Prepare for Reentry and Beyond? | Chiefs for Change](https://chiefsforchange.org/wp-content/uploads/2020/05/CFC-TheReturn_5-13-20.pdf)
+* For state and system leaders: [The Return: How Should Education Leaders Prepare for Reentry and Beyond? | Chiefs for Change](https://chiefsforchange.org/wp-content/uploads/2020/05/CFC-TheReturn_5-13-20.pdf)
 
 **Listen to students, families/caregivers, and educators and develop plans that are informed by and responsive to them.**
 
 * [Parent communication resources | Schusterman](https://www.schusterman.org/national-education/covid-19-response-toolkit-for-school-communicators). A suite of learnings, recommendations, and templates to help school systems effectively reach students and their families.
 
   * Research to support what Parents want: [Learning Heroes Survey Data](https://bealearninghero.org/research/).
-* Tools for Parents from Learning Heroes:[Readiness Roadmap](https://bealearninghero.org/readiness-roadmap/) and [Readiness Check](https://bealearninghero.org/readiness-check/)
+* Tools for Parents from Learning Heroes: [Readiness Roadmap](https://bealearninghero.org/readiness-roadmap/) and [Readiness Check](https://bealearninghero.org/readiness-check/)
 
 **Assume all students can and will learn when educators use high-quality instructional materials, take an asset-based approach, and engage in targeted support for diverse learners (including English learners, students with disabilities, and students with unfinished learning).**
 
@@ -64,7 +62,5 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 **Assess students using short-cycle assessments that assist teachers in taking clear and in-the-moment actions to support student learning.**
 
 * [Guidance for Assessments During Instruction Recovery & Beyond | ANet](https://www.achievementnetwork.org/anetblog/assessments-during-instructional-recovery)
-
-
 
 *Did you miss the Discussion?* **Watch the recording [here](https://us02web.zoom.us/rec/play/uZwoIb-h-zk3SYXA4wSDUPErW9W7fKqs0nccrqFZzE_kAXMFZgKmMOBDMOQCgDm92DtC2CVaToiC8LFL).**
