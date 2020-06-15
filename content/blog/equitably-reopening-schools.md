@@ -13,9 +13,9 @@ We must acknowledge that when we held this discussion we were, and are still, ex
 
 It is with this context that we focused our discussion on principles to consider in order to **equitably reopen schools.** The discussion focused on the following questions:
 
-* **\*What is our vision for supporting all students to engage in grade-level work** when millions of students return to school in the fall after being out of school for months?*
-* **\*What are the concrete systems and structures school systems should put into place** to ensure all students continue to learn with an aligned high-quality curriculum?*
-* **\*What specific professional learning supports do teachers need** to engage in effective, manageable, and equitable instruction?*
+* **What is our vision for supporting all students to engage in grade-level work** when millions of students return to school in the fall after being out of school for months?*
+* **What are the concrete systems and structures school systems should put into place** to ensure all students continue to learn with an aligned high-quality curriculum?*
+* **What specific professional learning supports do teachers need** to engage in effective, manageable, and equitable instruction?*
 
 To ground our conversation, Teaching Lab presented our **Framework to Equitably Reopen Schools**. We are using the following principles to frame holistic support for our partners. Below, we have listed the framework principles along with useful resources and tools. 
 
