@@ -17,3 +17,10 @@ For additional information regarding the Louisiana Department of Education’s C
 
 * [Content Leader Distinction](https://www.louisianabelieves.com/docs/default-source/key-initiatives/louisianas-key-initiatives_content-leader.pdf?sfvrsn=5f00951f_15)
 * [Path to Distinction](https://www.louisianabelieves.com/docs/default-source/professional-development/distinction-pathway-infographic_cl.pdf?sfvrsn=9b0b931f_8)
+* [ELA Distinction Leader Distinction Plan](https://www.louisianabelieves.com/docs/default-source/professional-development/ela-cl-distinction-summary.pdf?sfvrsn=9a0b931f_6)
+
+
+
+If you are interested in the Content Leader Distinction Coaching project, apply [here.](https://forms.gle/eYCKT6qYXqG11PpW6)
+
+Note: the application includes a performance task that may take up to 2 hours to complete.
