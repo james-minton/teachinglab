@@ -32,7 +32,7 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 **I. Center equitable instruction while planning for multiple reopening-school scenarios.**
 
 * Attend UnboundEd’s Virtual Standards Institute. The UnboundEd Virtual Summit is a two-day interactive experience with the goal of preparing educators to learn and lead this fall. It is taking place on June 22/23 and June 24/25, **[join the waiting list](https://bit.ly/3dYPjbO)**.
-* Educators, read and use to plan instruction: [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://docs.google.com/document/d/1M0snDVnRxgWYFpO2XOnDs2FNaZFlTsOc-17zsH0oMzo/edit)
+* Educators, read and use to plan instruction: [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://achievethecore.org/page/3267/2020-21-priority-instructional-content-in-english-language-arts-literacy-and-mathematics)
 * State and system leaders, read and use to support systemwide reopening: [The Return: How Should Education Leaders Prepare for Reentry and Beyond? | Chiefs for Change](https://chiefsforchange.org/wp-content/uploads/2020/05/CFC-TheReturn_5-13-20.pdf)
 
 **II. Listen to students, families/caregivers, and educators and develop plans that are informed by and responsive to them.**
@@ -42,7 +42,7 @@ To ground our conversation, Teaching Lab presented our **Framework to Equitably 
 
 **III. Assume all students can and will learn when educators use high-quality instructional materials, take an asset-based approach, and engage in targeted support for diverse learners (including English learners, students with disabilities, and students with unfinished learning).**
 
-* Educators, read and use to plan instruction: [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://docs.google.com/document/d/1M0snDVnRxgWYFpO2XOnDs2FNaZFlTsOc-17zsH0oMzo/edit)
+* Educators, read and use to plan instruction: [2020–21 Priority Instructional Content in English Language Arts/literacy and Mathematics | SAP](https://achievethecore.org/page/3267/2020-21-priority-instructional-content-in-english-language-arts-literacy-and-mathematics)
 * Educators, use Distance Learning Resources, grounded in high-quality instructional materials 
 
   * [Illustrative Mathematics, Distance Learning](https://www.illustrativemathematics.org/distance-learning/)
