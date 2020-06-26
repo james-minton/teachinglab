@@ -25,7 +25,7 @@ At Teaching Lab, we stand by our belief that **high-quality instructional materi
 
 At the same time, we need to **double down on the instructional shifts** to make sure students are engaging with grade-level content and making connections to what they know.
 
-### Accelerating Student Learning 
+### Accelerating Student Learning
 
 A recent article published by [Steiner and Weisberg on The 74](https://www.the74million.org/article/steiner-weisberg-when-students-go-back-to-school-too-many-will-start-the-year-behind-heres-how-to-catch-them-up-in-real-time/) resonates with us, saying in part, “Instead of **delaying access to grade-level work** for students who’ve fallen behind, **we need to accelerate it**… All school systems should **commit** to...planning right now for **accelerating students** who have fallen behind **instead of remediating them**.”
 
@@ -42,7 +42,7 @@ Accelerated learning ***does not mean***:
 
 Essentially, acceleration means spending the majority of instructional time focusing on supporting students with learning grade-level content as opposed to spending the year focused on remediating what they didn’t get.
 
-### ["Just-in-time" Support Guide](https://www.teachinglab.org/uploads/teaching-lab-template-just-in-time-supports-guide.pdf) 
+### "Just-in-time" Support Guide
 
 It’s clear that what is top of mind for many is: **how to move student learning forward and minimize the damage caused by school interruptions?**
 
