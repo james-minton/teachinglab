@@ -5,7 +5,8 @@ contenttype: blog
 date: 2020-06-26T15:55:36.427Z
 postauthorname: Tamala Wiley and Ryan Colon
 postauthortitle: Director of Partnerships and Director of Math Content
-image: /uploads/teaching-lab-logo-square.png
+postauthorimg: /uploads/teaching-lab-logo-square.png
+image: ""
 ---
 A few weeks ago, as a part of our **Learn with Teaching Lab** series, we hosted a discussion that focused on how we can equitably accelerate student learning to account for extended gaps and interruptions in schooling. Led by members of our Math team, Tamala Wiley (Director of Partnerships) and Ryan Colon (Director of Math Content), we presented a strategy to accelerate learning, from an asset-based perspective and in an equitable way, when students return to school.
 
