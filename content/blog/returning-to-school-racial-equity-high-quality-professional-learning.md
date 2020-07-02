@@ -1,5 +1,5 @@
 ---
-title: "Returning to School: Racial Equity & High-Quality Professional Learning"
+title: Racial Equity & High-Quality Professional Learning
 display: true
 contenttype: blog
 date: 2020-07-02T15:12:41.892Z
