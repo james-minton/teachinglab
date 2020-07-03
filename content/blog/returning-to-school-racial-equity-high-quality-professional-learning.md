@@ -36,3 +36,5 @@ Here are a few examples of why we must address adaptive challenges through **eng
 **Having a high-quality curriculum is the foundation for ensuring educational equity, *but*, it is just a starting point!** To adopt and effectively use high-quality instructional materials, teachers must create classroom environments that are “courageous communities.”
 
 We do not advocate that teachers supplement or make modifications to the components of a unit or curriculum; we encourage teachers to interrogate the belief systems or the value systems that perpetuate dominant cultural norms, ideas, beliefs, etc. and to challenge students to do so as well.
+
+Did you miss the discussion? Watch the recording [here](https://vimeo.com/434837410).
