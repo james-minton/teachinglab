@@ -141,6 +141,8 @@ We are committed to building a **sustainable organization**. We love our work an
 * Read more about our model and the services we offer in our [SY20-21 Professional Learning Services guide](https://www.dropbox.com/s/gw6loul8ai58poj/200127%20Teaching%20Lab%20LearnZillion%20Sales%20Catalog.pdf?dl=0)
 * Read about our work in the Aspen Institute report [Practice What You Teach](https://assets.aspeninstitute.org/content/uploads/2017/04/Practice-What-You-Teach.pdf) (pg. 9-11)
 
-Teaching Lab is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive and equitable environment for all team members.
+**To Apply**
 
-If you are interested in this position, apply [here](https://forms.gle/bQWbvtpGAatgusAf9).
+You can apply for the Partnerships Manager role [here](https://forms.gle/zKe4qnxN3znXm9hv9). Additional questions may be directed to jobs@teachinglab.org
+
+*Teaching Lab is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive and equitable environment for all team members.*
