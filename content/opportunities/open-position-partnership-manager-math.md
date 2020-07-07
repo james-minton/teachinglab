@@ -1,5 +1,5 @@
 ---
-title: "Open Position: Partnership Manager (Math) "
+title: "Partnership Manager (Math) "
 contenttype: jobs
 open: true
 date: 2020-07-06T20:05:15.182Z
