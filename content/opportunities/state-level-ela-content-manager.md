@@ -1,12 +1,12 @@
 ---
-title: State-level ELA Content Manager
+title: State-level ELA Content Manager (part-time)
 contenttype: jobs
 open: true
 date: 2020-07-13T20:41:00.381Z
 ---
-***Teaching Lab seeks a full-time ELA Content Manager to join our State-level Content Development team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing ELA-specific high quality instructional materials (HQIM) for grades K-12.***
+**Teaching Lab seeks a part-time ELA Content Manager to join our State-level Content Development team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing ELA-specific high quality instructional materials (HQIM) for grades K-12.**
 
-**Type of Vacancy**: Salaried part-time, starting ASAP
+**Type of Vacancy**: Salaried part-time (50%), starting ASAP
 
 **Location**: Remote/home office anywhere in the United States
 
@@ -14,7 +14,7 @@ date: 2020-07-13T20:41:00.381Z
 
 **Travel Required**: None; likely 20-40% starting July 2021
 
-**Compensation:** The starting salary for this position is $80,000. Teaching Lab is committed to equity for all of our team members and does not negotiate salaries.
+**Compensation:** The starting salary for this role is $40,000. Teaching Lab is committed to equity for all of our team members and does not negotiate salaries.
 
 *Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of all backgrounds to apply for this role.*
 
@@ -121,9 +121,9 @@ We seek team members who bring relevant experience, knowledge, and skills, as we
 \
 **Working at Teaching Lab**
 
-This position is eligible for **work** in the United States. This position will require **work related travel** (likely starting in July 2021) based on organizational needs and capacity and time of year.
+This position is eligible for **remote work** in the United States. Starting July 2021 this position may require **work related travel** based on organizational needs and capacity and time of year. 
 
-**The starting salary** for this position is $80,000. Teaching Lab is committed to equity for all of our team members and does not negotiate salaries. Teaching Lab offers a **comprehensive benefits package**, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies.
+**The starting salary** for this position is $40,000. Teaching Lab is committed to equity for all of our team members and does not negotiate salaries.
 
 We are committed to building a **sustainable organization**. We love our work and want to be able to do it for years to come. This means that despite our relentless focus on impact and results for educators and students, we commit to maintaining a balance between work and other parts of our lives.
 
