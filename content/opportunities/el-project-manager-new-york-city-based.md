@@ -6,8 +6,6 @@ date: 2020-08-06T14:04:13.547Z
 ---
 ***Teaching Lab seeks a full-time Partnership Manager (Guidebooks) to join our Partnerships Team to lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing High-Quality Instructional Materials (HQIM) in math for grades K-12.***
 
-
-
 **Type of Vacancy:** Salaried full-time, starting September 2020
 
 **Location:** Remote/home office anywhere in the United States
@@ -20,8 +18,6 @@ date: 2020-08-06T14:04:13.547Z
 
 *Teaching Lab is an equal-opportunity employer committed to reflecting the diversity of the students we serve. We pursue equity as both a means and an end and enthusiastically welcome candidates of all backgrounds to apply for this role.*
 
-
-
 __
 
 **Who We Are**
@@ -29,8 +25,6 @@ __
 Teaching Lab is a nonprofit organization with a mission to fundamentally shift the paradigm of teacher professional learning to achieve educational equity. We envision a world where teachers and students thrive together in communities that enable life-long learning and meaningful lives. In partnership with teachers, we transform professional learning from the ground up to dramatically improve student outcomes. We also work with school, district, and state leaders to create the instructional systems necessary to support these changes.
 
 Our model is based on the best educational research and years of experience using exceptional instructional materials with teachers. Our team of experienced educators is committed to ensuring all students—especially students traditionally underserved by our school systems—meet the academic expectations necessary to succeed now and in the future. Our partners believe in the power of great teaching to inspire students at all levels to learn and grow. Together, we are building a nationwide movement for evidence-based teacher professional learning.
-
-
 
 **Our Model**
 
@@ -61,8 +55,6 @@ As a rapidly growing nonprofit, we seek an entrepreneurial individual excited ab
 Eligible candidates must have strong expertise in relationship and partnership development, leading professional learning, project management, the associated high-quality curriculum, and the Common Core or similar College- and Career-Ready state standards. Ideal candidates will have the unique combination of intellectual curiosity and established skill in each of these areas. Teaching Lab is a mission and values driven organization.
 
 ***We seek outstanding leaders who have demonstrated a commitment to education equity and racial equity.***
-
-
 
 **Key Responsibilities & Workstreams**
 
@@ -154,6 +146,6 @@ We are committed to building a **sustainable organization**. We love our work an
 
 **To Apply**
 
-Please fill out the application form [here](https://docs.google.com/forms/d/e/1FAIpQLSdvptaPJ-IE8o3lzEzpnxnRS8wViZvnH3IFAAu3y1N6FcXL7g/viewform?usp=sf_link). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
+Please fill out the application form [here](https://docs.google.com/forms/d/e/1FAIpQLSc64TJ0-yITkVqI74qaKSMkJ0gka8e0I_6UH11xe0brsC-Vcw/viewform). Additional questions may be directed to [jobs@teachinglab.org](jobs@teachinglab.org).
 
 *Teaching Lab is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive and equitable environment for all team members.*
