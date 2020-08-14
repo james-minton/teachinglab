@@ -1,5 +1,5 @@
 ---
-title: Math Content Development [Consultant]
+title: Math Content Development (Consultant)
 contenttype: jobs
 open: true
 date: 2020-08-14T13:10:02.094Z
