@@ -4,7 +4,7 @@ contenttype: jobs
 open: true
 date: 2020-08-06T14:04:13.547Z
 ---
-***Teaching Lab seeks a full-time Partnership Manager (Guidebooks) to join our Partnerships Team to lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing High-Quality Instructional Materials (HQIM) in math for grades K-12.***
+***Teaching Lab seeks a full-time Partnership Manager (Guidebooks) to join our Partnerships Team to lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing High-Quality Instructional Materials (HQIM) in ELA for grades K-12.***
 
 **Type of Vacancy:** Salaried full-time, starting September 2020
 
