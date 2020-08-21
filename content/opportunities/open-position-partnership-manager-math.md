@@ -1,7 +1,7 @@
 ---
 title: "Partnership Manager (Math) "
 contenttype: jobs
-open: true
+open: false
 date: 2020-07-06T20:05:15.182Z
 ---
 **Type of Vacancy**: Salaried full-time, starting August 2020
