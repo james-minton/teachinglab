@@ -1,7 +1,7 @@
 ---
 title: Manager, Partnerships (State-level)
 contenttype: jobs
-open: true
+open: false
 date: 2020-07-13T20:50:29.880Z
 ---
 ***Teaching Lab seeks a full-time and (2) part-time Manager, Partnerships (State-Level) to join our State-Level Partnerships Team to lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing High Quality Instructional Materials (HQIM) for grades K-12.***
