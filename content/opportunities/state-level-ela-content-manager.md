@@ -1,7 +1,7 @@
 ---
 title: State-level ELA Content Manager (part-time)
 contenttype: jobs
-open: true
+open: false
 date: 2020-07-13T20:41:00.381Z
 ---
 **Teaching Lab seeks a part-time ELA Content Manager to join our State-level Content Development team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing ELA-specific high quality instructional materials (HQIM) for grades K-12.**
