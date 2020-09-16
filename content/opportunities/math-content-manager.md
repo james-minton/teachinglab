@@ -1,7 +1,7 @@
 ---
 title: Math Content Manager
 contenttype: jobs
-open: true
+open: false
 date: 2020-07-07T13:50:13.519Z
 ---
 ***Teaching Lab seeks a full-time Math Content Manager to join our Content Development team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing high quality instructional materials (HQIM) with a focus on secondary math.***
