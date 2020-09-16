@@ -1,7 +1,7 @@
 ---
 title: State-level Math Content Manager (part-time)
 contenttype: jobs
-open: true
+open: false
 date: 2020-07-13T20:31:29.511Z
 ---
 **Teaching Lab seeks a part-time Math Content Manager to join our State-level Partnerships team to lead the design of high-quality, curriculum-aligned virtual professional learning experiences for teachers and schools implementing math-specific high quality instructional materials (HQIM) for grades K-12.**
