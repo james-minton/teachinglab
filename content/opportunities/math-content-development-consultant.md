@@ -1,7 +1,7 @@
 ---
 title: Math Content Development (Consultant)
 contenttype: jobs
-open: true
+open: false
 date: 2020-08-14T13:10:02.094Z
 ---
 Teaching Lab’s Math Content Development team has created professional learning content to support teachers and school leaders in building best practices that promote rigorous and equitable instruction in middle and high school classrooms. **We are looking for a consultant to translate the previously designed in-person content for implementation in a virtual setting.**
