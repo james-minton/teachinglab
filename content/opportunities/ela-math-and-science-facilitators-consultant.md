@@ -13,5 +13,3 @@ Ideal facilitators have five years of experience in education and in implementin
 * Facilitators with experience as school leaders, and/or advisors for systems-level leaders.
 
 If you are interested in any of these facilitation projects, apply [here.](https://forms.gle/eYCKT6qYXqG11PpW6)
-
-Note: the application includes a performance task that may take up to 2 hours to complete.
