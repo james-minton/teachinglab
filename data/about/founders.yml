@@ -1,7 +1,6 @@
 sectionHead: Team
 foundersList:
-  - bio: >-
-      Rene has more than a decade of experience serving as a teacher-leader,
+  - bio: Rene has more than a decade of experience serving as a teacher-leader,
       curriculum writer, and literacy instructional coach. As a member of Teach
       For America, Rene taught 10th grade writing & AP Language in Charlotte,
       North Carolina for four years. After leaving Charlotte, Rene was a
@@ -16,9 +15,23 @@ foundersList:
       friend (Shih Tzu/ Lhasa Apso mix), Sharobi.
     staffImage: /images/uploads/copy-of-rene-arnold-headshot-rene-arnold-1-.jpg
     staffName: Rene Arnold
-    staffTitle: 'Director of Partnerships, Guidebooks'
-  - bio: >-
-      Ryan comes to Teaching Lab after several years of teaching middle and high
+    staffTitle: Director of Partnerships, Guidebooks
+  - staffName: Kristen Briggs
+    staffTitle: Director of Partnerships, EL Curriculum
+    bio: Kristen joins Teaching Lab with over a decade of experience in the field of
+      education.  She has served as a secondary ELA and Special Education
+      teacher, school leader, network special education leader and curriculum
+      professional development specialist.  As a Special Education leader she
+      streamlined systems to dramatically improve Special Education compliance,
+      expand services and improve academic outcomes for students in special
+      populations. She deeply believes that all students can succeed, and it’s
+      our role as educators to set the conditions for them to thrive.  Kristen
+      holds a Bachelor of Science degree in Psychology from Morgan State
+      University and a Master of Education degree in Secondary Education with a
+      Special Education certification from Chestnut Hill College. She lives in
+      Bronx, NY.
+    staffImage: /uploads/kb-headshot.png
+  - bio: Ryan comes to Teaching Lab after several years of teaching middle and high
       school mathematics. While her undergraduate majors were in Neuroscience
       and Africana Studies, her focus has always been the intersection of race,
       class, and education. After completing her graduate study with the Boston
@@ -33,8 +46,7 @@ foundersList:
     staffImage: /uploads/Image from iOS (31).jpg
     staffName: Ryan Colon
     staffTitle: Fellow
-  - bio: >-
-      Lindsey has over a decade experience working in the education, non-profit,
+  - bio: Lindsey has over a decade experience working in the education, non-profit,
       and talent industries leading diverse & values-driven teams to advance
       organizational mission through results and partnership. As a former
       educator, teacher trainer and coach, and head of program, Lindsey deeply
@@ -49,8 +61,7 @@ foundersList:
     staffImage: /images/uploads/lc-headshot.jpg
     staffName: Lindsey Cooper
     staffTitle: Director of People Operations & Development
-  - bio: >-
-      Chris Daniels brings extensive experience in school district support and
+  - bio: Chris Daniels brings extensive experience in school district support and
       business planning to the Teaching Lab team. He previously served as a
       director at TNTP, working with school systems across the country on
       academic and human capital strategy. He has also worked on charter school
@@ -58,16 +69,14 @@ foundersList:
       Foundation, and as a seventh grade math teacher in Philadelphia. He holds
       a BA from Columbia University, an MS in education from the University of
       Pennsylvania, and an MBA from Harvard Business School.
-    quote: >-
-      As a former middle school teacher, I understand the struggle to master
+    quote: As a former middle school teacher, I understand the struggle to master
       content knowledge, curriculum, student culture, and my own development.
       I'm thrilled to be able to support other teachers in balancing all of
       these critical elements so they can best serve their students.
     staffImage: /images/uploads/cdaniels.jpg
     staffName: Chris Daniels
     staffTitle: Chief Operating Officer
-  - bio: >-
-      Mandy Flora is a Teaching Lab fellow, serving two districts (Shelby County
+  - bio: Mandy Flora is a Teaching Lab fellow, serving two districts (Shelby County
       Schools in Memphis, TN and Allen Parish, Kinder Louisiana) through lab
       cycles around K-2 and 6-8 EL content. Mandy brings experience as an active
       Core Advocate and writer for aligned ELA materials such as Read Aloud
@@ -76,8 +85,7 @@ foundersList:
     staffImage: /images/uploads/img_1347.jpg
     staffName: Mandy Flora
     staffTitle: Fellow
-  - bio: >-
-      Nichole Herring joins the Teaching Lab team with over 10 years of
+  - bio: Nichole Herring joins the Teaching Lab team with over 10 years of
       operational expertise. Previously, Nichole worked as the Development
       Manager for UnboundEd and Special Projects Manager for City Year Inc. She
       began her career as an Senior AmeriCorps Volunteer, serving in East New
@@ -89,8 +97,7 @@ foundersList:
     staffImage: /images/uploads/nicole-herring.jpg
     staffName: Nichole Herring
     staffTitle: Operations Manager
-  - bio: >-
-      After serving as the organization's board chair, Sarah joined Teaching Lab
+  - bio: After serving as the organization's board chair, Sarah joined Teaching Lab
       from the Overdeck Family Foundation, where she created and managed the
       Exceptional Educators Portfolio, a set of investments focused on improving
       teaching and learning nationwide. Sarah also held leadership roles at the
@@ -123,17 +130,11 @@ foundersList:
       curriculum for grades K-2. 
 
 
-      She is thrilled to return to the Maryland/DC Metro area and serve as
-      Teaching Lab's Director of Content Design. Vaishali holds a B.A. in
-      International Relations and Music from the University of North Carolina at
-      Chapel Hill, an M.Ed in Literacy Education from Loyola University of
-      Maryland, and a Doctorate in Education Leadership (Ed.L.D) from the
-      Harvard University Graduate School of Education.
+      She is thrilled to return to the Maryland/DC Metro area and serve as Teaching Lab's Director of Content Design. Vaishali holds a B.A. in International Relations and Music from the University of North Carolina at Chapel Hill, an M.Ed in Literacy Education from Loyola University of Maryland, and a Doctorate in Education Leadership (Ed.L.D) from the Harvard University Graduate School of Education.
     staffImage: /images/uploads/vjoshi.jpg
     staffName: Vaishali Joshi
     staffTitle: Managing Director of Content Design
-  - bio: >-
-      Addie Kelley has 10 years of classroom experience in diverse settings and
+  - bio: Addie Kelley has 10 years of classroom experience in diverse settings and
       has mentored student-teachers for several years while leading grade-level
       and content-specific PLC’s. Most recently, as a Louisiana Teacher Leader
       Advisor, Addie worked with the Louisiana Guidebooks to publish Virtual
@@ -145,8 +146,7 @@ foundersList:
     staffImage: /images/uploads/addie-kelley_01-copy-2.jpg
     staffName: Addie Kelley
     staffTitle: Fellow
-  - bio: >-
-      Sheena joined Teaching Lab from UnboundEd where she was Director of
+  - bio: Sheena joined Teaching Lab from UnboundEd where she was Director of
       Mathematics, and she led the development and effective production of math
       content for the Standards Institutes, and where she curated and adapted
       OER curricula with a focus on supporting students with unfinished learning
@@ -161,8 +161,7 @@ foundersList:
     staffImage: /images/uploads/sheena.jpg
     staffName: Sheena Johnson Lights
     staffTitle: Managing Director of Partnerships
-  - bio: >-
-      For over 15 years, Auddie has facilitated school-based literacy coaching,
+  - bio: For over 15 years, Auddie has facilitated school-based literacy coaching,
       curriculum development, and professional learning experiences to teachers
       and administrators across the country. Auddie draws upon her experiences
       as a high school teacher, K-12 reading specialist, and curriculum designer
@@ -173,7 +172,7 @@ foundersList:
       Schools.
     staffImage: /images/uploads/auddie-mastroleo_02.jpg
     staffName: Auddie Mastroleo
-    staffTitle: 'Director of Partnerships, EL'
+    staffTitle: Director of Partnerships, EL
   - bio: >-
       Octavia Nixon has 10 years of experience working in different capacities
       within the field of education. She has served as an ELA and special
@@ -184,15 +183,11 @@ foundersList:
       Washington, D.C. 
 
 
-      Octavia earned a Bachelor's Degree in English with a minor in psychology
-      from the University of Massachusetts-Boston, a Master's Degree in
-      Curriculum and Instruction from the University of Massachusetts-Lowell,
-      and an Educational Supervisor Certification from Kean University.
+      Octavia earned a Bachelor's Degree in English with a minor in psychology from the University of Massachusetts-Boston, a Master's Degree in Curriculum and Instruction from the University of Massachusetts-Lowell, and an Educational Supervisor Certification from Kean University.
     staffImage: /images/uploads/img_1337.jpg
     staffName: Octavia Nixon
     staffTitle: Fellow
-  - bio: >-
-      Spencer brings experience as a teacher, coach, and facilitator with a
+  - bio: Spencer brings experience as a teacher, coach, and facilitator with a
       demonstrated history of developing fluent readers, avid writers, and
       critical thinkers. He was the recipient of the 2016 Harriet Ball
       Excellence in Teaching Award, the 2016 Kinder Excellence in Teaching
@@ -201,8 +196,7 @@ foundersList:
     staffImage: /images/uploads/spencer.jpg
     staffName: Spencer Russell
     staffTitle: Fellow
-  - bio: >-
-      HaMy brings 15 years of experience as a teacher, data analyst, education
+  - bio: HaMy brings 15 years of experience as a teacher, data analyst, education
       researcher, and research project manager in education. She began her
       career as a middle school math teacher in Philadelphia and New York City.
       Prior to joining Teaching Lab, HaMy served as Senior Director, Research
@@ -214,11 +208,10 @@ foundersList:
       Management from Cornell University and an M.A. in Urban Education Policy
       from Brown University. She lives in the greater Philadelphia area with her
       family.
-    staffImage: '/uploads/Vu, Ha My (web) (1).jpg'
+    staffImage: /uploads/Vu, Ha My (web) (1).jpg
     staffName: HaMy Vu
     staffTitle: Managing Director of Learning & Research
-  - bio: >-
-      Tamala joins Teaching Lab with 19 years of experience teaching, coaching,
+  - bio: Tamala joins Teaching Lab with 19 years of experience teaching, coaching,
       and leading. In her most recent role she served as math instructional
       coach with  University Preparatory Schools.  She also developed and served
       as program director for “Math Explorer”, a project designed to provide
@@ -238,8 +231,7 @@ foundersList:
     staffImage: /images/uploads/imageedit_2_2402987916.jpg
     staffName: Tamala Wiley
     staffTitle: Fellow
-  - bio: >-
-      Adrienne Williams brings 8-years of teaching, coaching, and leading
+  - bio: Adrienne Williams brings 8-years of teaching, coaching, and leading
       experience with Center City Public Charter Schools in Washington, DC.
       There, Adrienne served as a teacher-leader and curriculum manager
       supporting instruction in literacy and math in grades K-3. In 2016, she
@@ -251,12 +243,11 @@ foundersList:
       country. She came to education through Urban Teacher’s four-year program
       and completed a Teaching Lab fellowship that gave her firsthand knowledge
       of the potential of putting the power of change in the hands of teachers.
-    quote: >-
-      As a first-grade teacher and later a coach, my relationships with my peers
-      were integral to improving my practice. Through sharing ideas, lesson
-      plans, student work and practicing together, I was able to get better
-      faster. Not only did my practice improve, but my relationships with my
-      colleagues helped get me through the challenging first years of being a
+    quote: As a first-grade teacher and later a coach, my relationships with my
+      peers were integral to improving my practice. Through sharing ideas,
+      lesson plans, student work and practicing together, I was able to get
+      better faster. Not only did my practice improve, but my relationships with
+      my colleagues helped get me through the challenging first years of being a
       teacher. They helped build my resilience to stay in the game and keep
       showing up for my kids when it would have been easy to burn out. Having a
       team to support you and stay focused on the right work was crucial.
