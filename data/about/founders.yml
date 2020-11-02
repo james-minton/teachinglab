@@ -45,7 +45,7 @@ foundersList:
       educational equity.
     staffImage: /uploads/Image from iOS (31).jpg
     staffName: Ryan Colon
-    staffTitle: Fellow
+    staffTitle: Content Director, Math
   - bio: Lindsey has over a decade experience working in the education, non-profit,
       and talent industries leading diverse & values-driven teams to advance
       organizational mission through results and partnership. As a former
@@ -69,7 +69,7 @@ foundersList:
       Partners.
     staffImage: /images/uploads/img_1347.jpg
     staffName: Mandy Flora
-    staffTitle: Fellow
+    staffTitle: Content Director, State-Level
   - staffName: Cara Grom
     staffTitle: "Partnerships Manager, State-Level "
     staffImage: /uploads/img_8394-2.jpg
@@ -146,7 +146,7 @@ foundersList:
       professional development at the district, state, and national level.
     staffImage: /images/uploads/addie-kelley_01-copy-2.jpg
     staffName: Addie Kelley
-    staffTitle: Fellow
+    staffTitle: Content Manager, Guidebooks Curriculum
   - bio: Sheena joined Teaching Lab from UnboundEd where she was Director of
       Mathematics, and she led the development and effective production of math
       content for the Standards Institutes, and where she curated and adapted
@@ -162,18 +162,6 @@ foundersList:
     staffImage: /images/uploads/sheena.jpg
     staffName: Sheena Johnson Lights
     staffTitle: Managing Director of Partnerships
-  - bio: For over 15 years, Auddie has facilitated school-based literacy coaching,
-      curriculum development, and professional learning experiences to teachers
-      and administrators across the country. Auddie draws upon her experiences
-      as a high school teacher, K-12 reading specialist, and curriculum designer
-      to work with teachers from all grade levels and content areas. Embedded in
-      her work, Auddie strives to establish collaborative and trusting
-      relationships with the teachers and administrators she is privileged to
-      work with. She currently manages Teaching Lab’s work with Shelby County
-      Schools.
-    staffImage: /images/uploads/auddie-mastroleo_02.jpg
-    staffName: Auddie Mastroleo
-    staffTitle: Director of Partnerships, EL
   - bio: >-
       Octavia Nixon has 10 years of experience working in different capacities
       within the field of education. She has served as an ELA and special
@@ -187,7 +175,7 @@ foundersList:
       Octavia earned a Bachelor's Degree in English with a minor in psychology from the University of Massachusetts-Boston, a Master's Degree in Curriculum and Instruction from the University of Massachusetts-Lowell, and an Educational Supervisor Certification from Kean University.
     staffImage: /images/uploads/img_1337.jpg
     staffName: Octavia Nixon
-    staffTitle: Fellow
+    staffTitle: Director of Partnerships, State-Level
   - bio: Spencer brings experience as a teacher, coach, and facilitator with a
       demonstrated history of developing fluent readers, avid writers, and
       critical thinkers. He was the recipient of the 2016 Harriet Ball
@@ -196,7 +184,20 @@ foundersList:
       semi-finalist for the H.E.B Texas Rising Star Award.
     staffImage: /images/uploads/spencer.jpg
     staffName: Spencer Russell
-    staffTitle: Fellow
+    staffTitle: Director of Special Projects
+  - staffTitle: Content Manager, EL Curriculum
+    staffName: Adrianne Sublett
+    staffImage: /uploads/adrianne-sublett-s-headshot-august-2020.png
+    bio: Spencer joined Teaching Lab as a Fellow in 2018, facilitating professional
+      learning, designing tools and resources for facilitators, and researching
+      the impact of specific components of teachers’ visions on their classroom
+      outcomes.  Prior to that, Spencer was a kindergarten and first grade
+      teacher in Houston, TX.  As a teacher, he found joy in watching students
+      learn to read texts without picture support, write neat(er) letters on the
+      lines, and show their work in math, even when incorrect.  During his
+      summers, he coached teachers who were new to the profession in classroom
+      management, culture, and instruction.  Spencer lives in Houston, TX, with
+      his partner and son.  He is a proud graduate of Amherst College.
   - bio: HaMy brings 15 years of experience as a teacher, data analyst, education
       researcher, and research project manager in education. She began her
       career as a middle school math teacher in Philadelphia and New York City.
@@ -231,7 +232,7 @@ foundersList:
       Michigan.
     staffImage: /images/uploads/imageedit_2_2402987916.jpg
     staffName: Tamala Wiley
-    staffTitle: Fellow
+    staffTitle: Director of Partnerships, Math
   - bio: Adrienne Williams brings 8-years of teaching, coaching, and leading
       experience with Center City Public Charter Schools in Washington, DC.
       There, Adrienne served as a teacher-leader and curriculum manager
