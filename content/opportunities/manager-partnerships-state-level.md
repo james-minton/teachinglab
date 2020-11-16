@@ -6,13 +6,13 @@ date: 2020-10-30T12:25:42.935Z
 ---
 ***Teaching Lab seeks a full-time Partnership Manager (EL) to join our Partnerships Team to lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing High Quality Instructional Materials (HQIM) in ELA for grades K-12.***
 
-**Type of Vacancy**: Salaried full-time, starting Dec. 2020
+**Type of Vacancy**: Full-time, salaried, starting 12/2020. Continuation of the position beyond SY20-21 is contingent on business needs.
 
 **Location**: Remote/home office anywhere in the United States
 
 Reports to: Director of Partnerships, EL
 
-**Travel Required**: None, SY 20-21; likely 20-40% starting June 2021
+**Travel Required**: Travel is currently suspended due to COVID-19 and will resume at a future date dependent on the implications of COVID-19. This position will likely require significant travel (20-40%) when travel resumes.
 
 **Compensation:** The compensation for this position starts at $80,000, and is commensurate with experience. Teaching Lab centers equity in our work and therefore does not negotiate salaries.
 
