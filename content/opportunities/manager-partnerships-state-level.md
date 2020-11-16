@@ -37,16 +37,16 @@ We integrate Head, Heart, and Habits through the creation of “Labs” in schoo
 
 **Summary of Position**
 
-Teaching Lab seeks a Partnership Manager (EL) to join our Partnerships Team to manage implementation of Teaching Lab’s partner portfolio projects and lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing the [EL Education K-8 Language Arts curriculum](https://curriculum.eleducation.org/) using our model for professional learning.
+Teaching Lab seeks a Partnership Manager (EL) to join our Partnerships Team to manage the implementation of Teaching Lab’s partner portfolio projects and lead high-quality, curriculum-aligned professional learning experiences for teachers and schools implementing the EL Education K-8 Language Arts curriculum using our model for professional learning.
 
-The Partnership Manager (PM) will be responsible for 1) partnership development; 2) project management; 3) facilitation; 4) facilitator coaching and training; 5) collaboration.
+The Partnership Manager (PM) will be responsible for 1) partnership development; 2) project management; 3) facilitation; 4) facilitator coaching and training; 5) collaboration. 
 
 Specifically, the Partnership Manager will engage in five major workstreams:
 
 1. **Partnership Development**: Build and foster school and district relationships, ensuring that partners build institutional knowledge of research-based professional learning practices and high-quality curriculum in a way that supports independent implementation of Teaching Lab’s model over time. Extend current partner relationships to support high-quality professional learning within partner sites over time.
 2. **Project Management**: Internalize professional learning scope and sequence to create and lead the execution of project plans that support the implementation of Teaching Lab’s professional learning sequence at each site. Communicate effectively with partners, and execute logistics to support onsite professional learning. Ensure that all facilitators are prepared and staffed to onsite projects in a timely manner, and professional learning materials are contextualized for the partner and up to date. 
 3. **Facilitation**: Effectively lead professional learning sessions for district leaders, school leaders, and teachers that deepen pedagogical content knowledge of the high-quality curriculum through Teaching Lab’s model for professional learning. Reflect on participant feedback and adjust support in response to partners’ needs.
-4. **Facilitator Coaching & Training**:  Lead through a lens of racial equity to support and develop a cohort of 2-10 contracted facilitators as they provide on-site implementation of Teaching Lab’s work in each school, including coaching on content internalization, facilitation execution skills, knowledge of the high-quality curriculum, data collection, and partner investment. 
+4. **Facilitator Coaching & Training**:  Lead through a lens of racial equity to support and develop a cohort of 2-10 contracted facilitators as they provide on-site implementation of Teaching Lab’s work in each school, including coaching on content internalization, facilitation execution skills, knowledge of the high-quality curriculum, data collection, and partner investment.  
 5. **Collaboration:** Engage in organization-wide learning and community experiences, and team meetings with the Teaching Lab Community. Contribute to a culture of collaboration with external stakeholders, district leaders,  and professional learning organizations, to ensure success for our school system partners and the students they serve.
 
 As a rapidly growing nonprofit, we seek an entrepreneurial individual excited about launching and implementing groundbreaking partnerships.  This position has high potential for national large-scale impact.
@@ -130,7 +130,7 @@ We seek team members who bring relevant professional experience, knowledge, and 
 \
 **Working at Teaching Lab**
 
-This position is eligible for **remote work** anywhere in the continental United States. This position will not require travel for the 2020-2021 school year.  Teaching Lab may resume travel in June 2021.  At that time, this role will require travel (20-40%) based on organizational needs and capacity and time of year. 
+All roles at Teaching Lab are contingent on business needs. The continuation of the Partnerships Manager role beyond SY20-21 is contingent on our business needs. This position is eligible for **remote work** anywhere in the continental United States. This position will not require travel for the 2020-2021 school year.  Teaching Lab may resume travel in June 2021.  At that time, this role will require travel (20-40%) based on organizational needs and capacity and time of year. 
 
 **Salary** for this position starts at $80,000, and is commensurate with experience. Teaching Lab offers a **comprehensive benefits package**, including organizational contribution of 100% of employee costs and 50% of dependent costs for health/dental/vision insurance, a 401(k) program with a 4% employer match and diverse investment options, monthly technology reimbursement, and generous time off and leave policies.
 
@@ -144,6 +144,6 @@ We are committed to building a **sustainable organization**. We love our work an
 
 **To Apply**
 
-You can apply for the Partnerships Manager role [here](https://docs.google.com/forms/d/e/1FAIpQLSe6LcGTYfoa8l29YeQEUR8Y2q4QsTuwo13mGJFkTdphmaDTxw/viewform). Additional questions may be directed to jobs@teachinglab.org
+You can apply for the Partnerships Manager role [here](https://docs.google.com/forms/d/e/1FAIpQLSe6LcGTYfoa8l29YeQEUR8Y2q4QsTuwo13mGJFkTdphmaDTxw/viewform).   Additional questions may be directed to jobs@teachinglab.org
 
 *Teaching Lab is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive and equitable environment for all team members.*
